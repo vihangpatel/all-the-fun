@@ -4,9 +4,9 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node public/build/server.js -p $PORT",
+		"start": "node build/server.js -p $PORT",
 		"build": "webpack --config webpack.server.js --mode=production",
-		"build-dev": "babel-node ./index.js",
+		"build-dev": "babel-node ./reactor/server.js",
 		"dev": "nodemon --exec npm run dev",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"force-kill": "lsof -i tcp:8080 | grep LISTEN | awk '{print $2}' | xargs kill -9"
