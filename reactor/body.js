@@ -3,10 +3,12 @@ import Header from "./header"
 import Footer from "./footer"
 import Home from "./pages/home"
 import About from "./pages/about"
+import Speakers from "./pages/speakers"
 
 const pageMap = {
 	home: Home,
 	about: About,
+	speakers: Speakers,
 }
 
 const DefaultPage = () => <h1> Not Found</h1>
