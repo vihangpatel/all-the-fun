@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Header = () => (
-  <header id='mainHeader' className='header'>
+  <header id='mainHeader' className='header stiky'>
     <nav className='navbar navbar-expand-lg navbar-light p-0'>
       <div className='container'>
         <a className='navbar-brand' href='index.html'>
@@ -23,31 +23,10 @@ const Header = () => (
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav ml-auto'>
             <li className='nav-item'>
-              <a className='nav-link' href='/about'>
+              <a className='nav-link' href='/home'>
                                 Home
                             </a>
             </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='/about'>
-                                About Us
-                            </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='eventSudle.html'>
-                                Events
-                            </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='/speakers'>
-                                Speaker
-                            </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='/sponsorship'>
-                                Sponsors
-                            </a>
-            </li>
-
             <li className='nav-item'>
               <a className='nav-link' href='/contact-us'>
                                 Contact Us
