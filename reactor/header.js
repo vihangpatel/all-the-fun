@@ -35,7 +35,7 @@ const Header = () => (
                                 Home
                             </a>
               <div className='dropdown-menu' aria-labelledby='navbarDropdown2'>
-                <a className='dropdown-item' href='index.html'>
+                <a className='dropdown-item' href='/home'>
                                     Home One
                                 </a>
                 <a className='dropdown-item' href='index2.html'>
