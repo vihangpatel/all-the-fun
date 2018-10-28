@@ -342,9 +342,7 @@ p {
 .index_1 .slide-caption .slider-inner .caption-desc{
     color: #ff2d55;
 }
-.index_1 .slide-caption {
-    text-align: left;
-}
+
 .index_1 .slide-caption .slider-inner .slide-btn a {
     text-align: center;
 }
@@ -658,9 +656,7 @@ p {
     max-width: 1110px;
     margin: 0 auto;
 }
-.home1 .slide-caption .slider-inner{
-    padding-right: 300px;
-}
+
 .home-2.slide-caption  .slider-inner .caption-title{
     margin-bottom: 34px;
 }
