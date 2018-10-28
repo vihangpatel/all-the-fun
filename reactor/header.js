@@ -58,6 +58,11 @@ const Header = () => (
                                 Speaker
                             </a>
             </li>
+            <li className='nav-item'>
+              <a className='nav-link' href='/sponsorship'>
+                                Sponsors
+                            </a>
+            </li>
             <li className='nav-item dropdown active'>
               <a
                 className='nav-link dropdown-toggle'
