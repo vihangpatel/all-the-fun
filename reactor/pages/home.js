@@ -14,78 +14,8 @@ const Home = () => (
 							width: 5190,
 						}}
 					>
-						<div className="owl-item cloned" style={{ width: 1038 }}>
-							<div className="slide-item">
-								<div className="slide-caption">
-									<div className="slider-inner">
-										<h3 className="caption-desc">REACT INDIA 2019 </h3>
-										<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
-										<div className="slide-btn">
-											<a className="animated fadeInUpBig" href="#">
-												Buy tickets
-											</a>
-											<a className="animated fadeInUpBig" href="#">
-												Sponshorship
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="owl-item cloned" style={{ width: 1038 }}>
-							<div className="slide-item">
-								<div className="slide-caption">
-									<div className="slider-inner">
-										<h3 className="caption-desc">REACT INDIA 2019 </h3>
-										<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
-										<div className="slide-btn">
-											<a className="animated fadeInUpBig" href="#">
-												Buy tickets
-											</a>
-											<a className="animated fadeInUpBig" href="#">
-												Sponshorship
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="owl-item active" style={{ width: 1038 }}>
-							<div className="slide-item">
-								<div className="slide-caption">
-									<div className="slider-inner">
-										<h3 className="caption-desc">REACT INDIA 2019 </h3>
-										<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
-										<div className="slide-btn">
-											<a className="animated fadeInUpBig" href="#">
-												Buy tickets
-											</a>
-											<a className="animated fadeInUpBig" href="#">
-												Sponshorship
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="owl-item cloned" style={{ width: 1038 }}>
-							<div className="slide-item">
-								<div className="slide-caption">
-									<div className="slider-inner">
-										<h3 className="caption-desc">REACT INDIA 2019 </h3>
-										<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
-										<div className="slide-btn">
-											<a className="animated fadeInUpBig" href="#">
-												Buy tickets
-											</a>
-											<a className="animated fadeInUpBig" href="#">
-												Sponshorship
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						<div className="owl-item active" style={{ width: 1038 }} />
+						<div className="owl-item cloned" style={{ width: 1038 }} />
 						<div className="owl-item cloned" style={{ width: 1038 }}>
 							<div className="slide-item">
 								<div className="slide-caption">
