@@ -1,1 +1,1 @@
-web:babel-node server.js -p $PORT
+web:npm run build && npm run start

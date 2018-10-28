@@ -19,4 +19,8 @@ app.get("/speakers", function(req, res) {
 	res.sendFile(path.join(__dirname + "/public/speakers.html"))
 })
 
-app.listen(8080, () => console.log("serving at http://localhost:8080"))
+const server = app.listen(8080, () => {
+	const host = server.address().address
+	const port = server.address().port
+	console.log(`serving at ${host} & port : ${port}`)
+})
