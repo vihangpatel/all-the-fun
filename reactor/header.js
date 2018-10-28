@@ -6,7 +6,7 @@ const Header = () => (
       <div className='container'>
         <a className='navbar-brand' href='index.html'>
           <img className='logo-dark' src='assets/images/logo_dark.png' alt='' />
-          <img className='logo-light' height='100px' width='80px' src='assets/images/logo.png' alt='' />
+          <img className='logo-light' src='assets/images/logo.png' alt='' />
         </a>
         <button
           className='navbar-toggler'
