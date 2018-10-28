@@ -543,64 +543,6 @@ const Home = () => (
 									width: 3912,
 								}}
 							>
-								<div className="owl-item cloned" style={{ width: 471, marginRight: 18 }}>
-									<div className="item">
-										<div className="venues-item">
-											<div className="single-venues-item">
-												<div className="thumb">
-													<a href="#">
-														<img
-															src="assets/images/venuse/03.jpg"
-															className="img-fluid"
-															alt=""
-														/>
-													</a>
-													<div className="box b3">
-														<span>California, USA</span>
-													</div>
-												</div>
-												<div className="content">
-													<a href="#">
-														<h3 className="title f-weight-700">Griffith Park Theater</h3>
-													</a>
-													<p>
-														There are many variations of passages of Lorem Ipsum available,
-														but the majority is have suffered alteration.
-													</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div className="owl-item cloned" style={{ width: 471, marginRight: 18 }}>
-									<div className="item">
-										<div className="venues-item">
-											<div className="single-venues-item">
-												<div className="thumb">
-													<a href="#">
-														<img
-															src="assets/images/venuse/03.jpg"
-															className="img-fluid"
-															alt=""
-														/>
-													</a>
-													<div className="box b4">
-														<span>California, USA</span>
-													</div>
-												</div>
-												<div className="content">
-													<a href="#">
-														<h3 className="title f-weight-700">Griffith Park Theater</h3>
-													</a>
-													<p>
-														There are many variations of passages of Lorem Ipsum available,
-														but the majority is have suffered alteration.
-													</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
 								<div className="owl-item" style={{ width: 471, marginRight: 18 }}>
 									<div className="item">
 										<div className="venues-item">
