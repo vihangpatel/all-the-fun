@@ -19,7 +19,7 @@ app.get("/speakers", function(req, res) {
 	res.sendFile(path.join(__dirname + "/public/speakers.html"))
 })
 
-const server = app.listen(8080, () => {
+const server = app.listen(process.env.PORT, () => {
 	const host = server.address().address
 	const port = server.address().port
 	console.log(`serving at ${host} & port : ${port}`)
