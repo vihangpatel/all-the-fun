@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Header = () => (
-  <header id='mainHeader' className='header'>
+  <header id='mainHeader' className='header stiky'>
     <nav className='navbar navbar-expand-lg navbar-light p-0'>
       <div className='container'>
         <a className='navbar-brand' href='index.html'>
