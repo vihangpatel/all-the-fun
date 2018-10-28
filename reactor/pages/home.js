@@ -9,14 +9,84 @@ const Home = () => (
 					<div
 						className="owl-stage"
 						style={{
-							transform: 'translate3d(-2076px, 0px, 0px)',
+							transform: 'translate3d(-3038px, 0px, 0px)',
 							transition: 'all 0s ease 0s',
-							width: 5190,
+							width: 7595,
 						}}
 					>
-						<div className="owl-item active" style={{ width: 1038 }} />
-						<div className="owl-item cloned" style={{ width: 1038 }} />
-						<div className="owl-item cloned" style={{ width: 1038 }}>
+						<div className="owl-item cloned" style={{ width: 1519 }}>
+							<div className="slide-item">
+								<div className="slide-caption">
+									<div className="slider-inner">
+										<h3 className="caption-desc">REACT INDIA 2019 </h3>
+										<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
+										<div className="slide-btn">
+											<a className="animated fadeInUpBig" href="#">
+												Buy tickets
+											</a>
+											<a className="animated fadeInUpBig" href="#">
+												Sponshorship
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="owl-item cloned" style={{ width: 1519 }}>
+							<div className="slide-item">
+								<div className="slide-caption">
+									<div className="slider-inner">
+										<h3 className="caption-desc">REACT INDIA 2019 </h3>
+										<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
+										<div className="slide-btn">
+											<a className="animated fadeInUpBig" href="#">
+												Buy tickets
+											</a>
+											<a className="animated fadeInUpBig" href="#">
+												Sponshorship
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="owl-item active" style={{ width: 1519 }}>
+							<div className="slide-item">
+								<div className="slide-caption">
+									<div className="slider-inner">
+										<h3 className="caption-desc">REACT INDIA 2019 </h3>
+										<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
+										<div className="slide-btn">
+											<a className="animated fadeInUpBig" href="#">
+												Buy tickets
+											</a>
+											<a className="animated fadeInUpBig" href="#">
+												Sponshorship
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="owl-item cloned" style={{ width: 1519 }}>
+							<div className="slide-item">
+								<div className="slide-caption">
+									<div className="slider-inner">
+										<h3 className="caption-desc">REACT INDIA 2019 </h3>
+										<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
+										<div className="slide-btn">
+											<a className="animated fadeInUpBig" href="#">
+												Buy tickets
+											</a>
+											<a className="animated fadeInUpBig" href="#">
+												Sponshorship
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="owl-item cloned" style={{ width: 1519 }}>
 							<div className="slide-item">
 								<div className="slide-caption">
 									<div className="slider-inner">
@@ -94,7 +164,7 @@ const Home = () => (
 									data-autoplay="true"
 									href="https://www.youtube.com/watch?v=ct-mHwAb3g4"
 								>
-									<i className="fa fa-play" />
+									<i className="fa fa-play" style={{ transform: 'translate(14%, 93%)' }} />
 								</a>
 							</div>
 						</div>
@@ -538,41 +608,12 @@ const Home = () => (
 							<div
 								className="owl-stage"
 								style={{
-									transform: 'translate3d(-2445px, 0px, 0px)',
+									transform: 'translate3d(-1158px, 0px, 0px)',
 									transition: 'all 0s ease 0s',
-									width: 3912,
+									width: 3860,
 								}}
 							>
-								<div className="owl-item" style={{ width: 471, marginRight: 18 }}>
-									<div className="item">
-										<div className="venues-item">
-											<div className="single-venues-item">
-												<div className="thumb">
-													<a href="#">
-														<img
-															src="assets/images/venuse/01.jpg"
-															className="img-fluid"
-															alt=""
-														/>
-													</a>
-													<div className="box b1">
-														<span>California, USA</span>
-													</div>
-												</div>
-												<div className="content">
-													<a href="#">
-														<h3 className="title f-weight-700">Griffith Park Theater</h3>
-													</a>
-													<p>
-														There are many variations of passages of Lorem Ipsum available,
-														but the majority is have suffered alteration.
-													</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div className="owl-item" style={{ width: 471, marginRight: 18 }}>
+								<div className="owl-item cloned" style={{ width: 368, marginRight: 18 }}>
 									<div className="item">
 										<div className="venues-item">
 											<div className="single-venues-item">
@@ -601,7 +642,7 @@ const Home = () => (
 										</div>
 									</div>
 								</div>
-								<div className="owl-item" style={{ width: 471, marginRight: 18 }}>
+								<div className="owl-item cloned" style={{ width: 368, marginRight: 18 }}>
 									<div className="item">
 										<div className="venues-item">
 											<div className="single-venues-item">
@@ -630,7 +671,7 @@ const Home = () => (
 										</div>
 									</div>
 								</div>
-								<div className="owl-item active" style={{ width: 471, marginRight: 18 }}>
+								<div className="owl-item cloned" style={{ width: 368, marginRight: 18 }}>
 									<div className="item">
 										<div className="venues-item">
 											<div className="single-venues-item">
@@ -659,7 +700,7 @@ const Home = () => (
 										</div>
 									</div>
 								</div>
-								<div className="owl-item cloned active" style={{ width: 471, marginRight: 18 }}>
+								<div className="owl-item active" style={{ width: 368, marginRight: 18 }}>
 									<div className="item">
 										<div className="venues-item">
 											<div className="single-venues-item">
@@ -688,7 +729,7 @@ const Home = () => (
 										</div>
 									</div>
 								</div>
-								<div className="owl-item cloned" style={{ width: 471, marginRight: 18 }}>
+								<div className="owl-item active" style={{ width: 368, marginRight: 18 }}>
 									<div className="item">
 										<div className="venues-item">
 											<div className="single-venues-item">
@@ -717,9 +758,154 @@ const Home = () => (
 										</div>
 									</div>
 								</div>
+								<div className="owl-item active" style={{ width: 368, marginRight: 18 }}>
+									<div className="item">
+										<div className="venues-item">
+											<div className="single-venues-item">
+												<div className="thumb">
+													<a href="#">
+														<img
+															src="assets/images/venuse/03.jpg"
+															className="img-fluid"
+															alt=""
+														/>
+													</a>
+													<div className="box b3">
+														<span>California, USA</span>
+													</div>
+												</div>
+												<div className="content">
+													<a href="#">
+														<h3 className="title f-weight-700">Griffith Park Theater</h3>
+													</a>
+													<p>
+														There are many variations of passages of Lorem Ipsum available,
+														but the majority is have suffered alteration.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div className="owl-item" style={{ width: 368, marginRight: 18 }}>
+									<div className="item">
+										<div className="venues-item">
+											<div className="single-venues-item">
+												<div className="thumb">
+													<a href="#">
+														<img
+															src="assets/images/venuse/03.jpg"
+															className="img-fluid"
+															alt=""
+														/>
+													</a>
+													<div className="box b4">
+														<span>California, USA</span>
+													</div>
+												</div>
+												<div className="content">
+													<a href="#">
+														<h3 className="title f-weight-700">Griffith Park Theater</h3>
+													</a>
+													<p>
+														There are many variations of passages of Lorem Ipsum available,
+														but the majority is have suffered alteration.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div className="owl-item cloned" style={{ width: 368, marginRight: 18 }}>
+									<div className="item">
+										<div className="venues-item">
+											<div className="single-venues-item">
+												<div className="thumb">
+													<a href="#">
+														<img
+															src="assets/images/venuse/01.jpg"
+															className="img-fluid"
+															alt=""
+														/>
+													</a>
+													<div className="box b1">
+														<span>California, USA</span>
+													</div>
+												</div>
+												<div className="content">
+													<a href="#">
+														<h3 className="title f-weight-700">Griffith Park Theater</h3>
+													</a>
+													<p>
+														There are many variations of passages of Lorem Ipsum available,
+														but the majority is have suffered alteration.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div className="owl-item cloned" style={{ width: 368, marginRight: 18 }}>
+									<div className="item">
+										<div className="venues-item">
+											<div className="single-venues-item">
+												<div className="thumb">
+													<a href="#">
+														<img
+															src="assets/images/venuse/02.jpg"
+															className="img-fluid"
+															alt=""
+														/>
+													</a>
+													<div className="box b2">
+														<span>California, USA</span>
+													</div>
+												</div>
+												<div className="content">
+													<a href="#">
+														<h3 className="title f-weight-700">Griffith Park Theater</h3>
+													</a>
+													<p>
+														There are many variations of passages of Lorem Ipsum available,
+														but the majority is have suffered alteration.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div className="owl-item cloned" style={{ width: 368, marginRight: 18 }}>
+									<div className="item">
+										<div className="venues-item">
+											<div className="single-venues-item">
+												<div className="thumb">
+													<a href="#">
+														<img
+															src="assets/images/venuse/03.jpg"
+															className="img-fluid"
+															alt=""
+														/>
+													</a>
+													<div className="box b3">
+														<span>California, USA</span>
+													</div>
+												</div>
+												<div className="content">
+													<a href="#">
+														<h3 className="title f-weight-700">Griffith Park Theater</h3>
+													</a>
+													<p>
+														There are many variations of passages of Lorem Ipsum available,
+														but the majority is have suffered alteration.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div className="owl-nav disabled">
+						<div className="owl-nav">
 							<div className="owl-prev">
 								<i className="fa fa-chevron-left" />
 							</div>
@@ -836,12 +1022,34 @@ const Home = () => (
 						<div
 							className="owl-stage"
 							style={{
-								transform: 'translate3d(-950px, 0px, 0px)',
+								transform: 'translate3d(-1130px, 0px, 0px)',
 								transition: 'all 0s ease 0s',
-								width: 3800,
+								width: 3767,
 							}}
 						>
-							<div className="owl-item cloned" style={{ width: 455, marginRight: 20 }}>
+							<div className="owl-item cloned" style={{ width: '356.667px', marginRight: 20 }}>
+								<div className="testi-item">
+									<div className="description">
+										<i className="fa fa-quote-right c2" />
+										<p>
+											There are many variations of passages of that Lorem Ipsum available, but the
+											majority have a suffered alteration in some.
+										</p>
+									</div>
+									<div className="author">
+										<div className="thumb">
+											<img src="assets/images/review/p2.png" className="img-responsive" alt="" />
+										</div>
+										<div className="content">
+											<a href="#">
+												<h4 className="title">Shane Kyle</h4>
+											</a>
+											<span className="post">Designer, EventPro</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="owl-item cloned" style={{ width: '356.667px', marginRight: 20 }}>
 								<div className="testi-item">
 									<div className="description">
 										<i className="fa fa-quote-right c3" />
@@ -863,7 +1071,7 @@ const Home = () => (
 									</div>
 								</div>
 							</div>
-							<div className="owl-item cloned" style={{ width: 455, marginRight: 20 }}>
+							<div className="owl-item cloned" style={{ width: '356.667px', marginRight: 20 }}>
 								<div className="testi-item">
 									<div className="description">
 										<i className="fa fa-quote-right c2" />
@@ -885,7 +1093,7 @@ const Home = () => (
 									</div>
 								</div>
 							</div>
-							<div className="owl-item active" style={{ width: 455, marginRight: 20 }}>
+							<div className="owl-item active" style={{ width: '356.667px', marginRight: 20 }}>
 								<div className="testi-item">
 									<div className="description">
 										<i className="fa fa-quote-right c1" />
@@ -907,7 +1115,7 @@ const Home = () => (
 									</div>
 								</div>
 							</div>
-							<div className="owl-item active" style={{ width: 455, marginRight: 20 }}>
+							<div className="owl-item active" style={{ width: '356.667px', marginRight: 20 }}>
 								<div className="testi-item">
 									<div className="description">
 										<i className="fa fa-quote-right c2" />
@@ -929,7 +1137,7 @@ const Home = () => (
 									</div>
 								</div>
 							</div>
-							<div className="owl-item" style={{ width: 455, marginRight: 20 }}>
+							<div className="owl-item active" style={{ width: '356.667px', marginRight: 20 }}>
 								<div className="testi-item">
 									<div className="description">
 										<i className="fa fa-quote-right c3" />
@@ -951,7 +1159,7 @@ const Home = () => (
 									</div>
 								</div>
 							</div>
-							<div className="owl-item" style={{ width: 455, marginRight: 20 }}>
+							<div className="owl-item" style={{ width: '356.667px', marginRight: 20 }}>
 								<div className="testi-item">
 									<div className="description">
 										<i className="fa fa-quote-right c2" />
@@ -973,7 +1181,7 @@ const Home = () => (
 									</div>
 								</div>
 							</div>
-							<div className="owl-item cloned" style={{ width: 455, marginRight: 20 }}>
+							<div className="owl-item cloned" style={{ width: '356.667px', marginRight: 20 }}>
 								<div className="testi-item">
 									<div className="description">
 										<i className="fa fa-quote-right c1" />
@@ -995,7 +1203,7 @@ const Home = () => (
 									</div>
 								</div>
 							</div>
-							<div className="owl-item cloned" style={{ width: 455, marginRight: 20 }}>
+							<div className="owl-item cloned" style={{ width: '356.667px', marginRight: 20 }}>
 								<div className="testi-item">
 									<div className="description">
 										<i className="fa fa-quote-right c2" />
@@ -1007,6 +1215,28 @@ const Home = () => (
 									<div className="author">
 										<div className="thumb">
 											<img src="assets/images/review/p2.png" className="img-responsive" alt="" />
+										</div>
+										<div className="content">
+											<a href="#">
+												<h4 className="title">Shane Kyle</h4>
+											</a>
+											<span className="post">Designer, EventPro</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="owl-item cloned" style={{ width: '356.667px', marginRight: 20 }}>
+								<div className="testi-item">
+									<div className="description">
+										<i className="fa fa-quote-right c3" />
+										<p>
+											There are many variations of passages of that Lorem Ipsum available, but the
+											majority have a suffered alteration in some.
+										</p>
+									</div>
+									<div className="author">
+										<div className="thumb">
+											<img src="assets/images/review/p3.png" className="img-responsive" alt="" />
 										</div>
 										<div className="content">
 											<a href="#">
