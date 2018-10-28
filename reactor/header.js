@@ -21,43 +21,7 @@ const Header = () => (
         </button>
 
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-          <ul className='navbar-nav ml-auto'>
-            <li className='nav-item'>
-              <a className='nav-link' href='/home'>
-                                Home
-                            </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='/contact-us'>
-                                Contact Us
-                            </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#' data-toggle='modal' data-target='.bd-example-modal-sm'>
-                <i className='fa fa-search' />
-              </a>
-              <div
-                className='modal fade bd-example-modal-sm'
-                tabIndex='-1'
-                role='dialog'
-                aria-hidden='true'
-                            >
-                <div className='modal-dialog modal-sm'>
-                  <div className='modal-content'>
-                    <form method='POST'>
-                        <input type='text' className='mr-search' placeholder='Search' />
-                        <button type='submit' className='submit'>
-                            <i className='fa fa-search' />
-                          </button>
-                      </form>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <a href='pricingTable.html' className='mr_btn_fill'>
-                        Buy Tickets
-                    </a>
+          <ul className='navbar-nav ml-auto' />
         </div>
       </div>
     </nav>
