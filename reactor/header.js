@@ -22,26 +22,10 @@ const Header = () => (
 
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav ml-auto'>
-            <li className='nav-item dropdown'>
-              <a
-                className='nav-link dropdown-toggle'
-                href='#'
-                id='navbarDropdown2'
-                role='button'
-                data-toggle='dropdown'
-                aria-haspopup='true'
-                aria-expanded='false'
-                            >
+            <li className='nav-item'>
+              <a className='nav-link' href='/about'>
                                 Home
                             </a>
-              <div className='dropdown-menu' aria-labelledby='navbarDropdown2'>
-                <a className='dropdown-item' href='/home'>
-                                    Home One
-                                </a>
-                <a className='dropdown-item' href='index2.html'>
-                                    Home Two
-                                </a>
-              </div>
             </li>
             <li className='nav-item'>
               <a className='nav-link' href='/about'>
@@ -63,64 +47,9 @@ const Header = () => (
                                 Sponsors
                             </a>
             </li>
-            <li className='nav-item dropdown active'>
-              <a
-                className='nav-link dropdown-toggle'
-                href='#'
-                id='navbarDropdown'
-                role='button'
-                data-toggle='dropdown'
-                aria-haspopup='true'
-                aria-expanded='false'
-                            >
-                                Pages
-                            </a>
-              <div className='dropdown-menu' aria-labelledby='navbarDropdown'>
-                <a className='dropdown-item' href='becomesponsors.html'>
-                                    Become a Sponsor
-                                </a>
-                <a className='dropdown-item' href='blogdetails.html'>
-                                    Blog Details
-                                </a>
-                <a className='dropdown-item' href='blog-grid.html'>
-                                    Blog Grid
-                                </a>
-                <a className='dropdown-item active' href='eventSingle.html'>
-                                    Event Single
-                                </a>
-                <a className='dropdown-item' href='gallery.html'>
-                                    Gallery
-                                </a>
-                <a className='dropdown-item' href='pricingTable.html'>
-                                    Pricing
-                                </a>
-                <a className='dropdown-item' href='speakerprofile.html'>
-                                    Speaker Profile
-                                </a>
-                <a className='dropdown-item' href='sponsors.html'>
-                                    Sponsors
-                                </a>
-                <a className='dropdown-item' href='threecolumportfolio.html'>
-                                    3-col Portfolio
-                                </a>
-                <a className='dropdown-item' href='twocolumportfolio.html'>
-                                    2-col Portfolio
-                                </a>
-                <a className='dropdown-item' href='faq.html'>
-                                    FAQ
-                                </a>
-                <a className='dropdown-item' href='404.html'>
-                                    404
-                                </a>
-              </div>
-            </li>
+
             <li className='nav-item'>
-              <a className='nav-link' href='blogpage.html'>
-                                blog
-                            </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='contact.html'>
+              <a className='nav-link' href='/contact-us'>
                                 Contact Us
                             </a>
             </li>
