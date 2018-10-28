@@ -2,9 +2,11 @@ import React from "react"
 import Header from "./header"
 import Footer from "./footer"
 import Home from "./pages/home"
+import About from "./pages/about"
 
 const pageMap = {
 	home: Home,
+	about: About,
 }
 
 const DefaultPage = () => <h1> Not Found</h1>
@@ -19,8 +21,8 @@ const Body = ({ pageName }) => (
 		<div id="body-wrap">
 			<Header />
 			{getPage(pageName)}
-			<Footer />
 		</div>
+		<Footer />
 	</body>
 )
 
