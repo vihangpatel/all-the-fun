@@ -18,6 +18,10 @@ const Footer = () => (
 								There are many variations of dummy that passages of Lorem Ipsum available but the
 								majority have suffered.
 							</p>
+							<form action="#" className="subscribe">
+								<input type="email" className="email" placeholder="Enter your email" />
+								<input type="submit" className="s-btn" value="SUBSCRIBE" />
+							</form>
 							<h3 className="title">Follow Us</h3>
 							<ul>
 								<li>
@@ -30,129 +34,41 @@ const Footer = () => (
 										<i className="fa fa-twitter" />
 									</a>
 								</li>
-								<li>
-									<a href="#">
-										<i className="fa fa-google-plus" />
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<i className="fa fa-linkedin" />
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<i className="fa fa-skype" />
-									</a>
-								</li>
 							</ul>
 						</div>
 					</div>
 					<div className="col-lg-3 col-sm-6">
 						<div className="footer-pages">
-							<h3>Usefull Links</h3>
-							<div className="row">
-								<div className="col-sm-12">
-									<ul>
-										<li>
-											<a href="#">
-												<i className="fa fa-chevron-right" /> Engaging, Purposeful
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<i className="fa fa-chevron-right" /> Extroadinary Life events.
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<i className="fa fa-chevron-right" /> Design your perfect event.
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<i className="fa fa-chevron-right" /> Connect your worlds.
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<i className="fa fa-chevron-right" /> Workplace productivity
-											</a>
-										</li>
-										<li>
-											<a href="contact.html">
-												<i className="fa fa-chevron-right" /> Contact Us
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
+							
+						
 						</div>
 					</div>
-					<div className="col-lg-3 col-sm-6">
-						<div className="footer-insta">
-							<h3>Instagram</h3>
-							<div className="insta-img-area">
-								<div className="insta-item">
-									<a href="#">
-										<img className="img-fluid" src="assets/images/footer/insta1.jpg" alt="" />
-									</a>
-								</div>
-								<div className="insta-item">
-									<a href="#">
-										<img className="img-fluid" src="assets/images/footer/insta2.jpg" alt="" />
-									</a>
-								</div>
-								<div className="insta-item">
-									<a href="#">
-										<img className="img-fluid" src="assets/images/footer/insta3.jpg" alt="" />
-									</a>
-								</div>
-								<div className="insta-item">
-									<a href="#">
-										<img className="img-fluid" src="assets/images/footer/insta4.jpg" alt="" />
-									</a>
-								</div>
-								<div className="insta-item">
-									<a href="#">
-										<img className="img-fluid" src="assets/images/footer/insta5.jpg" alt="" />
-									</a>
-								</div>
-								<div className="insta-item">
-									<a href="#">
-										<img className="img-fluid" src="assets/images/footer/insta6.jpg" alt="" />
-									</a>
-								</div>
-							</div>
-						</div>
+					<div className="col-lg-2 col-sm-5">
+						
 					</div>
-					<div className="col-lg-3 col-sm-6">
+					<div className="col-lg-4 col-sm-5">
 						<div className="footer-contact-info">
 							<h3>Contact info</h3>
 							<ul>
 								<li>
 									<a href="#">
 										<i className="flaticon-location-pointer" />
-										1102 Saint Marys, Jackson Blvd, Chicago United St ate
+										30/3, Acsona Waddo, Uttorda Beach, Salcette, Goa 403713, India
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<i className="flaticon-mail-black-envelope-symbol" />
-										example@email.com
+										react-india@geekabyte.tech
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<i className="flaticon-phone-receiver" />
-										(+123) 456 789 1002
+										
 									</a>
 								</li>
 							</ul>
-							<form action="#" className="subscribe">
-								<input type="email" className="email" placeholder="Enter your email" />
-								<input type="submit" className="s-btn" value="SUBSCRIBE" />
-							</form>
 						</div>
 					</div>
 				</div>
