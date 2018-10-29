@@ -65,7 +65,8 @@ const Footer = () => (
 								<li>
 									<a href="#">
 										<i className="flaticon-phone-receiver" />
-										
+										+918655559725,&nbsp; 
+										+491625272364
 									</a>
 								</li>
 							</ul>
