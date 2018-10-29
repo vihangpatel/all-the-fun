@@ -336,7 +336,7 @@ p {
 }
 
 .index_1 .slide-caption .slider-inner .caption-desc {
-	color: #ff2d55;
+	color: #FF9933;
 }
 .index_1 .slide-caption {
 	text-align: left;
@@ -345,7 +345,7 @@ p {
 	text-align: center;
 }
 .index_1 .slide-caption .slider-inner .caption-title {
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: 600;
 	margin-bottom: 10px;
 	text-transform: uppercase;
@@ -747,7 +747,7 @@ p {
 	animation: 1s 0.9s flipInX both;
 }
 .slide-btn a:first-child {
-	background: #ff2d55;
+	background: #29A9CC;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
