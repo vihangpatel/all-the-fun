@@ -2,121 +2,127 @@ import React, { Fragment } from 'react'
 
 const Home = () => (
 	<Fragment>
-		<section className="slider-area">
-			<div className="overlay" />
-			<div className="silder owl-carousel owl-loaded owl-drag">
-				<div className="owl-stage-outer">
-					<div
-						className="owl-stage"
-						style={{
-							transform: 'translate3d(-3038px, 0px, 0px)',
-							transition: 'all 0s ease 0s',
-							width: 7595,
-						}}
-					>
-						<div className="owl-item cloned" style={{ width: 1519 }}>
-							<div className="slide-item">
-								<div className="slide-caption">
-									<div className="slider-inner">
-										<h3 className="caption-desc">REACT INDIA 2019 </h3>
-										<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
-										<div className="slide-btn">
-											<a className="animated fadeInUpBig" href="#">
-												Buy tickets
-											</a>
-											<a className="animated fadeInUpBig" href="#">
-												Sponshorship
-											</a>
+		<div className="video-wrapper">
+			<section className="slider-area">
+				<div className="overlay" />
+				<div className="silder owl-carousel owl-loaded owl-drag">
+					<div className="owl-stage-outer">
+						<div
+							className="owl-stage"
+							style={{
+								transform: 'translate3d(-3038px, 0px, 0px)',
+								transition: 'all 0s ease 0s',
+								width: 7595,
+							}}
+						>
+							<div className="owl-item cloned" style={{ width: 1519 }}>
+								<div className="slide-item">
+									<div className="slide-caption">
+										<div className="slider-inner">
+											<h3 className="caption-desc">REACT INDIA 2019 </h3>
+											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
+											<div className="slide-btn">
+												<a className="animated fadeInUpBig" href="#">
+													Buy tickets
+												</a>
+												<a className="animated fadeInUpBig" href="#">
+													Sponshorship
+												</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div className="owl-item cloned" style={{ width: 1519 }}>
-							<div className="slide-item">
-								<div className="slide-caption">
-									<div className="slider-inner">
-										<h3 className="caption-desc">REACT INDIA 2019 </h3>
-										<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
-										<div className="slide-btn">
-											<a className="animated fadeInUpBig" href="#">
-												Buy tickets
-											</a>
-											<a className="animated fadeInUpBig" href="#">
-												Sponshorship
-											</a>
+							<div className="owl-item cloned" style={{ width: 1519 }}>
+								<div className="slide-item">
+									<div className="slide-caption">
+										<div className="slider-inner">
+											<h3 className="caption-desc">REACT INDIA 2019 </h3>
+											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
+											<div className="slide-btn">
+												<a className="animated fadeInUpBig" href="#">
+													Buy tickets
+												</a>
+												<a className="animated fadeInUpBig" href="#">
+													Sponshorship
+												</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div className="owl-item active" style={{ width: 1519 }}>
-							<div className="slide-item">
-								<div className="slide-caption">
-									<div className="slider-inner">
-										<h3 className="caption-desc">REACT INDIA 2019 </h3>
-										<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
-										<div className="slide-btn">
-											<a className="animated fadeInUpBig" href="#">
-												Buy tickets
-											</a>
-											<a className="animated fadeInUpBig" href="#">
-												Sponshorship
-											</a>
+							<div className="owl-item active" style={{ width: 1519 }}>
+								<div className="slide-item">
+									<div className="slide-caption">
+										<div className="slider-inner">
+											<h3 className="caption-desc">REACT INDIA 2019 </h3>
+											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
+											<div className="slide-btn">
+												<a className="animated fadeInUpBig" href="#">
+													Buy tickets
+												</a>
+												<a className="animated fadeInUpBig" href="#">
+													Sponshorship
+												</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div className="owl-item cloned" style={{ width: 1519 }}>
-							<div className="slide-item">
-								<div className="slide-caption">
-									<div className="slider-inner">
-										<h3 className="caption-desc">REACT INDIA 2019 </h3>
-										<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
-										<div className="slide-btn">
-											<a className="animated fadeInUpBig" href="#">
-												Buy tickets
-											</a>
-											<a className="animated fadeInUpBig" href="#">
-												Sponshorship
-											</a>
+							<div className="owl-item cloned" style={{ width: 1519 }}>
+								<div className="slide-item">
+									<div className="slide-caption">
+										<div className="slider-inner">
+											<h3 className="caption-desc">REACT INDIA 2019 </h3>
+											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
+											<div className="slide-btn">
+												<a className="animated fadeInUpBig" href="#">
+													Buy tickets
+												</a>
+												<a className="animated fadeInUpBig" href="#">
+													Sponshorship
+												</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div className="owl-item cloned" style={{ width: 1519 }}>
-							<div className="slide-item">
-								<div className="slide-caption">
-									<div className="slider-inner">
-										<h3 className="caption-desc">REACT INDIA 2019 </h3>
-										<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
-										<div className="slide-btn">
-											<a className="animated fadeInUpBig" href="#">
-												Buy tickets
-											</a>
-											<a className="animated fadeInUpBig" href="#">
-												Sponshorship
-											</a>
+							<div className="owl-item cloned" style={{ width: 1519 }}>
+								<div className="slide-item">
+									<div className="slide-caption">
+										<div className="slider-inner">
+											<h3 className="caption-desc">REACT INDIA 2019 </h3>
+											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
+											<div className="slide-btn">
+												<a className="animated fadeInUpBig" href="#">
+													Buy tickets
+												</a>
+												<a className="animated fadeInUpBig" href="#">
+													Sponshorship
+												</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+					<div className="owl-nav disabled">
+						<div className="owl-prev">
+							<i className="fa fa-chevron-left" />
+						</div>
+						<div className="owl-next">
+							<i className="fa fa-chevron-right" />
+						</div>
+					</div>
+					<div className="owl-dots disabled" />
 				</div>
-				<div className="owl-nav disabled">
-					<div className="owl-prev">
-						<i className="fa fa-chevron-left" />
-					</div>
-					<div className="owl-next">
-						<i className="fa fa-chevron-right" />
-					</div>
-				</div>
-				<div className="owl-dots disabled" />
-			</div>
-		</section>
+			</section>
+			<video autoPlay loop muted className="video-banner">
+				<source src="assets/video/video_2.mp4" type="video/mp4" />
+				Please use a video supported browser
+			</video>
+		</div>
 		{/*End Slider Area*/}
 		{/*Start About Area*/}
 		<div className="about-area">
