@@ -83,24 +83,8 @@ const Footer = () => (
 						<div className="copyright-text">
 							<p className="color-white">Copyright &copy; 2018 All Rights Reserved, Powered by </p>
 							<a href="index.html">
-								<span> Ven</span>
-								ToT
+								<span> React India 2019</span>
 							</a>
-						</div>
-					</div>
-					<div className="col-md-6">
-						<div className="copyright-links">
-							<ul>
-								<li>
-									<a href="index.html">Home</a>
-								</li>
-								<li>
-									<a href="#">Privacy Policy</a>
-								</li>
-								<li>
-									<a href="contact.html">Contact</a>
-								</li>
-							</ul>
 						</div>
 					</div>
 				</div>

@@ -3005,8 +3005,9 @@ ul.pagination {
 ====================================================*/
 .footer {
 	overflow: hidden;
-	background: url(../images/fooer-bg.jpg) no-repeat center;
+	background:black;
 	background-size: cover;
+	color: white;
 }
 .footer-top {
 	padding: 93px 0 90px;
