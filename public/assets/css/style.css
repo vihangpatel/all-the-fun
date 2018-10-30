@@ -336,7 +336,7 @@ p {
 }
 
 .index_1 .slide-caption .slider-inner .caption-desc {
-	color: #FF9933;
+	color: #ff9933;
 }
 .index_1 .slide-caption {
 	text-align: left;
@@ -661,7 +661,7 @@ p {
 	margin: 0 auto;
 }
 .home1 .slide-caption .slider-inner {
-	padding-right: 300px;
+	/* padding-right: 300px; */
 }
 .home-2.slide-caption .slider-inner .caption-title {
 	margin-bottom: 34px;
@@ -747,7 +747,7 @@ p {
 	animation: 1s 0.9s flipInX both;
 }
 .slide-btn a:first-child {
-	background: #29A9CC;
+	background: #29a9cc;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -3005,7 +3005,7 @@ ul.pagination {
 ====================================================*/
 .footer {
 	overflow: hidden;
-	background:black;
+	background: black;
 	background-size: cover;
 	color: white;
 }
