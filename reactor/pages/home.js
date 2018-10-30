@@ -71,7 +71,7 @@ const Home = () => (
 														className="logo-light"
 														src="assets/images/logo.png"
 														alt="react-india"
-														style={{ width: 163, height: 60 }}
+														width="100px"
 													/>
 												</div>
 												<div
