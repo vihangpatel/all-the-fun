@@ -19,7 +19,7 @@ const Home = () => (
 								<div className="slide-item">
 									<div className="slide-caption">
 										<div className="slider-inner">
-											<h3 className="caption-desc">REACT INDIA 2019 </h3>
+											<h3 className="caption-desc">REACT INDIA 2019</h3>
 											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
 											<div className="slide-btn">
 												<a className="animated fadeInUpBig" href="#">
@@ -37,7 +37,7 @@ const Home = () => (
 								<div className="slide-item">
 									<div className="slide-caption">
 										<div className="slider-inner">
-											<h3 className="caption-desc">REACT INDIA 2019 </h3>
+											<h3 className="caption-desc">REACT INDIA 2019</h3>
 											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
 											<div className="slide-btn">
 												<a className="animated fadeInUpBig" href="#">
@@ -52,18 +52,59 @@ const Home = () => (
 								</div>
 							</div>
 							<div className="owl-item active" style={{ width: 1519 }}>
-								<div className="slide-item">
+								<div className="slide-item" style={{ paddingTop: 145 }}>
 									<div className="slide-caption">
 										<div className="slider-inner">
-											<h3 className="caption-desc">REACT INDIA 2019 </h3>
-											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
-											<div className="slide-btn">
-												<a className="animated fadeInUpBig" href="#">
-													Buy tickets
-												</a>
-												<a className="animated fadeInUpBig" href="#">
-													Sponshorship
-												</a>
+											<div
+												style={{
+													height: 400,
+													display: 'flex',
+													flexDirection: 'column',
+													alignItems: 'center',
+													justifyContent: 'space-between',
+												}}
+											>
+												<div
+													style={{ width: '100%', display: 'flex', justifyContent: 'center' }}
+												>
+													<img
+														className="logo-light"
+														src="assets/images/logo.png"
+														alt="react-india"
+														style={{ width: 163, height: 60 }}
+													/>
+												</div>
+												<div
+													style={{
+														display: 'flex',
+														flexDirection: 'column',
+														alignItems: 'center',
+													}}
+												>
+													<div
+														style={{
+															width: '42%',
+															marginBottom: 18,
+															display: 'flex',
+															justifyContent: 'space-between',
+														}}
+													>
+														<p style={{ margin: 0 }}>23rd to 25th August, 2019.</p>
+														<p style={{ margin: 0 }}>GOA, INDIA</p>
+													</div>
+													<h3 className="caption-desc">REACT INDIA 2019 </h3>
+													<h2 className="caption-title" style={{ marginTop: 10 }}>
+														FIRST INTERNATIONAL CONFERENCE
+													</h2>
+													<div className="slide-btn" style={{ marginTop: 10 }}>
+														<a className="animated fadeInUpBig" href="#">
+															Sponshorship
+														</a>
+														{/* <a className="animated fadeInUpBig" href="#">
+															Sponshorship
+														</a> */}
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
