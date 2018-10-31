@@ -227,7 +227,7 @@ const Home = () => (
 						{/*Start Heading Title*/}
 						<div className="heading-title text-center">
 							<span className="subtitle">Be a Part of</span>
-							<h2>EventConferences 2018</h2>
+							<h2>React India 2019</h2>
 							<div className="bordershep" />
 							<p>
 								There are many variations of passages of Lorem Ipsum available but the at majority have
@@ -240,7 +240,7 @@ const Home = () => (
 				<div className="row">
 					<div className="col-12">
 						<div className="text-center">
-							<p className="date">17-21 AUAUST | NEW YORK | 2017 EDITION</p>
+							<p className="date">22nd - 24th AUGUST | GOA, INDIA | 2019 EDITION</p>
 							{/*<div class="timer" id="countdown"></div>*/}
 						</div>
 					</div>
