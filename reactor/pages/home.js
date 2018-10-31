@@ -57,7 +57,7 @@ const Home = () => (
 										<div className="slider-inner">
 											<div className="banner__main">
 												<div className="banner__logo--main">
-													<div className="svglogo">
+													<div className="banner__logo--main--img">
 														<svg
 															xmlns="http://www.w3.org/2000/svg"
 															version="1.1"
