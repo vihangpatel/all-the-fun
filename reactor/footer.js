@@ -18,10 +18,10 @@ const Footer = () => (
 								There are many variations of dummy that passages of Lorem Ipsum available but the
 								majority have suffered.
 							</p>
-							<form action="#" className="subscribe">
+							{/* <form action="#" className="subscribe">
 								<input type="email" className="email" placeholder="Enter your email" />
 								<input type="submit" className="s-btn" value="SUBSCRIBE" />
-							</form>
+							</form> */}
 							<h3 className="title">Follow Us</h3>
 							<ul>
 								<li>
