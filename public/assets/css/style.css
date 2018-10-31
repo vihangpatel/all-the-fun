@@ -638,18 +638,6 @@ p {
 	background-size: cover;
 }
 
-.video-wrapper {
-	position: relative;
-}
-
-.video-banner {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: -1;
-}
-
 .slide-caption .slider-inner .slide-btn a {
 	margin: 0 10px;
 }
@@ -936,14 +924,7 @@ p {
 .venues_area .heading-title .heading-title p {
 	color: #fff;
 }
-.overlay {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.4);
-}
+
 .single-venues-item .content {
 	padding: 22px 30px 22px 30px;
 	border: 1px solid hsla(0, 0%, 100%, 0.25);
@@ -3234,6 +3215,141 @@ ul.pagination {
 	cursor: pointer;
 }
 
+/***** banner styles start *****/
+.m-t-20 {
+	margin-top: 20px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.video__wrapper {
+	position: relative;
+	font-size: 16px;
+	height: 480px;
+	width: 100%;
+}
+
+.video__overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.video__main {
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+}
+
+.video__main video {
+	background-size: cover;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+}
+
+.video__content {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+
+.logo__main {
+	width: 100%;
+}
+
+.logo__main svg {
+	height: 110px;
+}
+
+.content__desc {
+	font-size: 6.25em !important;
+	/* line-height: 70px !important; */
+	font-weight: 300 !important;
+	text-transform: uppercase;
+	color: #ff9933;
+}
+
+.content__title {
+	font-size: 3.125em;
+	font-weight: 100;
+	/* margin-bottom: 10px; */
+	text-transform: uppercase;
+}
+
+.caption__small {
+	width: 100%;
+	font-size: 14px;
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.caption__small--para {
+	margin: 0;
+}
+
+.content__button {
+	text-align: center;
+	width: 180px;
+	margin: auto;
+	margin-top: 35px;
+}
+
+.content__button a {
+	background: #29a9cc;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	color: #ffffff;
+	display: inline-block;
+	font-weight: 400;
+	margin: 0 10px;
+	width: 180px;
+	height: 50px;
+	font-size: 18px;
+	line-height: 47px;
+	border-radius: 50px;
+}
+
+@media screen and (max-width: 882px) {
+	.video__wrapper {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 772px) {
+	.video__wrapper {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 551px) {
+	.video__wrapper {
+		font-size: 9px;
+	}
+}
+
+@media screen and (max-width: 496px) {
+	.video__wrapper {
+		font-size: 8px;
+	}
+}
+/***** banner styles end *****/
+
 div.svglogo {
 	width: 300px;
 	margin: auto;
@@ -3243,31 +3359,31 @@ div.svglogo {
 	top: 50%;
 	position: absolute;
 }
-#st1{
+#st1 {
 	stroke-dasharray: 1223.460205078125 1223.460205078125;
 	stroke-dashoffset: 1223.460205078125;
 	stroke-width: 3;
 	stroke: black;
-	animation: anim_white 2s 1.5s ease forwards, white .35s 3.15s ease forwards;
+	animation: anim_white 2s 1.5s ease forwards, white 0.35s 3.15s ease forwards;
 }
 
-#st2{
+#st2 {
 	stroke-dasharray: 1223.4583740234375 1223.4583740234375;
 	stroke-dashoffset: 1223.4583740234375;
 	stroke-width: 3;
 	stroke: lightgray;
-	animation: anim_green 2s 1.5s ease forwards, green .35s 3.15s ease forwards; 
+	animation: anim_green 2s 1.5s ease forwards, green 0.35s 3.15s ease forwards;
 }
 
-#st3{
+#st3 {
 	stroke-dasharray: 1223.4610595703125 1223.4610595703125;
 	stroke-dashoffset: 1223.4610595703125;
 	stroke-width: 3;
 	stroke: lightgray;
-	animation: anim 2s 1.5s ease forwards, color .35s 3.15s ease forwards; 
+	animation: anim 2s 1.5s ease forwards, color 0.35s 3.15s ease forwards;
 }
 
-#st4{
+#st4 {
 	stroke-dasharray: 315.2085561547927 315.2085561547927;
 	stroke-dashoffset: 315.2085561547927;
 	stroke-width: 3;
@@ -3277,83 +3393,83 @@ div.svglogo {
 }
 
 @keyframes anim {
-	85%{
+	85% {
 		stroke-dashoffset: 0;
 		stroke-width: 3;
 		stroke: lightgray;
 		stroke: #ff8000;
 	}
-	100%{
+	100% {
 		stroke-dashoffset: 0;
 		stroke-width: 0;
 		stroke: #ff8000;
 	}
 }
 @keyframes anim_white {
-	85%{
+	85% {
 		stroke-dashoffset: 0;
 		stroke-width: 3;
 		stroke: black;
 		stroke: #ffffff;
 	}
-	100%{
+	100% {
 		stroke-dashoffset: 0;
 		stroke-width: 0;
 		stroke: #ffffff;
 	}
 }
 @keyframes anim_green {
-	85%{
+	85% {
 		stroke-dashoffset: 0;
 		stroke-width: 3;
 		stroke: lightgray;
 		stroke: #008000;
 	}
-	100%{
+	100% {
 		stroke-dashoffset: 0;
 		stroke-width: 0;
 		stroke: #008000;
 	}
 }
 @keyframes color {
-	from{
+	from {
 		stroke-width: 3;
 	}
-	to{
+	to {
 		stroke-width: 15;
 	}
 }
 @keyframes green {
-	from{
+	from {
 		stroke-width: 3;
 	}
-	to{
+	to {
 		stroke-width: 15;
 	}
 }
 @keyframes white {
-	from{
+	from {
 		stroke-width: 3;
 	}
-	to{
+	to {
 		stroke-width: 15;
 	}
 }
 @keyframes replay {
-	to{
+	to {
 		transform: translateY(0);
 	}
 }
 @keyframes circle {
-	85%{
+	85% {
 		stroke-dashoffset: 0;
 		stroke-width: 3;
 		stroke: white;
-		fill: rgba(255,255,255, 0);
+		fill: rgba(255, 255, 255, 0);
 	}
-	100%{
+	100% {
 		stroke-dashoffset: 0;
 		stroke-width: 0;
-		fill: #00D8FF;
+		fill: #00d8ff;
 	}
 }
