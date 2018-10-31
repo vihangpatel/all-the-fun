@@ -55,47 +55,24 @@ const Home = () => (
 								<div className="slide-item" style={{ paddingTop: 145 }}>
 									<div className="slide-caption">
 										<div className="slider-inner">
-											<div
-												style={{
-													height: 400,
-													display: 'flex',
-													flexDirection: 'column',
-													alignItems: 'center',
-													justifyContent: 'space-between',
-												}}
-											>
-												<div
-													style={{ width: '100%', display: 'flex', justifyContent: 'center' }}
-												>
+											<div className="banner__main">
+												<div className="banner__logo--main">
 													<img
-														className="logo-light"
+														className="logo-light banner__logo--main--img"
 														src="assets/images/logo.png"
 														alt="react-india"
-														width="100px"
 													/>
 												</div>
-												<div
-													style={{
-														display: 'flex',
-														flexDirection: 'column',
-														alignItems: 'center',
-													}}
-												>
-													<div
-														style={{
-															marginBottom: 18,
-															display: 'flex',
-															justifyContent: 'space-between',
-														}}
-													>
-														<p style={{ margin: 0 }}>23rd to 25th August, 2019.</p>
-														<p style={{ margin: 0 }}>GOA, INDIA</p>
+												<div className="banner__content--main">
+													<div className="banner__venue">
+														<p className="m-0">23rd to 25th August, 2019.</p>
+														<p className="m-0">GOA, INDIA</p>
 													</div>
 													<h3 className="caption-desc">REACT INDIA </h3>
-													<h2 className="caption-title" style={{ marginTop: 10 }}>
+													<h2 className="caption-title" className="m-t-10">
 														FIRST INTERNATIONAL CONFERENCE
 													</h2>
-													<div className="slide-btn" style={{ marginTop: 10 }}>
+													<div className="slide-btn" className="m-t-10">
 														<a className="animated fadeInUpBig" href="#">
 															Sponshorship
 														</a>
@@ -114,7 +91,7 @@ const Home = () => (
 									<div className="slide-caption">
 										<div className="slider-inner">
 											<h3 className="caption-desc">REACT INDIA </h3>
-											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE  </h2>
+											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE </h2>
 											<div className="slide-btn">
 												<a className="animated fadeInUpBig" href="#">
 													Buy tickets

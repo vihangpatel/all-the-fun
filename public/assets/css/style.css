@@ -3233,3 +3233,44 @@ ul.pagination {
 	border: 0px;
 	cursor: pointer;
 }
+
+/***** banner styles start *****/
+.banner__main {
+	height: 400;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.banner__logo--main {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.banner__logo--main--img {
+	width: 86px !important;
+	height: 68px;
+}
+
+.banner__content--main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.banner__venue {
+	margin-bottom: 18;
+	display: flex;
+	justify-content: space-between;
+}
+
+.m-0 {
+	margin: 0;
+}
+
+.m-t-10 {
+	margin-top: 10px;
+}
+/***** banner styles end *****/
