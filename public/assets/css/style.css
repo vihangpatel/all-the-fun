@@ -942,7 +942,7 @@ p {
 	left: 0px;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0.4);
 }
 .single-venues-item .content {
 	padding: 22px 30px 22px 30px;
@@ -1101,8 +1101,8 @@ p {
 }
 .mr_btn_fill {
 	color: #fff;
-	background: #ff2d55;
-	border: 1px solid #ff2d55;
+	background: #29a9cc;
+	border: 1px solid #29a9cc;
 	padding: 10px 25px;
 	display: inline-block;
 	border-radius: 50px;
@@ -3274,3 +3274,127 @@ ul.pagination {
 	margin-top: 10px;
 }
 /***** banner styles end *****/
+
+div.svglogo {
+	width: 300px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	transform: translateY(-60%);
+	top: 50%;
+	position: absolute;
+}
+#st1 {
+	stroke-dasharray: 1223.460205078125 1223.460205078125;
+	stroke-dashoffset: 1223.460205078125;
+	stroke-width: 3;
+	stroke: black;
+	animation: anim_white 2s 1.5s ease forwards, white 0.35s 3.15s ease forwards;
+}
+
+#st2 {
+	stroke-dasharray: 1223.4583740234375 1223.4583740234375;
+	stroke-dashoffset: 1223.4583740234375;
+	stroke-width: 3;
+	stroke: lightgray;
+	animation: anim_green 2s 1.5s ease forwards, green 0.35s 3.15s ease forwards;
+}
+
+#st3 {
+	stroke-dasharray: 1223.4610595703125 1223.4610595703125;
+	stroke-dashoffset: 1223.4610595703125;
+	stroke-width: 3;
+	stroke: lightgray;
+	animation: anim 2s 1.5s ease forwards, color 0.35s 3.15s ease forwards;
+}
+
+#st4 {
+	stroke-dasharray: 315.2085561547927 315.2085561547927;
+	stroke-dashoffset: 315.2085561547927;
+	stroke-width: 3;
+	stroke: lightgray;
+	fill: none;
+	animation: circle 1.5s ease-in forwards;
+}
+
+@keyframes anim {
+	85% {
+		stroke-dashoffset: 0;
+		stroke-width: 3;
+		stroke: lightgray;
+		stroke: #ff8000;
+	}
+	100% {
+		stroke-dashoffset: 0;
+		stroke-width: 0;
+		stroke: #ff8000;
+	}
+}
+@keyframes anim_white {
+	85% {
+		stroke-dashoffset: 0;
+		stroke-width: 3;
+		stroke: black;
+		stroke: #ffffff;
+	}
+	100% {
+		stroke-dashoffset: 0;
+		stroke-width: 0;
+		stroke: #ffffff;
+	}
+}
+@keyframes anim_green {
+	85% {
+		stroke-dashoffset: 0;
+		stroke-width: 3;
+		stroke: lightgray;
+		stroke: #008000;
+	}
+	100% {
+		stroke-dashoffset: 0;
+		stroke-width: 0;
+		stroke: #008000;
+	}
+}
+@keyframes color {
+	from {
+		stroke-width: 3;
+	}
+	to {
+		stroke-width: 15;
+	}
+}
+@keyframes green {
+	from {
+		stroke-width: 3;
+	}
+	to {
+		stroke-width: 15;
+	}
+}
+@keyframes white {
+	from {
+		stroke-width: 3;
+	}
+	to {
+		stroke-width: 15;
+	}
+}
+@keyframes replay {
+	to {
+		transform: translateY(0);
+	}
+}
+@keyframes circle {
+	85% {
+		stroke-dashoffset: 0;
+		stroke-width: 3;
+		stroke: white;
+		fill: rgba(255, 255, 255, 0);
+	}
+	100% {
+		stroke-dashoffset: 0;
+		stroke-width: 0;
+		fill: #00d8ff;
+	}
+}
