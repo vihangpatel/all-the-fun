@@ -19,8 +19,8 @@ const Home = () => (
 								<div className="slide-item">
 									<div className="slide-caption">
 										<div className="slider-inner">
-											<h3 className="caption-desc">REACT INDIA 2019</h3>
-											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
+											<h3 className="caption-desc">REACT INDIA</h3>
+											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE </h2>
 											<div className="slide-btn">
 												<a className="animated fadeInUpBig" href="#">
 													Buy tickets
@@ -37,8 +37,8 @@ const Home = () => (
 								<div className="slide-item">
 									<div className="slide-caption">
 										<div className="slider-inner">
-											<h3 className="caption-desc">REACT INDIA 2019</h3>
-											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
+											<h3 className="caption-desc">REACT INDIA </h3>
+											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE </h2>
 											<div className="slide-btn">
 												<a className="animated fadeInUpBig" href="#">
 													Buy tickets
@@ -71,7 +71,7 @@ const Home = () => (
 														className="logo-light"
 														src="assets/images/logo.png"
 														alt="react-india"
-														style={{ width: 163, height: 60 }}
+														width="100px"
 													/>
 												</div>
 												<div
@@ -83,7 +83,6 @@ const Home = () => (
 												>
 													<div
 														style={{
-															width: '42%',
 															marginBottom: 18,
 															display: 'flex',
 															justifyContent: 'space-between',
@@ -92,7 +91,7 @@ const Home = () => (
 														<p style={{ margin: 0 }}>23rd to 25th August, 2019.</p>
 														<p style={{ margin: 0 }}>GOA, INDIA</p>
 													</div>
-													<h3 className="caption-desc">REACT INDIA 2019 </h3>
+													<h3 className="caption-desc">REACT INDIA </h3>
 													<h2 className="caption-title" style={{ marginTop: 10 }}>
 														FIRST INTERNATIONAL CONFERENCE
 													</h2>
@@ -114,8 +113,8 @@ const Home = () => (
 								<div className="slide-item">
 									<div className="slide-caption">
 										<div className="slider-inner">
-											<h3 className="caption-desc">REACT INDIA 2019 </h3>
-											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
+											<h3 className="caption-desc">REACT INDIA </h3>
+											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE  </h2>
 											<div className="slide-btn">
 												<a className="animated fadeInUpBig" href="#">
 													Buy tickets
@@ -132,7 +131,7 @@ const Home = () => (
 								<div className="slide-item">
 									<div className="slide-caption">
 										<div className="slider-inner">
-											<h3 className="caption-desc">REACT INDIA 2019 </h3>
+											<h3 className="caption-desc">REACT INDIA </h3>
 											<h2 className="caption-title">FIRST INTERNATIONAL CONFERENCE</h2>
 											<div className="slide-btn">
 												<a className="animated fadeInUpBig" href="#">
