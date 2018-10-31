@@ -100,7 +100,7 @@ const Home = () => (
 													</h2>
 													<div className="slide-btn" style={{ marginTop: 10 }}>
 														<a className="animated fadeInUpBig" href="#">
-															Sponshorship
+															BE A SPONSOR
 														</a>
 														{/* <a className="animated fadeInUpBig" href="#">
 															Sponshorship
