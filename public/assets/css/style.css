@@ -3227,7 +3227,7 @@ ul.pagination {
 .video__wrapper {
 	position: relative;
 	font-size: 16px;
-	height: 480px;
+	height: 100%;
 	width: 100%;
 }
 
@@ -3273,15 +3273,16 @@ ul.pagination {
 }
 
 .logo__main svg {
-	height: 110px;
+	height: 200px;
 }
 
 .content__desc {
-	font-size: 6.25em !important;
-	/* line-height: 70px !important; */
+	font-size: 7.25em !important;
 	font-weight: 300 !important;
 	text-transform: uppercase;
-	color: #ff9933;
+	font-family: 'Ubuntu', sans-serif;
+	color: #ffffff;
+	
 }
 
 .content__title {
@@ -3289,6 +3290,7 @@ ul.pagination {
 	font-weight: 100;
 	/* margin-bottom: 10px; */
 	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .caption__small {
@@ -3302,6 +3304,7 @@ ul.pagination {
 
 .caption__small--para {
 	margin: 0;
+	color: white;
 }
 
 .content__button {

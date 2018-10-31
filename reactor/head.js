@@ -27,6 +27,9 @@ const Head = () => (
 
 		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
 
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400i" rel="stylesheet"></link>
+
 		<script src="assets/js/modernizr.custom.js" />
 
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" />

@@ -17,7 +17,7 @@ const Home = () => (
 					<h3 className="content__desc">react india</h3>
 					<h2 className="content__title">first international conference</h2>
 					<div className="content__button">
-						<a href="#">Sponshorship</a>
+						<a href="#">BE A SPONSOR</a>
 					</div>
 				</div>
 			</div>
@@ -41,7 +41,7 @@ const Home = () => (
 			</div> */}
 			<div className="video__main">
 				<video autoPlay loop muted>
-					<source src="assets/video/video_2.mp4" type="video/mp4" />
+					<source src="https://www.dropbox.com/s/eeb5sl6xp3xbt94/video_2.mp4?dl=1" type="video/mp4" />
 					Please use a video supported browser
 				</video>
 			</div>
