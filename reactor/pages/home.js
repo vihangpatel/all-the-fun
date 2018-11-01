@@ -11,8 +11,8 @@ const Home = () => (
 				</div>
 				<div className="m-t-20">
 					<div className="caption__small">
-						<p className="caption__small--para">23rd to 25th August, 2019. </p>
-						<p className="caption__small--para uppercase">Goa, India</p>
+						<p className="caption__small--para event-date"><i className="fa fa-calendar"></i>23rd - 25th August, 2019. </p>
+						<p className="caption__small--para uppercase event-location"><i className="flaticon-location-pointer"></i>Goa, India</p>
 					</div>
 					<h3 className="content__desc">react india</h3>
 					<h2 className="content__title">first international conference</h2>
