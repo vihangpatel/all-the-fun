@@ -198,7 +198,7 @@ const Home = () => (
 						<div className="speaker">
 							<div className="sk-img">
 								<div className="img">
-									<img className="img-fluid" src="assets/images/speakers/sk1.jpg" alt="" />
+									<img className="img-fluid" src="assets/images/speakers/sunil_pai.jpeg" alt="" />
 									<div className="overlay d-flex justify-content-center">
 										<div className="slink">
 											<a href="#">
@@ -211,11 +211,11 @@ const Home = () => (
 							</div>
 							<div className="sk-content">
 								<a href="#">
-									<h4>Manjula Dube</h4>
+									<h4>Sunil Pai</h4>
 								</a>
-								<p>Software Developer, TalentWunder</p>
+								<p>Mad Scientist, Facebook</p>
 								<div className="sk-desc">
-									<p className="sk-desc-p">Developer at TalentWunder. Wants to make the web a better place to live, and in her free time, she works on OSS. Manjula loves teaching because thats the best way to learn more and more.
+									<p className="sk-desc-p">bLAH bLAH bLAH
 									</p>
 								</div>
 								
