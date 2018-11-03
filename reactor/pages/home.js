@@ -2,26 +2,30 @@ import React, { Fragment } from 'react'
 import Logo from './logo'
 
 const Home = () => (
-	<Fragment>
-		<div className="video__wrapper">
-			<div className="video__overlay" />
-			<div className="video__content">
-				<div className="logo__main">
-					<Logo />
-				</div>
-				<div className="m-t-20">
-					<div className="caption__small">
-						<p className="caption__small--para event-date"><i className="fa fa-calendar"></i>23rd - 25th August, 2019. </p>
-						<p className="caption__small--para uppercase event-location"><i className="flaticon-location-pointer"></i>Goa, India</p>
-					</div>
-					<h3 className="content__desc">react india</h3>
-					<h2 className="content__title">first international conference</h2>
-					<div className="content__button">
-						<a href="#">BE A SPONSOR</a>
-					</div>
-				</div>
-			</div>
-			{/* <div className="banner__content--main">
+  <Fragment>
+    <div className='video__wrapper'>
+      <div className='video__overlay' />
+      <div className='video__content'>
+        <div className='logo__main'>
+          <Logo />
+        </div>
+        <div className='m-t-20'>
+          <div className='caption__small'>
+            <p className='caption__small--para event-date'>
+              <i className='fa fa-calendar' />23rd - 25th August, 2019.{' '}
+            </p>
+            <p className='caption__small--para uppercase event-location'>
+              <i className='flaticon-location-pointer' />Goa, India
+                        </p>
+          </div>
+          <h3 className='content__desc'>react india</h3>
+          <h2 className='content__title'>first international conference</h2>
+          <div className='content__button'>
+            <a href='#'>BE A SPONSOR</a>
+          </div>
+        </div>
+      </div>
+      {/* <div className="banner__content--main">
 				<div className="banner__venue">
 					<p className="m-0">23rd to 25th August, 2019.</p>
 					<p className="m-0">GOA, INDIA</p>
@@ -39,119 +43,121 @@ const Home = () => (
 					</a>
 				</div>
 			</div> */}
-			<div className="video__main">
-				<video autoPlay loop muted>
-					<source src="https://www.dropbox.com/s/eeb5sl6xp3xbt94/video_2.mp4?dl=1" type="video/mp4" />
-					Please use a video supported browser
-				</video>
-			</div>
-		</div>
-		{/*End Slider Area*/}
-		{/*Start About Area*/}
-		<div className="about-area">
-			<div className="container">
-				<div className="row">
-					<div className="col-md-8">
-						{/*Start Heading Title*/}
-						<div className="heading-title">
-							<span className="subtitle">Greetings &amp; Welcome</span>
-							<h2 className="f-weight-700 margin-0">About the Conference</h2>
-							<div className="bordershep" />
-						</div>
-					</div>
-				</div>
-				<div className="row">
-					<div className="col-md-6 order-last order-md-first">
-						<div className="about-text">
-							<p className="first-text">
-								There are many variations of passages of Lorem Ipsum available but the at majority have
-								suffered alteration in some dummy.
-							</p>
-							<p>
-								There are many variations of passages of Lorem Ipsum available, but the majority have
-								suffered alteration in some form, by injected humour or at randomised words which don't
-								look even slightly believable. If you are an going to use a passage of Lorem Ipsum, you
-								need to be sure there isn't anything embarrassing hidden in the middle of text.
-							</p>
-							<div className="buttons">
-								<button type="button" disabled className="mr_btn_fill">
-									EARLY BIRD TICKETS COMING SOON
-								</button>
-							</div>
-						</div>
-					</div>
-					<div className="col-md-6 order-first order-md-last d-flex align-self-center">
-						<div className="aboutusvideo">
-							<div className="img">
-								<img className="img-fluid" src="assets/images/aboutimg-2.jpg" alt="" />
-								<a
-									className="venobox vbox-item"
-									data-vbtype="video"
-									data-autoplay="true"
-									href="https://www.youtube.com/watch?v=ct-mHwAb3g4"
-								>
-									<i className="fa fa-play" style={{ transform: 'translate(14%, 93%)' }} />
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		{/*End About Area*/}
-		<section className="conferences">
-			<div className="overlay" />
-			<div className="container">
-				<div className="row justify-content-center">
-					<div className="col-md-8">
-						{/*Start Heading Title*/}
-						<div className="heading-title text-center">
-							<span className="subtitle">Be a Part of</span>
-							<h2>React India 2019</h2>
-							<div className="bordershep" />
-							<p>
-								There are many variations of passages of Lorem Ipsum available but the at majority have
-								suffered alteration in some dummy.
-							</p>
-						</div>
-						{/*End Heading Title*/}
-					</div>
-				</div>
-				<div className="row">
-					<div className="col-12">
-						<div className="text-center">
-							<p className="date">22nd - 24th AUGUST | GOA, INDIA | 2019 EDITION</p>
-							{/*<div class="timer" id="countdown"></div>*/}
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		{/*Start Company Info Area*/}
-		<section className="schedule_area" />
-		{/*End Company Info Area*/}
+      <div className='video__main'>
+        <video autoPlay loop muted>
+          <source src='https://www.dropbox.com/s/eeb5sl6xp3xbt94/video_2.mp4?dl=1' type='video/mp4' />
+                    Please use a video supported browser
+                </video>
+      </div>
+    </div>
+    {/* End Slider Area */}
+    {/* Start About Area */}
+    <div className='about-area'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-8'>
+            {/* Start Heading Title */}
+            <div className='heading-title'>
+              <h2 className='f-weight-700 margin-0'>About the Conference</h2>
+              <div className='bordershep' />
+            </div>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col-md-6 order-last order-md-first'>
+            <div className='about-text'>
+              <p className='first-text'>
+                                First Edition of React India International
+                                Conference about React, GraphQL and  React Native
+                                hosted in GOA , India in August 2019
 
-		{/*Start Testimonial Area*/}
-		<section className="testimonial-area">
-			<div className="overlay" />
-			{/*Start Container*/}
-			<div className="container">
-				<div className="row justify-content-center">
-					<div className="col-md-8">
-						{/*Start Heading Title*/}
-						<div className="heading-title text-center">
-							<span className="subtitle">Our</span>
-							<h2 className="f-weight-700 margin-0">Partners</h2>
-							<div className="bordershep" />
-							<img className="partner-img" src="assets/images/partners/react-alicante-logo.png"></img>
-						</div>
-						{/*End Heading Title*/}
-					</div>
-				</div>
-				{/*Start Testimonial Carousel
+                            </p>
+              <p>
+                                A 3 day conference with first day focussing on workshops & next 2 days talks on things around React, React Native & GraphQL. This edition would be gathering Front-end and Full-stack developers across the globe in the cool place of India.In this edition we are aiming for a larger venue,
+                                so that more developers from around the world
+                                can join us and learn together in a
+                                fun, thrilling, international atmosphere.
+
+                            </p>
+              <div className='buttons'>
+                <button type='button' disabled className='mr_btn_fill'>
+                                    EARLY BIRD TICKETS COMING SOON
+                                </button>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-6 order-first order-md-last d-flex align-self-center'>
+            <div className='aboutusvideo'>
+              <div className='img'>
+                <img className='img-fluid' src='assets/images/aboutimg-2.jpg' alt='' />
+                <a
+                  className='venobox vbox-item'
+                  data-vbtype='video'
+                  data-autoplay='true'
+                  href='https://www.youtube.com/watch?v=ct-mHwAb3g4'
+                                >
+                  <i className='fa fa-play' style={{ transform: 'translate(14%, 93%)' }} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* End About Area */}
+    <section className='conferences'>
+      <div className='overlay' />
+      <div className='container'>
+        <div className='row justify-content-center'>
+          <div className='col-md-8'>
+            {/* Start Heading Title */}
+            <div className='heading-title text-center'>
+              <span className='subtitle'>Be a Part of</span>
+              <h2>React India 2019</h2>
+              <div className='bordershep' />
+              <p>
+                                There are many variations of passages of Lorem Ipsum available but the at majority have
+                                suffered alteration in some dummy.
+                            </p>
+            </div>
+            {/* End Heading Title */}
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col-12'>
+            <div className='text-center'>
+              <p className='date'>22nd - 24th AUGUST | GOA, INDIA | 2019 EDITION</p>
+              {/* <div class="timer" id="countdown"></div> */}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {/* Start Company Info Area */}
+    <section className='schedule_area' />
+    {/* End Company Info Area */}
+
+    {/* Start Testimonial Area */}
+    <section className='testimonial-area'>
+      <div className='overlay' />
+      {/* Start Container */}
+      <div className='container'>
+        <div className='row justify-content-center'>
+          <div className='col-md-8'>
+            {/* Start Heading Title */}
+            <div className='heading-title text-center'>
+              <span className='subtitle'>Our</span>
+              <h2 className='f-weight-700 margin-0'>Partners</h2>
+              <div className='bordershep' />
+              <img className='partner-img' src='assets/images/partners/react-alicante-logo.png' />
+            </div>
+            {/* End Heading Title */}
+          </div>
+        </div>
+        {/* Start Testimonial Carousel
 				<div className="testimonial owl-carousel owl-loaded owl-drag" id="home-testimonial">
-					{/*Start Testimonial Item*/}
-					{/*End Testimonial Item
+					{/*Start Testimonial Item */}
+        {/* End Testimonial Item
 
 					<div className="owl-nav disabled">
 						<div className="owl-prev">prev</div>
@@ -165,7 +171,7 @@ const Home = () => (
 							<span />
 						</div>
 					</div>
-				</div>*/}
+				</div> */}
 				{/*End Testimonial Carousel*/}
 			</div>
 			{/*End Container*/}
@@ -249,27 +255,27 @@ const Home = () => (
 		</div>
 		{/* End Speakers Area */}
 
-		{/*Start Latest News Area*/}
-		<section className="latest-news-area">
-			{/*Start Container*/}
-			<div className="container">
-				<div className="row justify-content-center">
-					<div className="col-md-8">
-						{/*Start Heading Title*/}
-						<div className="heading-title text-center">
-							<h2 className="f-weight-700 margin-0">Organized by</h2>
-							<div className="bordershep" />
-							<a target="_blank" href="geekabyte.tech">
-								<img src="assets/images/geekabyte-web.png" />
-							</a>
-						</div>
-						{/*End Heading Title*/}
-					</div>
-				</div>
-			</div>
-			{/*End Container*/}
-		</section>
-	</Fragment>
+    {/* Start Latest News Area */}
+    <section className='latest-news-area'>
+      {/* Start Container */}
+      <div className='container'>
+        <div className='row justify-content-center'>
+          <div className='col-md-8'>
+            {/* Start Heading Title */}
+            <div className='heading-title text-center'>
+              <h2 className='f-weight-700 margin-0'>Organized by</h2>
+              <div className='bordershep' />
+              <a target='_blank' href='geekabyte.tech'>
+                <img src='assets/images/geekabyte-web.png' />
+              </a>
+            </div>
+            {/* End Heading Title */}
+          </div>
+        </div>
+      </div>
+      {/* End Container */}
+    </section>
+  </Fragment>
 )
 
 export default Home
