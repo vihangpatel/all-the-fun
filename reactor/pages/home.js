@@ -116,8 +116,7 @@ const Home = () => (
               <h2>React India 2019</h2>
               <div className='bordershep' />
               <p>
-                                There are many variations of passages of Lorem Ipsum available but the at majority have
-                                suffered alteration in some dummy.
+                             Our  Attendees, Speakers & Sponsors will be able to meet together and share a few exciting and fruitful days, while enjoying the food and warm weather from the western coastline streching along Arabian Sea.
                             </p>
             </div>
             {/* End Heading Title */}
