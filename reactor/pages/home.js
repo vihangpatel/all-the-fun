@@ -206,9 +206,14 @@ const Home = () => (
 							</div>
 							<div className="sk-content">
 								<a href="#">
-									<h4>Mamunur Rashid</h4>
+									<h4>Manjula Dube</h4>
 								</a>
-								<p>Founder, Edita</p>
+								<p>Software Developer, TalentWunder</p>
+								<div className="sk-desc">
+									<p className="sk-desc-p">Developer at TalentWunder. Wants to make the web a better place to live, and in her free time, she works on OSS. Manjula loves teaching because thats the best way to learn more and more.
+									</p>
+								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -229,9 +234,13 @@ const Home = () => (
 							</div>
 							<div className="sk-content">
 								<a href="#">
-									<h4>Melisa Lund</h4>
+									<h4>Sara Vieira</h4>
 								</a>
-								<p>Founder, Edita</p>
+								<p>YLDio, Europe</p>
+								<div className="sk-desc">
+									<p className="sk-desc-p">Developer Advocate at @YLDio. GraphQL and Open Source enthusiast. Conference Speaker and Airport expert. I am also into drums and horror movies.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
