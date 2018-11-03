@@ -143,18 +143,15 @@ const Home = () => (
 							<span className="subtitle">Our</span>
 							<h2 className="f-weight-700 margin-0">Partners</h2>
 							<div className="bordershep" />
-							<p>
-								There are many variations of passages of Lorem Ipsum available but the at majority have
-								suffered alteration in some dummy.
-							</p>
+							<img className="partner-img" src="assets/images/partners/react-alicante-logo.png"></img>
 						</div>
 						{/*End Heading Title*/}
 					</div>
 				</div>
-				{/*Start Testimonial Carousel*/}
+				{/*Start Testimonial Carousel
 				<div className="testimonial owl-carousel owl-loaded owl-drag" id="home-testimonial">
 					{/*Start Testimonial Item*/}
-					{/*End Testimonial Item*/}
+					{/*End Testimonial Item
 
 					<div className="owl-nav disabled">
 						<div className="owl-prev">prev</div>
@@ -168,7 +165,7 @@ const Home = () => (
 							<span />
 						</div>
 					</div>
-				</div>
+				</div>*/}
 				{/*End Testimonial Carousel*/}
 			</div>
 			{/*End Container*/}
