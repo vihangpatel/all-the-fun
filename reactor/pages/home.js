@@ -65,7 +65,7 @@ const Home = () => (
 						<div className="about-text">
 							<p className="first-text">
 								First Edition of React India International 
-Conference about React.js and  React Native
+Conference about React, GraphQL and  React Native
 hosted in GOA , INDIA
 
 							</p>
