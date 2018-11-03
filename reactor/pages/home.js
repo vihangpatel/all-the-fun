@@ -74,8 +74,7 @@ const Home = () => (
 
                             </p>
               <p>
-                                A 3 day conference with first day focussing on workshops & next 2 days talks on things around React, React Native & GraphQL,This edition would be gathering Front-end and Full-stack developers across the globe in the cool place of India.In this edition we are aiming for a larger venue,
-                                {' '}
+                                A 3 day conference with first day focussing on workshops & next 2 days talks on things around React, React Native & GraphQL. This edition would be gathering Front-end and Full-stack developers across the globe in the cool place of India.In this edition we are aiming for a larger venue,
                                 so that more developers from around the world
                                 can join us and learn together in a
                                 fun, thrilling, international atmosphere.
