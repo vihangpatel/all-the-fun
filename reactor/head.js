@@ -1,12 +1,14 @@
 /* global window */
 import React from "react"
 
+import { ContactPoint, WebsiteSchema, description } from "./SEO"
+
 const Head = () => (
 	<head>
 		<meta charSet="utf-8" />
 		<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
-		<meta name="keywords" content="" />
+		<meta name="keywords" content="React, React Native, React India, React India 2019, React India in Goa" />
 		<meta name="description" content={description} />
 		<link rel="apple-touch-icon" sizes="57x57" href="assets/favico/apple-icon-57x57.png" />
 		<link rel="apple-touch-icon" sizes="60x60" href="assets/favico/apple-icon-60x60.png" />
@@ -59,12 +61,9 @@ const Head = () => (
 				gtag('js', new Date()); gtag('config', 'UA-128577365-1');`,
 			}}
 		/>
+		<ContactPoint />
+		<WebsiteSchema />
 	</head>
 )
-
-const description = `Do you want to learn about React and React Native?
-Then you shouldn't miss React India - Goa next August! 
-You will have the opportunity to improve your developer skills and meet people from around the world, 
-while enjoying the beaches of Goa`
 
 export default Head
