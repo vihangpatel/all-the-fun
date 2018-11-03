@@ -54,7 +54,19 @@ export const WebsiteSchema = () => (
 	/>
 )
 
+export const Analytics = () => (
+	<script
+		dangerouslySetInnerHTML={{
+			__html: `window.dataLayer = window.dataLayer || []; function gtag()
+		{window.dataLayer.push(arguments)}
+		gtag('js', new Date()); gtag('config', 'UA-128577365-1');`,
+		}}
+	/>
+)
+
 export const description = `Do you want to learn about React and React Native?
 Then you shouldn't miss React India - Goa next August! 
 You will have the opportunity to improve your developer skills and meet people from around the world, 
 while enjoying the beaches of Goa`
+
+export const keywords = "React, React Native, React India, React India 2019, React India in Goa"
