@@ -1,3 +1,4 @@
+/* global window */
 import React from "react"
 
 const Head = () => (
@@ -51,6 +52,15 @@ const Head = () => (
 		<script src="assets/js/modernizr.custom.js" />
 
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" />
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128577365-1" />
+		<script
+			dangerouslySetInnerHTML={{
+				__html: `window.dataLayer = window.dataLayer || []; function gtag()
+				{window.dataLayer.push(arguments)}
+				gtag('js', new Date()); gtag('config', 'UA-128577365-1');`,
+			}}
+		/>
 	</head>
 )
 
