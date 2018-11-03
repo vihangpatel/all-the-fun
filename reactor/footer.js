@@ -5,9 +5,9 @@ const Footer = () => (
 		<div className="footer-top">
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-3 col-sm-6">
+					<div className="col-lg-3 col-sm-12">
 						<div className="footer-about">
-							<img
+							{/* <img
 								width="100px"
 								height="100px"
 								className="f-logo img-fluid"
@@ -17,7 +17,7 @@ const Footer = () => (
 							<p>
 								There are many variations of dummy that passages of Lorem Ipsum available but the
 								majority have suffered.
-							</p>
+							</p> */}
 							{/* <form action="#" className="subscribe">
 								<input type="email" className="email" placeholder="Enter your email" />
 								<input type="submit" className="s-btn" value="SUBSCRIBE" />
@@ -37,16 +37,16 @@ const Footer = () => (
 							</ul>
 						</div>
 					</div>
-					<div className="col-lg-3 col-sm-6">
+					<div className="col-lg-3 col-sm-12">
 						<div className="footer-pages">
 							
 						
 						</div>
 					</div>
-					<div className="col-lg-2 col-sm-5">
+					<div className="col-lg-2 col-sm-12">
 						
 					</div>
-					<div className="col-lg-4 col-sm-5">
+					<div className="col-lg-4 col-sm-12">
 						<div className="footer-contact-info">
 							<h3>Contact info</h3>
 							<ul>
