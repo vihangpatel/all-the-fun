@@ -51,8 +51,6 @@ const Head = () => (
 
 		<script src="assets/js/modernizr.custom.js" />
 
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" />
-
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128577365-1" />
 		<script
 			dangerouslySetInnerHTML={{
