@@ -1,23 +1,16 @@
-const express = require('express')
+const express = require("express")
 const app = express()
-const helmet = require('helmet')
-const path = require('path')
+const helmet = require("helmet")
+const path = require("path")
 
-const reactor = require('./index')
-
-console.log(__dirname)
+const reactor = require("./index")
 
 app.use(helmet())
-app.use(express.static(path.join(__dirname, '..', 'public')))
+app.use(express.static(path.join(__dirname, "..", "public")))
 
 const requestHandler = (req, res) => reactor.renderToString(req, res)
 
-app.get('/', requestHandler)
-app.get('/(:pageName)', requestHandler)
-
-app.get('/speakers', function(req, res) {
-	res.sendFile(path.join(__dirname + '/public/speakers.html'))
-})
+app.get("*", requestHandler)
 
 const server = app.listen(process.env.PORT || 8080, () => {
 	const host = server.address().address
