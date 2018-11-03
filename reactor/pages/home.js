@@ -58,7 +58,6 @@ const Home = () => (
           <div className='col-md-8'>
             {/* Start Heading Title */}
             <div className='heading-title'>
-              <span className='subtitle'>Greetings & Welcome</span>
               <h2 className='f-weight-700 margin-0'>About the Conference</h2>
               <div className='bordershep' />
             </div>
