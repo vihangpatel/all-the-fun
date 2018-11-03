@@ -64,8 +64,10 @@ const Home = () => (
 					<div className="col-md-6 order-last order-md-first">
 						<div className="about-text">
 							<p className="first-text">
-								There are many variations of passages of Lorem Ipsum available but the at majority have
-								suffered alteration in some dummy.
+								First Edition of React India International 
+Conference about React.js and  React Native
+hosted in GOA , INDIA
+
 							</p>
 							<p>
 								There are many variations of passages of Lorem Ipsum available, but the majority have
