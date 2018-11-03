@@ -172,79 +172,88 @@ const Home = () => (
 						</div>
 					</div>
 				</div> */}
-        {/* End Testimonial Carousel */}
-      </div>
-      {/* End Container */}
-    </section>
-    {/* End Testimonial Area */}
-    {/* Start Speakers Area */}
-    <div className='speaker_area'>
-      <div className='container'>
-        <div className='row justify-content-center'>
-          <div className='col-md-8'>
-            {/* Start Heading Title */}
-            <div className='heading-title text-center'>
-              <span className='subtitle'>Our</span>
-              <h2 className='f-weight-700 margin-0'>Awesome Speakers</h2>
-              <div className='bordershep' />
-              <p>
-                                There are many variations of passages of Lorem Ipsum available but the at majority have
-                                suffered alteration in some dummy.
-                            </p>
-            </div>
-          </div>
-        </div>
-        <div className='row'>
-          <div className='col-sm-6 col-xl-3'>
-            <div className='speaker'>
-              <div className='sk-img'>
-                <div className='img'>
-                  <img className='img-fluid' src='assets/images/speakers/sk1.jpg' alt='' />
-                  <div className='overlay d-flex justify-content-center'>
-                    <div className='slink'>
-                        <a href='#'>
-                            <i className='fa fa-github' />
-                            <i className='fa fa-twitter' />
-                          </a>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div className='sk-content'>
-                <a href='#'>
-                  <h4>Mamunur Rashid</h4>
-                </a>
-                <p>Founder, Edita</p>
-              </div>
-            </div>
-          </div>
-          <div className='col-sm-6 col-xl-3'>
-            <div className='speaker'>
-              <div className='sk-img'>
-                <div className='img'>
-                  <img className='img-fluid' src='assets/images/speakers/sk2.jpg' alt='' />
-                  <div className='overlay d-flex justify-content-center'>
-                    <div className='slink'>
-                        <a href='#'>
-                            <i className='fa fa-github' />
-                            <i className='fa fa-twitter' />
-                          </a>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div className='sk-content'>
-                <a href='#'>
-                  <h4>Melisa Lund</h4>
-                </a>
-                <p>Founder, Edita</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    {/* End Speakers Area */}
+				{/*End Testimonial Carousel*/}
+			</div>
+			{/*End Container*/}
+		</section>
+		{/*End Testimonial Area*/}
+		{/* Start Speakers Area */}
+		<div className="speaker_area">
+			<div className="container">
+				<div className="row justify-content-center">
+					<div className="col-md-8">
+						{/*Start Heading Title*/}
+						<div className="heading-title text-center">
+							<span className="subtitle">Our</span>
+							<h2 className="f-weight-700 margin-0">Awesome Speakers</h2>
+							<div className="bordershep" />
+							<p>
+								There are many variations of passages of Lorem Ipsum available but the at majority have
+								suffered alteration in some dummy.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-sm-6 col-xl-3">
+						<div className="speaker">
+							<div className="sk-img">
+								<div className="img">
+									<img className="img-fluid" src="assets/images/speakers/sk1.jpg" alt="" />
+									<div className="overlay d-flex justify-content-center">
+										<div className="slink">
+											<a href="#">
+												<i className="fa fa-github" />
+												<i className="fa fa-twitter" />
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="sk-content">
+								<a href="#">
+									<h4>Manjula Dube</h4>
+								</a>
+								<p>Software Developer, TalentWunder</p>
+								<div className="sk-desc">
+									<p className="sk-desc-p">Developer at TalentWunder. Wants to make the web a better place to live, and in her free time, she works on OSS. Manjula loves teaching because thats the best way to learn more and more.
+									</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div className="col-sm-6 col-xl-3">
+						<div className="speaker">
+							<div className="sk-img">
+								<div className="img">
+									<img className="img-fluid" src="assets/images/speakers/sk2.jpg" alt="" />
+									<div className="overlay d-flex justify-content-center">
+										<div className="slink">
+											<a href="#">
+												<i className="fa fa-github" />
+												<i className="fa fa-twitter" />
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="sk-content">
+								<a href="#">
+									<h4>Sara Vieira</h4>
+								</a>
+								<p>YLDio, Europe</p>
+								<div className="sk-desc">
+									<p className="sk-desc-p">Developer Advocate at @YLDio. GraphQL and Open Source enthusiast. Conference Speaker and Airport expert. I am also into drums and horror movies.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{/* End Speakers Area */}
 
     {/* Start Latest News Area */}
     <section className='latest-news-area'>

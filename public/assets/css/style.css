@@ -1274,11 +1274,16 @@ p {
 .speaker_area .overlay {
 	text-align: center;
 	opacity: 0;
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.4);
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .speaker_area .sk-img .img {
 	position: relative;
@@ -1328,9 +1333,14 @@ p {
 }
 .speaker_area .speaker {
 	margin-bottom: 30px;
-	text-align: center;
+	/* text-align: center; */
 }
-
+.speaker_area .sk-desc p{
+	text-align: left;
+	font-size: 16px;
+    font-weight: 300;
+    margin: 16px 0;
+}
 /*=================================================
 14. Testimonial
 ===================================================*/
@@ -1356,7 +1366,11 @@ p {
 	height: 115px;
 	background-color: #fff;
     border-radius: 10px;
-    padding: 10px;
+	padding: 10px;
+	margin-top: 10px;
+}
+.testimonial-area .heading-title{
+	padding: 0 0 30px;
 }
 .testi-item .description {
 	border-radius: 6px;
