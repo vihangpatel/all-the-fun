@@ -2,10 +2,8 @@ const data = [
   {
     name: 'Sunil Pai',
     imgPath: 'sunil_pai.jpeg', // with extension
-    github: 'https://github.com/manjula91',
-    twitter: 'https://twitter.com/manjula_dube',
-    facebook: 'https://www.facebook.com/manjuladube',
-    medium: 'https://medium.com/@manjuladube',
+    github: 'https://github.com/threepointone',
+    twitter: 'https://twitter.com/threepointone',
     description: 'He built websites for myntra, yahoo, visa, and others.He’s also the author of glamor and a myriad of other cool open source projects.', // keep it simple
     jobrole: 'Mad Scientist, Facebook' // only one line
   },
