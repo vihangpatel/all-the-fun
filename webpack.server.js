@@ -1,8 +1,7 @@
 const path = require("path")
 const nodeExternals = require("webpack-node-externals")
 
-const buildPath = path.join(__dirname, "build")
-console.log(buildPath)
+const buildPath = path.join(__dirname, "public", "build")
 
 module.exports = {
 	entry: "./reactor/server.js",

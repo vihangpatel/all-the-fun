@@ -1037,7 +1037,7 @@ p {
 .about-area .mr_btn_fill {
 	margin-right: 27px;
 	background-color: #d7d7d7;
-	color: #b3b3b3;	
+	color: #b3b3b3;
 	border-color: #bbbbbb;
 }
 
@@ -1046,8 +1046,8 @@ p {
 }
 
 .about-area .mr_btn_fill:hover {
-	color: #b3b3b3;	
-} 
+	color: #b3b3b3;
+}
 
 
 /* ==============================================
@@ -1468,7 +1468,7 @@ p {
 .speaker_area .overlay {
 	text-align: center;
 	opacity: 0;
-	background:rgba(33, 150, 243, 0.3);
+	background: rgba(33, 150, 243, 0.3);
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -1516,9 +1516,11 @@ p {
 .speaker_area .overlay .slink i.fa-twitter {
 	background: #64acf1;
 }
+
 .speaker_area .overlay .slink i.fa-github {
 	background: #000;
 }
+
 .speaker_area .overlay .slink i.fa-linkedin {
 	background: #0077b5;
 }
@@ -1565,6 +1567,7 @@ p {
 	position: relative;
 	z-index: 1;
 }
+
 
 /* .testimonial-area .overlay {
 	position: absolute;
@@ -1632,6 +1635,7 @@ p {
 	line-height: 26px;
 	color: rgba(255, 255, 255, 0.75);
 }
+
 
 /* .testimonial-area h2, .testimonial-area p, .testimonial-area h4, .testimonial-area span {
 	color: #fff;
@@ -3925,9 +3929,11 @@ ul.pagination {
 
 .content__button a:hover {}
 
-.show-interest-btn a{
-	background: linear-gradient(90deg,#fd8383,#ff2e73);
+.show-interest-btn a {
+	background: linear-gradient(90deg, #fd8383, #ff2e73);
 }
+
+
 /*Added by Anjali*/
 
 .event-date {
@@ -3972,6 +3978,9 @@ ul.pagination {
 	}
 	.content__title {
 		margin-top: 22px;
+	}
+	.dummy-image {
+		height: 100%;
 	}
 }
 
@@ -4114,4 +4123,10 @@ div.svglogo {
 		stroke-width: 0;
 		fill: #00d8ff;
 	}
+}
+
+.dummy-image {
+	background-size: cover;
+	position: absolute;
+	width: 100%;
 }

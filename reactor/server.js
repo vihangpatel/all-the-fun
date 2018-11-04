@@ -3,14 +3,23 @@ const app = express()
 const helmet = require("helmet")
 const path = require("path")
 
-const reactor = require("./index")
+const { renderAppToString } = require("./index")
 
 app.use(helmet())
-app.use(express.static(path.join(__dirname, "..", "public")))
 
-const requestHandler = (req, res) => reactor.renderToString(req, res)
+if (process.env.ENV === "development") {
+	app.use(express.static(path.join(__dirname, "..", "public")))
+} else {
+	app.use(express.static(path.join(__dirname, "..")))
+}
 
-app.get("*", requestHandler)
+const requestHandler = (req, res) => {
+	const pageName = req.params.pageName
+	const stringOutPut = renderAppToString(pageName)
+	res.send(stringOutPut)
+}
+
+app.get("/", requestHandler)
 
 const server = app.listen(process.env.PORT || 8080, () => {
 	const host = server.address().address
