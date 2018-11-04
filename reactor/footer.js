@@ -32,19 +32,19 @@ const Footer = () => (
               <h3>Contact info</h3>
               <ul>
                 <li>
-                  <a href='#'>
+                  <a>
                     <i className='flaticon-location-pointer' />
                                         30/3, Acsona Waddo, Uttorda Beach, Salcette, Goa 403713, India
                                     </a>
                 </li>
                 <li>
-                  <a href='#'>
+                  <a>
                     <i className='flaticon-mail-black-envelope-symbol' />
                                         react-india@geekabyte.tech
                                     </a>
                 </li>
                 <li>
-                  <a href='#'>
+                  <a>
                     <i className='flaticon-phone-receiver' />
                                         +918655559725,&nbsp;
                                         +491625272364
