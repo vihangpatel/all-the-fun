@@ -1,37 +1,37 @@
-import React, { Fragment } from "react"
-import Logo from "./logo"
+import React, { Fragment } from 'react'
+import Logo from './logo'
 
-import speakersData from "../data/speakers"
+import speakersData from '../data/speakers'
 
 const Home = () => (
-	<Fragment>
-		<div className="video__wrapper">
-			<div className="video__overlay" />
-			<div className="video__content">
-				<div className="logo__main">
-					<Logo />
-				</div>
-				<div className="m-t-20">
-					<div className="caption__small">
-						<p className="caption__small--para event-date">
-							<i className="fa fa-calendar" />
-							23rd - 25th August, 2019.{" "}
-						</p>
-						<p className="caption__small--para uppercase event-location">
-							<i className="flaticon-location-pointer" />
-							Goa, India
-						</p>
-					</div>
-					<h3 className="content__desc">react india</h3>
-					<h2 className="content__title" />
-					<div className="content__button">
-						<a target="_blank" href="http://bit.ly/React_India_Deck">
-							BECOME A SPONSOR
-						</a>
-					</div>
-				</div>
-			</div>
-			{/* <div className="banner__content--main">
+  <Fragment>
+    <div className='video__wrapper'>
+      <div className='video__overlay' />
+      <div className='video__content'>
+        <div className='logo__main'>
+          <Logo />
+        </div>
+        <div className='m-t-20'>
+          <div className='caption__small'>
+            <p className='caption__small--para event-date'>
+              <i className='fa fa-calendar' />
+                            23rd - 25th August, 2019.{' '}
+            </p>
+            <p className='caption__small--para uppercase event-location'>
+              <i className='flaticon-location-pointer' />
+                            Goa, India
+                        </p>
+          </div>
+          <h3 className='content__desc'>react india</h3>
+          <h2 className='content__title' />
+          <div className='content__button'>
+            <a target='_blank' href='http://bit.ly/React_India_Deck'>
+                            BECOME A SPONSOR
+                        </a>
+          </div>
+        </div>
+      </div>
+      {/* <div className="banner__content--main">
 				<div className="banner__venue">
 					<p className="m-0">23rd to 25th August, 2019.</p>
 					<p className="m-0">GOA, INDIA</p>
@@ -49,114 +49,114 @@ const Home = () => (
 					</a>
 				</div>
 			</div> */}
-			<div className="video__main">
-				<video autoPlay loop muted>
-					<source src="https://www.dropbox.com/s/eeb5sl6xp3xbt94/video_2.mp4?dl=1" type="video/mp4" />
-					Please use a video supported browser
-				</video>
-			</div>
-		</div>
-		{/* End Slider Area */}
-		{/* Start About Area */}
-		<div className="about-area">
-			<div className="container">
-				<div className="row">
-					<div className="col-md-12">
-						{/* Start Heading Title */}
-						<div className="heading-title">
-							<h2 className="f-weight-700 margin-0">About the Conference</h2>
-							<div className="bordershep" />
-						</div>
-					</div>
-				</div>
-				<div className="row">
-					<div className="col-md-12 order-last order-md-first">
-						<div className="about-text">
-							<p className="first-text">
-								React India is a community led non profit initiative with international flavor. The
-								first of its kind in India, the event consists of a workshop day and two days of talks
-								around the topic.
-							</p>
-							<p>
-								A 3 day conference with first day focussing on workshops & next 2 days talks on things
-								around React, React Native & GraphQL. This edition would be gathering Front-end and
-								Full-stack developers across the globe in the cool place of India. In this single track
-								event you will learn more about React and surrounding topics while meeting some of the
-								leading talents around the globe. In addition to enjoying the event, this is your chance
-								to explore Goa. Regular and lightning talks will cover various React.JS and FE topics
-								including React Native, GraphQL, VR & AR, Redux, Preact and more!
-							</p>
-							<div className="buttons">
-								<button type="button" disabled className="mr_btn_fill">
-									EARLY BIRD TICKETS COMING SOON
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		{/* End About Area */}
-		<section className="conferences">
-			<div className="overlay" />
-			<div className="container">
-				<div className="row justify-content-center">
-					<div className="col-md-8">
-						{/* Start Heading Title */}
-						<div className="heading-title text-center">
-							<span className="subtitle">BE A PART OF</span>
-							<h2>React India 2019</h2>
-							<div className="bordershep" />
-							<p>
-								Our Attendees, Speakers & Sponsors will be able to meet together and share a few
-								exciting and fruitful days, while enjoying the food and warm weather from the western
-								coastline streching along Arabian Sea.
-							</p>
-						</div>
+      <div className='video__main'>
+        <video autoPlay loop muted>
+          <source src='https://www.dropbox.com/s/eeb5sl6xp3xbt94/video_2.mp4?dl=1' type='video/mp4' />
+                    Please use a video supported browser
+                </video>
+      </div>
+    </div>
+    {/* End Slider Area */}
+    {/* Start About Area */}
+    <div className='about-area'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-12'>
+            {/* Start Heading Title */}
+            <div className='heading-title'>
+              <h2 className='f-weight-700 margin-0'>About the Conference</h2>
+              <div className='bordershep' />
+            </div>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col-md-12 order-last order-md-first'>
+            <div className='about-text'>
+              <p className='first-text'>
+                                React India is a community led non profit initiative with international flavor. The
+                                first of its kind in India, the event consists of a workshop day and two days of talks
+                                around the topic.
+                            </p>
+              <p>
+                                A 3 day conference with first day focussing on workshops & next 2 days talks on things
+                                around React, React Native & GraphQL. This edition would be gathering Front-end and
+                                Full-stack developers across the globe in the cool place of India. In this single track
+                                event you will learn more about React and surrounding topics while meeting some of the
+                                leading talents around the globe. In addition to enjoying the event, this is your chance
+                                to explore Goa. Regular and lightning talks will cover various React.JS and FE topics
+                                including React Native, GraphQL, VR & AR, Redux, Preact and more!
+                            </p>
+              <div className='buttons'>
+                <button type='button' disabled className='mr_btn_fill'>
+                                    EARLY BIRD TICKETS COMING SOON
+                                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* End About Area */}
+    <section className='conferences'>
+      <div className='overlay' />
+      <div className='container'>
+        <div className='row justify-content-center'>
+          <div className='col-md-8'>
+            {/* Start Heading Title */}
+            <div className='heading-title text-center'>
+              <span className='subtitle'>BE A PART OF</span>
+              <h2>React India 2019</h2>
+              <div className='bordershep' />
+              <p>
+                                Our Attendees, Speakers & Sponsors will be able to meet together and share a few
+                                exciting and fruitful days, while enjoying the food and warm weather from the western
+                                coastline streching along Arabian Sea.
+                            </p>
+            </div>
 
-						{/* End Heading Title */}
-					</div>
-				</div>
-				<div className="row">
-					<div className="col-12">
-						<div className="text-center">
-							<p className="date">22nd - 24th AUGUST | GOA, INDIA | 2019 EDITION</p>
-							{/* <div class="timer" id="countdown"></div> */}
-						</div>
-					</div>
-					<div className="content__button">
-						<a target="_blank" href="#">
-							SHOW YOUR INTEREST
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		{/* Start Company Info Area */}
+            {/* End Heading Title */}
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col-12'>
+            <div className='text-center'>
+              <p className='date'>22nd - 24th AUGUST | GOA, INDIA | 2019 EDITION</p>
+              {/* <div class="timer" id="countdown"></div> */}
+            </div>
+          </div>
+          <div className='content__button'>
+            <a target='_blank' href='#'>
+                            SHOW YOUR INTEREST
+                        </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    {/* Start Company Info Area */}
 
-		{/* End Company Info Area */}
+    {/* End Company Info Area */}
 
-		{/* Start Testimonial Area */}
-		<section className="testimonial-area">
-			<div className="overlay" />
-			{/* Start Container */}
-			<div className="container">
-				<div className="row justify-content-center">
-					<div className="col-md-8">
-						{/* Start Heading Title */}
-						<div className="heading-title text-center">
-							<span className="subtitle">Our</span>
-							<h2 className="f-weight-700 margin-0">Partners</h2>
-							<div className="bordershep" />
-							<img className="partner-img" src="assets/images/partners/react-alicante-logo.png" />
-						</div>
-						{/* End Heading Title */}
-					</div>
-				</div>
-				{/* Start Testimonial Carousel
+    {/* Start Testimonial Area */}
+    <section className='testimonial-area'>
+      <div className='overlay' />
+      {/* Start Container */}
+      <div className='container'>
+        <div className='row justify-content-center'>
+          <div className='col-md-8'>
+            {/* Start Heading Title */}
+            <div className='heading-title text-center'>
+              <span className='subtitle'>Our</span>
+              <h2 className='f-weight-700 margin-0'>Partners</h2>
+              <div className='bordershep' />
+              <img className='partner-img' src='assets/images/partners/react-alicante-logo.png' />
+            </div>
+            {/* End Heading Title */}
+          </div>
+        </div>
+        {/* Start Testimonial Carousel
 				<div className="testimonial owl-carousel owl-loaded owl-drag" id="home-testimonial">
 					{/*Start Testimonial Item */}
-				{/* End Testimonial Item
+        {/* End Testimonial Item
 
 					<div className="owl-nav disabled">
 						<div className="owl-prev">prev</div>
@@ -171,87 +171,87 @@ const Home = () => (
 						</div>
 					</div>
 				</div> */}
-				{/*End Testimonial Carousel*/}
-			</div>
-			{/*End Container*/}
-		</section>
-		{/*End Testimonial Area*/}
-		{/* Start Speakers Area */}
-		<div className="speaker_area">
-			<div className="container">
-				<div className="row justify-content-center">
-					<div className="col-md-8">
-						{/*Start Heading Title*/}
-						<div className="heading-title text-center">
-							<span className="subtitle">Our</span>
-							<h2 className="f-weight-700 margin-0">Awesome Speakers</h2>
-							<div className="bordershep" />
-						</div>
-					</div>
-				</div>
-				<div className="row">
-					{speakersData.map(speakerInfo => (
-						<div className="col-sm-6 col-xl-3" key={speakerInfo.name}>
-							<div className="speaker">
-								<div className="sk-img">
-									<div className="img">
-										<img
-											className="img-fluid"
-											src={`assets/images/speakers/${speakerInfo.imgPath}`}
-											alt={speakerInfo.imgPath}
-										/>
-										<div className="overlay d-flex justify-content-center">
-											<div className="slink">
-												<div>
-													<a href={speakerInfo.github}>
-														<i className="fa fa-github" />
-													</a>
-													<a href={speakerInfo.twitter}>
-														<i className="fa fa-twitter" />
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div className="sk-content">
-									<a href="#">
-										<h4>{speakerInfo.name}</h4>
-									</a>
-									<p>{speakerInfo.jobrole}</p>
-									<div className="sk-desc">
-										<p className="sk-desc-p">{speakerInfo.description}</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					))}
-				</div>
-			</div>
-		</div>
-		{/* End Speakers Area */}
+        {/* End Testimonial Carousel */}
+      </div>
+      {/* End Container */}
+    </section>
+    {/* End Testimonial Area */}
+    {/* Start Speakers Area */}
+    <div className='speaker_area'>
+      <div className='container'>
+        <div className='row justify-content-center'>
+          <div className='col-md-8'>
+            {/* Start Heading Title */}
+            <div className='heading-title text-center'>
+              <span className='subtitle'>Our</span>
+              <h2 className='f-weight-700 margin-0'>Awesome Speakers</h2>
+              <div className='bordershep' />
+            </div>
+          </div>
+        </div>
+        <div className='row'>
+          {speakersData.map(speakerInfo => (
+            <div className='col-sm-6 col-xl-3' key={speakerInfo.name}>
+              <div className='speaker'>
+                <div className='sk-img'>
+                  <div className='img'>
+                    <img
+                        className='img-fluid'
+                        src={`assets/images/speakers/${speakerInfo.imgPath}`}
+                        alt={speakerInfo.imgPath}
+                                        />
+                    <div className='overlay d-flex justify-content-center'>
+                        <div className='slink'>
+                            <div>
+                                <a target='_blank' href={speakerInfo.github}>
+                                    <i className='fa fa-github' />
+                                  </a>
+                                <a target='_blank' href={speakerInfo.twitter}>
+                                    <i className='fa fa-twitter' />
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div className='sk-content'>
+                  <a href='#'>
+                    <h4>{speakerInfo.name}</h4>
+                  </a>
+                  <p>{speakerInfo.jobrole}</p>
+                  <div className='sk-desc'>
+                    <p className='sk-desc-p'>{speakerInfo.description}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                    ))}
+        </div>
+      </div>
+    </div>
+    {/* End Speakers Area */}
 
-		{/* Start Latest News Area */}
-		<section className="latest-news-area">
-			{/* Start Container */}
-			<div className="container">
-				<div className="row justify-content-center">
-					<div className="col-md-8">
-						{/* Start Heading Title */}
-						<div className="heading-title text-center">
-							<h2 className="f-weight-700 margin-0">Organized by</h2>
-							<div className="bordershep" />
-							<a target="_blank" href="http://geekabyte.tech">
-								<img src="assets/images/geekabyte-web.png" />
-							</a>
-						</div>
-						{/* End Heading Title */}
-					</div>
-				</div>
-			</div>
-			{/* End Container */}
-		</section>
-	</Fragment>
+    {/* Start Latest News Area */}
+    <section className='latest-news-area'>
+      {/* Start Container */}
+      <div className='container'>
+        <div className='row justify-content-center'>
+          <div className='col-md-8'>
+            {/* Start Heading Title */}
+            <div className='heading-title text-center'>
+              <h2 className='f-weight-700 margin-0'>Organized by</h2>
+              <div className='bordershep' />
+              <a target='_blank' href='http://geekabyte.tech'>
+                <img src='assets/images/geekabyte-web.png' />
+              </a>
+            </div>
+            {/* End Heading Title */}
+          </div>
+        </div>
+      </div>
+      {/* End Container */}
+    </section>
+  </Fragment>
 )
 
 export default Home
