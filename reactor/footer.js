@@ -10,12 +10,12 @@ const Footer = () => (
               <h3 className='title'>Follow Us</h3>
               <ul>
                 <li>
-                  <a href='https://www.facebook.com/ReactJSIndia/'>
+                  <a target='_blank' href='https://www.facebook.com/ReactJSIndia/'>
                     <i className='fa fa-facebook' />
                   </a>
                 </li>
                 <li>
-                  <a href='https://twitter.com/react_india/'>
+                  <a target='_blank' href='https://twitter.com/react_india/'>
                     <i className='fa fa-twitter' />
                   </a>
                 </li>
