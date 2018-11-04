@@ -19,7 +19,7 @@ const Home = () => (
                         </p>
           </div>
           <h3 className='content__desc'>react india</h3>
-          <h2 className='content__title'>first international conference</h2>
+          <h2 className='content__title'></h2>
           <div className='content__button'>
             <a target="_blank" href='http://bit.ly/React_India_Deck'>BECOME A SPONSOR</a>
           </div>
