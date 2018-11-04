@@ -21,7 +21,7 @@ const data = [
     github: 'https://github.com/kenwheeler',
     twitter: 'https://twitter.com/ken_wheeler',
     description: 'Author of libraries like Slick Carousel, McFly, react-music, webpack-dashboard, Spectacle.',
-    jobrole: 'Code, beats and meat - Google Developer Expert'
+    jobrole: 'Google Developer Expert'
   },
   {
     name: 'Nader Dabit',
