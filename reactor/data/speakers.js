@@ -38,7 +38,7 @@ const data = [
     imgPath: 'phil.png',
     github: 'https://github.com/kitten',
     twitter: 'https://twitter.com/_philpl',
-    description: 'React (Native), CSS (-inJS), Reason • http://smoosh.fun  • https://dank.sh  • styled-components core team',
+    description: 'Styled-components core team',
     jobrole: 'Tech Lead, UK @FormidableLabs'
   }
 ]
