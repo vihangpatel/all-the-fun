@@ -171,10 +171,7 @@ Regular and lightning talks will cover various React.JS and FE topics including 
 							<span className="subtitle">Our</span>
 							<h2 className="f-weight-700 margin-0">Awesome Speakers</h2>
 							<div className="bordershep" />
-							<p>
-								There are many variations of passages of Lorem Ipsum available but the at majority have
-								suffered alteration in some dummy.
-							</p>
+							
 						</div>
 					</div>
 				</div>
