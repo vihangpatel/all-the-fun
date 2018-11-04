@@ -1531,6 +1531,7 @@ p {
 
 .speaker_area .sk-content {
 	margin-top: 15px;
+	text-align: center;
 }
 
 .speaker_area .speaker:hover .overlay {
@@ -1547,8 +1548,7 @@ p {
 }
 
 .speaker_area .sk-desc p {
-	text-align: left;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 300;
 	margin: 16px 0;
 }
