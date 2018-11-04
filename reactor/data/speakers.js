@@ -2,10 +2,8 @@ const data = [
   {
     name: 'Sunil Pai',
     imgPath: 'sunil_pai.jpeg', // with extension
-    github: 'https://github.com/manjula91',
-    twitter: 'https://twitter.com/manjula_dube',
-    facebook: 'https://www.facebook.com/manjuladube',
-    medium: 'https://medium.com/@manjuladube',
+    github: 'https://github.com/threepointone',
+    twitter: 'https://twitter.com/threepointone',
     description: 'He built websites for myntra, yahoo, visa, and others.He’s also the author of glamor and a myriad of other cool open source projects.', // keep it simple
     jobrole: 'Mad Scientist, Facebook' // only one line
   },
@@ -23,7 +21,7 @@ const data = [
     github: 'https://github.com/kenwheeler',
     twitter: 'https://twitter.com/ken_wheeler',
     description: 'Author of libraries like Slick Carousel, McFly, react-music, webpack-dashboard, Spectacle.',
-    jobrole: 'Code, beats and meat - Google Developer Expert'
+    jobrole: 'Google Developer Expert'
   },
   {
     name: 'Nader Dabit',
@@ -48,6 +46,30 @@ const data = [
     twitter: 'https://twitter.com/jevakallio',
     description: '',
     jobrole: 'VP @FormidableLabs, UK'
+  },
+  {
+    name: 'Jason Lengstorf',
+    imgPath: 'jason.jpg',
+    github: 'https://github.com/jlengstorf',
+    twitter: 'https://twitter.com/jlengstorf',
+    description: 'Jason Lengstorf is a developer, architect, occasional designer, and frequent speaker. He creates high-performing teams by building tools, systems, and the training materials to make them accessible.',
+    jobrole: 'Developer Advocate @Gatsby'
+  },
+  {
+    name: 'Ives van Hoorne',
+    imgPath: 'ives.jpg',
+    github: 'https://github.com/CompuIves',
+    twitter: 'https://twitter.com/CompuIves',
+    description: 'Loves Cookies',
+    jobrole: 'Creator of Codesandbox'
+  },
+  {
+    name: 'Gant Laborde',
+    imgPath: 'gant.jpg',
+    github: 'https://github.com/GantMan',
+    twitter: 'https://twitter.com/GantLaborde',
+    description: 'Gant Laborde is a software consultant, adjunct professor, published author, and award-winning speaker. He volunteers as a mentor, an “open sourcerer”, and aspires to one day become a mad scientist. His React Native prowess is prevalent through blogs, videos, and maintainer status in popular repositories. Follow Gant’s adventures at http://gantlaborde.com',
+    jobrole: 'CTS of @infinite_red'
   }
 ]
 
