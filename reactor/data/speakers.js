@@ -26,6 +26,22 @@ const data = [
     twitter: 'https://twitter.com/ken_wheeler',
     description: 'Author of libraries like Slick Carousel, McFly, react-music, webpack-dashboard, Spectacle.',
     jobrole: 'Code, beats and meat - Google Developer Expert'
+  },
+  {
+    name: 'Nader Dabit',
+    imgPath: 'nader_dabit.jpg',
+    github: 'https://github.com/dabit3',
+    twitter: 'https://twitter.com/dabit3',
+    description: 'Nader has been developing with React Native for over 2.5 years. He has worked with and trained developers from fortune 500 companies like Amazon, Visa, American Express, and Microsoft, helping them to get up to speed with React Native as quickly as possible.',
+    jobrole: 'Developer Advocate @awsformobile'
+  },
+  {
+    name: 'Phil Plückthun',
+    imgPath: 'phil.png',
+    github: 'https://github.com/kitten',
+    twitter: 'https://twitter.com/_philpl',
+    description: 'React (Native), CSS (-inJS), Reason • http://smoosh.fun  • https://dank.sh  • styled-components core team',
+    jobrole: 'Tech Lead, UK @FormidableLabs'
   }
 ]
 
