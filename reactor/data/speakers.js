@@ -46,6 +46,22 @@ const data = [
     twitter: 'https://twitter.com/jevakallio',
     description: '',
     jobrole: 'VP @FormidableLabs, UK'
+  },
+  {
+    name: 'Jason Lengstorf',
+    imgPath: 'jason.jpg',
+    github: 'https://github.com/jlengstorf',
+    twitter: 'https://twitter.com/jlengstorf',
+    description: 'Jason Lengstorf is a developer, architect, occasional designer, and frequent speaker. He creates high-performing teams by building tools, systems, and the training materials to make them accessible.',
+    jobrole: 'Developer Advocate @Gatsby'
+  },
+  {
+    name: 'Ives van Hoorne',
+    imgPath: 'ives.jpg',
+    github: 'https://github.com/CompuIves',
+    twitter: 'https://twitter.com/CompuIves',
+    description: 'Loves Cookies',
+    jobrole: 'Creator of Codesandbox'
   }
 ]
 
