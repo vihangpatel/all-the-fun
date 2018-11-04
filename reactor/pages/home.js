@@ -124,7 +124,7 @@ const Home = () => (
               {/* <div class="timer" id="countdown"></div> */}
             </div>
           </div>
-          <div className='content__button'>
+          <div className='content__button show-interest-btn'>
             <a target='_blank' href='#'>
                             SHOW YOUR INTEREST
                         </a>
@@ -149,6 +149,8 @@ const Home = () => (
               <h2 className='f-weight-700 margin-0'>Partners</h2>
               <div className='bordershep' />
               <img className='partner-img' src='assets/images/partners/react-alicante-logo.png' />
+			  <img className='partner-img' src='assets/images/partners/react-finland-logo.svg' />
+			  
             </div>
             {/* End Heading Title */}
           </div>
