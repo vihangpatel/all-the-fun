@@ -6,16 +6,14 @@ const data = [
     twitter: 'https://twitter.com/manjula_dube',
     facebook: 'https://www.facebook.com/manjuladube',
     medium: 'https://medium.com/@manjuladube',
-    description: 'Coding enthu, Cook, Organizes React India - 2019', // keep it simple
+    description: 'He built websites for myntra, yahoo, visa, and others.He’s also the author of glamor and a myriad of other cool open source projects.', // keep it simple
     jobrole: 'Mad Scientist, Facebook' // only one line
   },
   {
     name: 'Sara Vieria',
     imgPath: 'sara_vieria.jpg',
-    github: 'https://github.com/manjula91',
-    twitter: 'https://twitter.com/manjula_dube',
-    facebook: 'https://www.facebook.com/manjuladube',
-    medium: 'https://medium.com/@manjuladube',
+    github: 'https://github.com/saravieira',
+    twitter: 'https://twitter.com/NikkitaFTW',
     description: 'Developer Advocate at @YLDio. GraphQL and Open Source enthusiast. Conference Speaker and Airport expert. I am also into drums and horror movies.',
     jobrole: 'YLDio, Europe'
   },
