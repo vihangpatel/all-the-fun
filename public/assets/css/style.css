@@ -3900,7 +3900,6 @@ ul.pagination {
 
 .content__button {
 	text-align: center;
-	width: 180px;
 	margin: auto;
 	margin-top: 35px;
 }
@@ -3912,7 +3911,7 @@ ul.pagination {
 	display: inline-block;
 	font-weight: 400;
 	margin: 0 10px;
-	width: 200px;
+	width: 220px;
 	height: 50px;
 	font-size: 18px;
 	line-height: 50px;
