@@ -422,7 +422,7 @@ p {
 
 .index_1 .conferences {
 	padding: 94px 0px 92px;
-	background: url(../images/suhedule/suhedulebg.jpg) no-repeat center;
+	background: url(../images/suhedule/suhedulebg.png) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -1554,7 +1554,7 @@ p {
 ===================================================*/
 
 .testimonial-area {
-	background: url(../images/partners/partners.jpg) no-repeat center;
+	background: url(../images/suhedule/suhedulebg.png) no-repeat center;
 	background-size: cover;
 	padding: 94px 0 94px;
 	background-attachment: fixed;
