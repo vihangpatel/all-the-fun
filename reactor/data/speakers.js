@@ -40,6 +40,14 @@ const data = [
     twitter: 'https://twitter.com/_philpl',
     description: 'Styled-components core team',
     jobrole: 'Tech Lead, UK @FormidableLabs'
+  },
+  {
+    name: 'Jani Eväkallio',
+    imgPath: 'jani.jpeg',
+    github: 'https://github.com/jevakallio',
+    twitter: 'https://twitter.com/jevakallio',
+    description: '',
+    jobrole: 'VP @FormidableLabs, UK'
   }
 ]
 
