@@ -4130,3 +4130,10 @@ div.svglogo {
 	position: absolute;
 	width: 100%;
 }
+
+.toggle-text-length {
+	font-size: 10px;
+	font-style: italic;
+	color: red;
+	cursor: pointer;
+}

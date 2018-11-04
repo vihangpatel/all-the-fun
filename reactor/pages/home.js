@@ -1,4 +1,4 @@
-import React, { Fragment, Component } from "react"
+import React, { Fragment, Component, useState } from "react"
 import Logo from "./logo"
 
 import speakersData from "../data/speakers"
@@ -240,40 +240,7 @@ class Home extends Component {
 								</div>
 								<div className="row">
 									{speakersData.map(speakerInfo => (
-										<div className="col-sm-6 col-xl-3" key={speakerInfo.name}>
-											<div className="speaker">
-												<div className="sk-img">
-													<div className="img">
-														<img
-															className="img-fluid"
-															src={`assets/images/speakers/${speakerInfo.imgPath}`}
-															alt={speakerInfo.imgPath}
-														/>
-														<div className="overlay d-flex justify-content-center">
-															<div className="slink">
-																<div>
-																	<a target="_blank" href={speakerInfo.github}>
-																		<i className="fa fa-github" />
-																	</a>
-																	<a target="_blank" href={speakerInfo.twitter}>
-																		<i className="fa fa-twitter" />
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div className="sk-content">
-													<a href="#">
-														<h4>{speakerInfo.name}</h4>
-													</a>
-													<p>{speakerInfo.jobrole}</p>
-													<div className="sk-desc">
-														<p className="sk-desc-p">{speakerInfo.description}</p>
-													</div>
-												</div>
-											</div>
-										</div>
+										<SpeakerCard {...speakerInfo} />
 									))}
 								</div>
 							</div>
@@ -304,6 +271,59 @@ class Home extends Component {
 			</Fragment>
 		)
 	}
+}
+
+const SpeakerCard = props => {
+	const charLimit = 20
+	const [showMore, setFlag] = useState(false)
+
+	return (
+		<div className="col-sm-6 col-xl-3" key={props.name}>
+			<div className="speaker">
+				<div className="sk-img">
+					<div className="img">
+						<img
+							className="img-fluid"
+							src={`assets/images/speakers/${props.imgPath}`}
+							alt={props.imgPath}
+						/>
+						<div className="overlay d-flex justify-content-center">
+							<div className="slink">
+								<div>
+									<a target="_blank" href={props.github}>
+										<i className="fa fa-github" />
+									</a>
+									<a target="_blank" href={props.twitter}>
+										<i className="fa fa-twitter" />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="sk-content">
+					<a href="#">
+						<h4>{props.name}</h4>
+					</a>
+					<p>{props.jobrole}</p>
+					<div className="sk-desc">
+						<p className="sk-desc-p">
+							{props.description.substr(0, showMore ? props.description.length : charLimit)}
+							{showMore ? (
+								<span className="toggle-text-length" onClick={() => setFlag(false)}>
+									show less
+								</span>
+							) : (
+								<span className="toggle-text-length" onClick={() => setFlag(true)}>
+									show more
+								</span>
+							)}
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	)
 }
 
 export default Home
