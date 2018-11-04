@@ -2,10 +2,13 @@ const express = require("express")
 const app = express()
 const helmet = require("helmet")
 const path = require("path")
+const shrinkRay = require("shrink-ray")
 
 const { renderAppToString } = require("./index")
 
 app.use(helmet())
+// compress all requests
+app.use(shrinkRay())
 
 if (process.env.ENV === "development") {
 	app.use(express.static(path.join(__dirname, "..", "public")))
