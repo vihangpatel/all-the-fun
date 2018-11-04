@@ -63,7 +63,7 @@ const Footer = () => (
           <div className='col-md-6'>
             <div className='copyright-text'>
               <p className='color-white'>Copyright © 2018 All Rights Reserved, Powered by </p>
-              <a href='index.html'>
+              <a>
                 <span> React India 2019</span>
               </a>
             </div>
