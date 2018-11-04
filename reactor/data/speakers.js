@@ -8,7 +8,7 @@ const data = [
     jobrole: 'Mad Scientist, Facebook' // only one line
   },
   {
-    name: 'Sara Vieria',
+    name: 'Sara Vieira',
     imgPath: 'sara_vieria.jpg',
     github: 'https://github.com/saravieira',
     twitter: 'https://twitter.com/NikkitaFTW',
