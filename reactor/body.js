@@ -23,13 +23,11 @@ const getPage = pageName => {
 }
 
 const Body = ({ pageName }) => (
-	<body className="body-class index_1 home1">
-		<div id="body-wrap">
-			{/* <Header /> */}
-			{getPage(pageName)}
-		</div>
+	<div id="body-wrap">
+		{/* <Header /> */}
+		{getPage(pageName)}
 		<Footer />
-	</body>
+	</div>
 )
 
 export default Body
