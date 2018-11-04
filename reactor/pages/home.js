@@ -104,7 +104,7 @@ const Home = () => (
 					<div className="col-md-8">
 						{/* Start Heading Title */}
 						<div className="heading-title text-center">
-							<span className="subtitle">Be a Part of</span>
+							<span className="subtitle">BE A PART OF</span>
 							<h2>React India 2019</h2>
 							<div className="bordershep" />
 							<p>
@@ -113,6 +113,7 @@ const Home = () => (
 								coastline streching along Arabian Sea.
 							</p>
 						</div>
+
 						{/* End Heading Title */}
 					</div>
 				</div>
@@ -122,6 +123,11 @@ const Home = () => (
 							<p className="date">22nd - 24th AUGUST | GOA, INDIA | 2019 EDITION</p>
 							{/* <div class="timer" id="countdown"></div> */}
 						</div>
+					</div>
+					<div className="content__button">
+						<a target="_blank" href="#">
+							SHOW YOUR INTEREST
+						</a>
 					</div>
 				</div>
 			</div>
