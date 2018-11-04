@@ -229,6 +229,7 @@ const Home = () => (
             </div>
                     ))}
         </div>
+        <div className='more-speaker-text text-center'> <span>More Speakers Coming soon....</span></div>
       </div>
     </div>
     {/* End Speakers Area */}

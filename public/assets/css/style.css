@@ -454,8 +454,13 @@ p {
 
 .index_1.home1 .latest-news-area {
 	padding: 94px 0px 70px;
+	background-color: #e9e9e9;
 }
-
+.more-speaker-text{
+	font-size: 1.3rem;
+	font-style: italic;
+	margin-top: 30px;
+}
 
 /* Start Latest News Area for index1 */
 
@@ -1546,7 +1551,7 @@ p {
 
 .speaker_area .sk-desc p {
 	text-align: left;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 300;
 	margin: 16px 0;
 }
@@ -1559,7 +1564,7 @@ p {
 .testimonial-area {
 	/* background: url(../images/suhedule/suhedulebg.png) no-repeat center;
 	background-size: cover; */
-	background-color: #dddddd;
+	background-color: #e9e9e9;
 	padding: 94px 0 94px;
 	/* background-attachment: fixed; */
 	position: relative;
@@ -2238,7 +2243,7 @@ section.latest-news-area.main_blog.m-blog-padding {
 }
 
 .speaker a:hover h4 {
-	color: #ff2d55;
+	color: #ff8000;
 }
 
 .eventSingle .aside h3 {
@@ -2664,6 +2669,7 @@ section.latest-news-area.main_blog.m-blog-padding {
 
 .index_1.pricing .latest-news-area {
 	padding: 94px 0px 70px;
+	background-color:#e9e9e9;
 }
 
 
@@ -3736,7 +3742,10 @@ ul.pagination {
 .copyright-text > a span {
 	color: #e17d08;
 }
-
+.code-of-conduct-link{
+	color: #e17d08;
+	margin-top: 3px;
+}
 .insta-item {
 	display: inline-block;
 	margin: 4px 3px;
