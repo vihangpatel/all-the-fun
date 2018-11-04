@@ -115,20 +115,20 @@ class Home extends Component {
 									<div className="col-md-12 order-last order-md-first">
 										<div className="about-text">
 											<p className="first-text">
-												React India is a community led non profit initiative with an international
-												flavor. The first of its kind in India, the event consists of a workshop
-												day and two days of talks around the topic.
+												React India is a community led non profit initiative with an
+												international flavor. The first of its kind in India, the event consists
+												of a workshop day and two days of talks around the topic.
 											</p>
 											<p>
-												A 3 day conference with first day focussing on workshops & the next 2 days
-												talks on things around React, React Native & GraphQL. This edition will
-												be gathering Front-end and Full-stack developers across the globe in the
-												cool place of India. In this single track event you will learn more
-												about React and surrounding topics while meeting some of the leading
-												talents around the globe. In addition to enjoying the event, this is
-												your chance to explore Goa. Regular and lightning talks will cover
-												various React.JS and FE topics including React Native, GraphQL, VR & AR,
-												Redux, Preact and more!
+												A 3 day conference with first day focussing on workshops & the next 2
+												days talks on things around React, React Native & GraphQL. This edition
+												will be gathering Front-end and Full-stack developers across the globe
+												in the cool place of India. In this single track event you will learn
+												more about React and surrounding topics while meeting some of the
+												leading talents around the globe. In addition to enjoying the event,
+												this is your chance to explore Goa. Regular and lightning talks will
+												cover various React.JS and FE topics including React Native, GraphQL, VR
+												& AR, Redux, Preact and more!
 											</p>
 											<div className="buttons">
 												<button type="button" disabled className="mr_btn_fill">
@@ -169,7 +169,7 @@ class Home extends Component {
 										</div>
 									</div>
 									<div className="content__button show-interest-btn">
-										<a target="_blank" href="#">
+										<a target="_blank" href="http://bit.ly/react_India_show_Interest">
 											SHOW YOUR INTEREST
 										</a>
 									</div>
@@ -244,7 +244,10 @@ class Home extends Component {
 									))}
 								</div>
 							</div>
-							  <div className='more-speaker-text text-center'> <span>More Speakers Coming soon....</span></div>
+							<div className="more-speaker-text text-center">
+								{" "}
+								<span>More Speakers Coming soon....</span>
+							</div>
 						</div>
 						{/* End Speakers Area */}
 						{/* Start Latest News Area */}
