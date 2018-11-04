@@ -68,6 +68,11 @@ const Footer = () => (
               </a>
             </div>
           </div>
+          <div className='col-md-6'>
+            <a className='pull-right code-of-conduct-link' href='index.html'>
+              <span>Code of Conduct</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
