@@ -69,7 +69,10 @@ const Footer = () => (
             </div>
           </div>
           <div className='col-md-6'>
-            <a className='pull-right code-of-conduct-link' href='index.html'>
+            <a
+              className='pull-right code-of-conduct-link'
+              href='https://www.notion.so/apherio/CODE-OF-CONDUCT-46e5dc50604a44e1be53a34d4937682f'
+                        >
               <span>Code of Conduct</span>
             </a>
           </div>
