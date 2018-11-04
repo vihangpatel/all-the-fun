@@ -62,6 +62,14 @@ const data = [
     twitter: 'https://twitter.com/CompuIves',
     description: 'Loves Cookies',
     jobrole: 'Creator of Codesandbox'
+  },
+  {
+    name: 'Gant Laborde',
+    imgPath: 'gant.jpg',
+    github: 'https://github.com/GantMan',
+    twitter: 'https://twitter.com/GantLaborde',
+    description: 'Gant Laborde is a software consultant, adjunct professor, published author, and award-winning speaker. He volunteers as a mentor, an “open sourcerer”, and aspires to one day become a mad scientist. His React Native prowess is prevalent through blogs, videos, and maintainer status in popular repositories. Follow Gant’s adventures at http://gantlaborde.com',
+    jobrole: 'CTS of @infinite_red'
   }
 ]
 
