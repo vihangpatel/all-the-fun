@@ -70,6 +70,19 @@ const data = [
     twitter: 'https://twitter.com/GantLaborde',
     description: 'Gant Laborde is a software consultant, adjunct professor, published author, and award-winning speaker. He volunteers as a mentor, an “open sourcerer”, and aspires to one day become a mad scientist. His React Native prowess is prevalent through blogs, videos, and maintainer status in popular repositories. Follow Gant’s adventures at http://gantlaborde.com',
     jobrole: 'CTS of @infinite_red'
+  },
+  {
+    name: 'Rex Raphael',
+    imgPath: 'rex.jpg',
+    github: 'https://github.com/juicycleff',
+    twitter: 'https://twitter.com/rex_raph',
+    description: 'Open source freak',
+    jobrole: 'Software Developer, Nigeria'
+  },
+  {
+    name: 'CALL FOR SPEAKERS',
+    imgPath: 'you.png',
+    description: 'COMING SOON!'
   }
 ]
 
