@@ -307,7 +307,7 @@ const SpeakerCard = props => {
 					</div>
 				</div>
 				<div className="sk-content">
-					<a href="#">
+					<a>
 						<h4>{props.name}</h4>
 					</a>
 					<p>{props.jobrole}</p>
