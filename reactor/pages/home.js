@@ -209,12 +209,6 @@ const Home = () => (
 													<a href={speakerInfo.twitter}>
 														<i className="fa fa-twitter" />
 													</a>
-													<a href={speakerInfo.medium}>
-														<i className="fa fa-medium" />
-													</a>
-													<a href={speakerInfo.facebook}>
-														<i className="fa fa-facebook" />
-													</a>
 												</div>
 											</div>
 										</div>
