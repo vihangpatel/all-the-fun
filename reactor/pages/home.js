@@ -21,7 +21,7 @@ const Home = () => (
           <h3 className='content__desc'>react india</h3>
           <h2 className='content__title'>first international conference</h2>
           <div className='content__button'>
-            <a target="_blank" href='http://bit.ly/React_India_Deck'>BE A SPONSOR</a>
+            <a target="_blank" href='http://bit.ly/React_India_Deck'>BECOME A SPONSOR</a>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@ const Home = () => (
     <div className='about-area'>
       <div className='container'>
         <div className='row'>
-          <div className='col-md-8'>
+          <div className='col-md-12'>
             {/* Start Heading Title */}
             <div className='heading-title'>
               <h2 className='f-weight-700 margin-0'>About the Conference</h2>
@@ -64,19 +64,16 @@ const Home = () => (
           </div>
         </div>
         <div className='row'>
-          <div className='col-md-6 order-last order-md-first'>
+          <div className='col-md-12 order-last order-md-first'>
             <div className='about-text'>
               <p className='first-text'>
-                                First Edition of React India International
-                                Conference about React, GraphQL and  React Native
-                                hosted in GOA , India in August 2019
+                               React India is a community led non profit initiative  with international flavor. The first of its kind in India, the event consists of a workshop day and two days of talks around the topic.
 
                             </p>
               <p>
-                                A 3 day conference with first day focussing on workshops & next 2 days talks on things around React, React Native & GraphQL. This edition would be gathering Front-end and Full-stack developers across the globe in the cool place of India.In this edition we are aiming for a larger venue,
-                                so that more developers from around the world
-                                can join us and learn together in a
-                                fun, thrilling, international atmosphere.
+                                A 3 day conference with first day focussing on workshops & next 2 days talks on things around React, React Native & GraphQL. This edition would be gathering Front-end and Full-stack developers across the globe in the cool place of India. In this single track event you will learn more about React and surrounding topics while meeting some of the leading talents around the globe. In addition to enjoying the event, this is your chance to explore Goa.
+
+Regular and lightning talks will cover various React.JS and FE topics including React Native, GraphQL, VR & AR, Redux, Preact and more!
 
                             </p>
               <div className='buttons'>
@@ -86,21 +83,9 @@ const Home = () => (
               </div>
             </div>
           </div>
-          <div className='col-md-6 order-first order-md-last d-flex align-self-center'>
-            <div className='aboutusvideo'>
-              <div className='img'>
-                <img className='img-fluid' src='assets/images/aboutimg-2.jpg' alt='' />
-                <a
-                  className='venobox vbox-item'
-                  data-vbtype='video'
-                  data-autoplay='true'
-                  href='https://www.youtube.com/watch?v=ct-mHwAb3g4'
-                                >
-                  <i className='fa fa-play' style={{ transform: 'translate(14%, 93%)' }} />
-                </a>
-              </div>
-            </div>
-          </div>
+      
+       
+     
         </div>
       </div>
     </div>
@@ -133,7 +118,7 @@ const Home = () => (
       </div>
     </section>
     {/* Start Company Info Area */}
-    <section className='schedule_area' />
+   
     {/* End Company Info Area */}
 
     {/* Start Testimonial Area */}
