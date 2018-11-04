@@ -76,8 +76,8 @@ const data = [
     imgPath: 'rex.jpg',
     github: 'https://github.com/juicycleff',
     twitter: 'https://twitter.com/rex_raph',
-    description: 'Open source freak',
-    jobrole: 'Software Developer, Nigeria'
+    description: 'Currently working with Snowball. He builds mission critical applications with enterprise scale in mind, getting extra performance gain is his focus. He currently writes Graphql powered projects and mentor people locally and internationally in Fullstack Development.',
+    jobrole: 'Fullstack Developer @snowball, Nigeria'
   },
   {
     name: 'CALL FOR SPEAKERS',
