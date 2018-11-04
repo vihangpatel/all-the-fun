@@ -241,7 +241,7 @@ const Home = () => (
 						<div className="heading-title text-center">
 							<h2 className="f-weight-700 margin-0">Organized by</h2>
 							<div className="bordershep" />
-							<a target="_blank" href="geekabyte.tech">
+							<a target="_blank" href="http://geekabyte.tech">
 								<img src="assets/images/geekabyte-web.png" />
 							</a>
 						</div>
