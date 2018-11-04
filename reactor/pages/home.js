@@ -274,8 +274,9 @@ class Home extends Component {
 }
 
 const SpeakerCard = props => {
-	const charLimit = 20
-	const [showMore, setFlag] = useState(false)
+	const charLimit = 120
+	const [showMore, setFlag] = useState(props.description.length <= charLimit)
+	const { description } = props
 
 	return (
 		<div className="col-sm-6 col-xl-3" key={props.name}>
@@ -308,14 +309,27 @@ const SpeakerCard = props => {
 					<p>{props.jobrole}</p>
 					<div className="sk-desc">
 						<p className="sk-desc-p">
-							{props.description.substr(0, showMore ? props.description.length : charLimit)}
-							{showMore ? (
-								<span className="toggle-text-length" onClick={() => setFlag(false)}>
-									show less
-								</span>
-							) : (
-								<span className="toggle-text-length" onClick={() => setFlag(true)}>
-									show more
+							{props.description.substr(
+								0,
+								description.length > charLimit
+									? showMore
+										? description.length
+										: charLimit
+									: description.length
+							)}
+							{!showMore && "..."}
+							<br />
+							{description.length > charLimit && (
+								<span>
+									{showMore ? (
+										<span className="toggle-text-length" onClick={() => setFlag(false)}>
+											[...]
+										</span>
+									) : (
+										<span className="toggle-text-length" onClick={() => setFlag(true)}>
+											[...]
+										</span>
+									)}
 								</span>
 							)}
 						</p>
