@@ -54,7 +54,6 @@ export default function getClientBundleEntryAssets() {
 	}
 
 	resultCache.path = "build"
-	console.log(resultCache)
 
 	return resultCache
 }

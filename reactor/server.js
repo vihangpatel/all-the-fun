@@ -6,7 +6,7 @@ const path = require("path")
 const { renderAppToString } = require("./index")
 
 app.use(helmet())
-console.log(process.env.ENV)
+
 if (process.env.ENV === "development") {
 	app.use(express.static(path.join(__dirname, "..", "public")))
 } else {
