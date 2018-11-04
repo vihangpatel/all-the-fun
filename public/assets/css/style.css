@@ -3122,9 +3122,6 @@ ul.pagination {
 	font-size: 13px;
 	margin-right: 5px;
 }
-.footer-pages li a:hover, .footer-contact-info li a:hover {
-	color: #e17d08;
-}
 .footer-contact-info li {
 	margin-block-start: 5px;
 }
