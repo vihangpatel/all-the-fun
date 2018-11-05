@@ -36,7 +36,7 @@ const data = [
     imgPath: 'phil.png',
     github: 'https://github.com/kitten',
     twitter: 'https://twitter.com/_philpl',
-    description: 'Styled-components core team',
+    description: 'Core contributor for styled-components.Mad scientist focusing on GraphQL, CSS-in-JS, and Reason experiments',
     jobrole: 'Tech Lead, UK @FormidableLabs'
   },
   {
@@ -44,8 +44,8 @@ const data = [
     imgPath: 'jani.jpeg',
     github: 'https://github.com/jevakallio',
     twitter: 'https://twitter.com/jevakallio',
-    description: '',
-    jobrole: 'VP @FormidableLabs, UK'
+    description: 'Show runner at Formidable in London',
+    jobrole: 'Sometimes VP at FormidableLabs, UK'
   },
   {
     name: 'Jason Lengstorf',
