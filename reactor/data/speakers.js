@@ -36,15 +36,15 @@ const data = [
     imgPath: 'phil.png',
     github: 'https://github.com/kitten',
     twitter: 'https://twitter.com/_philpl',
-    description: 'Styled-components core team',
-    jobrole: 'Tech Lead, UK @FormidableLabs'
+    description: 'core contributor for styled-components.Mad scientist focusing on GraphQL, CSS-in-JS, and Reason experiments',
+    jobrole: 'Tech Lead, FormidableLabs, London'
   },
   {
     name: 'Jani Eväkallio',
     imgPath: 'jani.jpeg',
     github: 'https://github.com/jevakallio',
     twitter: 'https://twitter.com/jevakallio',
-    description: '',
+    description: 'Show runner at Formidable in London',
     jobrole: 'VP @FormidableLabs, UK'
   },
   {
