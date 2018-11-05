@@ -198,14 +198,18 @@ class Home extends Component {
 											<span className='subtitle'>Our</span>
 											<h2 className='f-weight-700 margin-0'>Partners</h2>
 											<div className='bordershep' />
-											<img
-												className='partner-img'
-												src='assets/images/partners/react-alicante-logo.png'
-											/>
-											<img
-												className='partner-img'
-												src='assets/images/partners/react-finland-logo.svg'
-											/>
+											<a href='http://reactalicante.es/' target='_blank'>
+												<img
+													className='partner-img'
+													src='assets/images/partners/react-alicante-logo.png'
+												/>
+											</a>
+											<a href='https://react-finland.fi/' target='_blank'>
+												<img
+													className='partner-img'
+													src='assets/images/partners/react-finland-logo.svg'
+												/>
+											</a>
 										</div>
 										{/* End Heading Title */}
 									</div>
