@@ -34,24 +34,12 @@ const Head = () => (
 
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
 
-		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" />
-
 		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
-
-		<link rel="stylesheet" type="text/css" href="assets/fonts/flaticon.css" />
-
-		<link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
-
-		<link rel="stylesheet" type="text/css" href="assets/css/venobox.css" />
 
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
-		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
-
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400i" rel="stylesheet" />
-
-		<script src="assets/js/modernizr.custom.js" />
 
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128577365-1" />
 

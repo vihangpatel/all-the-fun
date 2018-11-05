@@ -3,6 +3,7 @@ const app = express()
 const helmet = require("helmet")
 const path = require("path")
 const redirectSSL = require("redirect-ssl")
+const compression = require("compression")
 
 const { renderAppToString } = require("./index")
 
@@ -10,6 +11,8 @@ app.use(helmet())
 
 // Add middleware
 app.use(redirectSSL)
+
+app.use(compression())
 
 if (process.env.ENV === "development") {
 	app.use(express.static(path.join(__dirname, "..", "public")))
