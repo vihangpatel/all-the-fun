@@ -172,7 +172,7 @@ class Home extends Component {
 								<div className='row'>
 									<div className='col-12'>
 										<div className='text-center'>
-											<p className='date'>22nd - 24th AUGUST | GOA, INDIA | 2019 EDITION</p>
+											<p className='date'>23rd - 25th AUGUST | GOA, INDIA | 2019 EDITION</p>
 											{/* <div class="timer" id="countdown"></div> */}
 										</div>
 									</div>
