@@ -80,6 +80,14 @@ const data = [
     jobrole: 'Fullstack Developer @snowball, Nigeria'
   },
   {
+    name: 'Pavithra Kodmad',
+    imgPath: 'pavithra.jpg',
+    github: 'https://github.com/pksjce',
+    twitter: 'https://twitter.com/PKodmad',
+    description: 'React enthusiast, been writing Javascript for the past decade',
+    jobrole: 'Developer at Atlassian'
+  },
+  {
     name: 'CALL FOR SPEAKERS',
     imgPath: 'you.png',
     description: 'COMING SOON!'
