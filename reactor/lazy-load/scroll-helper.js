@@ -3,7 +3,7 @@ import throttle from "lodash/throttle"
 
 const OPTIMIZE_IMG_LOADING = true
 const DEBOUNCE_TIMEOUT = 100
-const DEBUG = true
+const DEBUG = false
 
 export const offsetTop = element => {
 	let top
