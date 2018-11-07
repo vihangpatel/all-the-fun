@@ -148,12 +148,10 @@ const handleScroll = () => {
 	if (queue[binIndex]) {
 		for (let index = start; index < end; index++) {
 			if (queue[index] && queue[index].handler) {
-				setTimeout(() => {
-					const isVisible = queue[index].handler()
-					if (isVisible) {
-						queue[index] = null
-					}
-				}, 50)
+				const isVisible = queue[index].handler()
+				if (isVisible) {
+					queue[index] = null
+				}
 			}
 		}
 	}
