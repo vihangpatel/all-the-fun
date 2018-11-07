@@ -1,12 +1,12 @@
 export const initMap = () => {
 	const position = {
-		lat: 15.3168765,
-		lng: 73.8997141,
+		lat: 15.317396,
+		lng: 73.902374,
 	}
 	// Styles a map in night mode.
 	var map = new google.maps.Map(document.getElementById("map"), {
 		center: position,
-		zoom: 12,
+		zoom: 15,
 	})
 	// Let's also add a marker while we're at it
 	var marker = new google.maps.Marker({
@@ -17,6 +17,7 @@ export const initMap = () => {
 }
 
 export const addMap = () => {
+	return false
 	addScript({
 		async: true,
 		defer: true,
