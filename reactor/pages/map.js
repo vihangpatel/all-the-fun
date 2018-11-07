@@ -17,6 +17,7 @@ export const initMap = () => {
 }
 
 export const addMap = () => {
+	return false
 	addScript({
 		async: true,
 		defer: true,
