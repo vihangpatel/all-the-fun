@@ -280,10 +280,6 @@ p {
 	border-bottom: 2px solid #ff8000;
 }
 
-.home1 .about-area .bordershep {
-	margin: 11px 0 23px;
-}
-
 .affix {
 	top: 0;
 }
@@ -423,7 +419,7 @@ p {
 
 .index_1 .conferences {
 	padding: 94px 0px 92px;
-	background: url(../images/suhedule/suhedulebg.png) no-repeat center;
+	background: url(../images/suhedule/back-banner.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -950,6 +946,7 @@ p {
 	margin-top: 45px;
 	padding: 10px 44px;
 	margin-right: 5px;
+	font-size: 18px;
 }
 .about-area .mr_btn_fill {
 	margin-right: 27px;
@@ -1382,7 +1379,7 @@ p {
 14. Testimonial
 ===================================================*/
 .testimonial-area {
-	/* background: url(../images/suhedule/suhedulebg.png) no-repeat center;
+	/* background: url(../images/suhedule/back-banner.jpg) no-repeat center;
 	background-size: cover; */
 	
 	background-color: #e9e9e9;
@@ -3128,7 +3125,7 @@ ul.pagination {
 }
 .footer-contact-info li a {
 	display: inline-block;
-	padding: 0px 68px 0px 30px;
+	padding: 0px 68px 0px 0px;
 	font-weight: 400;
 	font-size: 14px;
 	color: rgba(255, 255, 255, 0.753);
@@ -3564,4 +3561,7 @@ div.svglogo {
 	font-style: italic;
 	color: red;
 	cursor: pointer;
+}
+.text-center {
+	text-align: center !important;
 }
