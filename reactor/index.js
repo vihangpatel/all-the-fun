@@ -12,21 +12,15 @@ const HTML = props => (
 		<Head />
 		<body className="body-class index_1 home1">
 			<Body {...props} />
-			<script
-				type="text/javascript"
-				src={path.join(
-					getClientBundleEntryAssets().path,
-					getClientBundleEntryAssets().assetsByChunkName.vendor
-				)}
-			/>
-			<script
-				type="text/javascript"
-				src={path.join(
-					getClientBundleEntryAssets().path,
-					getClientBundleEntryAssets().assetsByChunkName.client
-				)}
-			/>
 		</body>
+		<script
+			type="text/javascript"
+			src={path.join(getClientBundleEntryAssets().path, getClientBundleEntryAssets().assetsByChunkName.vendor)}
+		/>
+		<script
+			type="text/javascript"
+			src={path.join(getClientBundleEntryAssets().path, getClientBundleEntryAssets().assetsByChunkName.client)}
+		/>
 	</html>
 )
 
