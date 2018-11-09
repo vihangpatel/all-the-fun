@@ -50,7 +50,7 @@ class Home extends Component {
 							<div className="caption__small">
 								<p className="caption__small--para event-date">
 									<i className="fa fa-calendar" />
-									22rd - 24th August, 2019.
+									22nd - 24th August, 2019.
 								</p>
 								<p className="caption__small--para uppercase event-location">
 									<i className="flaticon-location-pointer" />
@@ -172,7 +172,7 @@ class Home extends Component {
 								<div className="row">
 									<div className="col-12">
 										<div className="text-center">
-											<p className="date">23rd - 25th AUGUST | GOA, INDIA | 2019 EDITION</p>
+											<p className="date">22nd - 24th AUGUST | GOA, INDIA | 2019 EDITION</p>
 											{/* <div class="timer" id="countdown"></div> */}
 										</div>
 									</div>
