@@ -8,7 +8,7 @@ import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
 
 class Home extends Component {
 	state = {
-		loadSecondFold: false,
+		loadSecondFold: true,
 		showBanner: false,
 		showVideo: false,
 	}
