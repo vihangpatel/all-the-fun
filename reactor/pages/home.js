@@ -1,10 +1,10 @@
-import React, { Fragment, Component, useState } from "react"
-import Logo from "./logo"
+import React, { Fragment, Component, useState } from 'react'
+import Logo from './logo'
 
-import speakersData from "../data/speakers"
-import { addMap } from "./map"
-import LazyImage from "../lazy-load"
-import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
+import speakersData from '../data/speakers'
+import { addMap } from './map'
+import LazyImage from '../lazy-load'
+import { registerLazyImageScrollHandler } from '../lazy-load/scroll-helper'
 
 class Home extends Component {
 	state = {
@@ -66,24 +66,6 @@ class Home extends Component {
 							</div>
 						</div>
 					</div>
-					{/* <div className="banner__content--main">
-				<div className="banner__venue">
-					<p className="m-0">23rd to 25th August, 2019.</p>
-					<p className="m-0">GOA, INDIA</p>
-				</div>
-				<h3 className="caption-desc">REACT INDIA </h3>
-				<h2 className="caption-title" className="m-t-10">
-					FIRST INTERNATIONAL CONFERENCE
-				</h2>
-				<div className="slide-btn" className="m-t-10">
-					<a className="animated fadeInUpBig" href="#">
-						BE A SPONSOR
-					</a>
-					<a className="animated fadeInUpBig" href="#">
-						Sponshorship
-					</a>
-				</div>
-			</div> */}
 					<div className="video__main">
 						{showBanner && (
 							<LazyImage
@@ -108,7 +90,7 @@ class Home extends Component {
 				{/* Start About Area */}
 				{loadSecondFold && (
 					<Fragment>
-						<div className="about-area">
+						<div className="about-area" id="about">
 							<div className="container">
 								<div className="row">
 									<div className="col-md-12">
@@ -136,7 +118,7 @@ class Home extends Component {
 												leading talents around the globe. In addition to enjoying the event,
 												this is your chance to explore Goa. Regular and lightning talks will
 												cover various React.JS and FE topics including React Native, GraphQL, VR
-												& AR, Redux, Preact and more!
+												&amp; AR, Redux, Preact and more!
 											</p>
 											<div className="buttons">
 												<button type="button" disabled className="mr_btn_fill">
@@ -187,7 +169,7 @@ class Home extends Component {
 						{/* Start Company Info Area */}
 						{/* End Company Info Area */}
 						{/* Start Testimonial Area */}
-						<section className="testimonial-area">
+						<section className="testimonial-area" id="partners">
 							<div className="overlay" />
 							{/* Start Container */}
 							<div className="container">
@@ -238,7 +220,7 @@ class Home extends Component {
 						</section>
 						{/* End Testimonial Area */}
 						{/* Start Speakers Area */}
-						<div className="speaker_area">
+						<div className="speaker_area" id="speakers">
 							<div className="container">
 								<div className="row justify-content-center">
 									<div className="col-md-8">
@@ -251,19 +233,19 @@ class Home extends Component {
 									</div>
 								</div>
 								<div className="row">
-									{speakersData.map(speakerInfo => (
-										<SpeakerCard {...speakerInfo} />
+									{speakersData.map((speakerInfo, i) => (
+										<SpeakerCard {...speakerInfo} key={i} />
 									))}
 								</div>
 							</div>
 							<div className="more-speaker-text text-center">
-								{" "}
+								{' '}
 								<span>More Speakers Coming soon....</span>
 							</div>
 						</div>
 						{/* End Speakers Area */}
 						{/* Start Latest News Area */}
-						<section className="latest-news-area">
+						<section className="latest-news-area" id="organizers">
 							{/* Start Container */}
 							<div className="container">
 								<div className="row justify-content-center">
@@ -335,7 +317,7 @@ const SpeakerCard = props => {
 										: charLimit
 									: description.length
 							)}
-							{!showMore && "..."}
+							{!showMore && '...'}
 							<br />
 							{description.length > charLimit && (
 								<span>

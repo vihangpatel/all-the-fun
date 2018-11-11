@@ -1,7 +1,7 @@
 /* global window */
-import React from "react"
+import React from 'react'
 
-import { ContactPoint, WebsiteSchema, Analytics, description, keywords } from "./SEO"
+import { ContactPoint, WebsiteSchema, Analytics, description, keywords } from './SEO'
 
 const Head = () => (
 	<head>
@@ -33,6 +33,8 @@ const Head = () => (
 		<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
 
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+
+		<link rel="stylesheet" type="text/css" href="assets/css/header.css" />
 
 		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
 
