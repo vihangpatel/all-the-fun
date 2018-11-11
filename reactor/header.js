@@ -8,8 +8,24 @@ const navItems = [
 ]
 
 class Header extends React.Component {
+	sticky = 0
+	header = null
 	state = {
 		checked: false,
+	}
+
+	scrollPage = () => {
+		if (window.pageYOffset > this.sticky) {
+			this.header && this.header.classList.add('header-sticky')
+		} else {
+			this.header && this.header.classList.remove('header-sticky')
+		}
+	}
+
+	componentDidMount() {
+		window.addEventListener('scroll', this.scrollPage)
+		this.header = document.querySelector('.header-main')
+		this.sticky = this.header.offsetTop
 	}
 
 	scrollToPath = (e, path) => {
@@ -25,8 +41,8 @@ class Header extends React.Component {
 		return (
 			<header className="header-main">
 				{/* <a href className="logo">
-			CSS Nav
-		</a> */}
+					CSS Nav
+				</a> */}
 				<input
 					className="menu-btn"
 					checked={checked}
@@ -48,6 +64,10 @@ class Header extends React.Component {
 				</ul>
 			</header>
 		)
+	}
+
+	componentWillUnmount() {
+		window.removeEventListener('scroll', this.scrollPage)
 	}
 }
 

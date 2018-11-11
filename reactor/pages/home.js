@@ -5,6 +5,7 @@ import speakersData from '../data/speakers'
 import { addMap } from './map'
 import LazyImage from '../lazy-load'
 import { registerLazyImageScrollHandler } from '../lazy-load/scroll-helper'
+import Header from '../header'
 
 class Home extends Component {
 	state = {
@@ -86,10 +87,11 @@ class Home extends Component {
 						)}
 					</div>
 				</div>
+				<Header />
 				{/* End Slider Area */}
 				{/* Start About Area */}
 				{loadSecondFold && (
-					<Fragment>
+					<div className="content">
 						<div className="about-area" id="about">
 							<div className="container">
 								<div className="row">
@@ -265,7 +267,7 @@ class Home extends Component {
 							{/* End Container */}
 						</section>
 						<div id="map" />
-					</Fragment>
+					</div>
 				)}
 			</Fragment>
 		)

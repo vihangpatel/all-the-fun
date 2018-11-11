@@ -9,13 +9,19 @@ a {
 }
 
 /* header */
-
 .header-main {
 	background-color: #fff;
 	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-	position: fixed;
+	height: 65px;
 	width: 100%;
 	z-index: 3;
+}
+
+.header-sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 .header-main ul {
@@ -129,13 +135,20 @@ a {
 		padding: 20px 30px;
 	}
 	.header-main .menu {
-		/* clear: none; */
-		/* float: right; */
-		display: flex;
-		justify-content: center;
+		clear: none;
+		float: right;
 		max-height: none;
 	}
 	.header-main .menu-icon {
 		display: none;
 	}
+}
+
+/* content after header */
+.content {
+	padding-top: 16px;
+}
+
+.header-sticky + .content {
+	padding-top: 65px;
 }
