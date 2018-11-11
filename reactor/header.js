@@ -74,8 +74,6 @@ class Header extends React.Component {
 /*
 old header
 
-import React from 'react'
-
 const Header = () => (
   <header id='mainHeader' className='header stiky'>
     <nav className='navbar navbar-expand-lg navbar-light p-0'>

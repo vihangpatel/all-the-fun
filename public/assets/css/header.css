@@ -1,8 +1,8 @@
-body {
+/* body {
 	margin: 0;
 	font-family: Helvetica, sans-serif;
 	background-color: #f4f4f4;
-}
+} */
 
 a {
 	color: #000;
@@ -10,18 +10,12 @@ a {
 
 /* header */
 .header-main {
-	background-color: #fff;
+	/* background-color: #fff; */
+	background-color: rgba(0, 0, 0, 0.9);
 	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-	height: 65px;
+	height: 59px;
 	width: 100%;
 	z-index: 3;
-}
-
-.header-sticky {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
 }
 
 .header-main ul {
@@ -29,19 +23,22 @@ a {
 	padding: 0;
 	list-style: none;
 	overflow: hidden;
-	background-color: #fff;
+	/* background-color: #fff; */
 }
 
 .header-main li a {
 	display: block;
 	padding: 20px 20px;
-	border-right: 1px solid #f4f4f4;
+	font-size: 15px;
+	color: hsla(0, 0%, 100%, 0.8);
+	/* border-right: 1px solid #f4f4f4; */
 	text-decoration: none;
 }
 
 .header-main li a:hover,
 .header-main .menu-btn:hover {
-	background-color: #f4f4f4;
+	/* background-color: #f4f4f4; */
+	color: #fff;
 }
 
 .header-main .logo {
@@ -72,7 +69,8 @@ a {
 }
 
 .header-main .menu-icon .navicon {
-	background: #333;
+	/* background: #333; */
+	background: #fff;
 	display: block;
 	height: 2px;
 	position: relative;
@@ -82,7 +80,8 @@ a {
 
 .header-main .menu-icon .navicon:before,
 .header-main .menu-icon .navicon:after {
-	background: #333;
+	/* background: #333; */
+	background: #fff;
 	content: '';
 	display: block;
 	height: 100%;
@@ -126,6 +125,15 @@ a {
 	top: 0;
 }
 
+.menu {
+	/* position: absolute; */
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	/* top: 954; */
+	z-index: 20;
+	/* border-top: 1px solid #101010; */
+}
+
 /* 48em = 768px */
 @media (min-width: 48em) {
 	.header-main li {
@@ -135,8 +143,11 @@ a {
 		padding: 20px 30px;
 	}
 	.header-main .menu {
-		clear: none;
-		float: right;
+		/* clear: none; */
+		/* float: right; */
+		background: rgba(0, 0, 0, 0.1);
+		display: flex;
+		justify-content: flex-end;
 		max-height: none;
 	}
 	.header-main .menu-icon {
@@ -145,6 +156,13 @@ a {
 }
 
 /* content after header */
+.header-sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
 .content {
 	padding-top: 16px;
 }
