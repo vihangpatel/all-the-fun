@@ -10,7 +10,7 @@ class Home extends Component {
 	state = {
 		loadSecondFold: true,
 		showBanner: false,
-		showVideo: false,
+		loadVideo: false,
 	}
 
 	constructor() {
@@ -252,12 +252,11 @@ class Home extends Component {
 								</div>
 								<div className="row">
 									{speakersData.map(speakerInfo => (
-										<SpeakerCard {...speakerInfo} />
+										<SpeakerCard {...speakerInfo} key={speakerInfo.name} />
 									))}
 								</div>
 							</div>
 							<div className="more-speaker-text text-center">
-								{" "}
 								<span>More Speakers Coming soon....</span>
 							</div>
 						</div>
