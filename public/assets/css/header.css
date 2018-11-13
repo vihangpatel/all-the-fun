@@ -8,7 +8,9 @@ a {
 	color: #000;
 }
 
+
 /* header */
+
 .header-main {
 	/* background-color: #fff; */
 	background-color: rgba(0, 0, 0, 0.9);
@@ -35,8 +37,7 @@ a {
 	text-decoration: none;
 }
 
-.header-main li a:hover,
-.header-main .menu-btn:hover {
+.header-main li a:hover, .header-main .menu-btn:hover {
 	/* background-color: #f4f4f4; */
 	color: #fff;
 }
@@ -49,6 +50,7 @@ a {
 	text-decoration: none;
 }
 
+
 /* menu */
 
 .header-main .menu {
@@ -56,6 +58,7 @@ a {
 	max-height: 0;
 	transition: max-height 0.2s ease-out;
 }
+
 
 /* menu icon */
 
@@ -78,8 +81,7 @@ a {
 	width: 18px;
 }
 
-.header-main .menu-icon .navicon:before,
-.header-main .menu-icon .navicon:after {
+.header-main .menu-icon .navicon:before, .header-main .menu-icon .navicon:after {
 	/* background: #333; */
 	background: #fff;
 	content: '';
@@ -97,6 +99,7 @@ a {
 .header-main .menu-icon .navicon:after {
 	top: -5px;
 }
+
 
 /* menu btn */
 
@@ -120,8 +123,7 @@ a {
 	transform: rotate(45deg);
 }
 
-.header-main .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header-main .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+.header-main .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before, .header-main .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
 	top: 0;
 }
 
@@ -134,7 +136,9 @@ a {
 	/* border-top: 1px solid #101010; */
 }
 
+
 /* 48em = 768px */
+
 @media (min-width: 48em) {
 	.header-main li {
 		float: left;
@@ -145,7 +149,6 @@ a {
 	.header-main .menu {
 		/* clear: none; */
 		/* float: right; */
-		background: rgba(0, 0, 0, 0.1);
 		display: flex;
 		justify-content: flex-end;
 		max-height: none;
@@ -155,7 +158,9 @@ a {
 	}
 }
 
+
 /* content after header */
+
 .header-sticky {
 	position: fixed;
 	top: 0;
