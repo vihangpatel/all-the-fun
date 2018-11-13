@@ -176,12 +176,16 @@ class Home extends Component {
 							{/* Start Container */}
 							<div className="container">
 								<div className="row justify-content-center">
-									<div className="col-md-8">
+									<div className="col-md-12">
 										{/* Start Heading Title */}
 										<div className="heading-title text-center">
 											<span className="subtitle">Our</span>
 											<h2 className="f-weight-700 margin-0">Partners</h2>
 											<div className="bordershep" />
+											
+										</div>
+										{/* End Heading Title */}
+										<div className="partners-wrapper text-center">
 											<a href="http://reactalicante.es/" target="_blank">
 												<LazyImage
 													imgClassName="partner-img"
@@ -194,8 +198,19 @@ class Home extends Component {
 													src="assets/images/partners/react-finland-logo.svg"
 												/>
 											</a>
+											<a href="" target="_blank">
+												<LazyImage
+													imgClassName="partner-img pa-30"
+													src="assets/images/partners/novick.png"
+												/>
+											</a>
+											<a href="" target="_blank">
+												<LazyImage
+													imgClassName="partner-img"
+													src="assets/images/partners/reactjsday-logo.svg"
+												/>
+											</a>
 										</div>
-										{/* End Heading Title */}
 									</div>
 								</div>
 								{/* Start Testimonial Carousel

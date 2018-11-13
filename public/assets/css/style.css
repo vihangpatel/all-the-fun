@@ -1403,6 +1403,9 @@ p {
 	background: rgba(0, 0, 0, 0.4);
 	z-index: -1;
 } */
+.testimonial-area .partners-wrapper a{
+	display: inline-block;
+}
 .testimonial-area .partner-img {
 	height: 115px;
 	/* background-color: #fff;
@@ -1411,6 +1414,9 @@ p {
 	padding: 10px;
 	margin-top: 10px;
 	margin-right: 10px;
+}
+.testimonial-area .partner-img.pa-30{
+	padding: 30px;
 }
 .testimonial-area .heading-title {
 	padding: 0 0 30px;
@@ -3398,8 +3404,12 @@ ul.pagination {
 	
 	.about-area .mr_btn_fill {
 		margin-right: 0;
+		padding: 10px 20px;
+		font-size: 15px;
 	}
-	
+	.about-area{
+		padding : 94px 0 60px;
+	}
 	.footer-top {
 		padding: 62px 0 62px;
 	}
@@ -3416,6 +3426,9 @@ ul.pagination {
 	
 	.footer-contact-info {
 		margin-top: 20px;
+	}
+	.testimonial-area .partners-wrapper a{
+		display: block;
 	}
 }
 @media screen and (max-width: 496px) {
