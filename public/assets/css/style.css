@@ -3583,3 +3583,10 @@ div.svglogo {
 .text-center {
 	text-align: center !important;
 }
+
+/*** speaker styles ***/
+.img-speaker {
+	width: 255px;
+	height: 255px;
+}
+/*** speaker styles ***/

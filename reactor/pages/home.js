@@ -182,7 +182,6 @@ class Home extends Component {
 											<span className="subtitle">Our</span>
 											<h2 className="f-weight-700 margin-0">Partners</h2>
 											<div className="bordershep" />
-											
 										</div>
 										{/* End Heading Title */}
 										<div className="partners-wrapper text-center">
@@ -298,7 +297,7 @@ const SpeakerCard = props => {
 		<div className="col-sm-6 col-xl-3" key={props.name}>
 			<div className="speaker">
 				<div className="sk-img">
-					<div className="img">
+					<div className="img img-speaker">
 						<LazyImage
 							tinySrc={props.tinySrc}
 							imgClassName="img-fluid"
