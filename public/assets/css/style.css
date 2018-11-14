@@ -3891,6 +3891,7 @@ ul.pagination {
 	text-transform: uppercase;
 	font-family: 'Ubuntu', sans-serif;
 	color: #ffffff;
+	margin: 10px;
 }
 
 .content__title {
