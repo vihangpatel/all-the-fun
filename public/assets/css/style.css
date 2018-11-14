@@ -1403,7 +1403,7 @@ p {
 	background: rgba(0, 0, 0, 0.4);
 	z-index: -1;
 } */
-.testimonial-area .partners-wrapper a{
+.testimonial-area .partners-wrapper a {
 	display: inline-block;
 }
 .testimonial-area .partner-img {
@@ -1415,7 +1415,7 @@ p {
 	margin-top: 10px;
 	margin-right: 10px;
 }
-.testimonial-area .partner-img.pa-30{
+.testimonial-area .partner-img.pa-30 {
 	padding: 30px;
 }
 .testimonial-area .heading-title {
@@ -3407,9 +3407,11 @@ ul.pagination {
 		padding: 10px 20px;
 		font-size: 15px;
 	}
-	.about-area{
-		padding : 94px 0 60px;
+	
+	.about-area {
+		padding: 94px 0 60px;
 	}
+	
 	.footer-top {
 		padding: 62px 0 62px;
 	}
@@ -3427,7 +3429,8 @@ ul.pagination {
 	.footer-contact-info {
 		margin-top: 20px;
 	}
-	.testimonial-area .partners-wrapper a{
+	
+	.testimonial-area .partners-wrapper a {
 		display: block;
 	}
 }
@@ -3583,10 +3586,11 @@ div.svglogo {
 .text-center {
 	text-align: center !important;
 }
-
-/*** speaker styles ***/
-.img-speaker {
-	width: 255px;
-	height: 255px;
+.blur {
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+	background-color: #ccc;
 }
-/*** speaker styles ***/

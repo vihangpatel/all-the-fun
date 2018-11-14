@@ -91,17 +91,12 @@ class Img extends Component {
 	}
 
 	render() {
-		const wrapperStyle = this.props.inheritDimension ? __imageWrapper : {}
-		let imgStyle = __image
-
-		imgStyle = this.props.preview ? { ...imgStyle, ...__imagePreview } : { ...imgStyle, ...__imageNormal }
-
 		return (
 			<img
-				className={this.props.imgClassName}
+				className={`${this.props.imgClassName} ${this.state.imageRendered ? "" : "blur"}`}
 				src={this.state.src}
 				alt={this.state.alt}
-				preview={!this.state.imageRendered}
+				preview={!this.state.imageRendered ? "false" : "true"}
 				onLoad={this.props.onLoad}
 			/>
 		)

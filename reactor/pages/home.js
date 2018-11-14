@@ -1,17 +1,17 @@
-import React, { Fragment, Component, useState } from 'react'
-import Logo from './logo'
+import React, { Fragment, Component, useState } from "react"
+import Logo from "./logo"
 
-import speakersData from '../data/speakers'
-import { addMap } from './map'
-import LazyImage from '../lazy-load'
-import { registerLazyImageScrollHandler } from '../lazy-load/scroll-helper'
-import Header from '../header'
+import speakersData from "../data/speakers"
+import { addMap } from "./map"
+import LazyImage from "../lazy-load"
+import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
+import Header from "../header"
 
 class Home extends Component {
 	state = {
 		loadSecondFold: true,
 		showBanner: false,
-		showVideo: false,
+		loadVideo: false,
 	}
 
 	constructor() {
@@ -249,13 +249,12 @@ class Home extends Component {
 									</div>
 								</div>
 								<div className="row">
-									{speakersData.map((speakerInfo, i) => (
-										<SpeakerCard {...speakerInfo} key={i} />
+									{speakersData.map(speakerInfo => (
+										<SpeakerCard {...speakerInfo} key={speakerInfo.name} />
 									))}
 								</div>
 							</div>
 							<div className="more-speaker-text text-center">
-								{' '}
 								<span>More Speakers Coming soon....</span>
 							</div>
 						</div>
@@ -333,7 +332,7 @@ const SpeakerCard = props => {
 										: charLimit
 									: description.length
 							)}
-							{!showMore && '...'}
+							{!showMore && "..."}
 							<br />
 							{description.length > charLimit && (
 								<span>
