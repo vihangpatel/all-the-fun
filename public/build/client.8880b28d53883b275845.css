@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,500i,600,600i,700);
 /*-----------------------------------------------------------------
 
 Project     :   VenToT - Conference, Seminar & Event HTML Template
@@ -53,8 +54,6 @@ Front-end developer : Mamunur Rashid
 
 
 /*--Google Font Import--*/
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,500i,600,600i,700');
 html, body {
 	margin: 0;
 	padding: 0;
@@ -423,7 +422,7 @@ p {
 
 .index_1 .conferences {
 	padding: 94px 0px 92px;
-	background: url(../images/suhedule/back-banner.jpg) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -600,7 +599,7 @@ p {
 
 .navbar-nav .nav-item .nav-link::before {
 	position: absolute;
-	content: '\f107';
+	content: '\F107';
 	font-family: FontAwesome;
 	bottom: 10px;
 	left: 50%;
@@ -1064,7 +1063,7 @@ p {
 =================================================*/
 
 .venues_area {
-	background: url(../images/venuse/vbg.jpg) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	padding: 94px 0 99px;
 	position: relative;
@@ -1352,7 +1351,7 @@ p {
 }
 
 .pricing_area .bordershep {
-	background: url(../images/border.png) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	width: 118px;
 	height: 2px;
 	text-align: center;
@@ -1430,7 +1429,7 @@ p {
 =========================================================*/
 
 .purches {
-	background: url(../images/purches.jpg) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	padding: 94px 0px 100px;
 	background-attachment: fixed;
@@ -1893,7 +1892,7 @@ section.latest-news-area.main_blog.m-blog-padding {
 =================================================== */
 
 .subcribe_box {
-	background: url(../images/newsletter.jpg) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	padding: 40px 60px;
 }
@@ -2009,14 +2008,14 @@ section.latest-news-area.main_blog.m-blog-padding {
 }
 
 .solution_area .img-1 {
-	background: url(../images/about/s1.png) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	height: 100%;
 	display: block;
 }
 
 .solution_area .img-2 {
-	background: url(../images/about/s2.png) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	height: 100%;
 	display: block;
@@ -2025,7 +2024,7 @@ section.latest-news-area.main_blog.m-blog-padding {
 .solution_area .bordershep {
 	text-align: left;
 	margin: 20px 0px 25px;
-	background: url(../images/border_white.png) no-repeat center;
+	background: url([object Object]) no-repeat center;
 }
 
 .solution_area .s-box2 .bordershep {
@@ -2499,7 +2498,7 @@ section.latest-news-area.main_blog.m-blog-padding {
 ====================================================*/
 
 .breadcrumbs {
-	background: url(../images/breadcrumb-bg.jpg) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	position: relative;
 	padding: 200px 0px 112px;
@@ -3426,7 +3425,7 @@ ul.pagination {
 	left: 30px;
 	top: 30px;
 	font-family: 'fontawesome';
-	content: '\f107';
+	content: '\F107';
 	transform: translateY(-50%);
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -3435,7 +3434,7 @@ ul.pagination {
 }
 
 .faq-accordian .panel-group .panel .panel-heading .panel-title a[aria-expanded='true']:after {
-	content: '\f105';
+	content: '\F105';
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -4176,4 +4175,184 @@ div.svglogo {
 
 .text-center {
 	text-align: center !important;
+}
+/* body {
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+	background-color: #f4f4f4;
+} */
+
+a {
+	color: #000;
+}
+
+
+/* header */
+
+.header-main {
+	/* background-color: #fff; */
+	background-color: rgba(0, 0, 0, 0.9);
+	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+	height: 59px;
+	width: 100%;
+	z-index: 3;
+	visibility: hidden;
+}
+
+.header-main ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	/* background-color: #fff; */
+}
+
+.header-main li a {
+	display: block;
+	padding: 20px 20px;
+	font-size: 15px;
+	color: hsla(0, 0%, 100%, 0.8);
+	/* border-right: 1px solid #f4f4f4; */
+	text-decoration: none;
+}
+
+.header-main li a:hover, .header-main .menu-btn:hover {
+	/* background-color: #f4f4f4; */
+	color: #fff;
+}
+
+.header-main .logo {
+	display: block;
+	float: left;
+	font-size: 2em;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+
+/* menu */
+
+.header-main .menu {
+	clear: both;
+	max-height: 0;
+	transition: max-height 0.2s ease-out;
+}
+
+
+/* menu icon */
+
+.header-main .menu-icon {
+	cursor: pointer;
+	/* display: inline-block; */
+	float: right;
+	padding: 28px 20px;
+	position: relative;
+	user-select: none;
+}
+
+.header-main .menu-icon .navicon {
+	/* background: #333; */
+	background: #fff;
+	display: block;
+	height: 2px;
+	position: relative;
+	transition: background 0.2s ease-out;
+	width: 18px;
+}
+
+.header-main .menu-icon .navicon:before, .header-main .menu-icon .navicon:after {
+	/* background: #333; */
+	background: #fff;
+	content: '';
+	display: block;
+	height: 100%;
+	position: absolute;
+	transition: all 0.2s ease-out;
+	width: 100%;
+}
+
+.header-main .menu-icon .navicon:before {
+	top: 5px;
+}
+
+.header-main .menu-icon .navicon:after {
+	top: -5px;
+}
+
+
+/* menu btn */
+
+.header-main .menu-btn {
+	display: none;
+}
+
+.header-main .menu-btn:checked ~ .menu {
+	max-height: 255px;
+}
+
+.header-main .menu-btn:checked ~ .menu-icon .navicon {
+	background: transparent;
+}
+
+.header-main .menu-btn:checked ~ .menu-icon .navicon:before {
+	transform: rotate(-45deg);
+}
+
+.header-main .menu-btn:checked ~ .menu-icon .navicon:after {
+	transform: rotate(45deg);
+}
+
+.header-main .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before, .header-main .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+	top: 0;
+}
+
+.menu {
+	/* position: absolute; */
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	/* top: 954; */
+	z-index: 20;
+	/* border-top: 1px solid #101010; */
+}
+
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+	.header-main li {
+		float: left;
+	}
+	.header-main li a {
+		padding: 20px 30px;
+	}
+	.header-main .menu {
+		/* clear: none; */
+		/* float: right; */
+		background: rgba(0, 0, 0, 0.1);
+		display: flex;
+		justify-content: flex-end;
+		max-height: none;
+	}
+	.header-main .menu-icon {
+		display: none;
+	}
+}
+
+
+/* content after header */
+
+.header-sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	visibility: visible;
+}
+
+.content {
+	padding-top: 16px;
+}
+
+.header-sticky + .content {
+	padding-top: 65px;
 }

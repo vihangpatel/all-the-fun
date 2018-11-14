@@ -1,6 +1,7 @@
 const path = require("path")
 const webpack = require("webpack")
 const { StatsWriterPlugin } = require("webpack-stats-plugin")
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 
 const buildPath = path.join(__dirname, "public", "build")
 
@@ -37,15 +38,22 @@ module.exports = {
 				],
 			},
 			{
-				test: /\.jsx?$/,
-				loader: "babel-loader",
-				exclude: /node_modules/,
+				test: /\.css$/,
+				use: [MiniCssExtractPlugin.loader, "css-loader"],
+			},
+			{
+				test: /\.(png|jpg)$/,
+				use: ["ignore-loader"],
 			},
 		],
 	},
 	plugins: [
 		new webpack.DefinePlugin({
 			__CLIENT__: true,
+		}),
+		new MiniCssExtractPlugin({
+			filename: "[name].[contentHash].css",
+			chunkFilename: "[id].css",
 		}),
 		new StatsWriterPlugin({
 			filename: "stats.json",

@@ -1,11 +1,14 @@
-import React, { Fragment, Component, useState } from 'react'
-import Logo from './logo'
+import React, { Fragment, Component, useState } from "react"
+import Logo from "./logo"
 
-import speakersData from '../data/speakers'
-import { addMap } from './map'
-import LazyImage from '../lazy-load'
-import { registerLazyImageScrollHandler } from '../lazy-load/scroll-helper'
-import Header from '../header'
+import speakersData from "../data/speakers"
+import { addMap } from "./map"
+import LazyImage from "../lazy-load"
+import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
+import Header from "../header"
+
+import "../../public/assets/css/style.css"
+import "../../public/assets/css/header.css"
 
 class Home extends Component {
 	state = {
@@ -241,7 +244,7 @@ class Home extends Component {
 								</div>
 							</div>
 							<div className="more-speaker-text text-center">
-								{' '}
+								{" "}
 								<span>More Speakers Coming soon....</span>
 							</div>
 						</div>
@@ -319,7 +322,7 @@ const SpeakerCard = props => {
 										: charLimit
 									: description.length
 							)}
-							{!showMore && '...'}
+							{!showMore && "..."}
 							<br />
 							{description.length > charLimit && (
 								<span>

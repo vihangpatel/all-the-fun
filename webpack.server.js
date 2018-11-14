@@ -35,9 +35,8 @@ module.exports = {
 				],
 			},
 			{
-				test: /\.jsx?$/,
-				loader: "babel-loader",
-				exclude: /node_modules/,
+				test: /\.(css|png|jpg)$/,
+				use: ["ignore-loader"],
 			},
 		],
 	},

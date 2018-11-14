@@ -1,9 +1,9 @@
 /* global window */
-import React from 'react'
+import React from "react"
 
-import { ContactPoint, WebsiteSchema, Analytics, description, keywords } from './SEO'
+import { ContactPoint, WebsiteSchema, Analytics, description, keywords } from "./SEO"
 
-const Head = () => (
+const Head = ({ cssFiles }) => (
 	<head>
 		<meta charSet="utf-8" />
 		<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -32,18 +32,15 @@ const Head = () => (
 
 		<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
 
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
-
-		<link rel="stylesheet" type="text/css" href="assets/css/header.css" />
-
-		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
-
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		{cssFiles.map(cssFile => (
+			<link rel="stylesheet" type="text/css" href={`${cssFile}`} />
+		))}
 
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400i" rel="stylesheet" />
 
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128577365-1" />
+		<script dangerouslySetInnerHTML={{ __html: `window.__site_time__ = ${Date.now()}` }} />
 
 		<Analytics />
 		<ContactPoint />
