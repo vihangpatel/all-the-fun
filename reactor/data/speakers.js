@@ -90,6 +90,14 @@ const data = [
     tinySrc: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABAQEBAREBIUFBIZGxgbGSUiHx8iJTgoKygrKDhVNT41NT41VUtbSkVKW0uHal5eaoecg3yDnL2pqb3u4u7/////wAALCAAeAB4BAREA/8QANgAAAgMBAAAAAAAAAAAAAAAABgcCAwQFEAACAgMBAAMBAAAAAAAAAAABAwIEABESBRMhMSL/2gAIAQEAAD8AP8os2U1VSa6XMRmBHrobZFaamJbIbgJ6/oZ1Mlgv7LoFy5h4lBUT2sfepn8JwVqsnc9qn8fQCiOtn8AxoYN+1dsJ86wtkOJzUeJxOCFHyWPom0LvwwnvsZhX8dH1EFLw4RIJnHGVXtXJIhJdXoEb0ZgEZD3V7oFv1tMhPFjO+8drgQFblqJiDoE7yygZPtBR100xj1r8GNipHlZz/9k='
   },
   {
+    name: 'Vladimir Novick',
+    imgPath: 'vladir.jpg',
+    github: 'https://github.com/VladimirNovick ',
+    twitter: 'https://twitter.com/VladimirNovick ',
+    description: 'Google Developer Expert, independent consultant, worldwide speaker, entrepreneur, Author of "React Native - Build mobile apps with JavaScript" book and several workshops and courses. He brings years of experience in JavaScript ecosystem and is one of early React and React Native adopters. On daily basis Vladimir works in Web, Mobile, VR/AR and IoT fields both for customers and on personal projects. Previously he worked in Sports, Gaming & Video industries as Lead Architect & Team Leader',
+    jobrole: 'Independent Consultant'
+  },
+  {
     name: 'CALL FOR SPEAKERS',
     imgPath: 'you.png',
     description: 'COMING SOON!'
