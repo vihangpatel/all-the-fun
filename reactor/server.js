@@ -27,8 +27,8 @@ critical
 		html: stringOutput,
 		inline: true,
 		base: "./public",
-		dest: "/",
-		dest: "index-critical.html",
+		dest: "index.html",
+		height: 1500,
 	})
 	.then(content => {
 		stringOutput = content.toString()
