@@ -212,24 +212,7 @@ class Home extends Component {
 										</div>
 									</div>
 								</div>
-								{/* Start Testimonial Carousel
-			<div className="testimonial owl-carousel owl-loaded owl-drag" id="home-testimonial">
-				{/*Start Testimonial Item */}
-								{/* End Testimonial Item
-
-				<div className="owl-nav disabled">
-					<div className="owl-prev">prev</div>
-					<div className="owl-next">next</div>
-				</div>
-				<div className="owl-dots">
-					<div className="owl-dot active">
-						<span />
-					</div>
-					<div className="owl-dot">
-						<span />
-					</div>
-				</div>
-			</div> */}
+							
 								{/* End Testimonial Carousel */}
 							</div>
 							{/* End Container */}
