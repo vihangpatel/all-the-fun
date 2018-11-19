@@ -1,37 +1,40 @@
-import React from 'react'
+import React from "react"
 
 const navItems = [
-	{ name: 'About', id: '#about' },
-	{ name: 'Partners', id: '#partners' },
-	{ name: 'Speakers', id: '#speakers' },
-	{ name: 'Organizers', id: '#organizers' },
+	{ name: "About", id: "#about" },
+	{ name: "Partners", id: "#partners" },
+	{ name: "Speakers", id: "#speakers" },
+	{ name: "Organizers", id: "#organizers" },
 ]
 
 class Header extends React.Component {
 	sticky = 0
-	header = null
+	isSticked = false
+	header = React.createRef()
 	state = {
 		checked: false,
 	}
 
 	scrollPage = () => {
+		const header = this.header.current
 		if (window.pageYOffset > this.sticky) {
-			this.header && this.header.classList.add('header-sticky')
+			!this.isSticked && header && header.classList.add("header-sticky")
+			this.isSticked = true
 		} else {
-			this.header && this.header.classList.remove('header-sticky')
+			this.isSticked && header && header.classList.remove("header-sticky")
+			this.isSticked = false
 		}
 	}
 
 	componentDidMount() {
-		window.addEventListener('scroll', this.scrollPage)
-		this.header = document.querySelector('.header-main')
-		this.sticky = this.header.offsetTop
+		window.addEventListener("scroll", this.scrollPage)
+		this.sticky = this.header.current.offsetTop
 	}
 
 	scrollToPath = (e, path) => {
 		e.preventDefault()
 		this.setState({ checked: false })
-		document.querySelector(path).scrollIntoView({ behavior: 'smooth', block: 'start' })
+		document.querySelector(path).scrollIntoView({ behavior: "smooth", block: "start" })
 	}
 
 	toggleChecked = e => this.setState({ checked: e.target.checked })
@@ -39,7 +42,7 @@ class Header extends React.Component {
 	render() {
 		const { checked } = this.state
 		return (
-			<header className="header-main">
+			<header ref={this.header} className="header-main">
 				{/* <a href className="logo">
 					CSS Nav
 				</a> */}
@@ -67,7 +70,7 @@ class Header extends React.Component {
 	}
 
 	componentWillUnmount() {
-		window.removeEventListener('scroll', this.scrollPage)
+		window.removeEventListener("scroll", this.scrollPage)
 	}
 }
 
