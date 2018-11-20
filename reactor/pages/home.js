@@ -209,6 +209,12 @@ class Home extends Component {
 													src="assets/images/partners/reactjsday-logo.svg"
 												/>
 											</a>
+											<a href="http://reactalicante.es/" target="_blank">
+												<LazyImage
+													imgClassName="partner-img"
+													src="assets/images/partners/react-norway-logo.png"
+												/>
+											</a>
 										</div>
 									</div>
 								</div>
