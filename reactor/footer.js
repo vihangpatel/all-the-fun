@@ -32,9 +32,12 @@ const Footer = () => (
               <h3>Contact info</h3>
               <ul>
                 <li>
+                  <div>
+
+                                        APHERIO TECH PRIVATE LIMITED
+                                    </div>
                   <a>
-                    <i className='flaticon-location-pointer' />
-                                        30/3, Acsona Waddo, Uttorda Beach, Salcette, Goa 403713, India
+                                        Geekabyte is a brand of APHERIO TECH PRIVATE LIMITED. We conduct workshops, conferences across the globe.
                                     </a>
                 </li>
                 <li>
