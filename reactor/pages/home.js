@@ -2,6 +2,7 @@ import React, { Fragment, Component, useState } from "react"
 import Logo from "./logo"
 
 import speakersData from "../data/speakers"
+import partners from "../data/partners"
 import { addMap } from "./map"
 import LazyImage from "../lazy-load"
 import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
@@ -185,40 +186,18 @@ class Home extends Component {
 										</div>
 										{/* End Heading Title */}
 										<div className="partners-wrapper text-center">
-											<a href="http://reactalicante.es/" target="_blank">
-												<LazyImage
-													imgClassName="partner-img"
-													src="assets/images/partners/react-alicante-logo.png"
-												/>
-											</a>
-											<a href="https://react-finland.fi/" target="_blank">
-												<LazyImage
-													imgClassName="partner-img"
-													src="assets/images/partners/react-finland-logo.svg"
-												/>
-											</a>
-											<a href="https://vnovick.com/" target="_blank">
-												<LazyImage
-													imgClassName="partner-img pa-30"
-													src="assets/images/partners/novick.png"
-												/>
-											</a>
-											<a href="https://2018.reactjsday.it/" target="_blank">
-												<LazyImage
-													imgClassName="partner-img"
-													src="assets/images/partners/reactjsday-logo.svg"
-												/>
-											</a>
-											<a href="https://reactnorway.com/" target="_blank">
-												<LazyImage
-													imgClassName="partner-img"
-													src="assets/images/partners/react-norway-logo.png"
-												/>
-											</a>
+											{partners.partners.map(partner => (
+												<a href={partner.url} target="_blank" key={partner.url}>
+													<LazyImage
+														imgClassName={`partner-img ${partner.cssClass}`}
+														src={partner.imageURL}
+													/>
+												</a>
+											))}
 										</div>
 									</div>
 								</div>
-							
+
 								{/* End Testimonial Carousel */}
 							</div>
 							{/* End Container */}
