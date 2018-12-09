@@ -6,6 +6,7 @@ import { addMap } from "./map"
 import LazyImage from "../lazy-load"
 import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
 import Header from "../header"
+import Schedule from "./Schedule"
 
 class Home extends Component {
 	state = {
@@ -88,6 +89,7 @@ class Home extends Component {
 					</div>
 				</div>
 				<Header />
+				<Schedule />
 				{/* End Slider Area */}
 				{/* Start About Area */}
 				{loadSecondFold && (
