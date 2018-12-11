@@ -257,7 +257,7 @@ p {
 
 .heading-title .subtitle {
 	font-size: 24px;
-	color: #ff8000;
+	color: #753B00;
 	line-height: 30px;
 	font-style: italic;
 }
@@ -269,6 +269,14 @@ p {
 	color: #242424;
 }
 
+.conferences .heading-title .subtitle {
+	color:#ff8000;
+}
+
+.conferences .heading-title .bordershep {
+	border-color:#ff8000;
+}
+
 .bordershep {
 	/* background: url(../images/border.png) no-repeat center; */
 	width: 118px;
@@ -276,7 +284,7 @@ p {
 	text-align: center;
 	margin: 11px auto 25px;
 	width: 60px;
-	border-bottom: 2px solid #ff8000;
+	border-bottom: 2px solid #753B00;
 }
 
 .affix {
@@ -3331,7 +3339,7 @@ ul.pagination {
 	margin-top: 35px;
 }
 .content__button a {
-	background: #29a9cc;
+	background: #175F72;
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	color: #ffffff;
 	display: inline-block;
@@ -3579,7 +3587,7 @@ div.svglogo {
 .toggle-text-length {
 	font-size: 10px;
 	font-style: italic;
-	color: red;
+	color: #A80000;
 	cursor: pointer;
 }
 .text-center {
