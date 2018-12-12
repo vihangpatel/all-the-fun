@@ -8,7 +8,7 @@ import Body from "./body"
 import getClientBundleEntryAssets from "./asset-reader"
 
 const HTML = props => (
-	<html>
+	<html lang="en">
 		<Head />
 		<body className="body-class index_1 home1">
 			<Body {...props} />
