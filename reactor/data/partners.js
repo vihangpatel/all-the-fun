@@ -26,5 +26,9 @@ export default {
 			cssClass: "pa-30",
 			imageURL: "assets/images/partners/women.png",
 		},
+		{
+			url: "https://react.amsterdam",
+			imageURL: "assets/images/partners/react-amsterdam.png",
+		},
 	],
 }
