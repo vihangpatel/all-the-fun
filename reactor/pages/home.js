@@ -89,7 +89,6 @@ class Home extends Component {
 					</div>
 				</div>
 				<Header />
-				<Schedule />
 				{/* End Slider Area */}
 				{/* Start About Area */}
 				{loadSecondFold && (
@@ -134,6 +133,7 @@ class Home extends Component {
 								</div>
 							</div>
 						</div>
+
 						{/* End About Area */}
 						<section className="conferences">
 							<div className="overlay" />
@@ -220,13 +220,14 @@ class Home extends Component {
 										</div>
 									</div>
 								</div>
-							
+
 								{/* End Testimonial Carousel */}
 							</div>
 							{/* End Container */}
 						</section>
 						{/* End Testimonial Area */}
 						{/* Start Speakers Area */}
+						<Schedule />
 						<div className="speaker_area" id="speakers">
 							<div className="container">
 								<div className="row justify-content-center">
