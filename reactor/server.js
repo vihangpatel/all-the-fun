@@ -21,7 +21,7 @@ if (process.env.ENV === "development") {
 	app.use(express.static(path.join(__dirname, "..")))
 }
 
-let stringOutput = renderAppToString("")
+let stringOutput = `<!DOCTYPE html>${renderAppToString("")}`
 critical
 	.generate({
 		html: stringOutput,

@@ -62,7 +62,7 @@ class Home extends Component {
 							<h3 className="content__desc">react india</h3>
 							<h2 className="content__title" />
 							<div className="content__button">
-								<a target="_blank" href="http://bit.ly/React_India_Deck">
+								<a rel="noreferrer" target="_blank" href="http://bit.ly/React_India_Deck">
 									BECOME A SPONSOR
 								</a>
 							</div>
@@ -163,7 +163,7 @@ class Home extends Component {
 										</div>
 									</div>
 									<div className="content__button show-interest-btn">
-										<a target="_blank" href="http://bit.ly/showing_interest_react_india_2019">
+										<a rel="noreferrer" target="_blank" href="http://bit.ly/showing_interest_react_india_2019">
 											SHOW YOUR INTEREST
 										</a>
 									</div>
@@ -188,7 +188,7 @@ class Home extends Component {
 										{/* End Heading Title */}
 										<div className="partners-wrapper text-center">
 											{partners.partners.map(partner => (
-												<a href={partner.url} target="_blank" key={partner.url}>
+												<a rel="noreferrer" href={partner.url} target="_blank" key={partner.url}>
 													<LazyImage
 														imgClassName={`partner-img ${partner.cssClass}`}
 														src={partner.imageURL}
@@ -238,7 +238,7 @@ class Home extends Component {
 										<div className="heading-title text-center">
 											<h2 className="f-weight-700 margin-0">Organized by</h2>
 											<div className="bordershep" />
-											<a target="_blank" href="http://geekabyte.tech">
+											<a rel="noreferrer" target="_blank" href="http://geekabyte.tech">
 												<LazyImage src="assets/images/geekabyte-web.png" />
 											</a>
 										</div>
@@ -275,13 +275,13 @@ const SpeakerCard = props => {
 						<div className="overlay d-flex justify-content-center">
 							<div className="slink">
 								<div>
-									<a target="_blank" href={props.github} aria-label={`${props.name}'s github profile`}>
+									<a rel="noreferrer" target="_blank" href={props.github} aria-label={`${props.name}'s github profile`}>
 										<i className="fa fa-github" />
-										
+
 									</a>
-									<a target="_blank" href={props.twitter} aria-label={`${props.name}'s twitter profile`}>
+									<a rel="noreferrer" target="_blank" href={props.twitter} aria-label={`${props.name}'s twitter profile`}>
 										<i className="fa fa-twitter" />
-										
+
 									</a>
 								</div>
 							</div>
