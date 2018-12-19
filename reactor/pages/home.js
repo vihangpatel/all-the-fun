@@ -52,7 +52,7 @@ class Home extends Component {
 							<div className="caption__small">
 								<p className="caption__small--para event-date">
 									<i className="fa fa-calendar" />
-									22nd - 24th August, 2019.
+									26th - 28th September, 2019.
 								</p>
 								<p className="caption__small--para uppercase event-location">
 									<i className="flaticon-location-pointer" />
@@ -158,12 +158,16 @@ class Home extends Component {
 								<div className="row">
 									<div className="col-12">
 										<div className="text-center">
-											<p className="date">22nd - 24th AUGUST | GOA, INDIA | 2019 EDITION</p>
+											<p className="date">26th - 28th SEPTEMBER | GOA, INDIA | 2019 EDITION</p>
 											{/* <div class="timer" id="countdown"></div> */}
 										</div>
 									</div>
 									<div className="content__button show-interest-btn">
-										<a rel="noreferrer" target="_blank" href="http://bit.ly/showing_interest_react_india_2019">
+										<a
+											rel="noreferrer"
+											target="_blank"
+											href="http://bit.ly/showing_interest_react_india_2019"
+										>
 											SHOW YOUR INTEREST
 										</a>
 									</div>
@@ -188,7 +192,12 @@ class Home extends Component {
 										{/* End Heading Title */}
 										<div className="partners-wrapper text-center">
 											{partners.partners.map(partner => (
-												<a rel="noreferrer" href={partner.url} target="_blank" key={partner.url}>
+												<a
+													rel="noreferrer"
+													href={partner.url}
+													target="_blank"
+													key={partner.url}
+												>
 													<LazyImage
 														imgClassName={`partner-img ${partner.cssClass}`}
 														src={partner.imageURL}
@@ -275,13 +284,21 @@ const SpeakerCard = props => {
 						<div className="overlay d-flex justify-content-center">
 							<div className="slink">
 								<div>
-									<a rel="noreferrer" target="_blank" href={props.github} aria-label={`${props.name}'s github profile`}>
+									<a
+										rel="noreferrer"
+										target="_blank"
+										href={props.github}
+										aria-label={`${props.name}'s github profile`}
+									>
 										<i className="fa fa-github" />
-
 									</a>
-									<a rel="noreferrer" target="_blank" href={props.twitter} aria-label={`${props.name}'s twitter profile`}>
+									<a
+										rel="noreferrer"
+										target="_blank"
+										href={props.twitter}
+										aria-label={`${props.name}'s twitter profile`}
+									>
 										<i className="fa fa-twitter" />
-
 									</a>
 								</div>
 							</div>
