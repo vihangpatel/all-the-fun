@@ -10,12 +10,12 @@ const Footer = () => (
               <h3 className='title'>Follow Us</h3>
               <ul>
                 <li>
-                  <a target='_blank' href='https://www.facebook.com/ReactJSIndia/' aria-label="React India facebook page">
+                  <a rel="noreferrer" target='_blank' href='https://www.facebook.com/ReactJSIndia/' aria-label="React India facebook page">
                     <i className='fa fa-facebook' />
                   </a>
                 </li>
                 <li>
-                  <a target='_blank' href='https://twitter.com/react_india/' aria-label="React India twitter profile">
+                  <a rel="noreferrer" target='_blank' href='https://twitter.com/react_india/' aria-label="React India twitter profile">
                     <i className='fa fa-twitter' />
                   </a>
                 </li>
@@ -73,6 +73,7 @@ const Footer = () => (
           </div>
           <div className='col-md-6'>
             <a
+              rel="noreferrer"
               target='_blank'
               className='pull-right code-of-conduct-link'
               href='https://www.notion.so/apherio/CODE-OF-CONDUCT-46e5dc50604a44e1be53a34d4937682f'
@@ -80,6 +81,7 @@ const Footer = () => (
               <span>Code of Conduct</span>
             </a>
             <a
+              rel="noreferrer"
               target='_blank'
               className='pull-right code-of-conduct-link'
               href='https://www.notion.so/apherio/ACCESSIBILITY-STATEMENT-191ec2ad04d84deeb6dfe74b638047e4'
