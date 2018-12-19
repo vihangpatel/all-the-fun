@@ -1,7 +1,7 @@
 /* global window */
-import React from 'react'
+import React from "react"
 
-import { ContactPoint, WebsiteSchema, Analytics, description, keywords } from './SEO'
+import { ContactPoint, WebsiteSchema, Analytics, description, keywords } from "./SEO"
 
 const Head = () => (
 	<head>
@@ -29,6 +29,18 @@ const Head = () => (
 		<meta name="theme-color" content="#ffffff" />
 
 		<title>React India - 2019</title>
+
+		<script
+			type="text/javascript"
+			dangerouslySetInnerHTML={{
+				__html: `if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/app-sw.js', {
+					scope: '/'
+				}).then(registration => console.log('SW registered!', registration))
+				.catch(err => console.log('Boo!', err));
+		}`,
+			}}
+		/>
 
 		<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
 
