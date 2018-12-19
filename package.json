@@ -71,6 +71,7 @@
 		"babel-runtime": "^6.26.0",
 		"nodemon": "^1.18.5",
 		"rimraf": "^2.6.2",
-		"webpack-stats-plugin": "^0.2.1"
+		"webpack-stats-plugin": "^0.2.1",
+		"workbox-webpack-plugin": "^3.6.3"
 	}
 }

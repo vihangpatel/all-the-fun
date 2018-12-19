@@ -1,6 +1,7 @@
 const path = require("path")
 const webpack = require("webpack")
 const { StatsWriterPlugin } = require("webpack-stats-plugin")
+const { GenerateSW } = require("workbox-webpack-plugin")
 
 const buildPath = path.join(__dirname, "public", "build")
 
@@ -11,7 +12,7 @@ module.exports = {
 		path: buildPath,
 		filename: "[name].[contentHash].js",
 		chunkFilename: "[name].[contentHash].js",
-		publicPath: "/",
+		publicPath: "/build/",
 	},
 	optimization: {
 		splitChunks: {
@@ -49,6 +50,14 @@ module.exports = {
 		}),
 		new StatsWriterPlugin({
 			filename: "stats.json",
+		}),
+		new GenerateSW({
+			swDest: "../app-sw.js",
+			exclude: [/\.html$/],
+			modifyUrlPrefix: {
+				"/": "/build/",
+			},
+			skipWaiting: true,
 		}),
 	],
 }
