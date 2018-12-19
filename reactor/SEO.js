@@ -65,7 +65,7 @@ export const Analytics = () => (
 )
 
 export const description = `Do you want to learn about React and React Native?
-Then you shouldn't miss React India - Goa next August! 
+Then you shouldn't miss React India - Goa next September! 
 You will have the opportunity to improve your developer skills and meet people from around the world, 
 while enjoying the beaches of Goa`
 
