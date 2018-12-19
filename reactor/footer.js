@@ -10,12 +10,12 @@ const Footer = () => (
               <h3 className='title'>Follow Us</h3>
               <ul>
                 <li>
-                  <a target='_blank' href='https://www.facebook.com/ReactJSIndia/'>
+                  <a target='_blank' href='https://www.facebook.com/ReactJSIndia/' aria-label="React India facebook page">
                     <i className='fa fa-facebook' />
                   </a>
                 </li>
                 <li>
-                  <a target='_blank' href='https://twitter.com/react_india/'>
+                  <a target='_blank' href='https://twitter.com/react_india/' aria-label="React India twitter profile">
                     <i className='fa fa-twitter' />
                   </a>
                 </li>
@@ -92,7 +92,7 @@ const Footer = () => (
     </div>
 
     <div className='totop'>
-      <a href='#top'>
+      <a href='#top' aria-label="move to top">
         <i className='fa fa-arrow-up' />
       </a>
     </div>

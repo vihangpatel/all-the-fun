@@ -7,7 +7,7 @@ const Head = () => (
 	<head>
 		<meta charSet="utf-8" />
 		<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<meta name="viewport" content="width=device-width, maximum-scale=5, initial-scale=1" />
 		<meta name="keywords" content={keywords} />
 		<meta name="description" content={description} />
 		<link rel="apple-touch-icon" sizes="57x57" href="assets/favico/apple-icon-57x57.png" />
