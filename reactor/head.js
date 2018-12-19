@@ -34,10 +34,11 @@ const Head = () => (
 			type="text/javascript"
 			dangerouslySetInnerHTML={{
 				__html: `if ('serviceWorker' in navigator) {
-			navigator.serviceWorker.register('/app-sw.js', {
-					scope: '/'
-				}).then(registration => console.log('SW registered!', registration))
-				.catch(err => console.log('Boo!', err));
+					navigator.serviceWorker.register('/app-sw.js', {
+						scope: '/'
+					})
+					.then(registration => registration.unregister())
+					.catch(err => console.log('Boo!', err));
 		}`,
 			}}
 		/>
