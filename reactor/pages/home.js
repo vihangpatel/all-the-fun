@@ -265,7 +265,105 @@ class Home extends Component {
 	}
 }
 
-const SpeakerCard = props => {
+const charLimit = 120
+
+class SpeakerCard extends React.Component {
+	constructor(props) {
+		super(props)
+		this.state = {
+			showMore: props.description.length <= charLimit,
+		}
+		this.setFlag = this.setFlag.bind(this)
+	}
+
+	setFlag() {
+		this.setState({
+			showMore: !this.state.showMore,
+		})
+	}
+
+	render() {
+		const { props } = this
+
+		const { description } = props
+
+		const { showMore } = this.state
+
+		return (
+			<div className="col-sm-6 col-xl-3" key={props.name}>
+				<div className="speaker">
+					<div className="sk-img">
+						<div className="img img-speaker">
+							<LazyImage
+								tinySrc={props.tinySrc}
+								imgClassName="img-fluid"
+								src={`assets/images/speakers/${props.imgPath}`}
+								alt={props.imgPath}
+							/>
+							<div className="overlay d-flex justify-content-center">
+								<div className="slink">
+									<div>
+										<a
+											rel="noreferrer"
+											target="_blank"
+											href={props.github}
+											aria-label={`${props.name}'s github profile`}
+										>
+											<i className="fa fa-github" />
+										</a>
+										<a
+											rel="noreferrer"
+											target="_blank"
+											href={props.twitter}
+											aria-label={`${props.name}'s twitter profile`}
+										>
+											<i className="fa fa-twitter" />
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="sk-content">
+						<a>
+							<h4>{props.name}</h4>
+						</a>
+						<p>{props.jobrole}</p>
+						<div className="sk-desc">
+							<p className="sk-desc-p">
+								{props.description.substr(
+									0,
+									description.length > charLimit
+										? showMore
+											? description.length
+											: charLimit
+										: description.length
+								)}
+								{!showMore && "..."}
+								<br />
+								{description.length > charLimit && (
+									<span>
+										{showMore ? (
+											<span className="toggle-text-length" onClick={() => setFlag(false)}>
+												[...]
+											</span>
+										) : (
+											<span className="toggle-text-length" onClick={() => setFlag(true)}>
+												[...]
+											</span>
+										)}
+									</span>
+								)}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		)
+	}
+}
+
+const SpeakerCard2 = props => {
 	const charLimit = 120
 	const [showMore, setFlag] = useState(props.description.length <= charLimit)
 	const { description } = props
