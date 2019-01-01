@@ -7,6 +7,7 @@ import { addMap } from "./map"
 import LazyImage from "../lazy-load"
 import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
 import Header from "../header"
+import { throws } from "assert"
 
 class Home extends Component {
 	state = {
@@ -276,9 +277,9 @@ class SpeakerCard extends React.Component {
 		this.setFlag = this.setFlag.bind(this)
 	}
 
-	setFlag() {
+	setFlag(showMore) {
 		this.setState({
-			showMore: !this.state.showMore,
+			showMore,
 		})
 	}
 
@@ -344,11 +345,11 @@ class SpeakerCard extends React.Component {
 								{description.length > charLimit && (
 									<span>
 										{showMore ? (
-											<span className="toggle-text-length" onClick={() => setFlag(false)}>
+											<span className="toggle-text-length" onClick={() => this.setFlag(false)}>
 												[...]
 											</span>
 										) : (
-											<span className="toggle-text-length" onClick={() => setFlag(true)}>
+											<span className="toggle-text-length" onClick={() => this.setFlag(true)}>
 												[...]
 											</span>
 										)}
