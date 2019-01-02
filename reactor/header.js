@@ -1,10 +1,11 @@
-import React from "react"
+import React from 'react'
 
 const navItems = [
-	{ name: "About", id: "#about" },
-	{ name: "Partners", id: "#partners" },
-	{ name: "Speakers", id: "#speakers" },
-	{ name: "Organizers", id: "#organizers" },
+	{ name: 'About', id: '#about' },
+	{ name: 'Partners', id: '#partners' },
+	{ name: 'Speakers', id: '#speakers' },
+	{ name: 'Schedule', id: '#schedule' },
+	{ name: 'Organizers', id: '#organizers' },
 ]
 
 class Header extends React.Component {
@@ -18,23 +19,23 @@ class Header extends React.Component {
 	scrollPage = () => {
 		const header = this.header.current
 		if (window.pageYOffset > this.sticky) {
-			!this.isSticked && header && header.classList.add("header-sticky")
+			!this.isSticked && header && header.classList.add('header-sticky')
 			this.isSticked = true
 		} else {
-			this.isSticked && header && header.classList.remove("header-sticky")
+			this.isSticked && header && header.classList.remove('header-sticky')
 			this.isSticked = false
 		}
 	}
 
 	componentDidMount() {
-		window.addEventListener("scroll", this.scrollPage)
+		window.addEventListener('scroll', this.scrollPage)
 		this.sticky = this.header.current.offsetTop
 	}
 
 	scrollToPath = (e, path) => {
 		e.preventDefault()
 		this.setState({ checked: false })
-		document.querySelector(path).scrollIntoView({ behavior: "smooth", block: "start" })
+		document.querySelector(path).scrollIntoView({ behavior: 'smooth', block: 'start' })
 	}
 
 	toggleChecked = e => this.setState({ checked: e.target.checked })
@@ -70,7 +71,7 @@ class Header extends React.Component {
 	}
 
 	componentWillUnmount() {
-		window.removeEventListener("scroll", this.scrollPage)
+		window.removeEventListener('scroll', this.scrollPage)
 	}
 }
 

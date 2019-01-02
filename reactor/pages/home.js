@@ -1,13 +1,14 @@
-import React, { Fragment, Component, useState } from "react"
-import Logo from "./logo"
+import React, { Fragment, Component, useState } from 'react'
+import Logo from './logo'
 
-import speakersData from "../data/speakers"
-import partners from "../data/partners"
-import { addMap } from "./map"
-import LazyImage from "../lazy-load"
-import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
-import Header from "../header"
-import { throws } from "assert"
+import speakersData from '../data/speakers'
+import partners from '../data/partners'
+import { addMap } from './map'
+import LazyImage from '../lazy-load'
+import { registerLazyImageScrollHandler } from '../lazy-load/scroll-helper'
+import Header from '../header'
+import Schedule from '../pages/schedule'
+import { throws } from 'assert'
 
 class Home extends Component {
 	state = {
@@ -238,6 +239,9 @@ class Home extends Component {
 							</div>
 						</div>
 						{/* End Speakers Area */}
+						{/* Start schedule area */}
+						<Schedule />
+						{/* End schedule area */}
 						{/* Start Latest News Area */}
 						<section className="latest-news-area" id="organizers">
 							{/* Start Container */}
@@ -340,7 +344,7 @@ class SpeakerCard extends React.Component {
 											: charLimit
 										: description.length
 								)}
-								{!showMore && "..."}
+								{!showMore && '...'}
 								<br />
 								{description.length > charLimit && (
 									<span>
@@ -419,7 +423,7 @@ const SpeakerCard2 = props => {
 										: charLimit
 									: description.length
 							)}
-							{!showMore && "..."}
+							{!showMore && '...'}
 							<br />
 							{description.length > charLimit && (
 								<span>
