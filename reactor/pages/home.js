@@ -264,7 +264,7 @@ class Home extends Component {
 									</div>
 									{sponsors.gold.map(sponsor => (
 										<div key={sponsor.imgUrl} className="col-12 col-md text-center">
-											<a href="#">
+											<a href={sponsor.link}>
 												<LazyImage
 													imgClassName="golden img-fluid"
 													src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
@@ -282,7 +282,7 @@ class Home extends Component {
 									</div>
 									{sponsors.bronze.map(sponsor => (
 										<div key={sponsor.imgUrl} className="col-6 col-md text-center">
-											<a href="">
+											<a href={sponsor.link}>
 												<LazyImage
 													imgClassName="bronze img-fluid"
 													src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
