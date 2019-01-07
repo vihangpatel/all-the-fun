@@ -270,11 +270,11 @@ p {
 }
 
 .conferences .heading-title .subtitle {
-	color:#ff8000;
+	color: #ff8000;
 }
 
 .conferences .heading-title .bordershep {
-	border-color:#ff8000;
+	border-color: #ff8000;
 }
 
 .bordershep {
@@ -3600,4 +3600,10 @@ div.svglogo {
 	-ms-filter: blur(5px);
 	filter: blur(5px);
 	background-color: #ccc;
+}
+.golden.img-fluid {
+	height: 60px;
+}
+.bronze.img-fluid {
+	height: 40px;
 }

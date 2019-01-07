@@ -3,6 +3,7 @@ import Logo from "./logo"
 
 import speakersData from "../data/speakers"
 import partners from "../data/partners"
+import sponsors from "../data/sponsors"
 import { addMap } from "./map"
 import LazyImage from "../lazy-load"
 import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
@@ -70,12 +71,11 @@ class Home extends Component {
 						</div>
 					</div>
 					<div className="video__main">
-						{!showBanner && (
-							<img
-								src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/CABEIAA4AGQMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAGBwgJCv/aAAgBAQAAAACnsymK681yiEyT/8QAFQEBAQAAAAAAAAAAAAAAAAAABQf/2gAIAQIQAAAAvg//xAAVAQEBAAAAAAAAAAAAAAAAAAAFB//aAAgBAxAAAACOKf/EADAQAAEEAQAHBAsBAAAAAAAAAAMBAgQFBgAHERITIUEUUVaWFRYXIiUxMmGBkdTV/9oACAEBAAE/AH41q7KXYHO8T70+Nxk69V4ny/CdE0xrEsD47N3PMLb7yNcpMirWLvKqojXKQ6bHfZVavLvRU0wLCMM4QXtzjDjcm/RktKzYnJFRXPmps/XLry2aeo2I+KsV810f9umt7Jspoaqxp+3AjjLk9Y8j4KGLIBMBj8yG+NAspbvSUSodDNIMeG2Qo7KxIyTOE8keKUGK619Y4oj4NNlNlVVNe60kgiRjjCUsY5kPZJLkDjKWVKlMjs3HneVgFGwIOCMsl5ajI8pubqLTLk13HFZ2MmK8zbKyK9SOGyN2kzDT3jKZrHjY1URrdzeVzHKxiO9neZ+K5nmGy/ytP//EACYRAAIBAQQLAAAAAAAAAAAAAAECAxEABSFBBAcSFBgyQlFhgdH/2gAIAQIBAT8A4jC9THdMxiAILtLGrbVQOWhw819W0nX7Mzil2OmFQu85EgdMBzHf7b//xAAkEQACAAQEBwAAAAAAAAAAAAABAgMEESIAEiFRBQcXIzEycf/aAAgBAwEBPwDplMstH4hDJ0s7mXJaGu0JptQYluW0OGgRptWpT1hEAeN3+4//2Q=="
-								className="dummy-image"
-							/>
-						)}
+						<img
+							src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/CABEIAA4AGQMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAGBwgJCv/aAAgBAQAAAACnsymK681yiEyT/8QAFQEBAQAAAAAAAAAAAAAAAAAABQf/2gAIAQIQAAAAvg//xAAVAQEBAAAAAAAAAAAAAAAAAAAFB//aAAgBAxAAAACOKf/EADAQAAEEAQAHBAsBAAAAAAAAAAMBAgQFBgAHERITIUEUUVaWFRYXIiUxMmGBkdTV/9oACAEBAAE/AH41q7KXYHO8T70+Nxk69V4ny/CdE0xrEsD47N3PMLb7yNcpMirWLvKqojXKQ6bHfZVavLvRU0wLCMM4QXtzjDjcm/RktKzYnJFRXPmps/XLry2aeo2I+KsV810f9umt7Jspoaqxp+3AjjLk9Y8j4KGLIBMBj8yG+NAspbvSUSodDNIMeG2Qo7KxIyTOE8keKUGK619Y4oj4NNlNlVVNe60kgiRjjCUsY5kPZJLkDjKWVKlMjs3HneVgFGwIOCMsl5ajI8pubqLTLk13HFZ2MmK8zbKyK9SOGyN2kzDT3jKZrHjY1URrdzeVzHKxiO9neZ+K5nmGy/ytP//EACYRAAIBAQQLAAAAAAAAAAAAAAECAxEABSFBBAcSFBgyQlFhgdH/2gAIAQIBAT8A4jC9THdMxiAILtLGrbVQOWhw819W0nX7Mzil2OmFQu85EgdMBzHf7b//xAAkEQACAAQEBwAAAAAAAAAAAAABAgMEESIAEiFRBQcXIzEycf/aAAgBAwEBPwDplMstH4hDJ0s7mXJaGu0JptQYluW0OGgRptWpT1hEAeN3+4//2Q=="
+							className="dummy-image"
+						/>
+
 						{showBanner && (
 							<LazyImage
 								tinySrc="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/CABEIAA4AGQMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAGBwgJCv/aAAgBAQAAAACnsymK681yiEyT/8QAFQEBAQAAAAAAAAAAAAAAAAAABQf/2gAIAQIQAAAAvg//xAAVAQEBAAAAAAAAAAAAAAAAAAAFB//aAAgBAxAAAACOKf/EADAQAAEEAQAHBAsBAAAAAAAAAAMBAgQFBgAHERITIUEUUVaWFRYXIiUxMmGBkdTV/9oACAEBAAE/AH41q7KXYHO8T70+Nxk69V4ny/CdE0xrEsD47N3PMLb7yNcpMirWLvKqojXKQ6bHfZVavLvRU0wLCMM4QXtzjDjcm/RktKzYnJFRXPmps/XLry2aeo2I+KsV810f9umt7Jspoaqxp+3AjjLk9Y8j4KGLIBMBj8yG+NAspbvSUSodDNIMeG2Qo7KxIyTOE8keKUGK619Y4oj4NNlNlVVNe60kgiRjjCUsY5kPZJLkDjKWVKlMjs3HneVgFGwIOCMsl5ajI8pubqLTLk13HFZ2MmK8zbKyK9SOGyN2kzDT3jKZrHjY1URrdzeVzHKxiO9neZ+K5nmGy/ytP//EACYRAAIBAQQLAAAAAAAAAAAAAAECAxEABSFBBAcSFBgyQlFhgdH/2gAIAQIBAT8A4jC9THdMxiAILtLGrbVQOWhw819W0nX7Mzil2OmFQu85EgdMBzHf7b//xAAkEQACAAQEBwAAAAAAAAAAAAABAgMEESIAEiFRBQcXIzEycf/aAAgBAwEBPwDplMstH4hDJ0s7mXJaGu0JptQYluW0OGgRptWpT1hEAeN3+4//2Q=="
@@ -166,7 +166,7 @@ class Home extends Component {
 									<div className="col-12">
 										<div className="text-center">
 											<p className="date">26th - 28th SEPTEMBER | GOA, INDIA | 2019 EDITION</p>
-											{/* <div class="timer" id="countdown"></div> */}
+											{/* <div className="timer" id="countdown"></div> */}
 										</div>
 									</div>
 									<div className="content__button show-interest-btn">
@@ -245,6 +245,68 @@ class Home extends Component {
 						</div>
 						{/* End Speakers Area */}
 						{/* Start Latest News Area */}
+						<section className="sponsor_area">
+							<div className="container">
+								<div className="row justify-content-center">
+									<div className="col-md-8">
+										<div className="heading-title text-center">
+											<span className="subtitle">Our</span>
+											<h2 className="f-weight-700 margin-0">Event Sponsor</h2>
+											<div className="bordershep" />
+											<p>Our sponsors</p>
+										</div>
+									</div>
+								</div>
+								<div className="row">
+									<div className="col-12 text-center">
+										<div className="title-gold">
+											<span>Gold Sponsors</span>
+										</div>
+									</div>
+									{sponsors.gold.map(sponsor => (
+										<div key={sponsor.imgUrl} className="col-6 col-md text-center">
+											<a href="#">
+												<LazyImage
+													imgClassName="golden img-fluid"
+													src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
+													alt=""
+												/>
+											</a>
+										</div>
+									))}
+								</div>
+								<div className="row">
+									<div className="col-12 text-center">
+										<div className="title-silver">
+											<span>Bronze Sponsors</span>
+										</div>
+									</div>
+									{sponsors.bronze.map(sponsor => (
+										<div key={sponsor.imgUrl} className="col-6 col-md text-center">
+											<a href="#">
+												<LazyImage
+													imgClassName="bronze img-fluid"
+													src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
+													alt=""
+												/>
+											</a>
+										</div>
+									))}
+								</div>
+								<div className="row">
+									<div className="col-12 text-center">
+										<a
+											rel="noreferrer"
+											target="_blank"
+											className="mr-btn-fill-2"
+											href="http://bit.ly/React_India_Deck"
+										>
+											Know About Sponsorship
+										</a>
+									</div>
+								</div>
+							</div>
+						</section>
 						<section className="latest-news-area" id="organizers">
 							{/* Start Container */}
 							<div className="container">
