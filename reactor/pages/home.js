@@ -299,7 +299,7 @@ class Home extends Component {
 										</div>
 									</div>
 									{sponsors.bronze.map(sponsor => (
-										<div key={sponsor.imgUrl} className="col-4 col-md text-center">
+										<div key={sponsor.imgUrl} className="col-6 col-md text-center">
 											<a href={sponsor.link}>
 												<LazyImage
 													imgClassName="bronze img-fluid"
