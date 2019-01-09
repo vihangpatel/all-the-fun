@@ -259,6 +259,24 @@ class Home extends Component {
 								<div className="row">
 									<div className="col-12 text-center">
 										<div className="title-gold">
+											<span>Platinum Sponsors</span>
+										</div>
+									</div>
+									{sponsors.platinum.map(sponsor => (
+										<div key={sponsor.imgUrl} className="col-12 col-md text-center">
+											<a href={sponsor.link}>
+												<LazyImage
+													imgClassName="platinum img-fluid"
+													src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
+													alt=""
+												/>
+											</a>
+										</div>
+									))}
+								</div>
+								<div className="row">
+									<div className="col-12 text-center">
+										<div className="title-gold">
 											<span>Gold Sponsors</span>
 										</div>
 									</div>

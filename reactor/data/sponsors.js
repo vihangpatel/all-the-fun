@@ -1,5 +1,11 @@
 export default {
-	platinum: [],
+	platinum: [
+		{
+			category: "platinum",
+			imgUrl: "crystallize.svg",
+			link: "https://crystallize.com",
+		},
+	],
 	gold: [
 		{
 			category: "golden",
@@ -18,6 +24,11 @@ export default {
 			category: "bronze",
 			imgUrl: "simform.png",
 			link: "https://www.simform.co.in/",
+		},
+		{
+			category: "bronze",
+			imgUrl: "agora.png",
+			link: "https://agora.io/",
 		},
 	],
 }
