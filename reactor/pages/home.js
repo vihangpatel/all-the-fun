@@ -256,7 +256,7 @@ class Home extends Component {
 										</div>
 									</div>
 								</div>
-								<div className="row">
+								<div className="row mb-20">
 									<div className="col-12 text-center">
 										<div className="title-gold">
 											<span>Platinum Sponsors</span>
@@ -264,9 +264,9 @@ class Home extends Component {
 									</div>
 									{sponsors.platinum.map(sponsor => (
 										<div key={sponsor.imgUrl} className="col-12 col-md text-center">
-											<a href={sponsor.link}>
+											<a className="sponsor-link" href={sponsor.link}>
 												<LazyImage
-													imgClassName="platinum img-fluid"
+													imgClassName="sponsor-img platinum img-fluid"
 													src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
 													alt=""
 												/>
@@ -274,17 +274,17 @@ class Home extends Component {
 										</div>
 									))}
 								</div>
-								<div className="row">
+								<div className="row mb-20">
 									<div className="col-12 text-center">
 										<div className="title-gold">
 											<span>Gold Sponsors</span>
 										</div>
 									</div>
 									{sponsors.gold.map(sponsor => (
-										<div key={sponsor.imgUrl} className="col-12 col-md text-center">
-											<a href={sponsor.link}>
+										<div key={sponsor.imgUrl} className="col-12 text-center">
+											<a className="sponsor-link" href={sponsor.link}>
 												<LazyImage
-													imgClassName="golden img-fluid"
+													imgClassName="sponsor-img golden img-fluid"
 													src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
 													alt=""
 												/>
@@ -292,23 +292,27 @@ class Home extends Component {
 										</div>
 									))}
 								</div>
-								<div className="row">
+								<div className="row mb-20">
 									<div className="col-12 text-center">
 										<div className="title-silver">
 											<span>Bronze Sponsors</span>
 										</div>
 									</div>
-									{sponsors.bronze.map(sponsor => (
-										<div key={sponsor.imgUrl} className="col-6 col-md text-center">
-											<a href={sponsor.link}>
-												<LazyImage
-													imgClassName="bronze img-fluid"
-													src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
-													alt=""
-												/>
-											</a>
+									<div className="col-12 text-center">
+										<div className="row justify-content-center">
+											{sponsors.bronze.map(sponsor => (
+												<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
+													<a className="sponsor-link" href={sponsor.link}>
+														<LazyImage
+															imgClassName="sponsor-img bronze img-fluid"
+															src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
+															alt=""
+														/>
+													</a>
+												</div>
+											))}
 										</div>
-									))}
+									</div>
 								</div>
 								<div className="row">
 									<div className="col-12 text-center">
