@@ -22,7 +22,7 @@ export default {
 			imageURL: "assets/images/partners/react_norway.svg",
 		},
 		{
-			url: "https://reactnorway.com/",
+			url: "https://reactnewyork.com/",
 			imageURL: "assets/images/partners/react_new_york.svg",
 		},
 		{
