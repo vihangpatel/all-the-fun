@@ -19,7 +19,11 @@ export default {
 		},
 		{
 			url: "https://reactnorway.com/",
-			imageURL: "assets/images/partners/react-norway-logo.png",
+			imageURL: "assets/images/partners/react_norway.svg",
+		},
+		{
+			url: "https://reactnorway.com/",
+			imageURL: "assets/images/partners/react_new_york.svg",
 		},
 		{
 			url: "https://www.womenwhocode.com/",
