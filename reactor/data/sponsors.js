@@ -13,7 +13,13 @@ export default {
 			link: "https://www.paypal.com/in/home",
 		},
 	],
-	silver: [],
+	silver: [
+		{
+			category: "silver",
+			imgUrl: "hasura.svg",
+			link: "https://hasura.io/",
+		},
+	],
 	bronze: [
 		{
 			category: "bronze",
