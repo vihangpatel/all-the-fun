@@ -7,7 +7,7 @@ const compression = require("compression")
 const critical = require("critical")
 
 const { renderAppToString } = require("./index")
-
+var oneYear = 31557600000
 app.use(helmet())
 
 // Add middleware
@@ -16,9 +16,9 @@ app.use(redirectSSL)
 app.use(compression())
 
 if (process.env.ENV === "development") {
-	app.use(express.static(path.join(__dirname, "..", "public")))
+	app.use(express.static(path.join(__dirname, "..", "public"), { maxAge: oneYear }))
 } else {
-	app.use(express.static(path.join(__dirname, "..")))
+	app.use(express.static(path.join(__dirname, ".."), { maxAge: oneYear }))
 }
 
 let stringOutput = `<!DOCTYPE html>${renderAppToString("")}`
