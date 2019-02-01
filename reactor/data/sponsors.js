@@ -5,6 +5,11 @@ export default {
 			imgUrl: "crystallize.svg",
 			link: "https://crystallize.com",
 		},
+		{
+			category: "platinum",
+			imgUrl: "aws.svg",
+			link: "https://aws.amazon.com/",
+		},
 	],
 	gold: [
 		{
