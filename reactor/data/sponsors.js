@@ -17,6 +17,11 @@ export default {
 			imgUrl: "paypal.png",
 			link: "https://www.paypal.com/in/home",
 		},
+		{
+			category: "golden",
+			imgUrl: "nestawayLogo.svg",
+			link: "https://www.nestaway.com",
+		}
 	],
 	silver: [
 		{
