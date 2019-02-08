@@ -87,10 +87,7 @@ class Home extends Component {
 						)}
 						{loadVideo && (
 							<video autoPlay loop muted>
-								<source
-									src="https://www.dropbox.com/s/eeb5sl6xp3xbt94/video_2.mp4?dl=1"
-									type="video/mp4"
-								/>
+								<source src="assets/video/video.mp4" type="video/mp4" />
 								Please use a video supported browser
 							</video>
 						)}
@@ -263,19 +260,21 @@ class Home extends Component {
 										</div>
 									</div>
 									<div className="col-12 text-center">
-									<div className="row justify-content-center">
-									{sponsors.platinum.map(sponsor => (
-										<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
-											<a className="sponsor-link" href={sponsor.link}>
-												<LazyImage
-													imgClassName="sponsor-img platinum img-fluid"
-													src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
-													alt=""
-												/>
-											</a>
+										<div className="row justify-content-center">
+											{sponsors.platinum.map(sponsor => (
+												<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
+													<a className="sponsor-link" href={sponsor.link}>
+														<LazyImage
+															imgClassName="sponsor-img platinum img-fluid"
+															src={`assets/images/sponsor/${sponsor.category}/${
+																sponsor.imgUrl
+															}`}
+															alt=""
+														/>
+													</a>
+												</div>
+											))}
 										</div>
-									))}
-									</div>
 									</div>
 								</div>
 								<div className="row mb-20">
@@ -285,19 +284,21 @@ class Home extends Component {
 										</div>
 									</div>
 									<div className="col-12 text-center">
-									<div className="row justify-content-center">
-									{sponsors.gold.map(sponsor => (
-										<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
-											<a className="sponsor-link" href={sponsor.link}>
-												<LazyImage
-													imgClassName="sponsor-img golden img-fluid"
-													src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
-													alt=""
-												/>
-											</a>
+										<div className="row justify-content-center">
+											{sponsors.gold.map(sponsor => (
+												<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
+													<a className="sponsor-link" href={sponsor.link}>
+														<LazyImage
+															imgClassName="sponsor-img golden img-fluid"
+															src={`assets/images/sponsor/${sponsor.category}/${
+																sponsor.imgUrl
+															}`}
+															alt=""
+														/>
+													</a>
+												</div>
+											))}
 										</div>
-									))}
-									</div>
 									</div>
 								</div>
 								<div className="row mb-20">
