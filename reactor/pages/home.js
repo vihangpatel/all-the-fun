@@ -64,8 +64,8 @@ class Home extends Component {
 							<h3 className="content__desc">react india</h3>
 							<h2 className="content__title" />
 							<div className="content__button">
-								<a rel="noreferrer" target="_blank" href="http://bit.ly/React_India_Deck">
-									BECOME A SPONSOR
+								<a rel="noreferrer" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfhzeqiVWHCl1zWFoDzFwYRFPWSjzu4V877kbwT0gNm04D02A/viewform">
+									Submit your talk
 								</a>
 							</div>
 						</div>
