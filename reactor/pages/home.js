@@ -116,20 +116,10 @@ class Home extends Component {
 									<div className="col-md-12 order-last order-md-first">
 										<div className="about-text">
 											<p className="first-text">
-												React India is a community led non profit initiative with an
-												international flavor. The first of its kind in India, the event consists
-												of a workshop day and two days of talks around the topic.
+												React India is an international community-led non-profit initiative that provides a platform for developers to share and discuss their insights and experiences with React. The three-day conference is the first of its kind in India.
 											</p>
 											<p>
-												A 3 day conference with first day focussing on workshops & the next 2
-												days talks on things around React, React Native & GraphQL. This edition
-												will be gathering Front-end and Full-stack developers across the globe
-												in the cool place of India. In this single track event you will learn
-												more about React and surrounding topics while meeting some of the
-												leading talents around the globe. In addition to enjoying the event,
-												this is your chance to explore Goa. Regular and lightning talks will
-												cover various React.JS and FE topics including React Native, GraphQL, VR
-												&amp; AR, Redux, Preact and more!
+												The first of the three days will be focusing on workshops and the following two days will be dedicated to talks on topics revolving around React, React Native & GraphQL. The conference will bring together front-end and full-stack developers from across the globe to Goa, India. In this single track event, you will learn more about React and everything related to it while meeting some of the leading talents from around the globe in the developer community. In addition to enjoying the event, this is also your chance to explore Goa! Regular and lightning talks will cover various topics related to React.JS and FE, including React Native, GraphQL, VR and AR, Redux, Preact and more!
 											</p>
 											<div className="buttons">
 												<button type="button" disabled className="mr_btn_fill">
