@@ -69,7 +69,7 @@ class Home extends Component {
 									target="_blank"
 									href="https://docs.google.com/forms/d/e/1FAIpQLSfhzeqiVWHCl1zWFoDzFwYRFPWSjzu4V877kbwT0gNm04D02A/viewform"
 								>
-									Submit your talk
+									 SUBMIT YOUR TALK
 								</a>
 							</div>
 						</div>
@@ -268,7 +268,7 @@ class Home extends Component {
 									<div className="col-12 text-center">
 										<div className="row justify-content-center">
 											{sponsors.platinum.map(sponsor => (
-												<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
+												<div key={sponsor.imgUrl} className="col-12 col-md-4 text-center">
 													<a className="sponsor-link" href={sponsor.link}>
 														<LazyImage
 															imgClassName="sponsor-img platinum img-fluid"
