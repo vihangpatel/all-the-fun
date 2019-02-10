@@ -64,7 +64,11 @@ class Home extends Component {
 							<h3 className="content__desc">react india</h3>
 							<h2 className="content__title" />
 							<div className="content__button">
-								<a rel="noreferrer" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfhzeqiVWHCl1zWFoDzFwYRFPWSjzu4V877kbwT0gNm04D02A/viewform">
+								<a
+									rel="noreferrer"
+									target="_blank"
+									href="https://docs.google.com/forms/d/e/1FAIpQLSfhzeqiVWHCl1zWFoDzFwYRFPWSjzu4V877kbwT0gNm04D02A/viewform"
+								>
 									Submit your talk
 								</a>
 							</div>
@@ -87,10 +91,7 @@ class Home extends Component {
 						)}
 						{loadVideo && (
 							<video autoPlay loop muted>
-								<source
-									src="https://www.dropbox.com/s/eeb5sl6xp3xbt94/video_2.mp4?dl=1"
-									type="video/mp4"
-								/>
+								<source src="assets/video/video.mp4" type="video/mp4" />
 								Please use a video supported browser
 							</video>
 						)}
@@ -116,10 +117,22 @@ class Home extends Component {
 									<div className="col-md-12 order-last order-md-first">
 										<div className="about-text">
 											<p className="first-text">
-												React India is an international community-led non-profit initiative that provides a platform for developers to share and discuss their insights and experiences with React. The three-day conference is the first of its kind in India.
+												React India is an international community-led non-profit initiative that
+												provides a platform for developers to share and discuss their insights
+												and experiences with React. The three-day conference is the first of its
+												kind in India.
 											</p>
 											<p>
-												The first of the three days will be focusing on workshops and the following two days will be dedicated to talks on topics revolving around React, React Native & GraphQL. The conference will bring together front-end and full-stack developers from across the globe to Goa, India. In this single track event, you will learn more about React and everything related to it while meeting some of the leading talents from around the globe in the developer community. In addition to enjoying the event, this is also your chance to explore Goa! Regular and lightning talks will cover various topics related to React.JS and FE, including React Native, GraphQL, VR and AR, Redux, Preact and more!
+												The first of the three days will be focusing on workshops and the
+												following two days will be dedicated to talks on topics revolving around
+												React, React Native & GraphQL. The conference will bring together
+												front-end and full-stack developers from across the globe to Goa, India.
+												In this single track event, you will learn more about React and
+												everything related to it while meeting some of the leading talents from
+												around the globe in the developer community. In addition to enjoying the
+												event, this is also your chance to explore Goa! Regular and lightning
+												talks will cover various topics related to React.JS and FE, including
+												React Native, GraphQL, VR and AR, Redux, Preact and more!
 											</p>
 											<div className="buttons">
 												<button type="button" disabled className="mr_btn_fill">
@@ -253,19 +266,21 @@ class Home extends Component {
 										</div>
 									</div>
 									<div className="col-12 text-center">
-									<div className="row justify-content-center">
-									{sponsors.platinum.map(sponsor => (
-										<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
-											<a className="sponsor-link" href={sponsor.link}>
-												<LazyImage
-													imgClassName="sponsor-img platinum img-fluid"
-													src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
-													alt=""
-												/>
-											</a>
+										<div className="row justify-content-center">
+											{sponsors.platinum.map(sponsor => (
+												<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
+													<a className="sponsor-link" href={sponsor.link}>
+														<LazyImage
+															imgClassName="sponsor-img platinum img-fluid"
+															src={`assets/images/sponsor/${sponsor.category}/${
+																sponsor.imgUrl
+															}`}
+															alt=""
+														/>
+													</a>
+												</div>
+											))}
 										</div>
-									))}
-									</div>
 									</div>
 								</div>
 								<div className="row mb-20">
@@ -275,19 +290,21 @@ class Home extends Component {
 										</div>
 									</div>
 									<div className="col-12 text-center">
-									<div className="row justify-content-center">
-									{sponsors.gold.map(sponsor => (
-										<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
-											<a className="sponsor-link" href={sponsor.link}>
-												<LazyImage
-													imgClassName="sponsor-img golden img-fluid"
-													src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
-													alt=""
-												/>
-											</a>
+										<div className="row justify-content-center">
+											{sponsors.gold.map(sponsor => (
+												<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
+													<a className="sponsor-link" href={sponsor.link}>
+														<LazyImage
+															imgClassName="sponsor-img golden img-fluid"
+															src={`assets/images/sponsor/${sponsor.category}/${
+																sponsor.imgUrl
+															}`}
+															alt=""
+														/>
+													</a>
+												</div>
+											))}
 										</div>
-									))}
-									</div>
 									</div>
 								</div>
 								<div className="row mb-20">
@@ -296,17 +313,23 @@ class Home extends Component {
 											<span>Silver Sponsors</span>
 										</div>
 									</div>
-									{sponsors.silver.map(sponsor => (
-										<div key={sponsor.imgUrl} className="col-12 text-center">
-											<a className="sponsor-link" href={sponsor.link}>
-												<LazyImage
-													imgClassName="sponsor-img silver img-fluid"
-													src={`assets/images/sponsor/${sponsor.category}/${sponsor.imgUrl}`}
-													alt=""
-												/>
-											</a>
+									<div className="col-12 text-center">
+										<div className="row justify-content-center">
+											{sponsors.silver.map(sponsor => (
+												<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
+													<a className="sponsor-link" href={sponsor.link}>
+														<LazyImage
+															imgClassName="sponsor-img silver img-fluid"
+															src={`assets/images/sponsor/${sponsor.category}/${
+																sponsor.imgUrl
+															}`}
+															alt=""
+														/>
+													</a>
+												</div>
+											))}
 										</div>
-									))}
+									</div>
 								</div>
 								<div className="row mb-20">
 									<div className="col-12 text-center">
