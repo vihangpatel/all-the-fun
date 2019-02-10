@@ -21,13 +21,18 @@ export default {
 			category: "golden",
 			imgUrl: "nestawayLogo.svg",
 			link: "https://www.nestaway.com",
-		}
+		},
 	],
 	silver: [
 		{
 			category: "silver",
 			imgUrl: "hasura.svg",
 			link: "https://hasura.io/",
+		},
+		{
+			category: "silver",
+			imgUrl: "moonhighway.svg",
+			link: "https://moonhighway.com/",
 		},
 	],
 	bronze: [
