@@ -1,14 +1,18 @@
 import React from 'react'
-import Footer from './footer'
-import Home from './pages/home'
-// import Header from './header'
+import { Route, BrowserRouter } from 'react-router-dom'
 
-const Body = ({ pageName }) => (
-	<div id="body-wrap">
-		{/* <Header /> */}
-		<Home />
-		<Footer />
-	</div>
+import Home from './pages/home'
+import Subscribe from './pages/subscribe'
+import Footer from './footer'
+
+const Router = () => (
+	<BrowserRouter>
+		<div id='body-wrap'>
+			<Route path='/' component={Home} exact />
+			<Route path='/subscribe' component={Subscribe} exact />
+			<Footer />
+		</div>
+	</BrowserRouter>
 )
 
-export default Body
+export default Router
