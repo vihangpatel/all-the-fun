@@ -1,10 +1,10 @@
-import React from "react"
+import React from 'react'
 
 const navItems = [
-	{ name: "About", id: "#about" },
-	{ name: "Partners", id: "#partners" },
-	{ name: "Speakers", id: "#speakers" },
-	{ name: "Organizers", id: "#organizers" },
+	{ name: 'About', id: '#about' },
+	{ name: 'Partners', id: '#partners' },
+	{ name: 'Speakers', id: '#speakers' },
+	{ name: 'Organizers', id: '#organizers' }
 ]
 
 class Header extends React.Component {
@@ -12,29 +12,33 @@ class Header extends React.Component {
 	isSticked = false
 	header = React.createRef()
 	state = {
-		checked: false,
+		checked: false
 	}
 
 	scrollPage = () => {
 		const header = this.header.current
 		if (window.pageYOffset > this.sticky) {
-			!this.isSticked && header && header.classList.add("header-sticky")
+			!this.isSticked && header && header.classList.add('header-sticky')
 			this.isSticked = true
 		} else {
-			this.isSticked && header && header.classList.remove("header-sticky")
+			this.isSticked && header && header.classList.remove('header-sticky')
 			this.isSticked = false
 		}
 	}
 
 	componentDidMount() {
-		window.addEventListener("scroll", this.scrollPage)
+		window.addEventListener('scroll', this.scrollPage)
 		this.sticky = this.header.current.offsetTop
 	}
 
 	scrollToPath = (e, path) => {
 		e.preventDefault()
-		this.setState({ checked: false })
-		document.querySelector(path).scrollIntoView({ behavior: "smooth", block: "start" })
+		if (this.props.hardRefresh) {
+			location.href = '/'
+		} else {
+			this.setState({ checked: false })
+			document.querySelector(path).scrollIntoView({ behavior: 'smooth', block: 'start' })
+		}
 	}
 
 	toggleChecked = e => this.setState({ checked: e.target.checked })
@@ -42,21 +46,21 @@ class Header extends React.Component {
 	render() {
 		const { checked } = this.state
 		return (
-			<header ref={this.header} className="header-main">
+			<header ref={this.header} className='header-main'>
 				{/* <a href className="logo">
 					CSS Nav
 				</a> */}
 				<input
-					className="menu-btn"
+					className='menu-btn'
 					checked={checked}
 					onChange={this.toggleChecked}
-					type="checkbox"
-					id="menu-btn"
+					type='checkbox'
+					id='menu-btn'
 				/>
-				<label className="menu-icon" htmlFor="menu-btn">
-					<span className="navicon" />
+				<label className='menu-icon' htmlFor='menu-btn'>
+					<span className='navicon' />
 				</label>
-				<ul className="menu">
+				<ul className='menu'>
 					{navItems.map((item, i) => (
 						<li key={i}>
 							<a href={item.id} onClick={e => this.scrollToPath(e, item.id)}>
@@ -70,7 +74,7 @@ class Header extends React.Component {
 	}
 
 	componentWillUnmount() {
-		window.removeEventListener("scroll", this.scrollPage)
+		window.removeEventListener('scroll', this.scrollPage)
 	}
 }
 

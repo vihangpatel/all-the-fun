@@ -1,27 +1,38 @@
-import React from "react"
-import ReactDOMServer from "react-dom/server"
-import path from "path"
+import React from 'react'
+import ReactDOMServer from 'react-dom/server'
+import path from 'path'
 
-import Head from "./head"
-import Body from "./body"
+import Head from './head'
 
-import getClientBundleEntryAssets from "./asset-reader"
+import { Route, StaticRouter } from 'react-router-dom'
 
-const HTML = props => (
-	<html lang="en">
+import Home from './pages/home'
+import Subscribe from './pages/subscribe'
+import Footer from './footer'
+import getClientBundleEntryAssets from './asset-reader'
+
+const HTML = ({ url }) => (
+	<html lang='en'>
 		<Head />
-		<body className="body-class index_1 home1">
-			<Body {...props} />
+		<body className='body-class index_1 home1'>
+			<StaticRouter location={url} context={{}}>
+				<div id='body-wrap'>
+					<Route path='/' component={Home} exact />
+					<Route path='/subscribe' component={Subscribe} exact />
+					<Footer />
+				</div>
+			</StaticRouter>
 		</body>
+
 		<script
-			type="text/javascript"
+			type='text/javascript'
 			src={path.join(getClientBundleEntryAssets().path, getClientBundleEntryAssets().assetsByChunkName.vendor)}
 		/>
 		<script
-			type="text/javascript"
+			type='text/javascript'
 			src={path.join(getClientBundleEntryAssets().path, getClientBundleEntryAssets().assetsByChunkName.client)}
 		/>
 	</html>
 )
 
-export const renderAppToString = pageName => ReactDOMServer.renderToString(<HTML pageName={pageName} />)
+export const renderAppToString = url => ReactDOMServer.renderToString(<HTML url={url} />)

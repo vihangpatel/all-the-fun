@@ -1,20 +1,19 @@
-import React, { Fragment, Component, useState } from "react"
-import Logo from "./logo"
+import React, { Fragment, Component, useState } from 'react'
+import Logo from './logo'
 
-import speakersData from "../data/speakers"
-import partners from "../data/partners"
-import sponsors from "../data/sponsors"
-import { addMap } from "./map"
-import LazyImage from "../lazy-load"
-import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
-import Header from "../header"
-import { throws } from "assert"
+import speakersData from '../data/speakers'
+import partners from '../data/partners'
+import sponsors from '../data/sponsors'
+import { addMap } from './map'
+import LazyImage from '../lazy-load'
+import { registerLazyImageScrollHandler } from '../lazy-load/scroll-helper'
+import Header from '../header'
 
 class Home extends Component {
 	state = {
 		loadSecondFold: true,
 		showBanner: false,
-		loadVideo: false,
+		loadVideo: false
 	}
 
 	constructor() {
@@ -29,14 +28,14 @@ class Home extends Component {
 			addMap()
 			this.setState({
 				loadSecondFold: true,
-				showBanner: true,
+				showBanner: true
 			})
 		}, 100)
 	}
 
 	onImageLoad() {
 		this.setState({
-			loadVideo: true,
+			loadVideo: true
 		})
 	}
 
@@ -44,54 +43,54 @@ class Home extends Component {
 		const { showBanner, loadSecondFold, loadVideo } = this.state
 		return (
 			<Fragment>
-				<div className="video__wrapper">
-					<div className="video__overlay" />
-					<div className="video__content">
-						<div className="logo__main">
+				<div className='video__wrapper'>
+					<div className='video__overlay' />
+					<div className='video__content'>
+						<div className='logo__main'>
 							<Logo />
 						</div>
-						<div className="m-t-20">
-							<div className="caption__small">
-								<p className="caption__small--para event-date">
-									<i className="fa fa-calendar" />
+						<div className='m-t-20'>
+							<div className='caption__small'>
+								<p className='caption__small--para event-date'>
+									<i className='fa fa-calendar' />
 									26th - 28th September, 2019.
 								</p>
-								<p className="caption__small--para uppercase event-location">
-									<i className="flaticon-location-pointer" />
+								<p className='caption__small--para uppercase event-location'>
+									<i className='flaticon-location-pointer' />
 									Goa, India
 								</p>
 							</div>
-							<h3 className="content__desc">react india</h3>
-							<h2 className="content__title" />
-							<div className="content__button">
+							<h3 className='content__desc'>react india</h3>
+							<h2 className='content__title' />
+							<div className='content__button'>
 								<a
-									rel="noreferrer"
-									target="_blank"
-									href="https://docs.google.com/forms/d/e/1FAIpQLSfhzeqiVWHCl1zWFoDzFwYRFPWSjzu4V877kbwT0gNm04D02A/viewform"
+									rel='noreferrer'
+									target='_blank'
+									href='https://docs.google.com/forms/d/e/1FAIpQLSfhzeqiVWHCl1zWFoDzFwYRFPWSjzu4V877kbwT0gNm04D02A/viewform'
 								>
-									 SUBMIT YOUR TALK
+									SUBMIT YOUR TALK
 								</a>
 							</div>
 						</div>
 					</div>
-					<div className="video__main">
+					<div className='video__main'>
 						<img
-							src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/CABEIAA4AGQMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAGBwgJCv/aAAgBAQAAAACnsymK681yiEyT/8QAFQEBAQAAAAAAAAAAAAAAAAAABQf/2gAIAQIQAAAAvg//xAAVAQEBAAAAAAAAAAAAAAAAAAAFB//aAAgBAxAAAACOKf/EADAQAAEEAQAHBAsBAAAAAAAAAAMBAgQFBgAHERITIUEUUVaWFRYXIiUxMmGBkdTV/9oACAEBAAE/AH41q7KXYHO8T70+Nxk69V4ny/CdE0xrEsD47N3PMLb7yNcpMirWLvKqojXKQ6bHfZVavLvRU0wLCMM4QXtzjDjcm/RktKzYnJFRXPmps/XLry2aeo2I+KsV810f9umt7Jspoaqxp+3AjjLk9Y8j4KGLIBMBj8yG+NAspbvSUSodDNIMeG2Qo7KxIyTOE8keKUGK619Y4oj4NNlNlVVNe60kgiRjjCUsY5kPZJLkDjKWVKlMjs3HneVgFGwIOCMsl5ajI8pubqLTLk13HFZ2MmK8zbKyK9SOGyN2kzDT3jKZrHjY1URrdzeVzHKxiO9neZ+K5nmGy/ytP//EACYRAAIBAQQLAAAAAAAAAAAAAAECAxEABSFBBAcSFBgyQlFhgdH/2gAIAQIBAT8A4jC9THdMxiAILtLGrbVQOWhw819W0nX7Mzil2OmFQu85EgdMBzHf7b//xAAkEQACAAQEBwAAAAAAAAAAAAABAgMEESIAEiFRBQcXIzEycf/aAAgBAwEBPwDplMstH4hDJ0s7mXJaGu0JptQYluW0OGgRptWpT1hEAeN3+4//2Q=="
-							className="dummy-image"
+							src='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/CABEIAA4AGQMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAGBwgJCv/aAAgBAQAAAACnsymK681yiEyT/8QAFQEBAQAAAAAAAAAAAAAAAAAABQf/2gAIAQIQAAAAvg//xAAVAQEBAAAAAAAAAAAAAAAAAAAFB//aAAgBAxAAAACOKf/EADAQAAEEAQAHBAsBAAAAAAAAAAMBAgQFBgAHERITIUEUUVaWFRYXIiUxMmGBkdTV/9oACAEBAAE/AH41q7KXYHO8T70+Nxk69V4ny/CdE0xrEsD47N3PMLb7yNcpMirWLvKqojXKQ6bHfZVavLvRU0wLCMM4QXtzjDjcm/RktKzYnJFRXPmps/XLry2aeo2I+KsV810f9umt7Jspoaqxp+3AjjLk9Y8j4KGLIBMBj8yG+NAspbvSUSodDNIMeG2Qo7KxIyTOE8keKUGK619Y4oj4NNlNlVVNe60kgiRjjCUsY5kPZJLkDjKWVKlMjs3HneVgFGwIOCMsl5ajI8pubqLTLk13HFZ2MmK8zbKyK9SOGyN2kzDT3jKZrHjY1URrdzeVzHKxiO9neZ+K5nmGy/ytP//EACYRAAIBAQQLAAAAAAAAAAAAAAECAxEABSFBBAcSFBgyQlFhgdH/2gAIAQIBAT8A4jC9THdMxiAILtLGrbVQOWhw819W0nX7Mzil2OmFQu85EgdMBzHf7b//xAAkEQACAAQEBwAAAAAAAAAAAAABAgMEESIAEiFRBQcXIzEycf/aAAgBAwEBPwDplMstH4hDJ0s7mXJaGu0JptQYluW0OGgRptWpT1hEAeN3+4//2Q=='
+							className='dummy-image'
 						/>
 
 						{showBanner && (
 							<LazyImage
-								tinySrc="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/CABEIAA4AGQMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAGBwgJCv/aAAgBAQAAAACnsymK681yiEyT/8QAFQEBAQAAAAAAAAAAAAAAAAAABQf/2gAIAQIQAAAAvg//xAAVAQEBAAAAAAAAAAAAAAAAAAAFB//aAAgBAxAAAACOKf/EADAQAAEEAQAHBAsBAAAAAAAAAAMBAgQFBgAHERITIUEUUVaWFRYXIiUxMmGBkdTV/9oACAEBAAE/AH41q7KXYHO8T70+Nxk69V4ny/CdE0xrEsD47N3PMLb7yNcpMirWLvKqojXKQ6bHfZVavLvRU0wLCMM4QXtzjDjcm/RktKzYnJFRXPmps/XLry2aeo2I+KsV810f9umt7Jspoaqxp+3AjjLk9Y8j4KGLIBMBj8yG+NAspbvSUSodDNIMeG2Qo7KxIyTOE8keKUGK619Y4oj4NNlNlVVNe60kgiRjjCUsY5kPZJLkDjKWVKlMjs3HneVgFGwIOCMsl5ajI8pubqLTLk13HFZ2MmK8zbKyK9SOGyN2kzDT3jKZrHjY1URrdzeVzHKxiO9neZ+K5nmGy/ytP//EACYRAAIBAQQLAAAAAAAAAAAAAAECAxEABSFBBAcSFBgyQlFhgdH/2gAIAQIBAT8A4jC9THdMxiAILtLGrbVQOWhw819W0nX7Mzil2OmFQu85EgdMBzHf7b//xAAkEQACAAQEBwAAAAAAAAAAAAABAgMEESIAEiFRBQcXIzEycf/aAAgBAwEBPwDplMstH4hDJ0s7mXJaGu0JptQYluW0OGgRptWpT1hEAeN3+4//2Q=="
-								imgClassName="dummy-image"
-								alt="hero banner"
-								src="assets/video/still-image-min.jpg"
+								tinySrc='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/CABEIAA4AGQMBIgACEQEDEQH/xAAYAAACAwAAAAAAAAAAAAAAAAAGBwgJCv/aAAgBAQAAAACnsymK681yiEyT/8QAFQEBAQAAAAAAAAAAAAAAAAAABQf/2gAIAQIQAAAAvg//xAAVAQEBAAAAAAAAAAAAAAAAAAAFB//aAAgBAxAAAACOKf/EADAQAAEEAQAHBAsBAAAAAAAAAAMBAgQFBgAHERITIUEUUVaWFRYXIiUxMmGBkdTV/9oACAEBAAE/AH41q7KXYHO8T70+Nxk69V4ny/CdE0xrEsD47N3PMLb7yNcpMirWLvKqojXKQ6bHfZVavLvRU0wLCMM4QXtzjDjcm/RktKzYnJFRXPmps/XLry2aeo2I+KsV810f9umt7Jspoaqxp+3AjjLk9Y8j4KGLIBMBj8yG+NAspbvSUSodDNIMeG2Qo7KxIyTOE8keKUGK619Y4oj4NNlNlVVNe60kgiRjjCUsY5kPZJLkDjKWVKlMjs3HneVgFGwIOCMsl5ajI8pubqLTLk13HFZ2MmK8zbKyK9SOGyN2kzDT3jKZrHjY1URrdzeVzHKxiO9neZ+K5nmGy/ytP//EACYRAAIBAQQLAAAAAAAAAAAAAAECAxEABSFBBAcSFBgyQlFhgdH/2gAIAQIBAT8A4jC9THdMxiAILtLGrbVQOWhw819W0nX7Mzil2OmFQu85EgdMBzHf7b//xAAkEQACAAQEBwAAAAAAAAAAAAABAgMEESIAEiFRBQcXIzEycf/aAAgBAwEBPwDplMstH4hDJ0s7mXJaGu0JptQYluW0OGgRptWpT1hEAeN3+4//2Q=='
+								imgClassName='dummy-image'
+								alt='hero banner'
+								src='assets/video/still-image-min.jpg'
 								onLoad={this.onImageLoad}
 							/>
 						)}
 						{loadVideo && (
 							<video autoPlay loop muted>
-								<source src="assets/video/video.mp4" type="video/mp4" />
+								<source src='assets/video/video.mp4' type='video/mp4' />
 								Please use a video supported browser
 							</video>
 						)}
@@ -101,22 +100,22 @@ class Home extends Component {
 				{/* End Slider Area */}
 				{/* Start About Area */}
 				{loadSecondFold && (
-					<div className="content">
-						<div className="about-area" id="about">
-							<div className="container">
-								<div className="row">
-									<div className="col-md-12">
+					<div className='content'>
+						<div className='about-area' id='about'>
+							<div className='container'>
+								<div className='row'>
+									<div className='col-md-12'>
 										{/* Start Heading Title */}
-										<div className="heading-title text-center">
-											<h2 className="f-weight-700 margin-0">About the Conference</h2>
-											<div className="bordershep" />
+										<div className='heading-title text-center'>
+											<h2 className='f-weight-700 margin-0'>About the Conference</h2>
+											<div className='bordershep' />
 										</div>
 									</div>
 								</div>
-								<div className="row">
-									<div className="col-md-12 order-last order-md-first">
-										<div className="about-text">
-											<p className="first-text">
+								<div className='row'>
+									<div className='col-md-12 order-last order-md-first'>
+										<div className='about-text'>
+											<p className='first-text'>
 												React India is an international community-led non-profit initiative that
 												provides a platform for developers to share and discuss their insights
 												and experiences with React. The three-day conference is the first of its
@@ -134,8 +133,8 @@ class Home extends Component {
 												talks will cover various topics related to React.JS and FE, including
 												React Native, GraphQL, VR and AR, Redux, Preact and more!
 											</p>
-											<div className="buttons">
-												<button type="button" disabled className="mr_btn_fill">
+											<div className='buttons'>
+												<button type='button' disabled className='mr_btn_fill'>
 													EARLY BIRD TICKETS COMING SOON
 												</button>
 											</div>
@@ -145,16 +144,16 @@ class Home extends Component {
 							</div>
 						</div>
 						{/* End About Area */}
-						<section className="conferences">
-							<div className="overlay" />
-							<div className="container">
-								<div className="row justify-content-center">
-									<div className="col-md-8">
+						<section className='conferences'>
+							<div className='overlay' />
+							<div className='container'>
+								<div className='row justify-content-center'>
+									<div className='col-md-8'>
 										{/* Start Heading Title */}
-										<div className="heading-title text-center">
-											<span className="subtitle">BE A PART OF</span>
+										<div className='heading-title text-center'>
+											<span className='subtitle'>BE A PART OF</span>
 											<h2>React India 2019</h2>
-											<div className="bordershep" />
+											<div className='bordershep' />
 											<p>
 												Our Attendees, Speakers & Sponsors will be able to meet together and
 												share a few exciting and fruitful days, while enjoying the food and warm
@@ -165,19 +164,15 @@ class Home extends Component {
 										{/* End Heading Title */}
 									</div>
 								</div>
-								<div className="row">
-									<div className="col-12">
-										<div className="text-center">
-											<p className="date">26th - 28th SEPTEMBER | GOA, INDIA | 2019 EDITION</p>
+								<div className='row'>
+									<div className='col-12'>
+										<div className='text-center'>
+											<p className='date'>26th - 28th SEPTEMBER | GOA, INDIA | 2019 EDITION</p>
 											{/* <div className="timer" id="countdown"></div> */}
 										</div>
 									</div>
-									<div className="content__button show-interest-btn">
-										<a
-											rel="noreferrer"
-											target="_blank"
-											href="http://bit.ly/showing_interest_react_india_2019"
-										>
+									<div className='content__button show-interest-btn'>
+										<a rel='noreferrer' target='_blank' href='http://bit.ly/subscribe-react-india'>
 											SHOW YOUR INTEREST
 										</a>
 									</div>
@@ -187,25 +182,25 @@ class Home extends Component {
 						{/* Start Company Info Area */}
 						{/* End Company Info Area */}
 						{/* Start Testimonial Area */}
-						<section className="testimonial-area" id="partners">
-							<div className="overlay" />
+						<section className='testimonial-area' id='partners'>
+							<div className='overlay' />
 							{/* Start Container */}
-							<div className="container">
-								<div className="row justify-content-center">
-									<div className="col-md-12">
+							<div className='container'>
+								<div className='row justify-content-center'>
+									<div className='col-md-12'>
 										{/* Start Heading Title */}
-										<div className="heading-title text-center">
-											<span className="subtitle">Our</span>
-											<h2 className="f-weight-700 margin-0">Partners</h2>
-											<div className="bordershep" />
+										<div className='heading-title text-center'>
+											<span className='subtitle'>Our</span>
+											<h2 className='f-weight-700 margin-0'>Partners</h2>
+											<div className='bordershep' />
 										</div>
 										{/* End Heading Title */}
-										<div className="partners-wrapper text-center">
+										<div className='partners-wrapper text-center'>
 											{partners.partners.map(partner => (
 												<a
-													rel="noreferrer"
+													rel='noreferrer'
 													href={partner.url}
-													target="_blank"
+													target='_blank'
 													key={partner.url}
 												>
 													<LazyImage
@@ -224,58 +219,58 @@ class Home extends Component {
 						</section>
 						{/* End Testimonial Area */}
 						{/* Start Speakers Area */}
-						<div className="speaker_area" id="speakers">
-							<div className="container">
-								<div className="row justify-content-center">
-									<div className="col-md-8">
+						<div className='speaker_area' id='speakers'>
+							<div className='container'>
+								<div className='row justify-content-center'>
+									<div className='col-md-8'>
 										{/* Start Heading Title */}
-										<div className="heading-title text-center">
-											<span className="subtitle">Our</span>
-											<h2 className="f-weight-700 margin-0">Awesome Speakers</h2>
-											<div className="bordershep" />
+										<div className='heading-title text-center'>
+											<span className='subtitle'>Our</span>
+											<h2 className='f-weight-700 margin-0'>Awesome Speakers</h2>
+											<div className='bordershep' />
 										</div>
 									</div>
 								</div>
-								<div className="row">
+								<div className='row'>
 									{speakersData.map(speakerInfo => (
 										<SpeakerCard {...speakerInfo} key={speakerInfo.name} />
 									))}
 								</div>
 							</div>
-							<div className="more-speaker-text text-center">
+							<div className='more-speaker-text text-center'>
 								<span>More Speakers Coming soon....</span>
 							</div>
 						</div>
 						{/* End Speakers Area */}
 						{/* Start Latest News Area */}
-						<section className="sponsor_area">
-							<div className="container">
-								<div className="row justify-content-center">
-									<div className="col-md-8">
-										<div className="heading-title text-center">
-											<span className="subtitle">Our</span>
-											<h2 className="f-weight-700 margin-0">Event Sponsors</h2>
-											<div className="bordershep" />
+						<section className='sponsor_area'>
+							<div className='container'>
+								<div className='row justify-content-center'>
+									<div className='col-md-8'>
+										<div className='heading-title text-center'>
+											<span className='subtitle'>Our</span>
+											<h2 className='f-weight-700 margin-0'>Event Sponsors</h2>
+											<div className='bordershep' />
 										</div>
 									</div>
 								</div>
-								<div className="row mb-20">
-									<div className="col-12 text-center">
-										<div className="title-gold">
+								<div className='row mb-20'>
+									<div className='col-12 text-center'>
+										<div className='title-gold'>
 											<span>Platinum Sponsors</span>
 										</div>
 									</div>
-									<div className="col-12 text-center">
-										<div className="row justify-content-center">
+									<div className='col-12 text-center'>
+										<div className='row justify-content-center'>
 											{sponsors.platinum.map(sponsor => (
-												<div key={sponsor.imgUrl} className="col-12 col-md-4 text-center">
-													<a className="sponsor-link" href={sponsor.link}>
+												<div key={sponsor.imgUrl} className='col-12 col-md-4 text-center'>
+													<a className='sponsor-link' href={sponsor.link}>
 														<LazyImage
-															imgClassName="sponsor-img platinum img-fluid"
+															imgClassName='sponsor-img platinum img-fluid'
 															src={`assets/images/sponsor/${sponsor.category}/${
 																sponsor.imgUrl
 															}`}
-															alt=""
+															alt=''
 														/>
 													</a>
 												</div>
@@ -283,23 +278,23 @@ class Home extends Component {
 										</div>
 									</div>
 								</div>
-								<div className="row mb-20">
-									<div className="col-12 text-center">
-										<div className="title-gold">
+								<div className='row mb-20'>
+									<div className='col-12 text-center'>
+										<div className='title-gold'>
 											<span>Gold Sponsors</span>
 										</div>
 									</div>
-									<div className="col-12 text-center">
-										<div className="row justify-content-center">
+									<div className='col-12 text-center'>
+										<div className='row justify-content-center'>
 											{sponsors.gold.map(sponsor => (
-												<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
-													<a className="sponsor-link" href={sponsor.link}>
+												<div key={sponsor.imgUrl} className='col-12 col-md-3 text-center'>
+													<a className='sponsor-link' href={sponsor.link}>
 														<LazyImage
-															imgClassName="sponsor-img golden img-fluid"
+															imgClassName='sponsor-img golden img-fluid'
 															src={`assets/images/sponsor/${sponsor.category}/${
 																sponsor.imgUrl
 															}`}
-															alt=""
+															alt=''
 														/>
 													</a>
 												</div>
@@ -307,23 +302,23 @@ class Home extends Component {
 										</div>
 									</div>
 								</div>
-								<div className="row mb-20">
-									<div className="col-12 text-center">
-										<div className="title-gold">
+								<div className='row mb-20'>
+									<div className='col-12 text-center'>
+										<div className='title-gold'>
 											<span>Silver Sponsors</span>
 										</div>
 									</div>
-									<div className="col-12 text-center">
-										<div className="row justify-content-center">
+									<div className='col-12 text-center'>
+										<div className='row justify-content-center'>
 											{sponsors.silver.map(sponsor => (
-												<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
-													<a className="sponsor-link" href={sponsor.link}>
+												<div key={sponsor.imgUrl} className='col-12 col-md-3 text-center'>
+													<a className='sponsor-link' href={sponsor.link}>
 														<LazyImage
-															imgClassName="sponsor-img silver img-fluid"
+															imgClassName='sponsor-img silver img-fluid'
 															src={`assets/images/sponsor/${sponsor.category}/${
 																sponsor.imgUrl
 															}`}
-															alt=""
+															alt=''
 														/>
 													</a>
 												</div>
@@ -331,23 +326,23 @@ class Home extends Component {
 										</div>
 									</div>
 								</div>
-								<div className="row mb-20">
-									<div className="col-12 text-center">
-										<div className="title-silver">
+								<div className='row mb-20'>
+									<div className='col-12 text-center'>
+										<div className='title-silver'>
 											<span>Bronze Sponsors</span>
 										</div>
 									</div>
-									<div className="col-12 text-center">
-										<div className="row justify-content-center">
+									<div className='col-12 text-center'>
+										<div className='row justify-content-center'>
 											{sponsors.bronze.map(sponsor => (
-												<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
-													<a className="sponsor-link" href={sponsor.link}>
+												<div key={sponsor.imgUrl} className='col-12 col-md-3 text-center'>
+													<a className='sponsor-link' href={sponsor.link}>
 														<LazyImage
-															imgClassName="sponsor-img bronze img-fluid"
+															imgClassName='sponsor-img bronze img-fluid'
 															src={`assets/images/sponsor/${sponsor.category}/${
 																sponsor.imgUrl
 															}`}
-															alt=""
+															alt=''
 														/>
 													</a>
 												</div>
@@ -355,13 +350,13 @@ class Home extends Component {
 										</div>
 									</div>
 								</div>
-								<div className="row">
-									<div className="col-12 text-center">
+								<div className='row'>
+									<div className='col-12 text-center'>
 										<a
-											rel="noreferrer"
-											target="_blank"
-											className="mr-btn-fill-2"
-											href="http://bit.ly/React_India_Deck"
+											rel='noreferrer'
+											target='_blank'
+											className='mr-btn-fill-2'
+											href='http://bit.ly/React_India_Deck'
 										>
 											Know About Sponsorship
 										</a>
@@ -369,17 +364,17 @@ class Home extends Component {
 								</div>
 							</div>
 						</section>
-						<section className="latest-news-area" id="organizers">
+						<section className='latest-news-area' id='organizers'>
 							{/* Start Container */}
-							<div className="container">
-								<div className="row justify-content-center">
-									<div className="col-md-8">
+							<div className='container'>
+								<div className='row justify-content-center'>
+									<div className='col-md-8'>
 										{/* Start Heading Title */}
-										<div className="heading-title text-center">
-											<h2 className="f-weight-700 margin-0">Organized by</h2>
-											<div className="bordershep" />
-											<a rel="noreferrer" target="_blank" href="http://geekabyte.tech">
-												<LazyImage src="assets/images/geekabyte-web.png" />
+										<div className='heading-title text-center'>
+											<h2 className='f-weight-700 margin-0'>Organized by</h2>
+											<div className='bordershep' />
+											<a rel='noreferrer' target='_blank' href='http://geekabyte.tech'>
+												<LazyImage src='assets/images/geekabyte-web.png' />
 											</a>
 										</div>
 										{/* End Heading Title */}
@@ -388,7 +383,7 @@ class Home extends Component {
 							</div>
 							{/* End Container */}
 						</section>
-						<div id="map" />
+						<div id='map' />
 					</div>
 				)}
 			</Fragment>
@@ -404,47 +399,47 @@ const SpeakerCard = props => {
 	const { description } = props
 
 	return (
-		<div className="col-sm-6 col-xl-3" key={props.name}>
-			<div className="speaker">
-				<div className="sk-img">
-					<div className="img img-speaker">
+		<div className='col-sm-6 col-xl-3' key={props.name}>
+			<div className='speaker'>
+				<div className='sk-img'>
+					<div className='img img-speaker'>
 						<LazyImage
 							tinySrc={props.tinySrc}
-							imgClassName="img-fluid"
+							imgClassName='img-fluid'
 							src={`assets/images/speakers/${props.imgPath}`}
 							alt={props.imgPath}
 						/>
-						<div className="overlay d-flex justify-content-center">
-							<div className="slink">
+						<div className='overlay d-flex justify-content-center'>
+							<div className='slink'>
 								<div>
 									<a
-										rel="noreferrer"
-										target="_blank"
+										rel='noreferrer'
+										target='_blank'
 										href={props.github}
 										aria-label={`${props.name}'s github profile`}
 									>
-										<i className="fa fa-github" />
+										<i className='fa fa-github' />
 									</a>
 									<a
-										rel="noreferrer"
-										target="_blank"
+										rel='noreferrer'
+										target='_blank'
 										href={props.twitter}
 										aria-label={`${props.name}'s twitter profile`}
 									>
-										<i className="fa fa-twitter" />
+										<i className='fa fa-twitter' />
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div className="sk-content">
+				<div className='sk-content'>
 					<a>
 						<h4>{props.name}</h4>
 					</a>
 					<p>{props.jobrole}</p>
-					<div className="sk-desc">
-						<p className="sk-desc-p">
+					<div className='sk-desc'>
+						<p className='sk-desc-p'>
 							{props.description.substr(
 								0,
 								description.length > charLimit
@@ -453,16 +448,16 @@ const SpeakerCard = props => {
 										: charLimit
 									: description.length
 							)}
-							{!showMore && "..."}
+							{!showMore && '...'}
 							<br />
 							{description.length > charLimit && (
 								<span>
 									{showMore ? (
-										<span className="toggle-text-length" onClick={() => setFlag(false)}>
+										<span className='toggle-text-length' onClick={() => setFlag(false)}>
 											[...]
 										</span>
 									) : (
-										<span className="toggle-text-length" onClick={() => setFlag(true)}>
+										<span className='toggle-text-length' onClick={() => setFlag(true)}>
 											[...]
 										</span>
 									)}

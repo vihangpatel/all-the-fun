@@ -1,43 +1,43 @@
-import React from "react"
+import React from 'react'
 
 const Footer = () => (
-	<footer className="footer">
-		<div className="footer-top">
-			<div className="container">
-				<div className="row">
-					<div className="col-lg-3 col-sm-12">
-						<div className="footer-about">
-							<h3 className="title">Follow Us</h3>
+	<footer className='footer'>
+		<div className='footer-top'>
+			<div className='container'>
+				<div className='row'>
+					<div className='col-lg-3 col-sm-12'>
+						<div className='footer-about'>
+							<h3 className='title'>Follow Us</h3>
 							<ul>
 								<li>
 									<a
-										rel="noreferrer"
-										target="_blank"
-										href="https://www.facebook.com/ReactJSIndia/"
-										aria-label="React India facebook page"
+										rel='noreferrer'
+										target='_blank'
+										href='https://www.facebook.com/ReactJSIndia/'
+										aria-label='React India facebook page'
 									>
-										<i className="fa fa-facebook" />
+										<i className='fa fa-facebook' />
 									</a>
 								</li>
 								<li>
 									<a
-										rel="noreferrer"
-										target="_blank"
-										href="https://twitter.com/react_india/"
-										aria-label="React India twitter profile"
+										rel='noreferrer'
+										target='_blank'
+										href='https://twitter.com/react_india/'
+										aria-label='React India twitter profile'
 									>
-										<i className="fa fa-twitter" />
+										<i className='fa fa-twitter' />
 									</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-					<div className="col-lg-3 col-sm-12">
-						<div className="footer-pages" />
+					<div className='col-lg-3 col-sm-12'>
+						<div className='footer-pages' />
 					</div>
-					<div className="col-lg-2 col-sm-12" />
-					<div className="col-lg-4 col-sm-12">
-						<div className="footer-contact-info">
+					<div className='col-lg-2 col-sm-12' />
+					<div className='col-lg-4 col-sm-12'>
+						<div className='footer-contact-info'>
 							<h3>Contact info</h3>
 							<ul>
 								<li>
@@ -49,13 +49,13 @@ const Footer = () => (
 								</li>
 								<li>
 									<a>
-										<i className="flaticon-mail-black-envelope-symbol" />
+										<i className='flaticon-mail-black-envelope-symbol' />
 										react-india@geekabyte.tech
 									</a>
 								</li>
 								<li>
 									<a>
-										<i className="flaticon-phone-receiver" />
+										<i className='flaticon-phone-receiver' />
 										+918655559725,&nbsp; +491625272364
 									</a>
 								</li>
@@ -66,31 +66,31 @@ const Footer = () => (
 			</div>
 		</div>
 
-		<div className="footer-bottom">
-			<div className="container">
-				<div className="row">
-					<div className="col-md-6">
-						<div className="copyright-text">
-							<p className="color-white">Copyright © 2019 All Rights Reserved, Powered by </p>
+		<div className='footer-bottom'>
+			<div className='container'>
+				<div className='row'>
+					<div className='col-md-6'>
+						<div className='copyright-text'>
+							<p className='color-white'>Copyright © 2019 All Rights Reserved, Powered by </p>
 							<a>
 								<span> React India 2019</span>
 							</a>
 						</div>
 					</div>
-					<div className="col-md-6">
+					<div className='col-md-6'>
 						<a
-							rel="noreferrer"
-							target="_blank"
-							className="pull-right code-of-conduct-link"
-							href="https://www.notion.so/apherio/CODE-OF-CONDUCT-46e5dc50604a44e1be53a34d4937682f"
+							rel='noreferrer'
+							target='_blank'
+							className='pull-right code-of-conduct-link'
+							href='https://www.notion.so/apherio/CODE-OF-CONDUCT-46e5dc50604a44e1be53a34d4937682f'
 						>
 							<span>Code of Conduct</span>
 						</a>
 						<a
-							rel="noreferrer"
-							target="_blank"
-							className="pull-right code-of-conduct-link"
-							href="https://www.notion.so/apherio/ACCESSIBILITY-STATEMENT-191ec2ad04d84deeb6dfe74b638047e4"
+							rel='noreferrer'
+							target='_blank'
+							className='pull-right code-of-conduct-link'
+							href='https://www.notion.so/apherio/ACCESSIBILITY-STATEMENT-191ec2ad04d84deeb6dfe74b638047e4'
 						>
 							<span>Accessibility</span>
 						</a>
@@ -99,9 +99,9 @@ const Footer = () => (
 			</div>
 		</div>
 
-		<div className="totop">
-			<a href="#top" aria-label="move to top">
-				<i className="fa fa-arrow-up" />
+		<div className='totop'>
+			<a href='#top' aria-label='move to top'>
+				<i className='fa fa-arrow-up' />
 			</a>
 		</div>
 	</footer>
