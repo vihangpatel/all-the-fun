@@ -1529,9 +1529,6 @@ p {
 	margin-top: 50px;
 }
 
-/*===============================================
-16. Latest News
-===============================================*/
 .sponsor_area {
 	padding: 94px 0px 100px;
 	background: #f4f4f4;
@@ -3410,6 +3407,19 @@ ul.pagination {
 	margin-bottom: 20px !important; 
 }
 /* Sponsor End */
+/* Ticketing Start */
+.ticketing_area{
+	padding: 94px 0px 50px;
+}
+.ticketing_area .ticketing-link{
+	display: block;
+}
+.ticketing_area .ticketing-img{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+/* Ticketing End */
 @media screen and (max-width: 882px) {
 	.video__wrapper {
 		font-size: 14px;

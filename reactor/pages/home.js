@@ -242,7 +242,7 @@ class Home extends Component {
 							</div>
 						</div>
 						{/* End Speakers Area */}
-						{/* Start Latest News Area */}
+						{/* Start Sponsors Area */}
 						<section className='sponsor_area'>
 							<div className='container'>
 								<div className='row justify-content-center'>
@@ -364,6 +364,34 @@ class Home extends Component {
 								</div>
 							</div>
 						</section>
+						{/* End Sponsor Area */}
+						{/* Start Ticketing Partner Area */}
+						<section className='ticketing_area'>
+							<div className='container'>
+								<div className='row justify-content-center'>
+									<div className='col-md-8'>
+										<div className='heading-title text-center'>
+											<span className='subtitle'>Our</span>
+											<h2 className='f-weight-700 margin-0'>Ticketing Partner</h2>
+											<div className='bordershep' />
+										</div>
+									</div>
+								</div>
+								<div className='row mb-20'>
+									<div className='col-12 text-center'>
+										<div className='row justify-content-center'>
+											<div className="col-12 col-md-4 text-center">
+												<a className='ticketing-link' href="https://www.townscript.com/">
+													<img className='ticketing-img img-fluid' src="assets/images/ticketpartner/townscript_logo.png" alt="" preview="true" />
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						{/* End Ticketing Partner Area */}
+						{/* Start Organizer Area */}
 						<section className='latest-news-area' id='organizers'>
 							{/* Start Container */}
 							<div className='container'>
