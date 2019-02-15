@@ -131,7 +131,8 @@ class Home extends Component {
 												around the globe in the developer community. In addition to enjoying the
 												event, this is also your chance to explore Goa! Regular and lightning
 												talks will cover various topics related to React.JS and FE, including
-												React Native, GraphQL, VR and AR, Redux, Preact and more!
+												React Native, GraphQL, VR and AR, Redux, Preact and more and more!
+												
 											</div>
 											<div className='buttons'>
 												<div className='content__button'>
