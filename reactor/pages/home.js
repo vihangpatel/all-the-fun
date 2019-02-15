@@ -243,7 +243,7 @@ class Home extends Component {
 						</div>
 						{/* End Speakers Area */}
 						{/* Start Sponsors Area */}
-						<section className='sponsor_area'>
+						<section className='sponsor_area' id="sponsors">
 							<div className='container'>
 								<div className='row justify-content-center'>
 									<div className='col-md-8'>
