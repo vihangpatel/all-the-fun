@@ -1528,10 +1528,6 @@ p {
 .upcomingevent_area .mr-btn-fill-2 {
 	margin-top: 50px;
 }
-
-/*===============================================
-16. Latest News
-===============================================*/
 .sponsor_area {
 	padding: 94px 0px 100px;
 	background: #f4f4f4;
@@ -3389,27 +3385,44 @@ ul.pagination {
 	filter: blur(5px);
 	background-color: #ccc;
 }
+
 /* Sponsor Start */
-.sponsor_area .sponsor-link{
+.sponsor_area .sponsor-link {
 	display: block;
 }
-.sponsor_area .sponsor-img{
+.sponsor_area .sponsor-img {
 	width: 150px;
 	height: auto;
 	margin-top: 15px;
 }
-.sponsor_area .sponsor-img.platinum{
+.sponsor_area .sponsor-img.platinum {
 	width: 100%;
 	padding: 0 20px;
 }
-.sponsor_area .sponsor-img.golden{
+.sponsor_area .sponsor-img.golden {
 	width: 100%;
 	padding: 0 25px;
 }
-.mb-20{
-	margin-bottom: 20px !important; 
+.mb-20 {
+	margin-bottom: 20px !important;
 }
+
 /* Sponsor End */
+
+/* Ticketing Start */
+.ticketing_area {
+	padding: 94px 0px 50px;
+}
+.ticketing_area .ticketing-link {
+	display: block;
+}
+.ticketing_area .ticketing-img {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+/* Ticketing End */
 @media screen and (max-width: 882px) {
 	.video__wrapper {
 		font-size: 14px;
@@ -3484,20 +3497,26 @@ ul.pagination {
 	.testimonial-area .partners-wrapper a {
 		display: block;
 	}
-
-	.sponsor_area .sponsor-img{
+	
+	.sponsor_area .sponsor-img {
 		margin-top: 30px;
 	}
-	.sponsor_area .sponsor-img.platinum{
-		width: 150px  ;
+	
+	.sponsor_area .sponsor-img.platinum {
+		width: 150px;
 		padding: 0 !important;
 	}
-	.sponsor_area .sponsor-img.golden{
+	
+	.sponsor_area .sponsor-img.golden {
 		width: 150px !important;
 		padding: 0 !important;
 	}
 }
 @media screen and (max-width: 496px) {
+	.hidden-xs {
+		display: none
+	}
+	
 	.video__wrapper {
 		font-size: 8px;
 	}
@@ -3545,6 +3564,9 @@ div.svglogo {
 	stroke: lightgray;
 	fill: none;
 	animation: circle 1.5s ease-in forwards;
+}
+a[href="#tickets"] {
+	background: linear-gradient(90deg, #fd8383, #ff2e73)
 }
 @keyframes anim {
 	85% {

@@ -113,7 +113,7 @@ class Home extends Component {
 									</div>
 								</div>
 								<div className='row'>
-									<div className='col-md-12 order-last order-md-first'>
+									<div className='col-md-12 order-last order-md-first' id="tickets">
 										<div className='about-text'>
 											<p className='first-text'>
 												React India is an international community-led non-profit initiative that
@@ -121,7 +121,7 @@ class Home extends Component {
 												and experiences with React. The three-day conference is the first of its
 												kind in India.
 											</p>
-											<p>
+											<div className="hidden-xs">
 												The first of the three days will be focusing on workshops and the
 												following two days will be dedicated to talks on topics revolving around
 												React, React Native & GraphQL. The conference will bring together
@@ -132,11 +132,17 @@ class Home extends Component {
 												event, this is also your chance to explore Goa! Regular and lightning
 												talks will cover various topics related to React.JS and FE, including
 												React Native, GraphQL, VR and AR, Redux, Preact and more!
-											</p>
+											</div>
 											<div className='buttons'>
-												<button type='button' disabled className='mr_btn_fill'>
-													EARLY BIRD TICKETS COMING SOON
-												</button>
+												<div className='content__button'>
+								<a
+									rel='noreferrer'
+									target='_blank'
+									href='http://bit.ly/ticket-on-sale-react-india'
+								>
+									BUY TICKETS
+								</a>
+							</div>
 											</div>
 										</div>
 									</div>
@@ -242,8 +248,8 @@ class Home extends Component {
 							</div>
 						</div>
 						{/* End Speakers Area */}
-						{/* Start Latest News Area */}
-						<section className='sponsor_area'>
+						{/* Start Sponsors Area */}
+						<section className='sponsor_area' id="sponsors">
 							<div className='container'>
 								<div className='row justify-content-center'>
 									<div className='col-md-8'>
@@ -257,7 +263,7 @@ class Home extends Component {
 								<div className='row mb-20'>
 									<div className='col-12 text-center'>
 										<div className='title-gold'>
-											<span>Platinum Sponsors</span>
+											<span><b>PLATINUM SPONSERS</b></span>
 										</div>
 									</div>
 									<div className='col-12 text-center'>
@@ -281,7 +287,7 @@ class Home extends Component {
 								<div className='row mb-20'>
 									<div className='col-12 text-center'>
 										<div className='title-gold'>
-											<span>Gold Sponsors</span>
+											<span>GOLD SPONSERS</span>
 										</div>
 									</div>
 									<div className='col-12 text-center'>
@@ -305,7 +311,7 @@ class Home extends Component {
 								<div className='row mb-20'>
 									<div className='col-12 text-center'>
 										<div className='title-gold'>
-											<span>Silver Sponsors</span>
+											<span>SILVER SPONSERS</span>
 										</div>
 									</div>
 									<div className='col-12 text-center'>
@@ -329,7 +335,7 @@ class Home extends Component {
 								<div className='row mb-20'>
 									<div className='col-12 text-center'>
 										<div className='title-silver'>
-											<span>Bronze Sponsors</span>
+											<span>BRONZE SPONSORS</span>
 										</div>
 									</div>
 									<div className='col-12 text-center'>
@@ -364,6 +370,34 @@ class Home extends Component {
 								</div>
 							</div>
 						</section>
+						{/* End Sponsor Area */}
+						{/* Start Ticketing Partner Area */}
+						<section className='ticketing_area'>
+							<div className='container'>
+								<div className='row justify-content-center'>
+									<div className='col-md-8'>
+										<div className='heading-title text-center'>
+											<span className='subtitle'>Our</span>
+											<h2 className='f-weight-700 margin-0'>Ticketing Partner</h2>
+											<div className='bordershep' />
+										</div>
+									</div>
+								</div>
+								<div className='row mb-20'>
+									<div className='col-12 text-center'>
+										<div className='row justify-content-center'>
+											<div className="col-12 col-md-4 text-center">
+												<a className='ticketing-link' href="https://www.townscript.com/">
+													<img className='ticketing-img img-fluid' src="assets/images/ticketpartner/townscript_logo.png" alt="" preview="true" />
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						{/* End Ticketing Partner Area */}
+						{/* Start Organizer Area */}
 						<section className='latest-news-area' id='organizers'>
 							{/* Start Container */}
 							<div className='container'>
