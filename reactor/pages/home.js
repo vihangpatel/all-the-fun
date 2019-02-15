@@ -257,7 +257,7 @@ class Home extends Component {
 								<div className='row mb-20'>
 									<div className='col-12 text-center'>
 										<div className='title-gold'>
-											<span>Platinum Sponsors</span>
+											<span><b>PLATINUM SPONSERS</b></span>
 										</div>
 									</div>
 									<div className='col-12 text-center'>
@@ -281,7 +281,7 @@ class Home extends Component {
 								<div className='row mb-20'>
 									<div className='col-12 text-center'>
 										<div className='title-gold'>
-											<span>Gold Sponsors</span>
+											<span>GOLD SPONSERS</span>
 										</div>
 									</div>
 									<div className='col-12 text-center'>
@@ -305,7 +305,7 @@ class Home extends Component {
 								<div className='row mb-20'>
 									<div className='col-12 text-center'>
 										<div className='title-gold'>
-											<span>Silver Sponsors</span>
+											<span>SILVER SPONSERS</span>
 										</div>
 									</div>
 									<div className='col-12 text-center'>
@@ -329,7 +329,7 @@ class Home extends Component {
 								<div className='row mb-20'>
 									<div className='col-12 text-center'>
 										<div className='title-silver'>
-											<span>Bronze Sponsors</span>
+											<span>BRONZE SPONSORS</span>
 										</div>
 									</div>
 									<div className='col-12 text-center'>
