@@ -113,7 +113,7 @@ class Home extends Component {
 									</div>
 								</div>
 								<div className='row'>
-									<div className='col-md-12 order-last order-md-first'>
+									<div className='col-md-12 order-last order-md-first' id="tickets">
 										<div className='about-text'>
 											<p className='first-text'>
 												React India is an international community-led non-profit initiative that
@@ -134,9 +134,15 @@ class Home extends Component {
 												React Native, GraphQL, VR and AR, Redux, Preact and more!
 											</p>
 											<div className='buttons'>
-												<button type='button' disabled className='mr_btn_fill'>
-													EARLY BIRD TICKETS COMING SOON
-												</button>
+												<div className='content__button'>
+								<a
+									rel='noreferrer'
+									target='_blank'
+									href='http://bit.ly/ticket-on-sale-react-india'
+								>
+									BUY TICKETS
+								</a>
+							</div>
 											</div>
 										</div>
 									</div>

@@ -5,7 +5,8 @@ const navItems = [
     { name: 'Partners', id: '#partners' },
     { name: 'Speakers', id: '#speakers' },
     { name: 'Sponsors', id: '#sponsors' },
-    { name: 'Organizers', id: '#organizers' }
+    { name: 'Organizers', id: '#organizers' },
+    { name: 'Buy Tickets', id: '#tickets' }
 ]
 
 class Header extends React.Component {
