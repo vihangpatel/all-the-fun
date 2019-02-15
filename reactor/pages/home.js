@@ -121,7 +121,7 @@ class Home extends Component {
 												and experiences with React. The three-day conference is the first of its
 												kind in India.
 											</p>
-											<p>
+											<div className="hidden-xs">
 												The first of the three days will be focusing on workshops and the
 												following two days will be dedicated to talks on topics revolving around
 												React, React Native & GraphQL. The conference will bring together
@@ -132,7 +132,7 @@ class Home extends Component {
 												event, this is also your chance to explore Goa! Regular and lightning
 												talks will cover various topics related to React.JS and FE, including
 												React Native, GraphQL, VR and AR, Redux, Preact and more!
-											</p>
+											</div>
 											<div className='buttons'>
 												<div className='content__button'>
 								<a

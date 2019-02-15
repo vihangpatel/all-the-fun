@@ -3513,6 +3513,10 @@ ul.pagination {
 	}
 }
 @media screen and (max-width: 496px) {
+	.hidden-xs {
+		display: none
+	}
+	
 	.video__wrapper {
 		font-size: 8px;
 	}
