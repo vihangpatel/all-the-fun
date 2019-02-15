@@ -132,7 +132,7 @@ class Home extends Component {
 												event, this is also your chance to explore Goa! Regular and lightning
 												talks will cover various topics related to React.JS and FE, including
 												React Native, GraphQL, VR and AR, Redux, Preact and more and more!
-												
+
 											</div>
 											<div className='buttons'>
 												<div className='content__button'>
@@ -178,7 +178,7 @@ class Home extends Component {
 											{/* <div className="timer" id="countdown"></div> */}
 										</div>
 									</div>
-									<div className='content__button show-interest-btn'>
+									<div className='hello content__button show-interest-btn'>
 										<a rel='noreferrer' target='_blank' href='http://bit.ly/subscribe-react-india'>
 											SHOW YOUR INTEREST
 										</a>
