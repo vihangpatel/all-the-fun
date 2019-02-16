@@ -8,28 +8,30 @@ import { Route, StaticRouter } from 'react-router-dom'
 
 import Home from './pages/home'
 import Subscribe from './pages/subscribe'
+import News from './pages/news'
 import Footer from './footer'
 import getClientBundleEntryAssets from './asset-reader'
 
 const HTML = ({ url }) => (
-	<html lang='en'>
+	<html lang="en">
 		<Head />
-		<body className='body-class index_1 home1'>
+		<body className="body-class index_1 home1">
 			<StaticRouter location={url} context={{}}>
-				<div id='body-wrap'>
-					<Route path='/' component={Home} exact />
-					<Route path='/subscribe' component={Subscribe} exact />
+				<div id="body-wrap">
+					<Route path="/" component={Home} exact />
+					<Route path="/subscribe" component={Subscribe} exact />
+					<Route path="/news" component={News} exact />
 					<Footer />
 				</div>
 			</StaticRouter>
 		</body>
 
 		<script
-			type='text/javascript'
+			type="text/javascript"
 			src={path.join(getClientBundleEntryAssets().path, getClientBundleEntryAssets().assetsByChunkName.vendor)}
 		/>
 		<script
-			type='text/javascript'
+			type="text/javascript"
 			src={path.join(getClientBundleEntryAssets().path, getClientBundleEntryAssets().assetsByChunkName.client)}
 		/>
 	</html>

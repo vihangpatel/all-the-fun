@@ -35,7 +35,7 @@ critical
 		inline: true,
 		base: './public',
 		dest: 'index.html',
-		height: 1500
+		height: 1500,
 	})
 	.then(content => {
 		stringOutput = content.toString()
@@ -46,6 +46,7 @@ const requestHandler = (req, res) => {
 	res.send(renderAppToString(req.url))
 }
 
+app.get('/news', requestHandler)
 app.get('/subscribe', requestHandler)
 app.get('/', requestHandler)
 app.get('*', (req, res) => res.redirect('/'))

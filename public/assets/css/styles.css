@@ -3673,3 +3673,63 @@ a[href="#tickets"] {
 	height: 40px;
 	width: 130px;
 }*/
+
+/* news css */
+.newsContainer {
+	padding: 30px;
+}
+
+.news-image img {
+	width: 140px;
+	height: 140px;
+	display: block;
+	-o-object-fit: cover;
+	object-fit: cover;
+	max-width: 100%;
+}
+
+.time {
+	font-size:18px;
+	margin:10px 0;
+}
+
+.news-title {
+	font-size: 22px;
+	line-height: 1.025;
+	margin-bottom: 20px;
+}
+
+.news-text {
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+.news-link {
+	font-size: 16px;
+	border-bottom: 4px solid #303f62;
+	color: #000;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+@media(max-width:1023px) {
+	news-image img {
+		width: 92px;
+		height: 92px;
+	}
+
+	.news-title {
+		font-size: 20px;
+	}
+
+	.news-text{
+		font-size: 14px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.news-link {
+		font-size:20px;
+	}
+}
+/* news css */
