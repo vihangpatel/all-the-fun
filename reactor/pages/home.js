@@ -106,9 +106,9 @@ class Home extends Component {
 								<div className="row">
 									<div className="col-md-12">
 										{/* Start Heading Title */}
-										<div className="heading-title text-center">
-											<h2 className="f-weight-700 margin-0">About the Conference</h2>
-											<div className="bordershep" />
+										<div className='heading-title text-center'>
+											<h2 className='f-weight-700 margin-0'>First Beach Conference 🏖</h2>
+											<div className='bordershep' />
 										</div>
 									</div>
 								</div>

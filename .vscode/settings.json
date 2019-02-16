@@ -13,7 +13,6 @@
 	"prettier.printWidth": 120,
 	"prettier.useTabs": true,
 	"prettier.trailingComma": "es5",
-	"prettier.requireConfig": false,
 	"prettier.eslintIntegration": true,
 	"prettier.jsxBracketSameLine": false,
 	"flow.useNPMPackagedFlow": true,

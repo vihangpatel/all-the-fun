@@ -5,6 +5,7 @@ class News extends React.Component {
 	render() {
 		return (
 			<div className="container">
+				<h2 style={{ marginLeft: 28 }}>News</h2>
 				<div className="row">
 					{news.map((n, i) => (
 						<div key={i} className="col-md-4 col-sm-6 col-xs-12">
