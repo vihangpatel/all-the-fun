@@ -34,5 +34,9 @@ export default {
 			url: "https://react.amsterdam",
 			imageURL: "assets/images/partners/react-amsterdam.png",
 		},
+		{
+			url: "https://testingjavascript.com/",
+			imageURL: "assets/images/partners/testing_javascript_logo.svg",
+		},
 	],
 }
