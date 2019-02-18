@@ -21,6 +21,11 @@ export default {
 			category: 'golden',
 			imgUrl: 'nestawayLogo.svg',
 			link: 'https://www.nestaway.com'
+		},
+		{
+			category: 'golden',
+			imgUrl: 'Builderxlogo.png',
+			link: 'https://builderx.io/'
 		}
 	],
 	silver: [
