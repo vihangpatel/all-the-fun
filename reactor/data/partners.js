@@ -36,6 +36,7 @@ export default {
 		},
 		{
 			url: "https://testingjavascript.com/",
+			cssClass: "pa-30",
 			imageURL: "assets/images/partners/testing_javascript_logo.svg",
 		},
 	],
