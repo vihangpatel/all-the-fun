@@ -11,26 +11,28 @@ import Subscribe from "./pages/subscribe"
 import Footer from "./footer"
 import getClientBundleEntryAssets from "./asset-reader"
 
-const { path: sitePath, assetsByChunkName } = getClientBundleEntryAssets()
+const HTML = ({ url }) => {
+	const { path: sitePath, assetsByChunkName } = getClientBundleEntryAssets()
 
-const HTML = ({ url }) => (
-	<html lang="en">
-		<Head />
-		<body className="body-class index_1 home1">
-			<StaticRouter location={url} context={{}}>
-				<div id="body-wrap">
-					<Route path="/" component={Home} exact />
-					<Route path="/subscribe" component={Subscribe} exact />
-					<Footer />
-				</div>
-			</StaticRouter>
-		</body>
+	return (
+		<html lang="en">
+			<Head />
+			<body className="body-class index_1 home1">
+				<StaticRouter location={url} context={{}}>
+					<div id="body-wrap">
+						<Route path="/" component={Home} exact />
+						<Route path="/subscribe" component={Subscribe} exact />
+						<Footer />
+					</div>
+				</StaticRouter>
+			</body>
 
-		<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.vendor)} />
-		<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.client)} />
+			<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.vendor)} />
+			<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.client)} />
 
-		<link rel="stylesheet" type="text/css" href={path.join(sitePath, assetsByChunkName.style[0])} />
-	</html>
-)
+			<link rel="stylesheet" type="text/css" href={path.join(sitePath, assetsByChunkName.style[0])} />
+		</html>
+	)
+}
 
 export const renderAppToString = url => ReactDOMServer.renderToString(<HTML url={url} />)
