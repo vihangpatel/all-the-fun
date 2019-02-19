@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,500i,600,600i,700);
 /*-----------------------------------------------------------------
 
 Project     :   VenToT - Conference, Seminar & Event HTML Template
@@ -53,8 +54,6 @@ Front-end developer : Mamunur Rashid
 
 
 /*--Google Font Import--*/
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,500i,600,600i,700');
 html, body {
 	margin: 0;
 	padding: 0;
@@ -430,7 +429,7 @@ p {
 
 .index_1 .conferences {
 	padding: 94px 0px 92px;
-	background: url(../images/suhedule/back-banner.jpg) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -1071,7 +1070,7 @@ p {
 =================================================*/
 
 .venues_area {
-	background: url(../images/venuse/vbg.jpg) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	padding: 94px 0 99px;
 	position: relative;
@@ -1359,7 +1358,7 @@ p {
 }
 
 .pricing_area .bordershep {
-	background: url(../images/border.png) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	width: 118px;
 	height: 2px;
 	text-align: center;
@@ -1437,7 +1436,7 @@ p {
 =========================================================*/
 
 .purches {
-	background: url(../images/purches.jpg) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	padding: 94px 0px 100px;
 	background-attachment: fixed;
@@ -1903,7 +1902,7 @@ section.latest-news-area.main_blog.m-blog-padding {
 =================================================== */
 
 .subcribe_box {
-	background: url(../images/newsletter.jpg) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	padding: 40px 60px;
 }
@@ -2019,14 +2018,14 @@ section.latest-news-area.main_blog.m-blog-padding {
 }
 
 .solution_area .img-1 {
-	background: url(../images/about/s1.png) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	height: 100%;
 	display: block;
 }
 
 .solution_area .img-2 {
-	background: url(../images/about/s2.png) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	height: 100%;
 	display: block;
@@ -2035,7 +2034,7 @@ section.latest-news-area.main_blog.m-blog-padding {
 .solution_area .bordershep {
 	text-align: left;
 	margin: 20px 0px 25px;
-	background: url(../images/border_white.png) no-repeat center;
+	background: url([object Object]) no-repeat center;
 }
 
 .solution_area .s-box2 .bordershep {
@@ -2509,7 +2508,7 @@ section.latest-news-area.main_blog.m-blog-padding {
 ====================================================*/
 
 .breadcrumbs {
-	background: url(../images/breadcrumb-bg.jpg) no-repeat center;
+	background: url([object Object]) no-repeat center;
 	background-size: cover;
 	position: relative;
 	padding: 200px 0px 112px;

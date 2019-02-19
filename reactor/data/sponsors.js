@@ -1,60 +1,65 @@
 export default {
 	platinum: [
 		{
-			category: 'platinum',
-			imgUrl: 'crystallize.svg',
-			link: 'https://crystallize.com'
+			category: "platinum",
+			imgUrl: "crystallize.svg",
+			link: "https://crystallize.com",
 		},
 		{
-			category: 'platinum',
-			imgUrl: 'aws.svg',
-			link: 'https://aws.amazon.com/'
-		}
+			category: "platinum",
+			imgUrl: "aws.svg",
+			link: "https://aws.amazon.com/",
+		},
 	],
 	gold: [
 		{
-			category: 'golden',
-			imgUrl: 'paypal.png',
-			link: 'https://www.paypal.com/in/home'
+			category: "golden",
+			imgUrl: "paypal.png",
+			link: "https://www.paypal.com/in/home",
 		},
 		{
-			category: 'golden',
-			imgUrl: 'nestawayLogo.svg',
-			link: 'https://www.nestaway.com'
-		}
+			category: "golden",
+			imgUrl: "nestawayLogo.svg",
+			link: "https://www.nestaway.com",
+		},
+		{
+			category: "golden",
+			imgUrl: "geekyants.png",
+			link: "https://geekyants.com/",
+		},
 	],
 	silver: [
 		{
-			category: 'silver',
-			imgUrl: 'hasura.svg',
-			link: 'https://hasura.io/'
+			category: "silver",
+			imgUrl: "hasura.svg",
+			link: "https://hasura.io/",
 		},
 		{
-			category: 'silver',
-			imgUrl: 'moonhighway.svg',
-			link: 'https://moonhighway.com/'
+			category: "silver",
+			imgUrl: "moonhighway.svg",
+			link: "https://moonhighway.com/",
 		},
 		{
-			category: 'silver',
-			imgUrl: 'groww.svg',
-			link: 'https://groww.in'
-		}
+			category: "silver",
+			imgUrl: "groww.svg",
+			link: "https://groww.in",
+		},
 	],
 	bronze: [
 		{
-			category: 'bronze',
-			link: 'https://balsamiq.com/',
-			imgUrl: 'balsamiq.png'
+			category: "bronze",
+			link: "https://balsamiq.com/",
+			imgUrl: "balsamiq.png",
 		},
 		{
-			category: 'bronze',
-			imgUrl: 'simform.png',
-			link: 'https://www.simform.co.in/'
+			category: "bronze",
+			imgUrl: "simform.png",
+			link: "https://www.simform.co.in/",
 		},
 		{
-			category: 'bronze',
-			imgUrl: 'agora.png',
-			link: 'https://agora.io/'
-		}
-	]
+			category: "bronze",
+			imgUrl: "agora.png",
+			link: "https://agora.io/",
+		},
+	],
 }
