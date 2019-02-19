@@ -40,7 +40,7 @@ export default {
 			imageURL: "assets/images/partners/testing_javascript_logo.svg",
 		},
 		{
-			url: "https://frontendcon.com",
+			url: "https://frontcon.lv/",
 			imageURL: "assets/images/partners/frontendcon.png",
 		},
 	],
