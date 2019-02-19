@@ -24,11 +24,6 @@ export default {
 		},
 		{
 			category: "golden",
-			imgUrl: "geekyants.png",
-			link: "https://geekyants.com/",
-		},
-		{
-			category: "golden",
 			imgUrl: "Builderxlogo.png",
 			link: "https://builderx.io/",
 		},
