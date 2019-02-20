@@ -388,7 +388,7 @@ class Home extends Component {
                 <div className='col-12 text-center'>
                   <div className='row justify-content-center'>
                         <div className='col-12 col-md-4 text-center'>
-                          <a className='ticketing-link' href='https://www.stickermule.com'>
+                          <a className='ticketing-link' href='https://www.stickermule.com/supports/ReactIndia'>
                                 <img
                                   className='ticketing-img img-fluid'
                                   src='assets/images/ticketpartner/sticker-mule-logo-light.png'
