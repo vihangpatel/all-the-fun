@@ -4043,6 +4043,9 @@ ul.pagination {
 	height: auto;
 	margin-top: 10px;
 }
+.ticketing_area .ticketing-img.full-width-img{
+	width: 150px;
+}
 
 
 /* Ticketing End */
@@ -4051,6 +4054,9 @@ ul.pagination {
 	.video__wrapper {
 		font-size: 14px;
 	}
+}
+@media screen and (max-width: 767.98px) { 
+	
 }
 
 @media screen and (max-width: 772px) {
