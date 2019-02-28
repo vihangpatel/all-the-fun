@@ -44,6 +44,11 @@ export default {
 			imgUrl: "groww.svg",
 			link: "https://groww.in",
 		},
+		{
+			category: "silver",
+			imgUrl: "twilio.svg",
+			link: "https://www.twilio.com/",
+		},
 	],
 	bronze: [
 		{
