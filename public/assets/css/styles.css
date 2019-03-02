@@ -4044,7 +4044,8 @@ ul.pagination {
 	height: auto;
 	margin-top: 10px;
 }
-.ticketing_area .ticketing-img.full-width-img{
+
+.ticketing_area .ticketing-img.full-width-img {
 	width: 150px;
 }
 
@@ -4056,9 +4057,8 @@ ul.pagination {
 		font-size: 14px;
 	}
 }
-@media screen and (max-width: 767.98px) { 
-	
-}
+
+@media screen and (max-width: 767.98px) {}
 
 @media screen and (max-width: 772px) {
 	.video__wrapper {
@@ -4278,6 +4278,105 @@ a[href="#tickets"] {
 		stroke-width: 0;
 		fill: #00d8ff;
 	}
+}
+
+.tickets-container {
+	padding: 16px;
+}
+
+.deliverables-table {
+	width: 90%;
+	margin: 10px auto;
+}
+
+.deliverables-table .header {
+	background-color: #e69138;
+	text-align: left;
+	color: #ffffff;
+	font-family: 'docs-Hind', Arial;
+	font-size: 12pt;
+	vertical-align: middle;
+	white-space: normal;
+	overflow: hidden;
+	word-wrap: break-word;
+	direction: ltr;
+	padding: 4px 5px;
+}
+
+.deliverables-table .header.price {
+	background: #666666
+}
+
+.deliverables-table .item {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f0f0f0;
+}
+
+.deliverables-table .item span {
+	border-left: none;
+	background-color: #f0f0f0;
+	text-align: left;
+	color: #000000;
+	font-family: 'docs-Roboto', Arial;
+	font-size: 11pt;
+	vertical-align: middle;
+	white-space: normal;
+	overflow: hidden;
+	word-wrap: break-word;
+	direction: ltr;
+	padding: 2px 5px;
+	line-height: 26px;
+}
+
+.deliverables-table .separator {
+	border-bottom: 1px DASHED #b7b7b7;
+	width: 100%;
+}
+
+.deliverables-table .undeliverable-item {
+	background-color: #f0f0f0;
+	text-align: left;
+	text-decoration: line-through;
+	color: #666666;
+	font-family: 'docs-Hind', Arial;
+	font-size: 11pt;
+	vertical-align: top;
+	white-space: normal;
+	overflow: hidden;
+	word-wrap: break-word;
+	direction: ltr;
+	padding: 2px 3px 2px 3px;
+}
+
+.ticket-type-card {
+	margin: 0 auto 44px;
+	width: 90%;
+}
+
+.ticket-type-card .ticket-header {
+	text-align: center;
+	font-size: 20px;
+	text-transform: capitalize;
+	background: gray;
+}
+
+.ticket-book-button {
+	background-color: #6aa84f;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	-webkit-text-decoration-skip: none;
+	text-decoration-skip-ink: none;
+	color: #f0f0f0;
+	font-family: 'docs-Hind', Arial;
+	font-size: 16pt;
+	vertical-align: middle;
+	white-space: normal;
+	overflow: hidden;
+	word-wrap: break-word;
+	direction: ltr;
+	padding: 2px 3px 2px 3px;
 }
 
 
