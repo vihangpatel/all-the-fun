@@ -53,13 +53,20 @@ export default () => (
 	<Fragment>
 		<Header />
 		<div className="tickets-container">REACT INDIA 2019 TICKETS EXPLAINED </div>
-		{tickets.tickets.map(ticket => (
-			<div className="ticket-type-card">
-				<div className="ticket-header">{ticket.type}</div>
-				<Deliverables data={ticket} />
-				<Price data={ticket} />
-				<BookButton url={ticket.buyticketUrl} />
+		<div className="container">
+			<div className="row">
+			{tickets.tickets.map(ticket => (
+				
+				<div className="col-12 col-sm-6 col-md-4">
+					<div className="ticket-type-card">
+						<div className="ticket-header">{ticket.type}</div>
+						<Deliverables data={ticket} />
+						<Price data={ticket} />
+						<BookButton url={ticket.buyticketUrl} />
+					</div>
+				</div>
+			))}
 			</div>
-		))}
+		</div>
 	</Fragment>
 )
