@@ -13,55 +13,16 @@ export default {
           checkbox: true
         },
         {
-          text: '5 Star Hotel Occupancy for 3 Nights'
-        },
-        {
           text: 'Access to Networking After Party on day 2'
         },
         {
           text: 'Complementary React India Tshirt'
         },
         {
+          text: '5 Star Hotel Occupancy for 3 Nights'
+        },
+        {
           text: 'Any 1 Workshop Access'
-        }
-      ],
-      prices: [
-        {
-          text: 'INDIAN ATTENDEE',
-          value: '9999 INR'
-        },
-        {
-          text: 'INTERNATIONAL ATTENDEE',
-          value: '200 EUR'
-        }
-      ],
-      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking'
-    },
-    {
-      type: 'WORKSHOP PASS',
-      deliverables: [
-        {
-          text: 'Any 1 Workshop Access',
-          checkbox: true
-        },
-        {
-          text: 'Lunch - Tea / Coffee',
-          checkbox: true
-        },
-        {
-          text: 'Advanced training from industry experts',
-          checkbox: true
-        },
-        {
-          text: 'Small size group for maximum individual reach',
-          checkbox: true
-        },
-        {
-          text: 'Hands-on practical sessions',
-          checkbox: true
-        },
-        {
-          text: 'ACCESS TO THE FULL TWO DAY CONFERENCE'
         }
       ],
       prices: [
@@ -110,6 +71,45 @@ export default {
         {
           text: 'INTERNATIONAL ATTENDEE',
           value: '250 EUR'
+        }
+      ],
+      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking'
+    },
+    {
+      type: 'WORKSHOP PASS',
+      deliverables: [
+        {
+          text: 'Any 1 Workshop Access',
+          checkbox: true
+        },
+        {
+          text: 'Lunch - Tea / Coffee',
+          checkbox: true
+        },
+        {
+          text: 'Advanced training from industry experts',
+          checkbox: true
+        },
+        {
+          text: 'Small size group for maximum individual reach',
+          checkbox: true
+        },
+        {
+          text: 'Hands-on practical sessions',
+          checkbox: true
+        },
+        {
+          text: 'ACCESS TO THE FULL TWO DAY CONFERENCE'
+        }
+      ],
+      prices: [
+        {
+          text: 'INDIAN ATTENDEE',
+          value: '9999 INR'
+        },
+        {
+          text: 'INTERNATIONAL ATTENDEE',
+          value: '200 EUR'
         }
       ],
       buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking'
