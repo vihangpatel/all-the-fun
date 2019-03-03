@@ -4316,18 +4316,18 @@ a[href="#tickets"] {
 }
 
 .deliverables-table .header.price {
-	background: #666666
+	background: #1b0142
 }
 
 .deliverables-table .item {
 	display: flex;
-	background-color: #f0f0f0;
+	background-color: #f8efd7;
 	align-items: center;
 	justify-content: space-between;
 }
 
 .deliverables-table .item span {
-	background-color: #f0f0f0;
+	background-color: #f8efd7;
 	color: #000000;
 	font-size: 12pt;
 	padding: 4px 16px;
@@ -4349,7 +4349,7 @@ a[href="#tickets"] {
 }
 
 .deliverables-table .undeliverable-item {
-	background-color: #f0f0f0;
+	background-color: #f8efd7;
 	text-align: left;
 	text-decoration: line-through;
 	color: #666666;
@@ -4382,19 +4382,21 @@ a[href="#tickets"] {
 	font-size: 20px;
 	font-weight: 500;
 	text-transform: uppercase;
-	background: #d3d5d6;
+	background: #1b0142;
 	padding: 10px;
-	color: #000;
+	color: #ffffff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	min-height: 80px;
 }
-.ticket-type-card .ticket-subheader{
+
+.ticket-type-card .ticket-subheader {
 	font-size: 16px;
-    color: #bc5f5f;
+	color: #bc5f5f;
 }
+
 .ticket-subheader {
 	font-size: 15px;
 	display: block;
@@ -4407,7 +4409,7 @@ a[href="#tickets"] {
 	text-decoration: none;
 	-webkit-text-decoration-skip: none;
 	text-decoration-skip-ink: none;
-	color: #f0f0f0;
+	color: #f8efd7;
 	font-family: 'docs-Hind', Arial;
 	font-size: 16pt;
 	vertical-align: middle;
