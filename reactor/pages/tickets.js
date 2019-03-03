@@ -49,7 +49,7 @@ const BookButton = ({ url }) => (
 
 export default () => (
   <Fragment>
-    <Header />
+    <Header hardRefresh />
     <div className='tickets-container'>
       <div class='tickets-main-head'>
                 REACT INDIA 2019 TICKETS EXPLAINED
