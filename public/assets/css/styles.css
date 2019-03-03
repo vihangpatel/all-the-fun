@@ -4389,9 +4389,13 @@ a[href="#tickets"] {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	min-height: 80px;
 }
-
+.ticket-type-card .ticket-subheader{
+	font-size: 16px;
+    color: #bc5f5f;
+}
 .ticket-subheader {
 	font-size: 15px;
 	display: block;
