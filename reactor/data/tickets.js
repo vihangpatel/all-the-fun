@@ -2,6 +2,7 @@ export default {
   tickets: [
     {
       type: 'Conference Only Pass',
+      subheader: 'Limited tickets only',
       deliverables: [
         {
           text: 'ACCESS TO THE FULL TWO DAY CONFERENCE',
