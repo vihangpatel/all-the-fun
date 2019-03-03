@@ -52,12 +52,17 @@ const BookButton = ({ url }) => (
 export default () => (
 	<Fragment>
 		<Header />
-		<div className="tickets-container">REACT INDIA 2019 TICKETS EXPLAINED </div>
+		<div className="tickets-container">
+			<div class="tickets-main-head">
+				REACT INDIA 2019 TICKETS EXPLAINED 
+				<span class="tickets-sub-head">*All rates are exclusive of taxes, GST 18%</span>
+			</div>
+		</div>
 		<div className="container">
 			<div className="row">
 			{tickets.tickets.map(ticket => (
 				
-				<div className="col-12 col-sm-6 col-md-4">
+				<div className="col-12 col-md-6 col-lg-4">
 					<div className="ticket-type-card">
 						<div className="ticket-header">{ticket.type}</div>
 						<Deliverables data={ticket} />
