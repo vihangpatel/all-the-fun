@@ -26,11 +26,11 @@ export default {
 			],
 			prices: [
 				{
-					text: "INDIAN ATTENDEE (INR)",
+					text: "INDIAN ATTENDEE",
 					value: "9999 INR",
 				},
 				{
-					text: "INTERNATIONAL ATTENDEE ( EUR)",
+					text: "INTERNATIONAL ATTENDEE",
 					value: "175 EUR",
 				},
 			],
@@ -62,11 +62,11 @@ export default {
 			],
 			prices: [
 				{
-					text: "INDIAN ATTENDEE (INR)",
+					text: "INDIAN ATTENDEE",
 					value: "9999 INR",
 				},
 				{
-					text: "INTERNATIONAL ATTENDEE ( EUR)",
+					text: "INTERNATIONAL ATTENDEE",
 					value: "175 EUR",
 				},
 			],
@@ -80,7 +80,7 @@ export default {
 					checkbox: true,
 				},
 				{
-					text: "Lunch - Snacks -Tea / Coffee",
+					text: "Lunch - Tea / Coffee",
 					checkbox: true,
 				},
 				{
@@ -100,11 +100,11 @@ export default {
 			],
 			prices: [
 				{
-					text: "INDIAN ATTENDEE (INR)",
+					text: "INDIAN ATTENDEE",
 					value: "18961 INR",
 				},
 				{
-					text: "INTERNATIONAL ATTENDEE ( EUR)",
+					text: "INTERNATIONAL ATTENDEE",
 					value: "250 EUR",
 				},
 			],
@@ -138,11 +138,11 @@ export default {
 			],
 			prices: [
 				{
-					text: "INDIAN ATTENDEE (INR)",
+					text: "INDIAN ATTENDEE",
 					value: "22201 INR",
 				},
 				{
-					text: "INTERNATIONAL ATTENDEE ( EUR)",
+					text: "INTERNATIONAL ATTENDEE",
 					value: "275 EUR",
 				},
 			],
@@ -179,11 +179,11 @@ export default {
 			],
 			prices: [
 				{
-					text: "INDIAN ATTENDEE (INR)",
+					text: "INDIAN ATTENDEE",
 					value: "25423 INR",
 				},
 				{
-					text: "INTERNATIONAL ATTENDEE ( EUR)",
+					text: "INTERNATIONAL ATTENDEE",
 					value: "315 EUR",
 				},
 			],
@@ -222,11 +222,11 @@ export default {
 			],
 			prices: [
 				{
-					text: "INDIAN ATTENDEE (INR)",
+					text: "INDIAN ATTENDEE",
 					value: "33898 INR",
 				},
 				{
-					text: "INTERNATIONAL ATTENDEE ( EUR)",
+					text: "INTERNATIONAL ATTENDEE",
 					value: "475 EUR",
 				},
 			],
@@ -260,11 +260,11 @@ export default {
 			],
 			prices: [
 				{
-					text: "INDIAN ATTENDEE (INR)",
+					text: "INDIAN ATTENDEE",
 					value: "22201 INR",
 				},
 				{
-					text: "INTERNATIONAL ATTENDEE ( EUR)",
+					text: "INTERNATIONAL ATTENDEE",
 					value: "275 EUR",
 				},
 			],
