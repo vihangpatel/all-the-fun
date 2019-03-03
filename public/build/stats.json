@@ -1,10 +1,10 @@
 {
   "assetsByChunkName": {
-    "client": "client.5c00d16fe28e02cfe144.js",
+    "client": "client.7e375fe82f3cb7f53aba.js",
     "style": [
-      "style.3417774b544f4eef2d57.css",
-      "style.c668e4d78a32191c90ce.js"
+      "style.2cc616cfd4ab37aee1f1.css",
+      "style.179769dbace23483f955.js"
     ],
-    "vendor": "vendor.d5f1bbc8c14c90012e5f.js"
+    "vendor": "vendor.f6a2b4ce090a2e0bceba.js"
   }
 }

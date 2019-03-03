@@ -61,7 +61,10 @@ export default () => (
         {tickets.tickets.map(ticket => (
           <div className='col-12 col-md-6 col-lg-4'>
             <div className='ticket-type-card'>
-              <div className='ticket-header'>{ticket.type}</div>
+              <div className='ticket-header'>
+				<div>{ticket.type}</div>
+				<div className='ticket-subheader'>{ticket.subheader}</div>
+              </div>
               <Deliverables data={ticket} />
               <Price data={ticket} />
               <BookButton url={ticket.buyticketUrl} />

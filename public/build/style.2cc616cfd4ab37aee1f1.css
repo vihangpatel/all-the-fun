@@ -4282,24 +4282,27 @@ a[href="#tickets"] {
 .tickets-container {
 	padding: 16px;
 	text-align: center;
-    font-size: 20px;
+	font-size: 20px;
 }
-.tickets-container .tickets-main-head{
+
+.tickets-container .tickets-main-head {
 	display: inline-block;
 }
-.tickets-container .tickets-sub-head{
+
+.tickets-container .tickets-sub-head {
 	display: block;
-    font-size: small;
-    font-weight: 600;
+	font-size: small;
+	font-weight: 600;
 	color: #bc5f5f;
 }
+
 .deliverables-table {
 	width: 100%;
 	/* margin: 10px auto; */
 }
 
 .deliverables-table .header {
-	background-color: #f79938;
+	background-color: #eb5a07;
 	text-align: left;
 	color: #ffffff;
 	font-size: 16px;
@@ -4309,6 +4312,7 @@ a[href="#tickets"] {
 	word-wrap: break-word;
 	direction: ltr;
 	padding: 8px;
+	text-align: center;
 }
 
 .deliverables-table .header.price {
@@ -4317,25 +4321,28 @@ a[href="#tickets"] {
 
 .deliverables-table .item {
 	display: flex;
-    background-color: #f0f0f0;
-    align-items: center;
-    justify-content: space-between;
+	background-color: #f0f0f0;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .deliverables-table .item span {
-    background-color: #f0f0f0;
-    color: #000000;
-    font-size: 12pt;
-    padding: 4px 16px;
-    line-height: 26px;
+	background-color: #f0f0f0;
+	color: #000000;
+	font-size: 12pt;
+	padding: 4px 16px;
+	line-height: 26px;
 }
-.deliverables-table .item span:first-child{
+
+.deliverables-table .item span:first-child {
 	flex: 0 0 70%;
 }
-.deliverables-table .item span:last-child{
+
+.deliverables-table .item span:last-child {
 	text-align: right;
-    /* padding: 0; */
+	/* padding: 0; */
 }
+
 .deliverables-table .separator {
 	border-bottom: 1px DASHED #b7b7b7;
 	width: 100%;
@@ -4343,29 +4350,33 @@ a[href="#tickets"] {
 
 .deliverables-table .undeliverable-item {
 	background-color: #f0f0f0;
-    text-align: left;
-    text-decoration: line-through;
-    color: #666666;
-    font-size: 12pt;
-    word-wrap: break-word;
-    /* padding: 7px 16px; */
-    display: flex;
+	text-align: left;
+	text-decoration: line-through;
+	color: #666666;
+	font-size: 12pt;
+	word-wrap: break-word;
+	/* padding: 7px 16px; */
+	display: flex;
 }
-.deliverables-table .undeliverable-item span{
+
+.deliverables-table .undeliverable-item span {
 	flex: 0 0 70%;
-    font-size: 12pt;
-    padding: 4px 16px;
-    line-height: 26px;
+	font-size: 12pt;
+	padding: 4px 16px;
+	line-height: 26px;
 }
+
 .ticket-type-card {
 	margin-bottom: 50px;
 	transition: all .25s;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
 }
+
 .ticket-type-card:hover {
-    -webkit-transform: scale(1.04);
-    transform: scale(1.04);
+	-webkit-transform: scale(1.04);
+	transform: scale(1.04);
 }
+
 .ticket-type-card .ticket-header {
 	text-align: center;
 	font-size: 20px;
@@ -4375,13 +4386,22 @@ a[href="#tickets"] {
 	padding: 10px;
 	color: #000;
 	display: flex;
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	min-height: 80px;
+}
+.ticket-type-card .ticket-subheader{
+	font-size: 16px;
+    color: #bc5f5f;
+}
+.ticket-subheader {
+	font-size: 15px;
+	display: block;
 }
 
 .ticket-book-button {
-	background-color: #6aa84f;
+	background-color: #009e07;
 	text-align: center;
 	font-weight: 500;
 	text-decoration: none;
