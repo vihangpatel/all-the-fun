@@ -27,6 +27,11 @@ export default {
 			imgUrl: "Builderxlogo.png",
 			link: "https://builderx.io/",
 		},
+		{
+			category: "golden",
+			imgUrl: "insider.svg",
+			link: "https://insider.in/",
+		},
 	],
 	silver: [
 		{
