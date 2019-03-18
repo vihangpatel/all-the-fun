@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/build/style.5272ecc311f5f389e992.css"
   },
   {
-    "revision": "4f7b6606002b22740837138cb3217510",
+    "revision": "754cb79908f9bc9c13b04758f666a1ba",
     "url": "/build/stats.json"
   },
   {
-    "revision": "b0ede56001648abef1d5",
-    "url": "/build/client.6f900d6d9eeb13536ff4.js"
+    "revision": "e19a6ab08ca367220855",
+    "url": "/build/client.0aa729a5cffc77e3d690.js"
   }
 ];
