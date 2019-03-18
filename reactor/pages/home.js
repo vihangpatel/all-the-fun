@@ -137,7 +137,7 @@ class Home extends Component {
 													<a
 														rel="noreferrer"
 														target="_blank"
-														href="http://bit.ly/reactindia2019-tickets"
+														href="/tickets"
 													>
 														BUY TICKETS
 													</a>
