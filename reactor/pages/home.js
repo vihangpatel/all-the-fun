@@ -222,7 +222,7 @@ class Home extends Component {
 							</div>
 							{/* End Container */}
 						</section>
-						{/* End Testimonial Area */}
+						
 						{/* Start Speakers Area */}
 						<div className="speaker_area" id="speakers">
 							<div className="container">
@@ -231,7 +231,7 @@ class Home extends Component {
 										{/* Start Heading Title */}
 										<div className="heading-title text-center">
 											<span className="subtitle">Our</span>
-											<h2 className="f-weight-700 margin-0">Awesome Speakers</h2>
+											<h2 className="f-weight-700 margin1 margin-0">Awesome Speakers</h2>
 											<div className="bordershep" />
 										</div>
 									</div>
