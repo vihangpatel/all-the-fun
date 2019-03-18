@@ -178,7 +178,7 @@ class Home extends Component {
 									</div>
 									<div className="hello content__button show-interest-btn">
 										<a rel="noreferrer" target="_blank" href="http://bit.ly/subscribe-react-india">
-											SHOW YOUR INTEREST
+											SHOW YOUR INTEREST?
 										</a>
 									</div>
 								</div>

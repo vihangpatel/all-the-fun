@@ -113,7 +113,6 @@ const Header = () => (
   </header>
 )
 
-export
 */
 
 export default Header
