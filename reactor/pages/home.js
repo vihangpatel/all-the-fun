@@ -492,7 +492,7 @@ const SpeakerCard = props => {
 						/>
 						<div className="overlay d-flex justify-content-center">
 							<div className="slink">
-								<div>
+								<div className="dumb">
 									<a
 										rel="noreferrer"
 										target="_blank"
