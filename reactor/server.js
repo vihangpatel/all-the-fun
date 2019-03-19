@@ -28,21 +28,37 @@ if (process.env.ENV === "development") {
 	app.use(express.static(path.join(__dirname, ".."), { maxAge: oneYear }))
 }
 
-let stringOutput = `<!DOCTYPE html>${renderAppToString("")}`
-critical
-	.generate({
+const cacheSSR = {}
+const cacheBuilding = {}
+
+const generateCriticalPage = pageURL => {
+	const stringOutput = `<!DOCTYPE html>${renderAppToString(pageURL)}`
+	return critical.generate({
 		html: stringOutput,
 		inline: true,
 		base: "./public",
-		dest: "index.html",
+		dest: "ticket-index.html",
 		height: 1500,
 	})
-	.then(content => {
-		stringOutput = content.toString()
-	})
+}
 
-const requestHandler = (req, res) => {
-	res.send(renderAppToString(req.url))
+const requestHandler = async (req, res) => {
+	const pageURL = req.url
+
+	// if cache URL is there then return the cached version
+	if (cacheSSR[pageURL]) {
+		res.send(cacheSSR[pageURL])
+	} else {
+		if (cacheBuilding[pageURL]) {
+			res.send("Building")
+			return
+		}
+		cacheBuilding[pageURL] = true
+		const output = await generateCriticalPage(pageURL)
+		cacheSSR[pageURL] = output.toString()
+		delete cacheBuilding[pageURL]
+		res.send(output)
+	}
 }
 
 app.get("/tickets", requestHandler)
