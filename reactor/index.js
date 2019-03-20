@@ -18,6 +18,7 @@ const HTML = ({ url }) => {
 	return (
 		<html lang="en">
 			<Head />
+			<link rel="stylesheet" type="text/css" href={path.join(sitePath, assetsByChunkName.style[0])} />
 			<body className="body-class index_1 home1">
 				<StaticRouter location={url} context={{}}>
 					<div id="body-wrap">
@@ -31,8 +32,6 @@ const HTML = ({ url }) => {
 
 			<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.vendor)} />
 			<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.client)} />
-
-			<link rel="stylesheet" type="text/css" href={path.join(sitePath, assetsByChunkName.style[0])} />
 		</html>
 	)
 }
