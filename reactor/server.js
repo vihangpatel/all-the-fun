@@ -64,7 +64,7 @@ const requestHandler = (req, res) => {
 		if (cacheBuilding[pageURL]) {
 			!queueRequests[pageURL] && (queueRequests[pageURL] = [])
 			console.log("flushing request ", pageURL)
-			queueRequests.push(res)
+			queueRequests[pageURL].push(res)
 			return
 		}
 		console.log("Building cache for ", pageURL)
