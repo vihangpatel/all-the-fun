@@ -36,6 +36,21 @@ const generateCriticalPage = pageURL => {
 	return stringOutput
 }
 
+const generateCriticalPage2 = pageURL => {
+	cacheSSR[pageURL] = `<!DOCTYPE html>${renderAppToString(pageURL)}`
+	critical
+		.generate({
+			html: cacheSSR[pageURL],
+			inline: true,
+			base: "./public",
+			dest: "ticket-index.html",
+			height: 1500,
+		})
+		.then(content => (cacheSSR[pageURL] = content.toString()))
+		.catch(er => console.log(er))
+	return cacheSSR[pageURL]
+}
+
 const requestHandler = (req, res) => {
 	const pageURL = req.url
 
@@ -53,7 +68,8 @@ const requestHandler = (req, res) => {
 		}
 		console.log("Building cache for ", pageURL)
 		cacheBuilding[pageURL] = true
-		cacheSSR[pageURL] = generateCriticalPage(pageURL)
+		cacheSSR[pageURL] = generateCriticalPage2(pageURL)
+		res.send(cacheSSR[pageURL])
 	}
 }
 
