@@ -59,12 +59,14 @@ const requestHandler = (req, res) => {
 		}
 		console.log("Building cache for ", pageURL)
 		cacheBuilding[pageURL] = true
-		generateCriticalPage(pageURL).then(output => {
-			cacheSSR[pageURL] = output.toString()
-			console.log("Cache built for ", pageURL)
-			delete cacheBuilding[pageURL]
-			res.send(output)
-		})
+		generateCriticalPage(pageURL)
+			.then(output => {
+				cacheSSR[pageURL] = output.toString()
+				console.log("Cache built for ", pageURL)
+				delete cacheBuilding[pageURL]
+				res.send(output)
+			})
+			.catch(error => console.log("error captured ", error))
 	}
 }
 
