@@ -42,7 +42,19 @@ const generateCriticalPage = pageURL => {
 	})
 }
 
-const requestHandler = async (req, res) => {
+const queueRequests = {}
+
+const flushRequests = pageURL => {
+	const queuedRequestsByPageURL = queueRequests[pageURL] || []
+	queuedRequestsByPageURL.forEach(request => {
+		request.send(cacheSSR[pageURL])
+		request = null
+	})
+
+	queueRequests[pageURL] = []
+}
+
+const requestHandler = (req, res) => {
 	const pageURL = req.url
 
 	// if cache URL is there then return the cached version
@@ -50,14 +62,20 @@ const requestHandler = async (req, res) => {
 		res.send(cacheSSR[pageURL])
 	} else {
 		if (cacheBuilding[pageURL]) {
-			res.send("Building")
+			!queueRequests[pageURL] && (queueRequests[pageURL] = [])
+			console.log("flushing request ", pageURL)
+			queueRequests.push(res)
 			return
 		}
+		console.log("Building cache for ", pageURL)
 		cacheBuilding[pageURL] = true
-		const output = await generateCriticalPage(pageURL)
-		cacheSSR[pageURL] = output.toString()
-		delete cacheBuilding[pageURL]
-		res.send(output)
+		generateCriticalPage(pageURL).then(output => {
+			cacheSSR[pageURL] = output.toString()
+			console.log("Cache built for ", pageURL)
+			delete cacheBuilding[pageURL]
+			res.send(output)
+			flushRequests(pageURL)
+		})
 	}
 }
 
