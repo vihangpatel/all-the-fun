@@ -42,29 +42,19 @@ const generateCriticalPage = pageURL => {
 	})
 }
 
-const queueRequests = {}
-
-const flushRequests = pageURL => {
-	const queuedRequestsByPageURL = queueRequests[pageURL] || []
-	queuedRequestsByPageURL.forEach(request => {
-		request.send(cacheSSR[pageURL])
-		request = null
-	})
-
-	queueRequests[pageURL] = []
-}
-
 const requestHandler = (req, res) => {
 	const pageURL = req.url
 
 	// if cache URL is there then return the cached version
 	if (cacheSSR[pageURL]) {
+		console.log("Served cached response for ", pageURL)
 		res.send(cacheSSR[pageURL])
 	} else {
 		if (cacheBuilding[pageURL]) {
-			!queueRequests[pageURL] && (queueRequests[pageURL] = [])
-			console.log("flushing request ", pageURL)
-			queueRequests[pageURL].push(res)
+			console.log("Served auto refresh page for ", pageURL)
+			res.send(
+				`<html><head><meta http-equiv="refresh" content="10"></head><body>Wait for 10 seconds</body></html>`
+			)
 			return
 		}
 		console.log("Building cache for ", pageURL)
@@ -74,7 +64,6 @@ const requestHandler = (req, res) => {
 			console.log("Cache built for ", pageURL)
 			delete cacheBuilding[pageURL]
 			res.send(output)
-			flushRequests(pageURL)
 		})
 	}
 }
