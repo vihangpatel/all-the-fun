@@ -32,6 +32,11 @@ export default {
 			imgUrl: "insider.svg",
 			link: "https://insider.in/",
 		},
+		{
+			category: "golden",
+			imgUrl: "myntra.svg",
+			link: "https://www.myntra.com/",
+		},
 	],
 	silver: [
 		{
@@ -53,6 +58,11 @@ export default {
 			category: "silver",
 			imgUrl: "twilio.svg",
 			link: "https://www.twilio.com/",
+		},
+		{
+			category: "silver",
+			imgUrl: "jda.png",
+			link: "https://jda.com/",
 		},
 	],
 	bronze: [
