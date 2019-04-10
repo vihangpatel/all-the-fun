@@ -10,6 +10,11 @@ export default {
 			imgUrl: "aws.svg",
 			link: "https://aws.amazon.com/",
 		},
+		{
+			category: "platinum",
+			imgUrl: "myntra.svg",
+			link: "https://www.myntra.com/",
+		},
 	],
 	gold: [
 		{
@@ -32,11 +37,7 @@ export default {
 			imgUrl: "insider.svg",
 			link: "https://insider.in/",
 		},
-		{
-			category: "golden",
-			imgUrl: "myntra.svg",
-			link: "https://www.myntra.com/",
-		},
+		
 	],
 	silver: [
 		{

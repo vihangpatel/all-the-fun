@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "f2875e3585a167c0e095",
-    "url": "/build/client.ffe77332496dad7bc02a.js"
+    "revision": "6d527019874175491bff",
+    "url": "/build/client.2c89b9bc9971de5270a7.js"
   },
   {
     "revision": "1e16da19de046327d20c",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/build/vendor.7cb5b745cfcf680e18ae.js"
   },
   {
-    "revision": "18aa24c688937feefc0946a6b596d986",
+    "revision": "a79d11ad7a43ddbd46c66d9083617e1f",
     "url": "/build/stats.json"
   }
 ];
