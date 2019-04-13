@@ -10,6 +10,11 @@ export default {
 			imgUrl: "aws.svg",
 			link: "https://aws.amazon.com/",
 		},
+		{
+			category: "platinum",
+			imgUrl: "myntra.svg",
+			link: "https://www.myntra.com/",
+		},
 	],
 	gold: [
 		{
@@ -32,6 +37,7 @@ export default {
 			imgUrl: "insider.svg",
 			link: "https://insider.in/",
 		},
+		
 	],
 	silver: [
 		{
@@ -53,6 +59,11 @@ export default {
 			category: "silver",
 			imgUrl: "twilio.svg",
 			link: "https://www.twilio.com/",
+		},
+		{
+			category: "silver",
+			imgUrl: "jda.png",
+			link: "https://jda.com/",
 		},
 	],
 	bronze: [
