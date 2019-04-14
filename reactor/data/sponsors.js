@@ -12,7 +12,7 @@ export default {
 		},
 		{
 			category: "platinum",
-			imgUrl: "myntra.svg",
+			imgUrl: "myntra.png",
 			link: "https://www.myntra.com/",
 		},
 	],
