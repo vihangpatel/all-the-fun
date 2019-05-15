@@ -32,6 +32,11 @@ export default {
 			imgUrl: "insider.svg",
 			link: "https://insider.in/",
 		},
+		{
+			category: "golden",
+			imgUrl: "obvious.svg",
+			link: "https://obvious.in/",
+		},
 	],
 	silver: [
 		{
