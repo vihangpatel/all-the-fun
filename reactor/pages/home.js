@@ -247,6 +247,78 @@ class Home extends Component {
 							</div>
 						</div>
 						{/* End Speakers Area */}
+						{/* Start MC Area */}
+						<section className="speaker_area mc_area" id="sponsors">
+							<div className="container">
+								<div className="row justify-content-center">
+									<div className="col-md-8">
+											{/* Start Heading Title */}
+											<div className="heading-title text-center">
+												<span className="subtitle">Our</span>
+												<h2 className="f-weight-700 margin1 margin-0">MC's</h2>
+												<div className="bordershep" />
+											</div>
+									</div>
+								</div>
+								<div class="row justify-content-center">
+									<div class="col-sm-6 col-md-3">
+										<div class="speaker">
+											<div class="sk-img">
+												<div class="img img-speaker">
+													<img class="img-fluid " src="assets/images/mcs/mc_varsha_saha.jpeg" alt="varsha_saha.jpeg" preview="true" />
+													<div class="overlay d-flex justify-content-center">
+														<div class="slink">
+															<div class="dumb">
+																<a rel="noreferrer" target="_blank" href="https://twitter.com/saha_varsha" aria-label="Sunil Pai's twitter profile">
+																	<i class="fa fa-twitter"></i>
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="sk-content">
+												<a><h4>Varsha Saha</h4></a>
+												<p>Front End engineer, Flipkart</p>
+												<div class="sk-desc">
+													<p class="sk-desc-p">
+														JS enthusiast, tea addict and a shopoholic!
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-3">
+										<div class="speaker">
+											<div class="sk-img">
+												<div class="img img-speaker">
+													<img class="img-fluid " src="assets/images/mcs/mc_mariia_punda.jpg" alt="mariia_punda.jpg" preview="true" />
+													<div class="overlay d-flex justify-content-center">
+														<div class="slink">
+															<div class="dumb">
+																<a rel="noreferrer" target="_blank" href="https://twitter.com/mariiapunda" aria-label="Sunil Pai's twitter profile">
+																	<i class="fa fa-twitter"></i>
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="sk-content">
+												<a><h4>Mariia Punda</h4></a>
+												<p>Web developer, N26</p>
+												<div class="sk-desc">
+													<p class="sk-desc-p">
+													  Based in Berlin. End-to-end testing enthusiast, openly in love with Cypress.io. Writer wannabe.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						{/* End MC Area */}
 						{/* Start Sponsors Area */}
 						<section className="sponsor_area" id="sponsors">
 							<div className="container">
@@ -294,7 +366,7 @@ class Home extends Component {
 									<div className="col-12 text-center">
 										<div className="row justify-content-center">
 											{sponsors.gold.map(sponsor => (
-												<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
+												<div key={sponsor.imgUrl} className="col-6 col-md text-center">
 													<a className="sponsor-link" href={sponsor.link}>
 														<LazyImage
 															imgClassName="sponsor-img golden img-fluid"
@@ -318,7 +390,7 @@ class Home extends Component {
 									<div className="col-12 text-center">
 										<div className="row justify-content-center">
 											{sponsors.silver.map(sponsor => (
-												<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
+												<div key={sponsor.imgUrl} className="col-4 col-md text-center">
 													<a className="sponsor-link" href={sponsor.link}>
 														<LazyImage
 															imgClassName="sponsor-img silver img-fluid"
@@ -342,7 +414,7 @@ class Home extends Component {
 									<div className="col-12 text-center">
 										<div className="row justify-content-center">
 											{sponsors.bronze.map(sponsor => (
-												<div key={sponsor.imgUrl} className="col-12 col-md-3 text-center">
+												<div key={sponsor.imgUrl} className="col-4 col-md-2 text-center">
 													<a className="sponsor-link" href={sponsor.link}>
 														<LazyImage
 															imgClassName="sponsor-img bronze img-fluid"

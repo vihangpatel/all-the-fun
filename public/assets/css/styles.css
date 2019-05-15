@@ -1504,7 +1504,9 @@ p {
 .speaker_area .sk-img .img img {
 	width: 100%;
 }
-
+.mc_area .sk-img .img img{
+	height: 285px;
+}
 .speaker_area .overlay .slink {
 	position: absolute;
 	bottom: -50px;
@@ -4008,19 +4010,27 @@ ul.pagination {
 .sponsor_area .sponsor-img {
 	width: 150px;
 	height: auto;
-	margin-top: 15px;
+	margin-top: 35px;
 }
 
 .sponsor_area .sponsor-img.platinum {
 	width: 100%;
-	padding: 0 20px;
+	padding: 0;
 }
 
 .sponsor_area .sponsor-img.golden {
 	width: 100%;
-	padding: 0 25px;
+	padding: 0 8%;
 }
 
+.sponsor_area .sponsor-img.silver {
+	width: 100%;
+	padding: 0 10%;
+}
+.sponsor_area .sponsor-img.bronze {
+	width: 100%;
+	padding: 0 8%;
+}
 .mb-20 {
 	margin-bottom: 20px !important;
 }
@@ -4065,7 +4075,11 @@ ul.pagination {
 		font-size: 10px;
 	}
 }
-
+@media screen and (max-width: 575px) {
+	.mc_area .sk-img .img img {
+    height: 450px;
+	}
+}
 @media screen and (max-width: 551px) {
 	.video__wrapper {
 		font-size: 9px;
@@ -4120,12 +4134,21 @@ ul.pagination {
 		margin-top: 30px;
 	}
 	.sponsor_area .sponsor-img.platinum {
-		width: 150px;
+		max-width: 250px;
 		padding: 0 !important;
 	}
-	.sponsor_area .sponsor-img.golden {
+	/* .sponsor_area .sponsor-img.golden {
 		width: 150px !important;
 		padding: 0 !important;
+	} */
+	.sponsor_area .sponsor-img.silver{
+		padding: 0;
+	}
+	.sponsor_area .sponsor-img.bronze{
+		padding: 0 3%;
+	}
+	.sponsor_area .title-gold, .sponsor_area .title-silver {
+		font-size: 16px;
 	}
 }
 
