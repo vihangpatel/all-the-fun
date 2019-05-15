@@ -17,6 +17,7 @@ class Home extends Component {
 			loadSecondFold: true,
 			showBanner: false,
 			loadVideo: false,
+			add: 'hello'
 		}
 		this.onImageLoad = this.onImageLoad.bind(this)
 	}
