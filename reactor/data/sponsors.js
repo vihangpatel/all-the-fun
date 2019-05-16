@@ -32,11 +32,11 @@ export default {
 			imgUrl: "insider.svg",
 			link: "https://insider.in/",
 		},
-		{
-			category: "golden",
-			imgUrl: "obvious.svg",
-			link: "https://obvious.in/",
-		},
+		// {
+		// 	category: "golden",
+		// 	imgUrl: "obvious.svg",
+		// 	link: "https://obvious.in/",
+		// },
 	],
 	silver: [
 		{
@@ -77,4 +77,11 @@ export default {
 			link: "https://agora.io/",
 		},
 	],
+	diversity: [
+		{
+			category: "diversity",
+			imgUrl: "nexmo.png",
+			link: "https://www.nexmo.com",
+		}
+	]
 }

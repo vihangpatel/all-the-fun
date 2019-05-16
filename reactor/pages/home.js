@@ -9,6 +9,8 @@ import LazyImage from "../lazy-load"
 import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
 import Header from "../header"
 
+console.log(sponsors.diversity)
+
 class Home extends Component {
 	constructor() {
 		super()
@@ -346,6 +348,30 @@ class Home extends Component {
 													<a className="sponsor-link" href={sponsor.link}>
 														<LazyImage
 															imgClassName="sponsor-img bronze img-fluid"
+															src={`assets/images/sponsor/${sponsor.category}/${
+																sponsor.imgUrl
+															}`}
+															alt=""
+														/>
+													</a>
+												</div>
+											))}
+										</div>
+									</div>
+								</div>
+								<div className="row mb-20">
+									<div className="col-12 text-center">
+										<div className="title-gold">
+											<span>DIVERSITY SPONSORS</span>
+										</div>
+									</div>
+									<div className="col-12 text-center">
+										<div className="row justify-content-center">
+											{sponsors.diversity.map(sponsor => (
+												<div key={sponsor.imgUrl} className="col-12 col-md-6 text-center">
+													<a className="sponsor-link" href={sponsor.link}>
+														<LazyImage
+															imgClassName="sponsor-img diversity img-fluid"
 															src={`assets/images/sponsor/${sponsor.category}/${
 																sponsor.imgUrl
 															}`}
