@@ -4022,6 +4022,12 @@ ul.pagination {
 	padding: 0 8%;
 }
 
+
+.sponsor_area .sponsor-img.diversity {
+	width:350px;
+
+}
+
 .sponsor_area .sponsor-img.silver {
 	width: 100%;
 	padding: 0 10%;
