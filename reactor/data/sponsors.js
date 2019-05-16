@@ -91,7 +91,7 @@ export default {
 		{
 			category: "diversity",
 			imgUrl: "nexmo.png",
-			link: "https://www.nexmo.com",
+			link: "https://developer.nexmo.com",
 		}
 	]
 }
