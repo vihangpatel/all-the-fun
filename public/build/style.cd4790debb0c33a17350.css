@@ -156,19 +156,19 @@ p {
 
 .mr-btn-fill-2 {
 	color: #fff;
-	background: #ff2d55;
-	border: 1px solid #ff2d55;
+	background: #1fa178;
+	border: 1px solid #1fa178;
 	padding: 10px 39px;
 	font-size: 18px;
 	border-radius: 50px;
 	display: inline-block;
 }
 
-.mr-btn-fill-2:hover {
+/* .mr-btn-fill-2:hover {
 	color: #242424;
 	background: #ff2d5300;
 	border: 1px solid rgba(36, 36, 36, 0.2);
-}
+} */
 
 .c1 {
 	color: #5abd24;
@@ -269,11 +269,11 @@ p {
 }
 
 .conferences .heading-title .subtitle {
-	color: #ff8000;
+	color: #ec5d25;
 }
 
 .conferences .heading-title .bordershep {
-	border-color: #ff8000;
+	border-color: #ec5d25;
 }
 
 .bordershep {
@@ -3584,7 +3584,7 @@ ul.pagination {
 } */
 
 .footer-top h3 {
-	color: #e17d08;
+	color: #ec5d25;
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 34px;
@@ -3755,11 +3755,11 @@ ul.pagination {
 }
 
 .copyright-text > a span {
-	color: #e17d08;
+	color: #ec5d25;
 }
 
 .code-of-conduct-link {
-	color: #e17d08;
+	color: #ec5d25;
 	margin-top: 3px;
 	padding: 0 10px;
 }
@@ -3938,15 +3938,16 @@ ul.pagination {
 }
 
 .content__button a {
-	background: #3aa5be;
+	background: #1fa178;
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	color: #ffffff;
 	display: inline-block;
 	font-weight: 400;
 	margin: 0 10px;
+	padding: 0 4px;
 	width: 220px;
 	height: 50px;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 50px;
 	border-radius: 50px;
 }
@@ -3954,7 +3955,7 @@ ul.pagination {
 .content__button a:hover {}
 
 .show-interest-btn a {
-	background: linear-gradient(90deg, #fd8383, #ff2e73);
+	background-color: #ec5d25;
 }
 
 
@@ -4216,7 +4217,8 @@ div.svglogo {
 }
 
 a[href="#tickets"] {
-	background: linear-gradient(90deg, #fd8383, #ff2e73)
+	/* background: linear-gradient(90deg, #fd8383, #ff2e73) */
+	background-color:#ec5d25;
 }
 
 @keyframes anim {
