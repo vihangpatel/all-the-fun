@@ -441,7 +441,7 @@ class Home extends Component {
 									<div className="col-12 text-center">
 										<div className="row justify-content-center">
 											{sponsors.diversity.map(sponsor => (
-												<div key={sponsor.imgUrl} className="col-12 col-md-6 text-center">
+												<div key={sponsor.imgUrl} className="col-6 col-md-3 text-center">
 													<a className="sponsor-link" href={sponsor.link}>
 														<LazyImage
 															imgClassName="sponsor-img diversity img-fluid"
