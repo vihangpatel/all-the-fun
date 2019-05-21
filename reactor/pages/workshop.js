@@ -5,16 +5,23 @@ export default () => (
     <Fragment>
       <Header hardRefresh />
         <section className="section workshops">
-            <div className="container">
+            <div className="workshops-head">
                 <div className="workshops-title">Workshops at React India Conference</div>
                 <div className="workshops-description">
                     <p>On September 26 and 27th, 2019, to extend your conference experience, we'll host multiple workshops targeted both at the React newcomers and hardcore fans. Take the full advantage of your conference visit and get training from our best speakers and trainers.</p>
                     <p>All trainings start at 9:00 (with doors open 8:30) and continue until 17:00 and are <strong>hosted in individual locations, different from the conference venue but in short reach.</strong> Please address individual workshop description for location details and follow your registered mailbox for updates.</p>
                 </div>
+            </div>
+            <div className="container">
                 <div className="workshops-content">
                     <div className="workshop">
                         <div className="workshop-item workshop-item-lg">
-                            <div className="workshop-item-title">Siddharth Kshetrapal</div>
+                            <div className="workshop-item-title">
+                                <div>Siddharth Kshetrapal</div>
+                                <div class="img img-speaker">
+                                    <img class="img-fluid " src="assets/images/speakers/siddharth.jpg" alt="siddharth.jpg" preview="true" />
+                                </div>
+                            </div>
                             <div className="workshop-item-content">
                                 <h3>Building your first Design System: from scratch to production</h3>
                                 <p> 
@@ -63,7 +70,12 @@ export default () => (
                     </div>
                     <div className="workshop">
                         <div className="workshop-item workshop-item-lg">
-                            <div className="workshop-item-title">Vladimir Novick</div>
+                            <div className="workshop-item-title">
+                                <div>Vladimir Novick</div>
+                                <div class="img img-speaker">
+                                    <img class="img-fluid " src="assets/images/speakers/vladir.jpg" alt="siddharth.jpg" preview="true" />
+                                </div>
+                            </div>
                             <div className="workshop-item-content">
                                 <h3>Practical ReasonML for React devs</h3>
                                 <p> 

@@ -4352,26 +4352,47 @@ a[href="#tickets"] {
 
 /* ====Workshops Start==== */
 .workshops{
-	padding: 45px 0 40px;
+	padding: 0 0 40px;
 }
 .workshops .workshop:not(:last-child) {
     margin-bottom: 132px;
 }
+.workshops-head{
+	padding: 60px 25px 50px;
+	margin-bottom: 60px;
+	background: url("https://www.cabana.online/sites/default/files/visuals/workshops_new.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	text-align: center;
+	z-index:1;
+}
+.workshops-head:before{
+	content: "";
+	position: absolute;
+	right:0;
+	left:0;
+	top:0;
+	bottom:0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: -1;
+}
 .workshops-title{
 	letter-spacing: 3px;
-    text-align: center;
     font-size: 75px;
     /* font-family: Lato,Arial,sans-serif; */
     font-weight: 900;
     line-height: 1.2;
     text-transform: uppercase;
 	max-width: 1200px;
+	margin: 0 auto;
+	color: #dcdbd2;
 }
 .workshops-description{
 	max-width: 1070px;
-    margin: 0 auto 90px;
+    margin: 0 auto 35px;
 	text-align: center;
-	color: #333333;
+	color: #969696;
 }
 .workshops-description p{
 	font-size: 19px;
@@ -4394,6 +4415,10 @@ a[href="#tickets"] {
 	font-size: 15px;
 	font-weight: 600;
     letter-spacing: .35px;
+}
+.workshop-item-title .img-speaker img{
+	max-width: 175px;
+    margin-top: 16px;
 }
 .workshop-item-lg .workshop-item-title {
     font-size: 26px;
@@ -4444,6 +4469,9 @@ a[href="#tickets"] {
     height: 450px;
 	}
 
+	.workshops .workshop:not(:last-child) {
+		margin-bottom: 75px;
+	}
 	.workshop-item {
 		-ms-flex-direction: column;
 		flex-direction: column;
@@ -4452,8 +4480,14 @@ a[href="#tickets"] {
 		font-size: 38px;
 	}
 	.workshop-item-content{
+		max-width: 100%;
 		margin-left: 0;
 	}
+	.workshop-item-lg .workshop-item-title{
+		width: 100%;
+		text-align: center;
+	}
+	
 }
 @media screen and (max-width: 551px) {
 	.video__wrapper {
