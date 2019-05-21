@@ -15,7 +15,7 @@ a {
 	/* background-color: #fff; */
 	background-color: rgba(0, 0, 0, 0.9);
 	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-	height: 59px;
+	/* height: 59px; */
 	width: 100%;
 	z-index: 3;
 }

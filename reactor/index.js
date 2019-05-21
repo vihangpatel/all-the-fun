@@ -9,6 +9,7 @@ import { Route, StaticRouter } from "react-router-dom"
 import Home from "./pages/home"
 import Subscribe from "./pages/subscribe"
 import Tickets from "./pages/tickets"
+import Workshop from "./pages/workshop"
 import Footer from "./footer"
 import getClientBundleEntryAssets from "./asset-reader"
 
@@ -24,6 +25,7 @@ const HTML = ({ url }) => {
 					<div id="body-wrap">
 						<Route path="/" component={Home} exact />
 						<Route path="/tickets" component={Tickets} exact />
+						<Route path="/workshop" component={Workshop} exact />
 						<Route path="/subscribe" component={Subscribe} exact />
 						<Footer />
 					</div>
