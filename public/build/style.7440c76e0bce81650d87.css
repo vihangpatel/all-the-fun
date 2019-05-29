@@ -47,14 +47,13 @@ Front-end developer : Mamunur Rashid
 
 ==================================================================*/
 
-
 /*====================================================================
 1. Base CSS
 ======================================================================*/
 
-
 /*--Google Font Import--*/
-html, body {
+html,
+body {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -73,12 +72,17 @@ ul {
 	padding: 0;
 }
 
-a, a:visited, a:focus, a:active, a:hover {
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover {
 	text-decoration: none;
 	outline: none;
 }
 
-a, button {
+a,
+button {
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -89,7 +93,16 @@ a {
 	color: #2c3e50;
 }
 
-h1, h2, h3, h4, h5, h6, h1, .h1, .h2, .h3 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1,
+.h1,
+.h2,
+.h3 {
 	margin-bottom: 0px;
 }
 
@@ -194,7 +207,6 @@ p {
 	background: #0d80f6;
 }
 
-
 /*=================================================
 2. Site Preloader
 ===================================================*/
@@ -241,7 +253,6 @@ p {
 	}
 }
 
-
 /*==============================================================
 3. Section Title
 ===============================================================*/
@@ -256,7 +267,7 @@ p {
 
 .heading-title .subtitle {
 	font-size: 24px;
-	color: #753B00;
+	color: #753b00;
 	line-height: 30px;
 	font-style: italic;
 }
@@ -283,7 +294,7 @@ p {
 	text-align: center;
 	margin: 11px auto 25px;
 	width: 60px;
-	border-bottom: 2px solid #753B00;
+	border-bottom: 2px solid #753b00;
 }
 
 .affix {
@@ -294,11 +305,9 @@ p {
 	text-align: center;
 }
 
-
 /*==================================================
 4. Home One
 ====================================================*/
-
 
 /* manu top*/
 
@@ -450,7 +459,8 @@ p {
 	z-index: -1;
 }
 
-.index_1 .conferences h2, .index_1 .conferences p {
+.index_1 .conferences h2,
+.index_1 .conferences p {
 	color: #fff;
 }
 
@@ -461,7 +471,7 @@ p {
 
 .index_1.home1 .latest-news-area {
 	padding: 94px 0px 70px;
-	background-color: #F8EFD7;
+	background-color: #f8efd7;
 }
 
 .more-speaker-text {
@@ -469,7 +479,6 @@ p {
 	font-style: italic;
 	margin-top: 30px;
 }
-
 
 /* Start Latest News Area for index1 */
 
@@ -483,11 +492,9 @@ p {
 	border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-
 /*==================================================
 5. Home Two
 ====================================================*/
-
 
 /* -1. Support Bar*/
 
@@ -564,7 +571,6 @@ p {
 .support-bar-area .right-content-wrapper ul li a:hover {
 	color: #ff2d55;
 }
-
 
 /* -2. Menu Bar Area Start */
 
@@ -648,7 +654,6 @@ p {
 .modal-backdrop {
 	z-index: 0;
 }
-
 
 /* .header .navbar .navbar-nav {
     padding: 15px;
@@ -746,7 +751,6 @@ p {
 	color: #fff;
 	font-weight: 400;
 }
-
 
 /* ===================================================
 6. Slider 
@@ -909,7 +913,8 @@ p {
 	border-color: #ff2d55;
 }
 
-.silder .owl-nav div, .portfolio-slide .owl-nav div {
+.silder .owl-nav div,
+.portfolio-slide .owl-nav div {
 	background-color: #120f0d;
 	font-size: 16px;
 	height: 60px;
@@ -929,11 +934,14 @@ p {
 	text-align: center;
 }
 
-.silder .owl-nav div:hover, .portfolio-slide .owl-nav div:hover, .related-port .owl-nav div:hover {
+.silder .owl-nav div:hover,
+.portfolio-slide .owl-nav div:hover,
+.related-port .owl-nav div:hover {
 	background-color: #ff2d55;
 }
 
-.silder .owl-nav .owl-next, .portfolio-slide .owl-nav .owl-next {
+.silder .owl-nav .owl-next,
+.portfolio-slide .owl-nav .owl-next {
 	right: 150px;
 	left: auto;
 }
@@ -969,7 +977,6 @@ p {
 .slider-area:hover .silder .owl-nav {
 	opacity: 1;
 }
-
 
 /* =====================================
 7. About Us area start
@@ -1042,7 +1049,8 @@ p {
 	top: 50%;
 }
 
-.about-area .mr_btn_fill, .about-area .mr_btn_o {
+.about-area .mr_btn_fill,
+.about-area .mr_btn_o {
 	margin-top: 45px;
 	padding: 10px 44px;
 	margin-right: 5px;
@@ -1064,7 +1072,6 @@ p {
 	color: #b3b3b3;
 }
 
-
 /* ==============================================
 8. Start venues Area
 =================================================*/
@@ -1080,7 +1087,9 @@ p {
 	margin: 22px auto 25px;
 }
 
-.venues_area .heading-title h2, .venues_area .heading-title p, .venues_area .heading-title .heading-title p {
+.venues_area .heading-title h2,
+.venues_area .heading-title p,
+.venues_area .heading-title .heading-title p {
 	color: #fff;
 }
 
@@ -1166,7 +1175,9 @@ p {
 	right: auto;
 }
 
-.venues-item .content, .venues-item .content h3, .venues-item .content p {
+.venues-item .content,
+.venues-item .content h3,
+.venues-item .content p {
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -1204,7 +1215,6 @@ p {
 .venues_slider .owl-dot.active {
 	background-color: #ff2d55;
 }
-
 
 /*==============================================
 9. Schedule_area
@@ -1305,7 +1315,6 @@ p {
 	border: 1px solid rgba(36, 36, 36, 0.2);
 }
 
-
 /*======================================================
 10. Photo Gallery
 ========================================================*/
@@ -1348,7 +1357,6 @@ p {
 	padding: 0 0 32px;
 }
 
-
 /* ==================================================
 11. pricing area
 =====================================================*/
@@ -1377,7 +1385,8 @@ p {
 	font-weight: 600;
 }
 
-.p-box .header p, .p-box .price p {
+.p-box .header p,
+.p-box .price p {
 	font-style: italic;
 }
 
@@ -1430,7 +1439,6 @@ p {
 	color: #fff;
 }
 
-
 /* =======================================================
 12. Purchase  css
 =========================================================*/
@@ -1467,7 +1475,6 @@ p {
 	color: #fff;
 }
 
-
 /*=================================================
 13. Speakers Area
 ===================================================*/
@@ -1503,7 +1510,7 @@ p {
 .speaker_area .sk-img .img img {
 	width: 100%;
 }
-.mc_area .sk-img .img img{
+.mc_area .sk-img .img img {
 	height: 285px;
 }
 .speaker_area .overlay .slink {
@@ -1570,7 +1577,6 @@ p {
 	margin: 16px 0;
 }
 
-
 /*=================================================
 14. Testimonial
 ===================================================*/
@@ -1578,13 +1584,12 @@ p {
 .testimonial-area {
 	/* background: url(../images/suhedule/back-banner.jpg) no-repeat center;
 	background-size: cover; */
-	background-color: #F8EFD7;
+	background-color: #f8efd7;
 	padding: 94px 0 94px;
 	/* background-attachment: fixed; */
 	position: relative;
 	z-index: 1;
 }
-
 
 /* .testimonial-area .overlay {
 	position: absolute;
@@ -1661,7 +1666,6 @@ p {
 	color: rgba(255, 255, 255, 0.75);
 }
 
-
 /* .testimonial-area h2, .testimonial-area p, .testimonial-area h4, .testimonial-area span {
 	color: #fff;
 } */
@@ -1684,7 +1688,6 @@ p {
 .testimonial-area .owl-carousel .owl-dot.active {
 	background: #fff;
 }
-
 
 /* =================================================
 15. Upcoming Event
@@ -1741,14 +1744,15 @@ p {
 
 .sponsor_area {
 	padding: 94px 0px 100px;
-	background: #f8EFD7;
+	background: #f8efd7;
 }
 
 .sponsor_area .bordershep {
 	margin: 22px auto 25px;
 }
 
-.sponsor_area .title-gold, .sponsor_area .title-silver {
+.sponsor_area .title-gold,
+.sponsor_area .title-silver {
 	font-size: 24px;
 	line-height: 40px;
 	letter-spacing: 5px;
@@ -1841,7 +1845,8 @@ p {
 	margin-bottom: 20px;
 }
 
-.latest-news-area .blog-post:hover .content a, .latest-news-area .blog-post:hover .content .readmore {
+.latest-news-area .blog-post:hover .content a,
+.latest-news-area .blog-post:hover .content .readmore {
 	color: #ff2d55;
 }
 
@@ -1871,7 +1876,6 @@ section.latest-news-area.main_blog.m-blog-padding {
 	padding: 100px 0px 100px;
 }
 
-
 /*====================================================
 17. Partner
 ====================================================*/
@@ -1897,7 +1901,6 @@ section.latest-news-area.main_blog.m-blog-padding {
 .partner-area .single-parter-item:hover img {
 	filter: grayscale(0%);
 }
-
 
 /* ====================================================
 18. Contact Form
@@ -2005,7 +2008,6 @@ section.latest-news-area.main_blog.m-blog-padding {
 	border: 1px solid #ff2d55;
 }
 
-
 /*==================================================
 19. About Us Page
 ====================================================*/
@@ -2048,7 +2050,8 @@ section.latest-news-area.main_blog.m-blog-padding {
 	font-weight: 600;
 }
 
-.solution_area h2, .solution_area p {
+.solution_area h2,
+.solution_area p {
 	color: #fff;
 }
 
@@ -2080,7 +2083,6 @@ section.latest-news-area.main_blog.m-blog-padding {
 .aboutEventArea .a-box:hover .img img {
 	transform: rotateY(360deg);
 }
-
 
 /*==================================================
 20. Event Schedule Area Css Start
@@ -2139,7 +2141,6 @@ section.latest-news-area.main_blog.m-blog-padding {
 	color: #242424;
 	border: 1px solid rgba(36, 36, 36, 0.2);
 }
-
 
 /* ======================================
 21. event page  
@@ -2275,7 +2276,9 @@ section.latest-news-area.main_blog.m-blog-padding {
 	padding: 25px 30px 13px 30px;
 }
 
-.eventSingle .aside .calenderBox .ui-widget-content .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+.eventSingle .aside .calenderBox .ui-widget-content .ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
 	background-color: #ff2d55;
 	color: #fff;
 }
@@ -2284,7 +2287,9 @@ section.latest-news-area.main_blog.m-blog-padding {
 	border: 1px solid #e2e2e2;
 }
 
-.eventSingle .aside .calenderBox .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+.eventSingle .aside .calenderBox .ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
 	background-color: transparent;
 	border: none;
 }
@@ -2298,7 +2303,8 @@ section.latest-news-area.main_blog.m-blog-padding {
 	width: 100%;
 }
 
-.eventSingle .aside .calenderBox .ui-datepicker-calendar thead tr th, .eventSingle .aside .calenderBox .ui-datepicker-calendar tbody tr td {
+.eventSingle .aside .calenderBox .ui-datepicker-calendar thead tr th,
+.eventSingle .aside .calenderBox .ui-datepicker-calendar tbody tr td {
 	padding: 5px 6px;
 }
 
@@ -2338,7 +2344,6 @@ section.latest-news-area.main_blog.m-blog-padding {
 	line-height: 40px;
 	text-align: center;
 }
-
 
 /* =============================================
 22. Speaker Profile area Start
@@ -2411,7 +2416,8 @@ section.latest-news-area.main_blog.m-blog-padding {
 	margin-bottom: 5px;
 }
 
-.speaker_profile .speakerdetail .box h3, .speaker_profile .speakerdetail .box p {
+.speaker_profile .speakerdetail .box h3,
+.speaker_profile .speakerdetail .box p {
 	font-size: 18px;
 }
 
@@ -2442,7 +2448,6 @@ section.latest-news-area.main_blog.m-blog-padding {
 	overflow: hidden;
 	display: block;
 }
-
 
 /*==================================================
 23. Become Sponsor Area Css Start
@@ -2504,7 +2509,6 @@ section.latest-news-area.main_blog.m-blog-padding {
 	margin-bottom: 30px;
 }
 
-
 /*==================================================
 24. Breadcrumbs Area Css Start
 ====================================================*/
@@ -2528,7 +2532,9 @@ section.latest-news-area.main_blog.m-blog-padding {
 	display: inline-block;
 }
 
-.breadcrumbs ul li a, .breadcrumbs ul li i, .breadcrumbs h2 {
+.breadcrumbs ul li a,
+.breadcrumbs ul li i,
+.breadcrumbs h2 {
 	color: #fff;
 }
 
@@ -2549,7 +2555,6 @@ section.latest-news-area.main_blog.m-blog-padding {
 	color: #ff2d55;
 }
 
-
 /*==================================================
   25.  Pricing Page
 ====================================================*/
@@ -2568,7 +2573,9 @@ section.latest-news-area.main_blog.m-blog-padding {
 	margin: 0px 0 0px;
 }
 
-.contact-form .heading-title, .pricing-three-column .heading-title, .pricing-four-column .heading-title {
+.contact-form .heading-title,
+.pricing-three-column .heading-title,
+.pricing-four-column .heading-title {
 	padding-bottom: 26px;
 }
 
@@ -2691,7 +2698,6 @@ section.latest-news-area.main_blog.m-blog-padding {
 	background-color: #e9e9e9;
 }
 
-
 /*==================================================
  26. Blog Page
 ====================================================*/
@@ -2749,7 +2755,8 @@ section.latest-news-area.main_blog.m-blog-padding {
 	padding: 0px;
 }
 
-.pagination .page-item .page-link:hover, .pagination .page-item .page-link.active {
+.pagination .page-item .page-link:hover,
+.pagination .page-item .page-link.active {
 	background: #ff2d55;
 	color: #fff;
 	border-color: #ff2d55;
@@ -2763,7 +2770,6 @@ ul.pagination {
 	outline: 0px;
 	box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0);
 }
-
 
 /* =================================================
 27.Blog Single
@@ -2815,7 +2821,8 @@ ul.pagination {
 	line-height: 45px;
 }
 
-.comment-text h3, .comment-text p {
+.comment-text h3,
+.comment-text p {
 	margin: 0;
 }
 
@@ -2940,13 +2947,15 @@ ul.pagination {
 	padding: 8px 10px;
 }
 
-.widget.categories li, .widget.archive li {
+.widget.categories li,
+.widget.archive li {
 	display: block;
 	padding: 10px 0;
 	border-bottom: 1px solid #f1f1f1;
 }
 
-.widget.categories ul li:first-child, .widget.archive ul li:first-child {
+.widget.categories ul li:first-child,
+.widget.archive ul li:first-child {
 	border-top: 1px solid #f1f1f1;
 	margin-top: 20px;
 }
@@ -2959,7 +2968,8 @@ ul.pagination {
 	margin: -6px 0 0;
 }
 
-.widget.categories li a, .widget.archive li a {
+.widget.categories li a,
+.widget.archive li a {
 	font-weight: 400;
 	color: #242424;
 	font-size: 18px;
@@ -2970,7 +2980,8 @@ ul.pagination {
 	margin-right: 5px;
 }
 
-.widget.categories li a:hover, .widget.archive li a:hover {
+.widget.categories li a:hover,
+.widget.archive li a:hover {
 	color: #ff2d55;
 }
 
@@ -2993,7 +3004,8 @@ ul.pagination {
 	border: 0px;
 }
 
-.widget.qcontact input:focus, .widget.qcontact textarea:focus {
+.widget.qcontact input:focus,
+.widget.qcontact textarea:focus {
 	outline: 0px;
 }
 
@@ -3042,12 +3054,14 @@ ul.pagination {
 	margin-bottom: 0;
 }
 
-.widget.categories ul li:first-child, .widget.archive ul li:first-child {
+.widget.categories ul li:first-child,
+.widget.archive ul li:first-child {
 	padding-top: 0;
 	border-top: none;
 }
 
-.widget.categories ul li:last-child, .widget.archive ul li:last-child {
+.widget.categories ul li:last-child,
+.widget.archive ul li:last-child {
 	padding-bottom: 0;
 	border-bottom: none;
 }
@@ -3361,7 +3375,6 @@ ul.pagination {
 	border: 1px solid rgba(0, 0, 0, 0.07);
 }
 
-
 /*=================================================
 28. 404 Page
 ====================================================*/
@@ -3394,7 +3407,6 @@ ul.pagination {
 	color: #242424;
 	border: 1px solid rgba(36, 36, 36, 0.2);
 }
-
 
 /*==================================================
 29. Faq Page
@@ -3471,7 +3483,6 @@ ul.pagination {
 	line-height: 26px;
 }
 
-
 /*==================================================
 30. Contact Pages
 ====================================================*/
@@ -3526,7 +3537,6 @@ ul.pagination {
 	margin-top: 25px;
 }
 
-
 /*==================================================
 31. Click BottomToTop
 ====================================================*/
@@ -3562,7 +3572,6 @@ ul.pagination {
 	background-color: #0d80f6;
 }
 
-
 /*==================================================
 32. Footer
 ====================================================*/
@@ -3577,7 +3586,6 @@ ul.pagination {
 .footer-top {
 	padding: 93px 0 90px;
 }
-
 
 /* .footer-top a img {
     padding: 4px 0 0;
@@ -3831,7 +3839,6 @@ ul.pagination {
 	cursor: pointer;
 }
 
-
 /***** banner styles start *****/
 
 .m-t-20 {
@@ -3911,7 +3918,7 @@ ul.pagination {
 	/* margin-bottom: 10px; */
 	text-transform: uppercase;
 	/* font-family: 'Roboto Condensed', sans-serif; */
-	color: #FFFF00;
+	color: #ffff00;
 }
 
 .caption__small {
@@ -3952,12 +3959,12 @@ ul.pagination {
 	border-radius: 50px;
 }
 
-.content__button a:hover {}
+.content__button a:hover {
+}
 
 .show-interest-btn a {
 	background-color: #ec5d25;
 }
-
 
 /*Added by Anjali*/
 
@@ -3983,7 +3990,7 @@ ul.pagination {
 .toggle-text-length {
 	font-size: 10px;
 	font-style: italic;
-	color: #A80000;
+	color: #a80000;
 	cursor: pointer;
 }
 
@@ -3999,7 +4006,6 @@ ul.pagination {
 	filter: blur(5px);
 	background-color: #ccc;
 }
-
 
 /* Sponsor Start */
 
@@ -4023,10 +4029,8 @@ ul.pagination {
 	padding: 0 8%;
 }
 
-
 .sponsor_area .sponsor-img.diversity {
-	width:100%;
-
+	width: 100%;
 }
 
 .sponsor_area .sponsor-img.silver {
@@ -4041,9 +4045,7 @@ ul.pagination {
 	margin-bottom: 20px !important;
 }
 
-
 /* Sponsor End */
-
 
 /* Ticketing Start */
 
@@ -4065,7 +4067,6 @@ ul.pagination {
 	width: 150px;
 }
 
-
 /* Ticketing End */
 
 @media screen and (max-width: 882px) {
@@ -4074,7 +4075,8 @@ ul.pagination {
 	}
 }
 
-@media screen and (max-width: 767.98px) {}
+@media screen and (max-width: 767.98px) {
+}
 
 @media screen and (max-width: 772px) {
 	.video__wrapper {
@@ -4083,7 +4085,7 @@ ul.pagination {
 }
 @media screen and (max-width: 575px) {
 	.mc_area .sk-img .img img {
-    height: 450px;
+		height: 450px;
 	}
 }
 @media screen and (max-width: 551px) {
@@ -4097,7 +4099,7 @@ ul.pagination {
 		margin-right: 0;
 	}
 	.content__desc {
-		font-size: 6.25em !important
+		font-size: 6.25em !important;
 	}
 	.logo__main svg {
 		height: 135px;
@@ -4147,20 +4149,21 @@ ul.pagination {
 		width: 150px !important;
 		padding: 0 !important;
 	} */
-	.sponsor_area .sponsor-img.silver{
+	.sponsor_area .sponsor-img.silver {
 		padding: 0;
 	}
-	.sponsor_area .sponsor-img.bronze{
+	.sponsor_area .sponsor-img.bronze {
 		padding: 0 3%;
 	}
-	.sponsor_area .title-gold, .sponsor_area .title-silver {
+	.sponsor_area .title-gold,
+	.sponsor_area .title-silver {
 		font-size: 16px;
 	}
 }
 
 @media screen and (max-width: 496px) {
 	.hidden-xs {
-		display: none
+		display: none;
 	}
 	.video__wrapper {
 		font-size: 8px;
@@ -4169,7 +4172,6 @@ ul.pagination {
 		height: 420px;
 	}
 }
-
 
 /***** banner styles end *****/
 
@@ -4216,9 +4218,9 @@ div.svglogo {
 	animation: circle 1.5s ease-in forwards;
 }
 
-a[href="#tickets"] {
+a[href='#tickets'] {
 	/* background: linear-gradient(90deg, #fd8383, #ff2e73) */
-	background-color:#ec5d25;
+	background-color: #ec5d25;
 }
 
 @keyframes anim {
@@ -4347,7 +4349,7 @@ a[href="#tickets"] {
 }
 
 .deliverables-table .header.price {
-	background: #1b0142
+	background: #1b0142;
 }
 
 .deliverables-table .item {
@@ -4399,7 +4401,7 @@ a[href="#tickets"] {
 
 .ticket-type-card {
 	margin-bottom: 50px;
-	transition: all .25s;
+	transition: all 0.25s;
 	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
 }
 
@@ -4451,6 +4453,245 @@ a[href="#tickets"] {
 	cursor: pointer;
 }
 
+/* schedule styles */
+.schedule_area {
+	padding: 34px 0px 65px;
+}
+
+.schedule-navlink {
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	color: #f03939;
+	cursor: pointer;
+}
+
+.schedule-navlink,
+.schedule-navlink:focus,
+.schedule-navlink:hover {
+	text-decoration: none;
+}
+
+.schedule-navlink:focus,
+.schedule-navlink:hover {
+	outline: 0 !important;
+}
+
+.lead {
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 37px;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.no-margin {
+	margin: 0 !important;
+}
+
+.dark-section {
+	background: #333;
+}
+
+.text-underline {
+	text-decoration: underline !important;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.text-primary {
+	color: #f03939;
+}
+
+.tabs-schedule {
+	margin: 0;
+	padding: 0;
+}
+
+.font-400 {
+	font-weight: 400 !important;
+}
+
+.font-700 {
+	font-weight: 700 !important;
+}
+
+.margin-b-30 {
+	margin-bottom: 30px;
+}
+
+.margin-t-30 {
+	margin-top: 30px;
+}
+
+.margin-b-20 {
+	margin-bottom: 20px;
+}
+
+.list-inline {
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+}
+
+.list-inline > li {
+	display: inline-block;
+}
+
+.tabs-schedule {
+	border-bottom: 2px solid #f5f5f5;
+	margin-bottom: 40px;
+	margin-left: 0;
+}
+
+.tabs-schedule > li {
+	padding: 0;
+}
+
+.tabs-schedule > li > a {
+	font-size: 20px;
+	display: block;
+	padding: 4px 20px;
+	color: #333;
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+	margin-bottom: -2px;
+	position: relative;
+}
+
+.tabs-schedule > li > a:after {
+	content: '';
+	width: 0;
+	height: 2px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #f03939;
+	-moz-transition: width 0.4s;
+	-o-transition: width 0.4s;
+	-webkit-transition: width 0.4s;
+	transition: width 0.4s;
+}
+
+.tabs-schedule > li > a span {
+	font-size: 12px;
+	display: block;
+	color: #999;
+	font-family: #f03939;
+	font-weight: 400;
+}
+
+.tabs-schedule > li.active a {
+	color: #f03939;
+	cursor: default;
+}
+
+.tabs-schedule > li.active a:after,
+.tabs-schedule > li a:hover:after {
+	width: 100%;
+}
+
+.tabs-schedule > li a:hover {
+	color: #f03939;
+}
+
+.event-info {
+	padding-right: 30px;
+	text-align: right;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.event-info span {
+	display: block;
+	font-size: 16px;
+}
+
+.event-info .event-hall {
+	margin-top: 10px;
+	font-style: normal;
+	font-size: 12px;
+	padding: 3px 10px;
+	border-right: 3px solid #f03939;
+	background: #f5f5f5;
+}
+
+.event-detail {
+	border-left: 1px solid #ddd;
+	padding-left: 30px;
+	position: relative;
+}
+
+.event-detail:before {
+	content: '';
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	background: #ddd;
+	position: absolute;
+	left: -6px;
+	top: 0;
+}
+
+.event-detail h3 {
+	font-family: Lato, sans-serif;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.event-detail h3 a {
+	color: #777;
+}
+
+@media (max-width: 991px) {
+	.image-col {
+		position: static;
+		width: 100%;
+	}
+	.event-detail {
+		border-left: 0;
+		padding-left: 15px;
+		position: relative;
+	}
+	.event-detail:before {
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	.event-time .dash .digit {
+		font-size: 25px;
+		height: 32px;
+		line-height: 36px;
+	}
+	.event-info {
+		margin-bottom: 30px;
+		text-align: left;
+		padding-right: 15px;
+	}
+	.event-time .dash {
+		padding: 10px;
+	}
+	.event-detail img {
+		width: 200px;
+		margin-bottom: 20px;
+	}
+	.tabs-schedule > li > a {
+		padding: 4px 7px;
+	}
+	.tabs-schedule > li > a span {
+		font-size: 10px;
+	}
+}
+
+a.talk-link {
+	color: #777;
+}
+/* schedule styles */
 
 /*.platinum.img-fluid {
 	width: 150px;
@@ -4468,3 +4709,4 @@ a[href="#tickets"] {
 	height: 40px;
 	width: 130px;
 }*/
+

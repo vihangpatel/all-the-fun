@@ -1,13 +1,14 @@
-import React, { Fragment, Component, useState } from "react"
-import Logo from "./logo"
+import React, { Fragment, Component, useState } from 'react'
+import Logo from './logo'
 
-import speakersData from "../data/speakers"
-import partners from "../data/partners"
-import sponsors from "../data/sponsors"
-import { addMap } from "./map"
-import LazyImage from "../lazy-load"
-import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
-import Header from "../header"
+import speakersData from '../data/speakers'
+import partners from '../data/partners'
+import sponsors from '../data/sponsors'
+import { addMap } from './map'
+import LazyImage from '../lazy-load'
+import { registerLazyImageScrollHandler } from '../lazy-load/scroll-helper'
+import Header from '../header'
+import Schedule from './schedule'
 
 console.log(sponsors.diversity)
 
@@ -19,7 +20,7 @@ class Home extends Component {
 			loadSecondFold: true,
 			showBanner: false,
 			loadVideo: false,
-			add: 'hello'
+			add: 'hello',
 		}
 		this.onImageLoad = this.onImageLoad.bind(this)
 	}
@@ -137,11 +138,7 @@ class Home extends Component {
 											</div>
 											<div className="buttons">
 												<div className="content__button">
-													<a
-														rel="noreferrer"
-														target="_blank"
-														href="/tickets"
-													>
+													<a rel="noreferrer" target="_blank" href="/tickets">
 														BUY TICKETS
 													</a>
 												</div>
@@ -225,7 +222,7 @@ class Home extends Component {
 							</div>
 							{/* End Container */}
 						</section>
-						
+
 						{/* Start Speakers Area */}
 						<div className="speaker_area" id="speakers">
 							<div className="container">
@@ -250,17 +247,20 @@ class Home extends Component {
 							</div>
 						</div>
 						{/* End Speakers Area */}
+						{/* Start schedule area */}
+						<Schedule />
+						{/* End schedule area */}
 						{/* Start MC Area */}
 						<section className="speaker_area mc_area" id="sponsors">
 							<div className="container">
 								<div className="row justify-content-center">
 									<div className="col-md-8">
-											{/* Start Heading Title */}
-											<div className="heading-title text-center">
-												<span className="subtitle">Our</span>
-												<h2 className="f-weight-700 margin1 margin-0">MC's</h2>
-												<div className="bordershep" />
-											</div>
+										{/* Start Heading Title */}
+										<div className="heading-title text-center">
+											<span className="subtitle">Our</span>
+											<h2 className="f-weight-700 margin1 margin-0">MC's</h2>
+											<div className="bordershep" />
+										</div>
 									</div>
 								</div>
 								<div class="row justify-content-center">
@@ -268,12 +268,22 @@ class Home extends Component {
 										<div class="speaker">
 											<div class="sk-img">
 												<div class="img img-speaker">
-													<img class="img-fluid " src="assets/images/mcs/mc_varsha_saha.jpeg" alt="varsha_saha.jpeg" preview="true" />
+													<img
+														class="img-fluid "
+														src="assets/images/mcs/mc_varsha_saha.jpeg"
+														alt="varsha_saha.jpeg"
+														preview="true"
+													/>
 													<div class="overlay d-flex justify-content-center">
 														<div class="slink">
 															<div class="dumb">
-																<a rel="noreferrer" target="_blank" href="https://twitter.com/saha_varsha" aria-label="Sunil Pai's twitter profile">
-																	<i class="fa fa-twitter"></i>
+																<a
+																	rel="noreferrer"
+																	target="_blank"
+																	href="https://twitter.com/saha_varsha"
+																	aria-label="Sunil Pai's twitter profile"
+																>
+																	<i class="fa fa-twitter" />
 																</a>
 															</div>
 														</div>
@@ -281,12 +291,12 @@ class Home extends Component {
 												</div>
 											</div>
 											<div class="sk-content">
-												<a><h4>Varsha Saha</h4></a>
+												<a>
+													<h4>Varsha Saha</h4>
+												</a>
 												<p>Front End engineer, Flipkart</p>
 												<div class="sk-desc">
-													<p class="sk-desc-p">
-														JS enthusiast, tea addict and a shopoholic!
-													</p>
+													<p class="sk-desc-p">JS enthusiast, tea addict and a shopoholic!</p>
 												</div>
 											</div>
 										</div>
@@ -295,12 +305,22 @@ class Home extends Component {
 										<div class="speaker">
 											<div class="sk-img">
 												<div class="img img-speaker">
-													<img class="img-fluid " src="assets/images/mcs/mc_mariia_punda.jpg" alt="mariia_punda.jpg" preview="true" />
+													<img
+														class="img-fluid "
+														src="assets/images/mcs/mc_mariia_punda.jpg"
+														alt="mariia_punda.jpg"
+														preview="true"
+													/>
 													<div class="overlay d-flex justify-content-center">
 														<div class="slink">
 															<div class="dumb">
-																<a rel="noreferrer" target="_blank" href="https://twitter.com/mariiapunda" aria-label="Sunil Pai's twitter profile">
-																	<i class="fa fa-twitter"></i>
+																<a
+																	rel="noreferrer"
+																	target="_blank"
+																	href="https://twitter.com/mariiapunda"
+																	aria-label="Sunil Pai's twitter profile"
+																>
+																	<i class="fa fa-twitter" />
 																</a>
 															</div>
 														</div>
@@ -308,11 +328,14 @@ class Home extends Component {
 												</div>
 											</div>
 											<div class="sk-content">
-												<a><h4>Mariia Punda</h4></a>
+												<a>
+													<h4>Mariia Punda</h4>
+												</a>
 												<p>Web developer, N26</p>
 												<div class="sk-desc">
 													<p class="sk-desc-p">
-													  Based in Berlin. End-to-end testing enthusiast, openly in love with Cypress.io. Writer wannabe.
+														Based in Berlin. End-to-end testing enthusiast, openly in love
+														with Cypress.io. Writer wannabe.
 													</p>
 												</div>
 											</div>
@@ -470,48 +493,51 @@ class Home extends Component {
 								</div>
 							</div>
 						</section>
-					{/* End Sponsor Area */}
-						          {/* Start Ticketing Partner Area */}
-          <section className='ticketing_area'>
-            <div className='container'>
-              <div className='row justify-content-center'>
-                <div className='col-md-8'>
-                  <div className='heading-title text-center'>
-                        <span className='subtitle'>Our</span>
-                        <h2 className='f-weight-700 margin-0'>Merchandise Partner</h2>
-                        <div className='bordershep' />
-                      </div>
-                </div>
-              </div>
-              <div className='row mb-20'>
-                <div className='col-12 text-center'>
-                  <div className='row justify-content-center align-items-center'>
-                        <div className='col-12 col-md-4 text-center'>
-                          <a className='ticketing-link' href='https://www.stickermule.com/supports/ReactIndia'>
-                                <img
-                                  className='ticketing-img img-fluid'
-                                  src='assets/images/ticketpartner/sticker-mule-logo-light.png'
-                                  alt=''
-                                  preview='true'
-                                                    />
-                              </a>
-                        </div>
-						<div className='col-12 col-md-4 text-center'>
-                          <a className='ticketing-link' href='https://dev.to/'>
-                                <img
-                                  className='ticketing-img img-fluid full-width-img'
-                                  src='assets/images/ticketpartner/dev_logo.svg'
-                                  alt=''
-                                  preview='true'
-                                                    />
-                              </a>
-                        </div>
-                      </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* End Ticketing Partner Area */}
+						{/* End Sponsor Area */}
+						{/* Start Ticketing Partner Area */}
+						<section className="ticketing_area">
+							<div className="container">
+								<div className="row justify-content-center">
+									<div className="col-md-8">
+										<div className="heading-title text-center">
+											<span className="subtitle">Our</span>
+											<h2 className="f-weight-700 margin-0">Merchandise Partner</h2>
+											<div className="bordershep" />
+										</div>
+									</div>
+								</div>
+								<div className="row mb-20">
+									<div className="col-12 text-center">
+										<div className="row justify-content-center align-items-center">
+											<div className="col-12 col-md-4 text-center">
+												<a
+													className="ticketing-link"
+													href="https://www.stickermule.com/supports/ReactIndia"
+												>
+													<img
+														className="ticketing-img img-fluid"
+														src="assets/images/ticketpartner/sticker-mule-logo-light.png"
+														alt=""
+														preview="true"
+													/>
+												</a>
+											</div>
+											<div className="col-12 col-md-4 text-center">
+												<a className="ticketing-link" href="https://dev.to/">
+													<img
+														className="ticketing-img img-fluid full-width-img"
+														src="assets/images/ticketpartner/dev_logo.svg"
+														alt=""
+														preview="true"
+													/>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						{/* End Ticketing Partner Area */}
 						{/* Start Ticketing Partner Area */}
 						<section className="ticketing_area">
 							<div className="container">
@@ -628,7 +654,7 @@ const SpeakerCard = props => {
 										: charLimit
 									: description.length
 							)}
-							{!showMore && "..."}
+							{!showMore && '...'}
 							<br />
 							{description.length > charLimit && (
 								<span>
