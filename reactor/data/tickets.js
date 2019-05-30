@@ -35,7 +35,8 @@ export default {
           value: '200 EUR'
         }
       ],
-      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking'
+      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking',
+      disabled: true
     },
     {
       type: 'REGULAR CONFERENCE PASS',
@@ -73,7 +74,8 @@ export default {
           value: '250 EUR'
         }
       ],
-      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking'
+      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking',
+      disabled: false
     },
     {
       type: 'WORKSHOP PASS',
@@ -112,7 +114,8 @@ export default {
           value: '200 EUR'
         }
       ],
-      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking'
+      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking',
+      disabled: false
     },
     {
       type: 'CONFERENCE + ACCOMODATION PASS (SHARED)',
@@ -127,6 +130,10 @@ export default {
         },
         {
           text: '5 Star Hotel Shared Occupancy for 3 Nights (26th-29th September)',
+          checkbox: true
+        },
+        {
+          text: 'Stay will at Kenilworth Beach Resort & Spa',
           checkbox: true
         },
         {
@@ -158,7 +165,8 @@ export default {
       note: `The ticket includes Shared occupancy, 
 			so you would have to share your room with 
 			some same gender tech buddy.`,
-      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking'
+      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking',
+      disabled: false
     },
     {
       type: 'CONFERENCE + ACCOMODATION PASS (SINGLE)',
@@ -181,6 +189,10 @@ export default {
         },
         {
           text: '5 Star Hotel Single Occupancy for 3 Nights (26th-29th September)',
+          checkbox: true
+        },
+        {
+          text: 'Stay will at Kenilworth Beach Resort & Spa',
           checkbox: true
         },
         {
@@ -210,7 +222,8 @@ export default {
 			we provide food too.Although to get him/her 
 			conference access you will need to buy
 			conference pass.`,
-      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking'
+      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking',
+      disabled: false
     },
     {
       type: 'FULL ACCESS PASS',
@@ -233,6 +246,14 @@ export default {
         },
         {
           text: '5 Star Hotel Single Occupancy for 4 Nights (25th-29th September)',
+          checkbox: true
+        },
+        {
+          text: 'Stay at Planet Hollywood Beach Resort from 25th - 26th September',
+          checkbox: true
+        },
+        {
+          text: 'Stay at Kenilworth Beach Resort & Spa from 26th - 29th September',
           checkbox: true
         },
         {
@@ -284,6 +305,14 @@ export default {
           checkbox: true
         },
         {
+          text: 'Stay at Planet Hollywood Beach Resort from 25th - 26th September',
+          checkbox: true
+        },
+        {
+          text: 'Stay at Kenilworth Beach Resort & Spa from 26th - 29th September',
+          checkbox: true
+        },
+        {
           text: 'Any 1 Workshop Access',
           checkbox: true
         },
@@ -306,7 +335,8 @@ export default {
           value: '735 EUR'
         }
       ],
-      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking'
+      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking',
+      disabled: false
     }
   ]
 }

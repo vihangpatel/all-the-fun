@@ -1,12 +1,13 @@
 import React from 'react'
 
 const navItems = [
-    { name: 'About', id: '#about' },
-    { name: 'Partners', id: '#partners' },
-    { name: 'Speakers', id: '#speakers' },
-    { name: 'Sponsors', id: '#sponsors' },
-    { name: 'Organizers', id: '#organizers' },
-    { name: 'Buy Tickets', id: '#tickets' }
+  { name: 'About', id: '#about' },
+  { name: 'Partners', id: '#partners' },
+  { name: 'Speakers', id: '#speakers' },
+  { name: 'Workshops', id: '/workshop' },
+  { name: 'Sponsors', id: '#sponsors' },
+  { name: 'Organizers', id: '#organizers' },
+  { name: 'Buy Tickets', id: '/tickets' }
 ]
 
 class Header extends React.Component {
@@ -28,7 +29,7 @@ class Header extends React.Component {
     }
   }
 
-  componentDidMount () {
+  componentDidMount() {
     window.addEventListener('scroll', this.scrollPage)
     this.sticky = this.header.current.offsetTop
   }
@@ -45,7 +46,7 @@ class Header extends React.Component {
 
   toggleChecked = e => this.setState({ checked: e.target.checked })
 
-  render () {
+  render() {
     const { checked } = this.state
     return (
       <header ref={this.header} className='header-main'>
@@ -58,24 +59,27 @@ class Header extends React.Component {
           onChange={this.toggleChecked}
           type='checkbox'
           id='menu-btn'
-                />
+        />
         <label className='menu-icon' htmlFor='menu-btn'>
           <span className='navicon' />
         </label>
         <ul className='menu'>
           {navItems.map((item, i) => (
             <li key={i}>
-              <a href={item.id} onClick={e => this.scrollToPath(e, item.id)}>
-                {item.name}
-              </a>
+              {(item.name !== 'Buy Tickets' && item.name !== 'Workshops') ?
+                <a href={item.id} onClick={e => this.scrollToPath(e, item.id)}>
+                  {item.name}
+                </a> : <a href={item.id}>
+                  {item.name}
+                </a>}
             </li>
-                    ))}
+          ))}
         </ul>
       </header>
     )
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     window.removeEventListener('scroll', this.scrollPage)
   }
 }
