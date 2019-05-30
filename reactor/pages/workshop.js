@@ -8,8 +8,8 @@ export default () => (
             <div className="workshops-head">
                 <div className="workshops-title">Workshops at React India Conference</div>
                 <div className="workshops-description">
-                    <p>On September 26 and 27th, 2019, to extend your conference experience, we'll host multiple workshops targeted both at the React newcomers and hardcore fans. Take the full advantage of your conference visit and get training from our best speakers and trainers.</p>
-                    <p>All trainings start at 9:00 (with doors open 8:30) and continue until 17:00 and are <strong>hosted in individual locations, different from the conference venue but in short reach.</strong> Please address individual workshop description for location details and follow your registered mailbox for updates.</p>
+                    <p>On September 26th 2019, to start your conference experience, we'll host multiple workshops targeted both at the React, GraphQL freshers and professionals. Take the full advantage of your conference visit and get training at both basic and advanced level from our industry experts.</p>
+                    <p>All the workshops start at 9:00 am (with doors open 8:30 am) and continue until 5:00 pm and are hosted at conference venue.</p>
                 </div>
             </div>
             <div className="container">
@@ -17,10 +17,11 @@ export default () => (
                     <div className="workshop">
                         <div className="workshop-item workshop-item-lg">
                             <div className="workshop-item-title">
-                                <div>Siddharth Kshetrapal</div>
+                                
                                 <div class="img img-speaker">
                                     <img class="img-fluid " src="assets/images/speakers/siddharth.jpg" alt="siddharth.jpg" preview="true" />
                                 </div>
+                                <div>Siddharth Kshetrapal</div>
                             </div>
                             <div className="workshop-item-content">
                                 <h3>Building your first Design System: from scratch to production</h3>
@@ -39,7 +40,7 @@ export default () => (
                             </div>
                         </div>
                         <div className="workshop-item">
-                            <div className="workshop-item-title">Outline</div>
+                            <div className="workshop-item-title">What we cover?</div>
                             <div className="workshop-item-content">
                                 <h4>Introduction to design systems</h4>
                                 <ul>
@@ -71,10 +72,10 @@ export default () => (
                     <div className="workshop">
                         <div className="workshop-item workshop-item-lg">
                             <div className="workshop-item-title">
-                                <div>Vladimir Novick</div>
                                 <div class="img img-speaker">
                                     <img class="img-fluid " src="assets/images/speakers/vladir.jpg" alt="siddharth.jpg" preview="true" />
                                 </div>
+                                <div>Vladimir Novick</div>
                             </div>
                             <div className="workshop-item-content">
                                 <h3>Practical ReasonML for React devs</h3>
@@ -99,6 +100,58 @@ export default () => (
                                 During this workshop we will build a working ReasonReact app with GraphQL backend. We will also add JavaScript npm packages and interop between them and our Reason React app. For final touch we will discuss how to embed our ReasonReact app as part of bigger existing React application.
 
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="workshop">
+                        <div className="workshop-item workshop-item-lg">
+                            <div className="workshop-item-title">     
+                                <div class="img img-speaker">
+                                    <img class="img-fluid " src="assets/images/workshops/kiranAbburi.jpg" alt="siddharth.jpg" preview="true" />
+                                </div>
+                                <div>Kiran Abburi</div>
+                            </div>
+                            <div className="workshop-item-content">
+                                <h3>Advanced GraphQL</h3>
+                                <p> 
+                                    GraphQL is a new way to build APIs for modern apps. Building APIs with GraphQL often needs a mental shift from RESTful APIs. In this workshop, we will cover all the concepts required for building GraphQL based apps. We will build a simple e-commerce web app with GraphQL (apollo-server) on the backend and React & Apollo Client on the frontend in this workshop.                                </p>
+                            </div>
+                        </div>
+                        <div className="workshop-item">
+                            <div className="workshop-item-title">Prerequisites</div>
+                            <div className="workshop-item-content">
+                                <ul>
+                                    <li>- Basic knowledge of nodejs and reactjs</li>
+                                    <li>- Laptop with node 8.0+</li>
+                                    <li>- Make sure create-react-app is working on your laptop.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="workshop-item">
+                            <div className="workshop-item-title">What we cover?</div>
+                            <div className="workshop-item-content">
+                                <h4>Back-end</h4>
+                                <ul>
+                                    <li>- What is GraphQL ?</li>
+                                    <li>- GraphQL vs REST</li>
+                                    <li>- Benefits of GraphQL</li>
+                                    <li>- Building a simple API server for e-commerce web app</li>
+                                    <li>- Authentication & Authorization of GraphQL server</li>
+                                    <li>- Performance monitoring and optimizations</li>
+                                    <li>- Tips on securing GraphQL API</li>
+                                </ul>
+                                <h4>Front-end</h4>
+                                <ul>
+                                    <li>- Bootstrapping a project with React and Apollo Client</li>
+                                    <li>- Imperative vs Declarative data fetching</li>
+                                    <li>- Declarative data fetching with Apollo Client.</li>
+                                    <li>- How Apollo cache works ?</li>
+                                    <li>- Building frontend of simple e-commerce web app with React and Apollo Client</li>
+                                    <li>- Local state management with Apollo</li>
+                                    <li>- How apollo links works ?</li>
+                                    <li>- Building custom apollo links</li>
+                                    <li>- Performance & Debugging tips</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

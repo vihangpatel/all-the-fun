@@ -131,6 +131,14 @@ const data = [
     twitter: 'https://twitter.com/_prateekbh',
     description: 'Works on AMP ⚡️⚡️⚡️. Mobile web lover/developer , matching web against every native. @google-r, ex @flipkart-ian, @workboxjs-er Preact-cli core team member.',
     tinySrc: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wEEEAAcABwAHAAcAB4AHAAgACQAJAAgAC0AMAArADAALQBCAD0ANwA3AD0AQgBkAEcATQBHAE0ARwBkAJcAXgBuAF4AXgBuAF4AlwCGAKIAhAB7AIQAogCGAPAAvQCnAKcAvQDwARYA6QDdAOkBFgFQAS0BLQFQAagBkgGoAioCKgLoEQAcABwAHAAcAB4AHAAgACQAJAAgAC0AMAArADAALQBCAD0ANwA3AD0AQgBkAEcATQBHAE0ARwBkAJcAXgBuAF4AXgBuAF4AlwCGAKIAhAB7AIQAogCGAPAAvQCnAKcAvQDwARYA6QDdAOkBFgFQAS0BLQFQAagBkgGoAioCKgLo/8IAEQgAHgAeAwEiAAIRAQMRAf/EABoAAAICAwAAAAAAAAAAAAAAAAIEAwUAAQb/2gAIAQEAAAAA5tqMQuN02Nu1kZOLf//EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oACAECEAAAAIWP/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAgBAxAAAADQV//EACEQAAIDAAAGAwAAAAAAAAAAAAECAAMRBBASEyIxQWGh/9oACAEBAAE/AJVw73DxEeooxVvYmgD45cPdqBEHlksq8Q9x50XlV6NzDoMZg2Juk/gltRrYrPc6clbduk2AfULl2JPsz//EABgRAQEBAQEAAAAAAAAAAAAAAAEAAhEh/9oACAECAQE/ANKFl7J2yet//8QAGBEBAQEBAQAAAAAAAAAAAAAAAQACEiH/2gAIAQMBAT8AwC+288sKNtEL/9k='
+  },
+  {
+    name: 'Kiran Abburi',
+    imgPath: 'kiranAbburi.jpg',
+    github: 'https://github.com/akiran',
+    twitter: 'https://twitter.com/kiran_abburi',
+    description: 'Kiran Abburi works as a consultant primarily on Reactjs and GraphQL projects. He contributes to open source projects and organises reactjs Bangalore meetup, which is an active meetup group with 9000 members',
+    tinySrc: ''
   }
 ]
 

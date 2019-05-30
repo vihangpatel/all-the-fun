@@ -13,18 +13,18 @@ const Deliverables = props => (
     {props.data.deliverables.map(deliverable => (
       <Fragment>
         {deliverable.checkbox &&
-        <div className='item'>
-          <span>{deliverable.text}</span>
-          <span>
-            <Checkbox />
-          </span>
-        </div>}
+          <div className='item'>
+            <span>{deliverable.text}</span>
+            <span>
+              <Checkbox />
+            </span>
+          </div>}
         {!deliverable.checkbox &&
-        <div className='undeliverable-item' key={deliverable.text}>
-          <span>{deliverable.text}</span>
-        </div>}
+          <div className='undeliverable-item' key={deliverable.text}>
+            <span>{deliverable.text}</span>
+          </div>}
       </Fragment>
-        ))}
+    ))}
   </div>
 )
 
@@ -37,13 +37,13 @@ const Price = props => (
         <span>{deliverable.text}</span>
         <span>{deliverable.value}</span>
       </div>
-        ))}
+    ))}
   </div>
 )
 
 const BookButton = ({ url }) => (
   <div className='ticket-book-button' target='_blank' onClick={() => (location.href = url)}>
-        BOOK TICKETS
+    BOOK TICKETS
     </div>
 )
 
@@ -52,7 +52,7 @@ export default () => (
     <Header hardRefresh />
     <div className='tickets-container'>
       <div class='tickets-main-head'>
-                REACT INDIA 2019 TICKETS EXPLAINED
+        REACT INDIA 2019 TICKETS EXPLAINED
                 <span class='tickets-sub-head'>*All rates are exclusive of taxes, GST 18%</span>
       </div>
     </div>
@@ -60,17 +60,17 @@ export default () => (
       <div className='row'>
         {tickets.tickets.map(ticket => (
           <div className='col-12 col-md-6 col-lg-4'>
-            <div className='ticket-type-card'>
+            <div className={'ticket-type-card ' + (ticket.disabled == true ? 'disabled' : '')}>
               <div className='ticket-header'>
-				<div>{ticket.type}</div>
-				<div className='ticket-subheader'>{ticket.subheader}</div>
+                <div>{ticket.type}</div>
+                <div className='ticket-subheader'>{ticket.subheader}</div>
               </div>
               <Deliverables data={ticket} />
               <Price data={ticket} />
               <BookButton url={ticket.buyticketUrl} />
             </div>
           </div>
-                ))}
+        ))}
       </div>
     </div>
   </Fragment>
