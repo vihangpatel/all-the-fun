@@ -133,7 +133,7 @@ export default {
           checkbox: true
         },
         {
-          text: 'Stay will at Kenilworth Beach Resort & Spa',
+          text: 'Stay will be at Kenilworth Beach Resort & Spa',
           checkbox: true
         },
         {
@@ -192,7 +192,7 @@ export default {
           checkbox: true
         },
         {
-          text: 'Stay will at Kenilworth Beach Resort & Spa',
+          text: 'Stay will be at Kenilworth Beach Resort & Spa',
           checkbox: true
         },
         {
