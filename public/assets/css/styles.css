@@ -4069,109 +4069,6 @@ ul.pagination {
 
 /* Ticketing End */
 
-@media screen and (max-width: 882px) {
-	.video__wrapper {
-		font-size: 14px;
-	}
-}
-
-@media screen and (max-width: 767.98px) {}
-
-@media screen and (max-width: 772px) {
-	.video__wrapper {
-		font-size: 10px;
-	}
-}
-@media screen and (max-width: 575px) {
-	.mc_area .sk-img .img img {
-    height: 450px;
-	}
-}
-@media screen and (max-width: 551px) {
-	.video__wrapper {
-		font-size: 9px;
-	}
-	.caption__small {
-		display: block;
-	}
-	.caption__small--para {
-		margin-right: 0;
-	}
-	.content__desc {
-		font-size: 6.25em !important
-	}
-	.logo__main svg {
-		height: 135px;
-	}
-	.content__title {
-		margin-top: 22px;
-	}
-	.dummy-image {
-		height: 100%;
-	}
-	.about-text .buttons {
-		text-align: center;
-	}
-	.about-area .mr_btn_fill {
-		margin-right: 0;
-		padding: 10px 20px;
-		font-size: 15px;
-	}
-	.about-area {
-		padding: 94px 0 60px;
-	}
-	.footer-top {
-		padding: 62px 0 62px;
-	}
-	.copyright-text > a {
-		margin-left: 0;
-	}
-	.code-of-conduct-link {
-		float: left;
-		padding-left: 0;
-		font-size: 12px;
-	}
-	.footer-contact-info {
-		margin-top: 20px;
-	}
-	.testimonial-area .partners-wrapper a {
-		display: block;
-	}
-	.sponsor_area .sponsor-img {
-		margin-top: 30px;
-	}
-	.sponsor_area .sponsor-img.platinum {
-		max-width: 250px;
-		padding: 0 !important;
-	}
-	/* .sponsor_area .sponsor-img.golden {
-		width: 150px !important;
-		padding: 0 !important;
-	} */
-	.sponsor_area .sponsor-img.silver{
-		padding: 0;
-	}
-	.sponsor_area .sponsor-img.bronze{
-		padding: 0 3%;
-	}
-	.sponsor_area .title-gold, .sponsor_area .title-silver {
-		font-size: 16px;
-	}
-}
-
-@media screen and (max-width: 496px) {
-	.hidden-xs {
-		display: none
-	}
-	.video__wrapper {
-		font-size: 8px;
-	}
-	#map {
-		height: 420px;
-	}
-}
-
-
 /***** banner styles end *****/
 
 div.svglogo {
@@ -4227,12 +4124,12 @@ a[href="#tickets"] {
 		stroke-dashoffset: 0;
 		stroke-width: 3;
 		stroke: lightgray;
-		stroke: #ff8000;
+		stroke: #ec5d25;
 	}
 	100% {
 		stroke-dashoffset: 0;
 		stroke-width: 0;
-		stroke: #ff8000;
+		stroke: #ec5d25;
 	}
 }
 
@@ -4255,12 +4152,12 @@ a[href="#tickets"] {
 		stroke-dashoffset: 0;
 		stroke-width: 3;
 		stroke: lightgray;
-		stroke: #008000;
+		stroke: #1fa178;
 	}
 	100% {
 		stroke-dashoffset: 0;
 		stroke-width: 0;
-		stroke: #008000;
+		stroke: #1fa178;
 	}
 }
 
@@ -4451,21 +4348,227 @@ a[href="#tickets"] {
 	padding: 14px;
 	cursor: pointer;
 }
+/* ====Tickets End==== */
 
+/* ====Workshops Start==== */
+.workshops{
+	padding: 0 0 40px;
+}
+.workshops .workshop:not(:last-child) {
+    margin-bottom: 132px;
+}
+.workshops-head{
+	padding: 60px 25px 50px;
+	margin-bottom: 60px;
+	background: url("https://www.cabana.online/sites/default/files/visuals/workshops_new.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	text-align: center;
+	z-index:1;
+}
+.workshops-head:before{
+	content: "";
+	position: absolute;
+	right:0;
+	left:0;
+	top:0;
+	bottom:0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: -1;
+}
+.workshops-title{
+	letter-spacing: 3px;
+    font-size: 75px;
+    /* font-family: Lato,Arial,sans-serif; */
+    font-weight: 900;
+    line-height: 1.2;
+    text-transform: uppercase;
+	max-width: 1200px;
+	margin: 0 auto;
+	color: #dcdbd2;
+}
+.workshops-description{
+	max-width: 1070px;
+    margin: 0 auto 35px;
+	text-align: center;
+	color: #969696;
+}
+.workshops-description p{
+	font-size: 19px;
+	letter-spacing: 1.2px;
+	line-height: 1.8;
+}
+.workshop .workshop-item:not(:last-child) {
+    margin-bottom: 35px;
+}
+.workshop-item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+.workshop-item-title {
+    color: #333333;
+	font-size: 15px;
+	font-weight: 600;
+    letter-spacing: .35px;
+}
+.workshop-item-title .img-speaker img{
+	max-width: 175px;
+    margin-top: 16px;
+}
+.workshop-item-lg .workshop-item-title {
+    font-size: 26px;
+    letter-spacing: .65px;
+    /* font-family: Lato,Arial,sans-serif; */
+    font-weight: 700;
+}
+.workshop-item-lg .workshop-item-content {
+    padding-top: 5px;
+}
+.workshop-item-content {
+    max-width: 70%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+.workshop-item-content h3 {
+    color: #333333;
+	font-size: 22px;
+	font-weight: 700;
+    letter-spacing: .55px;
+}
+.workshop-item-content h3:not(:last-child) {
+    margin-bottom: 15px;
+}
+.workshop-item-content p, .workshop-item-content ul {
+    color: #474545;
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: .3px;
+}
+/* ====Workshops End==== */
+@media screen and (max-width: 882px) {
+	.video__wrapper {
+		font-size: 14px;
+	}
+}
 
-/*.platinum.img-fluid {
-	width: 150px;
-	height: 60px;
+@media screen and (max-width: 767.98px) {}
+
+@media screen and (max-width: 772px) {
+	.video__wrapper {
+		font-size: 10px;
+	}
 }
-.golden.img-fluid {
-	width: 150px;
-	height: 60px;
+@media screen and (max-width: 575px) {
+	.mc_area .sk-img .img img {
+    height: 450px;
+	}
+
+	.workshops .workshop:not(:last-child) {
+		margin-bottom: 75px;
+	}
+	.workshop-item {
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.workshops-title{
+		font-size: 38px;
+	}
+	.workshop-item-content{
+		max-width: 100%;
+		margin-left: 0;
+	}
+	.workshop-item-lg .workshop-item-title{
+		width: 100%;
+		text-align: center;
+	}
+	
 }
-.silver.img-fluid {
-	width: 140px;
-	height: 50px;
+@media screen and (max-width: 551px) {
+	.video__wrapper {
+		font-size: 9px;
+	}
+	.caption__small {
+		display: block;
+	}
+	.caption__small--para {
+		margin-right: 0;
+	}
+	.content__desc {
+		font-size: 6.25em !important
+	}
+	.logo__main svg {
+		height: 135px;
+	}
+	.content__title {
+		margin-top: 22px;
+	}
+	.dummy-image {
+		height: 100%;
+	}
+	.about-text .buttons {
+		text-align: center;
+	}
+	.about-area .mr_btn_fill {
+		margin-right: 0;
+		padding: 10px 20px;
+		font-size: 15px;
+	}
+	.about-area {
+		padding: 94px 0 60px;
+	}
+	.footer-top {
+		padding: 62px 0 62px;
+	}
+	.copyright-text > a {
+		margin-left: 0;
+	}
+	.code-of-conduct-link {
+		float: left;
+		padding-left: 0;
+		font-size: 12px;
+	}
+	.footer-contact-info {
+		margin-top: 20px;
+	}
+	.testimonial-area .partners-wrapper a {
+		display: block;
+	}
+	.sponsor_area .sponsor-img {
+		margin-top: 30px;
+	}
+	.sponsor_area .sponsor-img.platinum {
+		max-width: 250px;
+		padding: 0 !important;
+	}
+	/* .sponsor_area .sponsor-img.golden {
+		width: 150px !important;
+		padding: 0 !important;
+	} */
+	.sponsor_area .sponsor-img.silver{
+		padding: 0;
+	}
+	.sponsor_area .sponsor-img.bronze{
+		padding: 0 3%;
+	}
+	.sponsor_area .title-gold, .sponsor_area .title-silver {
+		font-size: 16px;
+	}
 }
-.bronze.img-fluid {
-	height: 40px;
-	width: 130px;
-}*/
+
+@media screen and (max-width: 496px) {
+	.hidden-xs {
+		display: none
+	}
+	.video__wrapper {
+		font-size: 8px;
+	}
+	#map {
+		height: 420px;
+	}
+}

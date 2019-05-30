@@ -59,6 +59,7 @@ const requestHandler = (req, res) => {
 }
 
 app.get("/tickets", requestHandler)
+app.get("/workshop", requestHandler)
 app.get("/subscribe", requestHandler)
 app.get("/", requestHandler)
 app.get("*", (req, res) => res.redirect("/"))
