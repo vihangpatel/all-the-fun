@@ -4,6 +4,7 @@ const navItems = [
   { name: 'About', id: '#about' },
   { name: 'Partners', id: '#partners' },
   { name: 'Speakers', id: '#speakers' },
+  { name: 'Schedule', id: '#schedule' },
   { name: 'Workshops', id: '/workshop' },
   { name: 'Sponsors', id: '#sponsors' },
   { name: 'Organizers', id: '#organizers' },
@@ -40,7 +41,9 @@ class Header extends React.Component {
       location.href = '/'
     } else {
       this.setState({ checked: false })
-      document.querySelector(path).scrollIntoView({ behavior: 'smooth', block: 'start' })
+      document
+        .querySelector(path)
+        .scrollIntoView({ behavior: 'smooth', block: 'start' })
     }
   }
 
@@ -49,29 +52,30 @@ class Header extends React.Component {
   render() {
     const { checked } = this.state
     return (
-      <header ref={this.header} className='header-main'>
+      <header ref={this.header} className="header-main">
         {/* <a href className="logo">
 					CSS Nav
 				</a> */}
         <input
-          className='menu-btn'
+          className="menu-btn"
           checked={checked}
           onChange={this.toggleChecked}
-          type='checkbox'
-          id='menu-btn'
+          type="checkbox"
+          id="menu-btn"
         />
-        <label className='menu-icon' htmlFor='menu-btn'>
-          <span className='navicon' />
+        <label className="menu-icon" htmlFor="menu-btn">
+          <span className="navicon" />
         </label>
-        <ul className='menu'>
+        <ul className="menu">
           {navItems.map((item, i) => (
             <li key={i}>
-              {(item.name !== 'Buy Tickets' && item.name !== 'Workshops') ?
+              {item.name !== 'Buy Tickets' && item.name !== 'Workshops' ? (
                 <a href={item.id} onClick={e => this.scrollToPath(e, item.id)}>
                   {item.name}
-                </a> : <a href={item.id}>
-                  {item.name}
-                </a>}
+                </a>
+              ) : (
+                <a href={item.id}>{item.name}</a>
+              )}
             </li>
           ))}
         </ul>

@@ -8,6 +8,7 @@ import { addMap } from "./map"
 import LazyImage from "../lazy-load"
 import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
 import Header from "../header"
+import Schedule from "./schedule"
 
 console.log(sponsors.diversity)
 
@@ -250,6 +251,9 @@ class Home extends Component {
 							</div>
 						</div>
 						{/* End Speakers Area */}
+						{/* Start schedule area */}
+						<Schedule />
+						{/* End schedule area */}
 						{/* Start MC Area */}
 						<section className="speaker_area mc_area" id="sponsors">
 							<div className="container">
@@ -263,55 +267,55 @@ class Home extends Component {
 											</div>
 									</div>
 								</div>
-								<div class="row justify-content-center">
-									<div class="col-sm-6 col-md-3">
-										<div class="speaker">
-											<div class="sk-img">
-												<div class="img img-speaker">
-													<img class="img-fluid " src="assets/images/mcs/mc_varsha_saha.jpeg" alt="varsha_saha.jpeg" preview="true" />
-													<div class="overlay d-flex justify-content-center">
-														<div class="slink">
-															<div class="dumb">
+								<div className="row justify-content-center">
+									<div className="col-sm-6 col-md-3">
+										<div className="speaker">
+											<div className="sk-img">
+												<div className="img img-speaker">
+													<img className="img-fluid " src="assets/images/mcs/mc_varsha_saha.jpeg" alt="varsha_saha.jpeg" preview="true" />
+													<div className="overlay d-flex justify-content-center">
+														<div className="slink">
+															<div className="dumb">
 																<a rel="noreferrer" target="_blank" href="https://twitter.com/saha_varsha" aria-label="Sunil Pai's twitter profile">
-																	<i class="fa fa-twitter"></i>
+																	<i className="fa fa-twitter"></i>
 																</a>
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
-											<div class="sk-content">
+											<div className="sk-content">
 												<a><h4>Varsha Saha</h4></a>
 												<p>Front End engineer, Flipkart</p>
-												<div class="sk-desc">
-													<p class="sk-desc-p">
+												<div className="sk-desc">
+													<p className="sk-desc-p">
 														JS enthusiast, tea addict and a shopoholic!
 													</p>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-sm-6 col-md-3">
-										<div class="speaker">
-											<div class="sk-img">
-												<div class="img img-speaker">
-													<img class="img-fluid " src="assets/images/mcs/mc_mariia_punda.jpg" alt="mariia_punda.jpg" preview="true" />
-													<div class="overlay d-flex justify-content-center">
-														<div class="slink">
-															<div class="dumb">
+									<div className="col-sm-6 col-md-3">
+										<div className="speaker">
+											<div className="sk-img">
+												<div className="img img-speaker">
+													<img className="img-fluid " src="assets/images/mcs/mc_mariia_punda.jpg" alt="mariia_punda.jpg" preview="true" />
+													<div className="overlay d-flex justify-content-center">
+														<div className="slink">
+															<div className="dumb">
 																<a rel="noreferrer" target="_blank" href="https://twitter.com/mariiapunda" aria-label="Sunil Pai's twitter profile">
-																	<i class="fa fa-twitter"></i>
+																	<i className="fa fa-twitter"></i>
 																</a>
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
-											<div class="sk-content">
+											<div className="sk-content">
 												<a><h4>Mariia Punda</h4></a>
 												<p>Web developer, N26</p>
-												<div class="sk-desc">
-													<p class="sk-desc-p">
+												<div className="sk-desc">
+													<p className="sk-desc-p">
 													  Based in Berlin. End-to-end testing enthusiast, openly in love with Cypress.io. Writer wannabe.
 													</p>
 												</div>
