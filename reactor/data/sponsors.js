@@ -69,6 +69,11 @@ export default {
 			imgUrl: "jda.png",
 			link: "https://jda.com/",
 		},
+		{
+			category: "silver",
+			imgUrl: "obvious.svg",
+			link: "https://obvious.in/",
+		},
 	],
 	bronze: [
 		{
