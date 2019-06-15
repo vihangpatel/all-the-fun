@@ -92,7 +92,7 @@ export const scheduleList = {
         {
           type: 'basic',
           time: '11:30 AM',
-          venue: 'Venue1',
+          venue: 'Planet Hollywood, Goa',
           day: 'Friday',
           title: 'Coffee Break'
         },
