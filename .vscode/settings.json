@@ -1,0 +1,11 @@
+{
+    "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+    ],
+    "eslint.enable": true,
+    "editor.largeFileOptimizations": false,
+    "workbench.colorTheme": "SynthWave '84",
+    "vscode_custom_css.imports": ["https://raw.githubusercontent.com/robb0wen/synthwave-vscode/master/synthwave84.css"]
+    }
