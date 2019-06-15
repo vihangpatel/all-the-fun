@@ -8,6 +8,7 @@ import { addMap } from "./map"
 import LazyImage from "../lazy-load"
 import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
 import Header from "../header"
+import Schedule from "./schedule"
 
 console.log(sponsors.diversity)
 
@@ -246,6 +247,9 @@ class Home extends Component {
 							</div>
 						</div>
 						{/* End Speakers Area */}
+						{/* Start schedule area */}
+						<Schedule />
+						{/* End schedule area */}
 						{/* Start MC Area */}
 						<section className="speaker_area mc_area" id="sponsors">
 							<div className="container">

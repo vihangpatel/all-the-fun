@@ -4,6 +4,7 @@ const navItems = [
   { name: 'About', id: '#about' },
   { name: 'Partners', id: '#partners' },
   { name: 'Speakers', id: '#speakers' },
+  { name: 'Schedule', id: '#schedule' },
   { name: 'Workshops', id: '/workshop' },
   { name: 'Sponsors', id: '#sponsors' },
   { name: 'Organizers', id: '#organizers' },
