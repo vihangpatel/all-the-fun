@@ -148,7 +148,7 @@ export const scheduleList = {
           title: 'Modular client-side GraphQL with urql',
           description: 'Recently we at Formidable have introduced urql. A new take on client-side GraphQL. Built to be easy to get started with and be extensible, so it can be customised in any number of ways.This talk is an introduction to urql and why it exists, and shows off some of what\'s possible by having as much power as possible over your GraphQL client and even how it caches.',
           speaker: {
-            image: 'assets/images/speakers/phil.png',
+            image: 'assets/images/speakers/phill.png',
             name: 'Phil Plückthun'
           }
         },

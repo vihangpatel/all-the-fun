@@ -37,7 +37,7 @@ const data = [
   },
   {
     name: 'Phil Plückthun',
-    imgPath: 'phil.png',
+    imgPath: 'phill.png',
     github: 'https://github.com/kitten',
     twitter: 'https://twitter.com/_philpl',
     description: 'core contributor for styled-components.Mad scientist focusing on GraphQL, CSS-in-JS, and Reason experiments',
