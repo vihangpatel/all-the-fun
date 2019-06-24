@@ -182,7 +182,7 @@ export default () => (
                   <img
                     class="img-fluid "
                     src="assets/images/speakers/kiranAbburi.png"
-                    alt="skiranAbburi.png"
+                    alt="kiranAbburi.png"
                     preview="true"
                   />
                 </div>
