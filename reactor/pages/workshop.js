@@ -31,8 +31,8 @@ export default () => (
                 <div class="img img-speaker">
                   <img
                     class="img-fluid "
-                    src="assets/images/speakers/siddharth.jpg"
-                    alt="siddharth.jpg"
+                    src="assets/images/speakers/siddharth.png"
+                    alt="siddharth.png"
                     preview="true"
                   />
                 </div>
@@ -131,8 +131,8 @@ export default () => (
                 <div class="img img-speaker">
                   <img
                     class="img-fluid "
-                    src="assets/images/speakers/vladir.jpg"
-                    alt="siddharth.jpg"
+                    src="assets/images/speakers/vladir.png"
+                    alt="vladir.png"
                     preview="true"
                   />
                 </div>
@@ -181,8 +181,8 @@ export default () => (
                 <div class="img img-speaker">
                   <img
                     class="img-fluid "
-                    src="assets/images/workshops/kiranAbburi.jpg"
-                    alt="siddharth.jpg"
+                    src="assets/images/speakers/kiranAbburi.png"
+                    alt="skiranAbburi.png"
                     preview="true"
                   />
                 </div>

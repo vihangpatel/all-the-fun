@@ -1430,7 +1430,7 @@ p {
 .speaker_area .overlay {
 	text-align: center;
 	opacity: 0;
-	background: rgba(33, 150, 243, 0.3);
+	/* background: rgba(33, 150, 243, 0.3); */
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -1445,14 +1445,21 @@ p {
 .speaker_area .sk-img .img {
 	position: relative;
 	overflow: hidden;
+	height: 240px;
+	width:	240px;
+	border-radius: 50%;
+	margin: 0 auto;
 }
 
 .speaker_area .sk-img .img img {
 	width: 100%;
+	height: 100%;
 }
-.mc_area .sk-img .img img{
-	height: 285px;
+.speaker_area .speaker:hover img{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  	filter: grayscale(100%);
 }
+
 .speaker_area .overlay .slink {
 	position: absolute;
 	bottom: -50px;
@@ -2208,9 +2215,6 @@ section.latest-news-area.main_blog.m-blog-padding {
 	transition: all 0.3s ease-in-out;
 }
 
-.speaker a:hover h4 {
-	color: #ec5d25;
-}
 
 .eventSingle .aside h3 {
 	font-weight: 600;
@@ -4316,7 +4320,7 @@ a[href="/tickets"] {
 .workshops-head{
 	padding: 60px 25px 50px;
 	margin-bottom: 60px;
-	background: url("https://www.cabana.online/sites/default/files/visuals/workshops_new.jpeg");
+	background-image: url('https://drive.google.com/file/d/1xoDDf9jZ6n8OSl_AmLVSLdl8quFwf9cx/view');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;

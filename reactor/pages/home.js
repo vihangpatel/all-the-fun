@@ -268,7 +268,7 @@ class Home extends Component {
 										<div class="speaker">
 											<div class="sk-img">
 												<div class="img img-speaker">
-													<img class="img-fluid " src="assets/images/mcs/mc_varsha_saha.jpeg" alt="varsha_saha.jpeg" preview="true" />
+													<img class="img-fluid " src="assets/images/mcs/mc_varsha_saha.png" alt="varsha_saha.png" preview="true" />
 													<div class="overlay d-flex justify-content-center">
 														<div class="slink">
 															<div class="dumb">
@@ -295,7 +295,7 @@ class Home extends Component {
 										<div class="speaker">
 											<div class="sk-img">
 												<div class="img img-speaker">
-													<img class="img-fluid " src="assets/images/mcs/mc_mariia_punda.jpg" alt="mariia_punda.jpg" preview="true" />
+													<img class="img-fluid " src="assets/images/mcs/mc_mariia_punda.png" alt="mariia_punda.png" preview="true" />
 													<div class="overlay d-flex justify-content-center">
 														<div class="slink">
 															<div class="dumb">
