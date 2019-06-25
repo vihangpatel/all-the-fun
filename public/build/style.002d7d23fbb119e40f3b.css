@@ -4334,7 +4334,7 @@ a[href="/tickets"] {
 	left:0;
 	top:0;
 	bottom:0;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.4);
 	z-index: -1;
 }
 .workshops-title{
@@ -4352,7 +4352,7 @@ a[href="/tickets"] {
 	max-width: 1070px;
     margin: 0 auto 35px;
 	text-align: center;
-	color: #969696;
+	color: #c4c4c4;
 }
 .workshops-description p{
 	font-size: 19px;
@@ -4687,9 +4687,9 @@ a[href="/tickets"] {
 	}
 }
 @media screen and (max-width: 575px) {
-	.mc_area .sk-img .img img {
+	/* .mc_area .sk-img .img img {
     height: 450px;
-	}
+	} */
 
 	.workshops .workshop:not(:last-child) {
 		margin-bottom: 75px;
