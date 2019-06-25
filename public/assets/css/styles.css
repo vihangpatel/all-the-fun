@@ -4687,9 +4687,9 @@ a[href="/tickets"] {
 	}
 }
 @media screen and (max-width: 575px) {
-	.mc_area .sk-img .img img {
+	/* .mc_area .sk-img .img img {
     height: 450px;
-	}
+	} */
 
 	.workshops .workshop:not(:last-child) {
 		margin-bottom: 75px;

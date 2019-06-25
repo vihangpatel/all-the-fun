@@ -4,11 +4,11 @@ self.__precacheManifest = [
     "url": "/build/client.259436c9c34c6c434a35.js"
   },
   {
-    "revision": "64c4a9c62129d2a0f0b7",
-    "url": "/build/style.9cec8757e8712dbe2cad.css"
+    "revision": "adb9cfeb40aba11ef3e2",
+    "url": "/build/style.ef644c63de7d56d9f31b.css"
   },
   {
-    "revision": "64c4a9c62129d2a0f0b7",
+    "revision": "adb9cfeb40aba11ef3e2",
     "url": "/build/style.5a7b69c4e2416399102f.js"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/build/vendor.2abe9d3fadcc64a6eb6d.js"
   },
   {
-    "revision": "01d5d2e901a19e8d92334c202e0cf6ee",
+    "revision": "c79308fd1b74cf6f6d2f82f6fa760b1e",
     "url": "/build/stats.json"
   }
 ];
