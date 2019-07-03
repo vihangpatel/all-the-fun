@@ -41,7 +41,7 @@ class Home extends Component {
 			loadVideo: true,
 		})
 	}
-
+	
 	render() {
 		const { showBanner, loadSecondFold, loadVideo } = this.state
 		return (
@@ -151,6 +151,8 @@ class Home extends Component {
 						{/* End About Area */}
 						<section className="conferences">
 							<div className="overlay" />
+							<div className="row">
+								<div className="col-sm-7">
 							<div className="container">
 								<div className="row justify-content-center">
 									<div className="col-md-8">
@@ -181,6 +183,11 @@ class Home extends Component {
 											SHOW YOUR INTEREST?
 										</a>
 									</div>
+								</div>
+								</div>
+							</div>
+								<div className="col-12 col-sm-5">
+									<img className="react-lady-img" src="assets/video/GirlAnimation-no-BG.gif" />
 								</div>
 							</div>
 						</section>
@@ -263,55 +270,55 @@ class Home extends Component {
 											</div>
 									</div>
 								</div>
-								<div class="row justify-content-center">
-									<div class="col-sm-6 col-md-3">
-										<div class="speaker">
-											<div class="sk-img">
-												<div class="img img-speaker">
-													<img class="img-fluid " src="assets/images/mcs/mc_varsha_saha.png" alt="varsha_saha.png" preview="true" />
-													<div class="overlay d-flex justify-content-center">
-														<div class="slink">
-															<div class="dumb">
+								<div className="row justify-content-center">
+									<div className="col-sm-6 col-md-4">
+										<div className="speaker">
+											<div className="sk-img">
+												<div className="img img-speaker">
+													<img className="img-fluid " src="assets/images/mcs/mc_varsha_saha.png" alt="varsha_saha.png" preview="true" />
+													<div className="overlay d-flex justify-content-center">
+														<div className="slink">
+															<div className="dumb">
 																<a rel="noreferrer" target="_blank" href="https://twitter.com/saha_varsha" aria-label="Sunil Pai's twitter profile">
-																	<i class="fa fa-twitter"></i>
+																	<i className="fa fa-twitter"></i>
 																</a>
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
-											<div class="sk-content">
+											<div className="sk-content">
 												<a><h4>Varsha Saha</h4></a>
 												<p>Front End engineer, Flipkart</p>
-												<div class="sk-desc">
-													<p class="sk-desc-p">
+												<div className="sk-desc">
+													<p className="sk-desc-p">
 														JS enthusiast, tea addict and a shopoholic!
 													</p>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-sm-6 col-md-3">
-										<div class="speaker">
-											<div class="sk-img">
-												<div class="img img-speaker">
-													<img class="img-fluid " src="assets/images/mcs/mc_mariia_punda.png" alt="mariia_punda.png" preview="true" />
-													<div class="overlay d-flex justify-content-center">
-														<div class="slink">
-															<div class="dumb">
+									<div className="col-sm-6 col-md-4">
+										<div className="speaker">
+											<div className="sk-img">
+												<div className="img img-speaker">
+													<img className="img-fluid " src="assets/images/mcs/mc_mariia_punda.png" alt="mariia_punda.png" preview="true" />
+													<div className="overlay d-flex justify-content-center">
+														<div className="slink">
+															<div className="dumb">
 																<a rel="noreferrer" target="_blank" href="https://twitter.com/mariiapunda" aria-label="Sunil Pai's twitter profile">
-																	<i class="fa fa-twitter"></i>
+																	<i className="fa fa-twitter"></i>
 																</a>
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
-											<div class="sk-content">
+											<div className="sk-content">
 												<a><h4>Mariia Punda</h4></a>
 												<p>Web developer, N26</p>
-												<div class="sk-desc">
-													<p class="sk-desc-p">
+												<div className="sk-desc">
+													<p className="sk-desc-p">
 													  Based in Berlin. End-to-end testing enthusiast, openly in love with Cypress.io. Writer wannabe.
 													</p>
 												</div>

@@ -375,9 +375,9 @@ p {
 
 .index_1 .conferences {
 	padding: 94px 0px 92px;
-	background: url(../images/schedule/back-banner.jpg) no-repeat center;
-	background-size: cover;
-	background-attachment: fixed;
+	/* background: url(../images/schedule/back-banner.jpg) no-repeat center; */
+	/* background-size: cover;
+	background-attachment: fixed; */
 	position: relative;
 	z-index: 1;
 }
@@ -394,8 +394,17 @@ p {
 	height: 100%;
 	background: #1b0142;
 	z-index: -1;
+	/* background-image: url(https://media.giphy.com/media/RGSmfuNbf77SvhVdJA/giphy.gif); */
+    background-repeat: no-repeat;
+    background-position: 119% 100%;
+    background-size: 68%;
 }
-
+.conferences .react-lady-img{
+	position: absolute;
+    bottom: -91px;
+    width: 163%;
+	left: -41%;
+}
 .index_1 .conferences h2, .index_1 .conferences p {
 	color: #fff;
 }
@@ -923,6 +932,7 @@ p {
 
 .about-area {
 	padding: 94px 0px 99px;
+	
 }
 
 .about-text .first-text {
@@ -4716,6 +4726,18 @@ a[href="/tickets"] {
 	}
 	.event-info{
 		margin-bottom: 12px;
+	}
+
+	/* Conference Start */
+	.index_1 .conferences{
+		padding-bottom: 0;
+	}
+	.conferences .react-lady-img {
+		position: relative;
+		bottom: 0;
+		width: 100%;
+		left: 0;
+		height: 100%;
 	}
 }
 @media screen and (max-width: 551px) {
