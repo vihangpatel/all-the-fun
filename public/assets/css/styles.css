@@ -4738,7 +4738,7 @@ a[href="/tickets"] {
 		width: 100%;
 		left: 0;
 		height: 100%;
-		margin-top: 22px;
+		padding-top: 22px;
 	}
 }
 @media screen and (max-width: 551px) {
