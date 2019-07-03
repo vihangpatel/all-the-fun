@@ -51,9 +51,9 @@ class Header extends React.Component {
     const { checked } = this.state
     return (
       <header ref={this.header} className='header-main'>
-        {/* <a href className="logo">
-					CSS Nav
-				</a> */}
+        <a href='/' className="logo">
+					<img src='assets/images/logo-transparent.png' />
+				</a>
         <input
           className='menu-btn'
           checked={checked}

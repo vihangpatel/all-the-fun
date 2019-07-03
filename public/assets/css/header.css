@@ -13,11 +13,14 @@ a {
 
 .header-main {
 	/* background-color: #fff; */
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(0, 0, 0, 1);
 	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
 	/* height: 59px; */
 	width: 100%;
 	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .header-main ul {
@@ -43,20 +46,22 @@ a {
 }
 
 .header-main .logo {
-	display: block;
-	float: left;
-	font-size: 2em;
-	padding: 10px 20px;
+	padding: 10px 8px;
 	text-decoration: none;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
+.header-main .logo img{
+	width: 52px;
+}
 /* menu */
 
 .header-main .menu {
 	clear: both;
 	max-height: 0;
 	transition: max-height 0.2s ease-out;
+	width: 100%;
 }
 
 
@@ -127,19 +132,13 @@ a {
 	top: 0;
 }
 
-.menu {
-	/* position: absolute; */
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.9);
-	/* top: 954; */
-	z-index: 20;
-	/* border-top: 1px solid #101010; */
-}
-
 
 /* 48em = 768px */
 
 @media (min-width: 48em) {
+	.header-main {
+		flex-wrap: nowrap;
+	}
 	.header-main li {
 		float: left;
 	}
@@ -149,9 +148,11 @@ a {
 	.header-main .menu {
 		/* clear: none; */
 		/* float: right; */
-		display: flex;
-		justify-content: flex-end;
+		/* display: flex;
+		justify-content: flex-end; */
+		display: block;
 		max-height: none;
+		width: auto;
 	}
 	.header-main .menu-icon {
 		display: none;
