@@ -10,7 +10,6 @@ import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
 import Header from "../header"
 import Schedule from "./schedule"
 
-console.log(sponsors.diversity)
 
 class Home extends Component {
 	constructor() {
