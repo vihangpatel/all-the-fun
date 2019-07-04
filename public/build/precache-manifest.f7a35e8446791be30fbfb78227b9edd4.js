@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/build/vendor.2abe9d3fadcc64a6eb6d.js"
   },
   {
-    "revision": "7d72e9381eb9888b0518",
+    "revision": "162ed72d8627a6ee3629",
+    "url": "/build/style.825154054fd84e3dfed9.css"
+  },
+  {
+    "revision": "162ed72d8627a6ee3629",
     "url": "/build/style.5a7b69c4e2416399102f.js"
   },
   {
-    "revision": "7d72e9381eb9888b0518",
-    "url": "/build/style.3d29d60527aebbc080d5.css"
-  },
-  {
-    "revision": "ac035d27d28788b5e44c325424a1774f",
+    "revision": "a28d450c5d1718ce224990f5b863f561",
     "url": "/build/stats.json"
   },
   {
