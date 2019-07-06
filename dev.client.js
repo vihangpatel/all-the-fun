@@ -7,11 +7,10 @@ module.exports = {
         client: [
             'webpack-dev-server/client?http://localhost:9000/',
             'webpack/hot/dev-server',
-            "./reactor/client.js"],
-        style: "./public/assets/css/styles.css"
+            "./reactor/client.js"]
     },
     output: {
-        filename: 'bundle.dev.js',
+        filename: '[name].dev.js',
         publicPath: 'http://localhost:9000/'
     },
     module: {
@@ -27,7 +26,7 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: ["css-loader"],
+                use: ["style-loader", "css-loader"],
             },
             {
                 test: /\.(jpg|png|svg|jpeg)$/,
@@ -41,6 +40,7 @@ module.exports = {
         ],
     },
     devServer: {
+        watchContentBase: true,
         contentBase: path.join(__dirname, 'public'),
         compress: true,
         host: '0.0.0.0',
