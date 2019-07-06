@@ -62,7 +62,7 @@ class Home extends Component {
 									Goa, India
 								</p>
 							</div>
-							<h3 className="content__desc">react india</h3>
+							<h3 className="content__desc">react India</h3>
 							<h2 className="content__title" />
 							<div className="content__button">
 								<a rel="noreferrer" target="_blank" href="/tickets">

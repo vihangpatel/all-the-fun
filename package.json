@@ -5,15 +5,17 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node public/build/server.js -p $PORT",
-		"start-dev": "ENV=development babel-node ./reactor/server.js",
+		"serve-dev": "ENV=development babel-node ./reactor/server.js",
 		"clean": "rimraf ./public/build",
 		"build": "npm run clean && (npm run build-server &) && (npm run build-client)",
 		"build-server": "webpack --config webpack.server.js --mode=production",
 		"build-client": "webpack --config webpack.client.js --mode=production",
-		"build-dev": "npm run clean && npm run build-client && npm run start-dev",
 		"dev": "nodemon --watch ./reactor --watch ./public/assets/css --exec npm run build-dev",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"kill": "lsof -i tcp:8090 | grep LISTEN | awk '{print $2}' | xargs kill -9"
+		"kill": "lsof -i tcp:8090 | grep LISTEN | awk '{print $2}' | xargs kill -9",
+
+		"build-dev": "webpack-dev-server --hot --config dev.client.js",
+		"start-dev": "ENV=development && nodemon --delay 5 --watch ./reactor --watch ./public/assets/css --exec npm run serve-dev"
 	},
 	"repository": {
 		"type": "git",
@@ -57,6 +59,7 @@
 		"nodemon": "^1.18.5",
 		"rimraf": "^2.6.2",
 		"style-loader": "^0.23.1",
+		"webpack-dev-server": "^3.7.2",
 		"webpack-stats-plugin": "^0.2.1",
 		"workbox-webpack-plugin": "^3.6.3"
 	}

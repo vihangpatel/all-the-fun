@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 import ReactDOMServer from "react-dom/server"
 import path from "path"
 
@@ -12,6 +12,7 @@ import Tickets from "./pages/tickets"
 import Workshop from "./pages/workshop"
 import Footer from "./footer"
 import getClientBundleEntryAssets from "./asset-reader"
+
 
 const HTML = ({ url }) => {
 	const { path: sitePath, assetsByChunkName } = getClientBundleEntryAssets()
@@ -31,9 +32,15 @@ const HTML = ({ url }) => {
 					</div>
 				</StaticRouter>
 			</body>
-
-			<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.vendor)} />
-			<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.client)} />
+			{
+				process.env.ENV === 'development' ?
+					<script type="text/javascript" src="http://localhost:9000/bundle.dev.js" />
+					:
+					<Fragment>
+						<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.vendor)} />
+						<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.client)} />
+					</Fragment>
+			}
 		</html>
 	)
 }
