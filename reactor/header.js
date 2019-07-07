@@ -38,10 +38,11 @@ class Header extends React.Component {
   scrollToPath = (e, path) => {
     e.preventDefault()
     if (this.props.hardRefresh) {
-      location.href = '/'
+      location.href = `/${path}`
     } else {
       this.setState({ checked: false })
       document.querySelector(path).scrollIntoView({ behavior: 'smooth', block: 'start' })
+      history && history.pushState && history.pushState({}, `/${path}`, `/${path}`)
     }
   }
 
@@ -52,8 +53,8 @@ class Header extends React.Component {
     return (
       <header ref={this.header} className='header-main'>
         <a href='/' className="logo">
-					<img src='assets/images/logo-transparent.png' />
-				</a>
+          <img src='assets/images/logo-transparent.png' />
+        </a>
         <input
           className='menu-btn'
           checked={checked}
