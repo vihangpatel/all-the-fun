@@ -7,7 +7,11 @@ const { GenerateSW } = require("workbox-webpack-plugin")
 const buildPath = path.join(__dirname, "public", "build")
 
 module.exports = {
-	entry: { client: "./reactor/client.js", style: "./public/assets/css/styles.css" },
+	entry: {
+		client: "./reactor/client.js",
+		style: ["./public/assets/css/styles.css",
+			"./public/assets/css/header.css"]
+	},
 	target: "web",
 	output: {
 		path: buildPath,
@@ -25,7 +29,7 @@ module.exports = {
 					enforce: true,
 				},
 			},
-		},
+		}, 
 	},
 	module: {
 		rules: [

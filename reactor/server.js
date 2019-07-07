@@ -15,7 +15,7 @@ app.use(redirectSSL)
 
 app.use(compression())
 
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
 	if (req.headers.accept && req.headers.accept.indexOf("text/html") > -1) {
 		res.setHeader("Cache-Control", "no-cache, max-age=0, must-revalidate, no-store")
 	}
@@ -38,6 +38,11 @@ const generateCriticalPage = pageURL => {
 
 const requestHandler = (req, res) => {
 	const pageURL = req.url
+
+	if (process.env.ENV === 'development') {
+		res.send(generateCriticalPage(pageURL))
+		return
+	}
 
 	// if cache URL is there then return the cached version
 	if (cacheSSR[pageURL]) {

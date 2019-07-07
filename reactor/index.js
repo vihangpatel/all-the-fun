@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 import ReactDOMServer from "react-dom/server"
 import path from "path"
 
@@ -13,13 +13,21 @@ import Workshop from "./pages/workshop"
 import Footer from "./footer"
 import getClientBundleEntryAssets from "./asset-reader"
 
+
 const HTML = ({ url }) => {
 	const { path: sitePath, assetsByChunkName } = getClientBundleEntryAssets()
 
 	return (
 		<html lang="en">
 			<Head />
-			<link rel="stylesheet" type="text/css" href={path.join(sitePath, assetsByChunkName.style[0])} />
+			{
+				process.env.ENV === 'development' ?
+					<Fragment>
+						<link rel="stylesheet" type="text/css" href="http://localhost:9000/assets/css/header.css" />
+						<link rel="stylesheet" type="text/css" href="http://localhost:9000/assets/css/styles.css" />
+					</Fragment>
+					: <link rel="stylesheet" type="text/css" href={path.join(sitePath, assetsByChunkName.style[0])} />
+			}
 			<body className="body-class index_1 home1">
 				<StaticRouter location={url} context={{}}>
 					<div id="body-wrap">
@@ -31,9 +39,15 @@ const HTML = ({ url }) => {
 					</div>
 				</StaticRouter>
 			</body>
-
-			<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.vendor)} />
-			<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.client)} />
+			{
+				process.env.ENV === 'development' ?
+					<script type="text/javascript" src="http://localhost:9000/client.dev.js" />
+					:
+					<Fragment>
+						<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.vendor)} />
+						<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.client)} />
+					</Fragment>
+			}
 		</html>
 	)
 }
