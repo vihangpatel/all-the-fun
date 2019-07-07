@@ -22,7 +22,10 @@ const HTML = ({ url }) => {
 			<Head />
 			{
 				process.env.ENV === 'development' ?
-					<link rel="stylesheet" type="text/css" href="http://localhost:9000/assets/css/styles.css" />
+					<Fragment>
+						<link rel="stylesheet" type="text/css" href="http://localhost:9000/assets/css/header.css" />
+						<link rel="stylesheet" type="text/css" href="http://localhost:9000/assets/css/styles.css" />
+					</Fragment>
 					: <link rel="stylesheet" type="text/css" href={path.join(sitePath, assetsByChunkName.style[0])} />
 			}
 			<body className="body-class index_1 home1">
