@@ -4,6 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"heroku-postbuild": "npm run build",
 		"start": "node public/build/server.js -p $PORT",
 		"serve-dev": "ENV=development babel-node ./reactor/server.js",
 		"clean": "rimraf ./public/build",
