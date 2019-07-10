@@ -248,9 +248,9 @@ class Home extends Component {
 									))}
 								</div>
 							</div>
-							<div className="more-speaker-text text-center">
+							{/* <div className="more-speaker-text text-center">
 								<span>More Speakers Coming soon....</span>
-							</div>
+							</div> */}
 						</div>
 						{/* End Speakers Area */}
 						{/* Start schedule area */}
