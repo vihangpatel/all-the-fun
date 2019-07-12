@@ -1,7 +1,7 @@
 const data = [
   {
     name: 'Sunil Pai',
-    imgPath: 'sunil_pai.png', // with extension
+    imgPath: 'sunil_pai.jpg', // with extension
     github: 'https://github.com/threepointone',
     twitter: 'https://twitter.com/threepointone',
     description: 'He built websites for myntra, yahoo, visa, and others.He’s also the author of glamor and a myriad of other cool open source projects.', // keep it simple
@@ -10,7 +10,7 @@ const data = [
   },
   {
     name: 'Sara Vieira',
-    imgPath: 'sara_vieria.png',
+    imgPath: 'sara_vieria.jpg',
     github: 'https://github.com/saravieira',
     twitter: 'https://twitter.com/NikkitaFTW',
     description: 'Developer Advocate at @YLDio. GraphQL and Open Source enthusiast. Conference Speaker and Airport expert. I am also into drums and horror movies.',
@@ -19,7 +19,7 @@ const data = [
   },
   {
     name: 'Ken Wheeler',
-    imgPath: 'ken_wheeler.png',
+    imgPath: 'ken_wheeler.jpg',
     github: 'https://github.com/kenwheeler',
     twitter: 'https://twitter.com/ken_wheeler',
     description: 'Author of libraries like Slick Carousel, McFly, react-music, webpack-dashboard, Spectacle.',
@@ -28,7 +28,7 @@ const data = [
   },
   {
     name: 'Nader Dabit',
-    imgPath: 'nader_dabit.png',
+    imgPath: 'nader_dabit.jpg',
     github: 'https://github.com/dabit3',
     twitter: 'https://twitter.com/dabit3',
     description: 'Nader has been developing with React Native for over 2.5 years. He has worked with and trained developers from fortune 500 companies like Amazon, Visa, American Express, and Microsoft, helping them to get up to speed with React Native as quickly as possible.',
@@ -37,7 +37,7 @@ const data = [
   },
   {
     name: 'Phil Plückthun',
-    imgPath: 'phill.png',
+    imgPath: 'phill.jpg',
     github: 'https://github.com/kitten',
     twitter: 'https://twitter.com/_philpl',
     description: 'core contributor for styled-components.Mad scientist focusing on GraphQL, CSS-in-JS, and Reason experiments',
@@ -46,7 +46,7 @@ const data = [
   },
   {
     name: 'Jani Eväkallio',
-    imgPath: 'jani.png',
+    imgPath: 'jani.jpg',
     github: 'https://github.com/jevakallio',
     twitter: 'https://twitter.com/jevakallio',
     description: 'Show runner at Formidable in London',
@@ -55,7 +55,7 @@ const data = [
   },
   {
     name: 'Jason Lengstorf',
-    imgPath: 'jason.png',
+    imgPath: 'jason.jpg',
     github: 'https://github.com/jlengstorf',
     twitter: 'https://twitter.com/jlengstorf',
     description: 'Jason Lengstorf is a developer, architect, occasional designer, and frequent speaker. He creates high-performing teams by building tools, systems, and the training materials to make them accessible.',
@@ -64,7 +64,7 @@ const data = [
   },
   {
     name: 'Ives van Hoorne',
-    imgPath: 'ives.png',
+    imgPath: 'ives.jpg',
     github: 'https://github.com/CompuIves',
     twitter: 'https://twitter.com/CompuIves',
     description: 'Loves Cookies',
@@ -73,7 +73,7 @@ const data = [
   },
   {
     name: 'Rex Raphael',
-    imgPath: 'rex.png',
+    imgPath: 'rex.jpg',
     github: 'https://github.com/juicycleff',
     twitter: 'https://twitter.com/rex_raph',
     description: 'Currently working with Snowball. He builds mission critical applications with enterprise scale in mind, getting extra performance gain is his focus. He currently writes Graphql powered projects and mentor people locally and internationally in Fullstack Development.',
@@ -82,7 +82,7 @@ const data = [
   },
   {
     name: 'Pavithra Kodmad',
-    imgPath: 'pavithra.png',
+    imgPath: 'pavithra.jpg',
     github: 'https://github.com/pksjce',
     twitter: 'https://twitter.com/PKodmad',
     description: 'React enthusiast, been writing Javascript for the past decade',
@@ -91,7 +91,7 @@ const data = [
   },
   {
     name: 'Vladimir Novick',
-    imgPath: 'vladir.png',
+    imgPath: 'vladir.jpg',
     github: 'https://github.com/VladimirNovick ',
     twitter: 'https://twitter.com/VladimirNovick ',
     tinySrc: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAcHBwcHBwgICAgLCwoLCxAODQ0OEBgREhESERgkFhoWFhoWJCAmHx0fJiA5LScnLTlCNzQ3Qk9HR09kX2SDg7ABBwcHBwcHCAgICAsLCgsLEA4NDQ4QGBESERIRGCQWGhYWGhYkICYfHR8mIDktJyctOUI3NDdCT0dHT2RfZIODsP/AABEIAB4AHgMBIgACEQEDEQH/xABqAAEAAwEAAAAAAAAAAAAAAAAGAwQHBRAAAgEEAgECBwEAAAAAAAAAAQIDAAQFEQYScSExByM0UVJhgUIBAQEBAQAAAAAAAAAAAAAAAAIBAwQRAAMBAQEBAAAAAAAAAAAAAAECAwARBEH/2gAMAwEAAhEDEQA/AHBKorOx0qgkn7AVnr5HlmblaXEotrajYjB6l3H5MWphnbaa7wuQggfq7wn+gepH9FcjjE901rcrFbxd4OnTbnTlq670ZSoB5h5pK/S2q4rM5WyyUeIz6fMn+mn0B2P4t1px1ofzDE3l7PiL5JEgltHE0vqSoVCCNU1YDZ804OWU9+YXmEYc1aSaOCGSWQgIikt4FAOH5O0eWfbSgu2lVFLNtfAobkeUZrKLcBbtoIJhoQx60F8+9R8XzQ487qUeV5GOtNoEN96vohRgpAB189lQt0518Q8ncWhxQDvEkrs0ig+6oQR2p7a3MV5bxXETh0kUMCP3WLZvMTcinilu4kSOIERRp/n9kn3NM8DyWGKBbSa20ETatEAN+RWkfJaaknmF7pQjnd//2Q==',
@@ -100,7 +100,7 @@ const data = [
   },
   {
     name: 'Shruti Kapoor',
-    imgPath: 'shruti.png',
+    imgPath: 'shruti.jpg',
     github: 'https://github.com/shrutikapoor08 ',
     twitter: 'https://twitter.com/shrutikapoor08',
     description: 'She likes JavaScript and DevJokes.',
@@ -109,7 +109,7 @@ const data = [
   },
   {
     name: 'Carolyn Stransky',
-    imgPath: 'carolyn.png',
+    imgPath: 'carolyn.jpg',
     github: 'https://github.com/carolstran',
     twitter: 'https://twitter.com/carolstran',
     description: 'Carolyn Stransky is a frontend developer based in Berlin, Germany. She currently works at Blacklane, organizes BerlinJS and teaches at ReDI School of Digital Integration. You’ll usually find her looking at memes or taking selfies in the nearest restroom.',
@@ -118,7 +118,7 @@ const data = [
   },
   {
     name: 'Siddharth Kshetrapal',
-    imgPath: 'siddharth.png',
+    imgPath: 'siddharth.jpg',
     github: 'https://github.com/siddharthkp',
     twitter: 'https://twitter.com/siddharthkp',
     description: 'Design systems with React @Auth0 ∙ running frontend.army and @atinyconf on the side ∙ past: frontend architect @practo',
@@ -127,7 +127,7 @@ const data = [
   },
   {
     name: 'Prateek Bhatnagar',
-    imgPath: 'prateek.png',
+    imgPath: 'prateek.jpg',
     github: 'https://github.com/prateekbh',
     twitter: 'https://twitter.com/_prateekbh',
     description: 'Works on AMP ⚡️⚡️⚡️. Mobile web lover/developer , matching web against every native. @google-r, ex @flipkart-ian, @workboxjs-er Preact-cli core team member.',
@@ -136,7 +136,7 @@ const data = [
   },
   {
     name: 'Kiran Abburi',
-    imgPath: 'kiranAbburi.png',
+    imgPath: 'kiranAbburi.jpg',
     github: 'https://github.com/akiran',
     twitter: 'https://twitter.com/kiran_abburi',
     description: 'Kiran Abburi works as a consultant primarily on Reactjs and GraphQL projects. He contributes to open source projects and organises reactjs Bangalore meetup, which is an active meetup group with 9000 members',

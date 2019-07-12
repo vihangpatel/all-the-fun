@@ -2,7 +2,7 @@ const workshopData = [
     {
       speaker: 'Siddharth Kshetrapal',
       title: "Building your first Design System: from scratch to production",
-      imgPath: 'siddharth.png',
+      imgPath: 'siddharth.jpg',
       description: ` This is a hands-on workshop for developers in which you will
       learn how to define a common language for collaboration and
       iterate on products faster.
@@ -43,7 +43,7 @@ const workshopData = [
     {
       speaker: "Vladimir Novick",
       title: "Practical ReasonML for React devs",
-      imgPath: "vladir.png",
+      imgPath: "vladir.jpg",
       description: `Reason lets you write simple, fast and quality type safe code
       while leveraging both the JavaScript & OCaml ecosystems. In
       this workshop we won't only see how and why we should write
@@ -62,7 +62,7 @@ const workshopData = [
     {
       title: 'Advanced GraphQL',
       speaker: 'Kiran Abburis',
-      imgPath: 'kiranAbburi.png',
+      imgPath: 'kiranAbburi.jpg',
       description: `GraphQL is a new way to build APIs for modern apps. Building
       APIs with GraphQL often needs a mental shift from RESTful
       APIs. In this workshop, we will cover all the concepts
