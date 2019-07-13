@@ -14,7 +14,7 @@ const data = [
     github: 'https://github.com/saravieira',
     twitter: 'https://twitter.com/NikkitaFTW',
     description: 'Developer Advocate at @YLDio. GraphQL and Open Source enthusiast. Conference Speaker and Airport expert. I am also into drums and horror movies.',
-    jobrole: 'YLDio, Europe',
+    jobrole: 'CodeSandbox, Developer',
     tinySrc: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABAQEBAREBIUFBIZGxgbGSUiHx8iJTgoKygrKDhVNT41NT41VUtbSkVKW0uHal5eaoecg3yDnL2pqb3u4u7///8BEBAQEBEQEhQUEhkbGBsZJSIfHyIlOCgrKCsoOFU1PjU1PjVVS1tKRUpbS4dqXl5qh5yDfIOcvampve7i7v/////AABEIAB4AHgMBIgACEQEDEQH/xABkAAEBAQAAAAAAAAAAAAAAAAAGBQEQAAIBBAAGAwEAAAAAAAAAAAECAwAEBRESEyEiMUEUQmFRAQEBAQAAAAAAAAAAAAAAAAAAAgMRAQEAAwEBAAAAAAAAAAAAAAEAAgMhMRH/2gAMAwEAAhEDEQA/AFU0qQxvI50qqSaMQ5PLXrPLbQAQirGYkRLCcP4dSlH8LLE0SR7YEeQX4RxA1nkoWusF6STHXvzYFk0N9Q2v6Ko0WwcgeW7ZTpGkYqtJgao6U5nxjWenYmK3+hHE9RLAy2DMrwB+Yva9Uc0NXsZLHTw+vw1MLMyRroAqD1HsD0aIJXh5baxzwycw9hbXCVOqaWU5ntopD5I60PlcdxAIZAoB/DSHDsfinr0D6FDybC//2Q=='
   },
   {
@@ -122,6 +122,7 @@ const data = [
     github: 'https://github.com/siddharthkp',
     twitter: 'https://twitter.com/siddharthkp',
     description: 'Design systems with React @Auth0 ∙ running frontend.army and @atinyconf on the side ∙ past: frontend architect @practo',
+    jobrole: 'sid.studio, Funemployed',
     tinySrc: 'data:image/jpeg;base64,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'
   },
   {
@@ -130,6 +131,7 @@ const data = [
     github: 'https://github.com/prateekbh',
     twitter: 'https://twitter.com/_prateekbh',
     description: 'Works on AMP ⚡️⚡️⚡️. Mobile web lover/developer , matching web against every native. @google-r, ex @flipkart-ian, @workboxjs-er Preact-cli core team member.',
+    jobrole: 'Google, User experience engineer',
     tinySrc: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wEEEAAcABwAHAAcAB4AHAAgACQAJAAgAC0AMAArADAALQBCAD0ANwA3AD0AQgBkAEcATQBHAE0ARwBkAJcAXgBuAF4AXgBuAF4AlwCGAKIAhAB7AIQAogCGAPAAvQCnAKcAvQDwARYA6QDdAOkBFgFQAS0BLQFQAagBkgGoAioCKgLoEQAcABwAHAAcAB4AHAAgACQAJAAgAC0AMAArADAALQBCAD0ANwA3AD0AQgBkAEcATQBHAE0ARwBkAJcAXgBuAF4AXgBuAF4AlwCGAKIAhAB7AIQAogCGAPAAvQCnAKcAvQDwARYA6QDdAOkBFgFQAS0BLQFQAagBkgGoAioCKgLo/8IAEQgAHgAeAwEiAAIRAQMRAf/EABoAAAICAwAAAAAAAAAAAAAAAAIEAwUAAQb/2gAIAQEAAAAA5tqMQuN02Nu1kZOLf//EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oACAECEAAAAIWP/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAgBAxAAAADQV//EACEQAAIDAAAGAwAAAAAAAAAAAAECAAMRBBASEyIxQWGh/9oACAEBAAE/AJVw73DxEeooxVvYmgD45cPdqBEHlksq8Q9x50XlV6NzDoMZg2Juk/gltRrYrPc6clbduk2AfULl2JPsz//EABgRAQEBAQEAAAAAAAAAAAAAAAEAAhEh/9oACAECAQE/ANKFl7J2yet//8QAGBEBAQEBAQAAAAAAAAAAAAAAAQACEiH/2gAIAQMBAT8AwC+288sKNtEL/9k='
   },
   {
@@ -138,6 +140,87 @@ const data = [
     github: 'https://github.com/akiran',
     twitter: 'https://twitter.com/kiran_abburi',
     description: 'Kiran Abburi works as a consultant primarily on Reactjs and GraphQL projects. He contributes to open source projects and organises reactjs Bangalore meetup, which is an active meetup group with 9000 members',
+    jobrole: 'neostack.com, Founder',
+    tinySrc: ''
+  },
+  {
+    name: 'Gireesh Punathil',
+    imgPath: 'GireeshPunathil.png',
+    github: 'https://github.com/gireeshpunathil',
+    twitter: 'https://twitter.com/gireeshpunam',
+    description: 'Gireesh Punathil is a member of Node.js Technical Steering Committee and an Architect in IBM India Software Labs, predominantly in Node.js and Java. In 17 years of his career, he has been porting, developing and debugging web servers, virtual machines and compilers. His expertise is in problem isolation and determination of large and complex software modules. He has spoken at several Node.js and Java conferences.',
+    jobrole: 'IBM, Software Engineer',
+    tinySrc: ''
+  },
+  {
+    name: 'Eesh Tyagi',
+    imgPath: 'EeshTyagi.png',
+    github: 'https://github.com/eeshdarthvader',
+    twitter: 'https://twitter.com/EtEesh',
+    description: 'JavaScript enthusiast. I believe in the web and enjoy building experiences that leverage the best it has to offer. An avid Chelsea Football Club fan and anime lover.',
+    jobrole: 'Cleartrip, Lead UI developer',
+    tinySrc: ''
+  },
+  {
+    name: 'Shahidh K Muhammed',
+    imgPath: 'ShahidhKMuhammed.png',
+    github: 'https://github.com/shahidhk',
+    twitter: 'https://twitter.com/shahidh_k',
+    description: 'Shahidh is an Engineer at Hasura and is a maintainer for the open-source Hasura GraphQL Engine. A Design Engineer by training, his current focus is on various software design patterns and their applications in making better developer tools and workflows. He is also the co-author of a popular GraphQL CLI tool called Graphqurl.',
+    jobrole: 'Engineer at Hasura',
+    tinySrc: ''
+  },
+  {
+    name: 'Ritesh Kumar',
+    imgPath: 'RiteshKumar.png',
+    github: 'https://github.com/ritz078',
+    twitter: 'https://twitter.com/ritz078',
+    description: 'Ritesh loves to write code, play keyboard and paint. He is currently working on open source projects involving developer tooling, design systems, and music.',
+    jobrole: 'Anarock,Lead Software Engineer',
+    tinySrc: ''
+  },
+  {
+    name: 'Ananya Neogi',
+    imgPath: 'AnanyaNeogi.png',
+    github: 'https://github.com/ananyaneogi',
+    twitter: 'https://twitter.com/_ananyaneogi',
+    description: 'Ananya is a frontend developer who loves to design with code. She is passionate about the web, design and everything at its intersection. Also loves dogs.',
+    jobrole: 'Box8,Frontend Developer',
+    tinySrc: ''
+  },
+  {
+    name: 'Bhuvana Meenakshi Koteeswaran',
+    imgPath: 'bhuvana.png',
+    github: 'https://github.com/BhuvanaMeenakshiK',
+    twitter: 'https://twitter.com/bhuvanakotees1',
+    description: 'Bhuvana is a tech speaker.In most of the conference she speaks about Virtual and Augmented Reality. VR and AR are emerging into the world with rapid developments everyday, this way I see to that my sessions are up-to date and interesting. She has infinite curiosity in computer programming. She is a VR and AR enthusiast. Have been conferred with the most prestigious award Dr. Kalam Young Achievers Award in the year 2017 for her projects in open source and society beneficial application.',
+    jobrole: 'Mozilla Reps and WebXR evangelist',
+    tinySrc: ''
+  },
+  {
+    name: 'Tanay Pratap',
+    imgPath: 'TanayPratap.png',
+    github: 'https://github.com/tanaypratap',
+    twitter: 'https://twitter.com/tanaypratap',
+    description: 'Engineer at heart, works on Web, React, GraphQL and everything out there. Ready to learn something new, like always! Have ideas about education, yoga, philosophy and deal with these in spare time.',
+    jobrole: 'Microsoft, Software Engineer',
+    tinySrc: ''
+  },
+  {
+    name: 'Abinash Mohapatra',
+    imgPath: 'AbinashMohapatra.png',
+    twitter: 'https://twitter.com/twistedfork88',
+    description: 'I am Abinash, engineer in the Ads Platform team (previously core team member of Flipkart Lite PWA team) at Flipkart. Interested in web performance and striving to make web a better place.',
+    jobrole: 'Flipkart Internet Pvt. Ltd., Front end Engineer',
+    tinySrc: ''
+  },
+  {
+    name: 'Rajat Kumar',
+    imgPath: 'RajatKumar.png',
+    github: 'https://github.com/rajatkumar',
+    twitter: 'http://twitter.com/rajatkumar',
+    description: 'Rajat is a Senior Software Engineer at Netflix and is passionate about building products. He enjoys writing code in Javascript because he believes Javascript has its own complexities and imperfections that mimic the real world.Rajat has been involved in several engineering challenges at Netflix, including Conditional Runtime Bundling called Codex, Netflix’s NodeJS PaaS called NodeQuark. He also maintains and is a core contributor to Restify (http://restify.com).',
+    jobrole: 'Netflix Inc,Senior Software Engineer',
     tinySrc: ''
   }
 ]
