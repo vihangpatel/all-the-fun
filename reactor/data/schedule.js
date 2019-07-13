@@ -85,7 +85,7 @@ export const scheduleList = {
           title: 'Follow your code: Node/V8 tracing',
           description: 'A large percentage of Node application misbehavior can be effectively diagnosed and root cause identified through the in-built tracing capabilities of Node/V8. There are a number of under-documented, yet very powerful tracing options which we can leverage in development, testing and production phases to validate that the application architecture and design is indeed reflected in the code or not, without ever instrumenting it.In this presentation, I will talk about the "top 10" tracing options for Node/V8, ranging from the most simple Javascript method tracing to turning off specific JIT compiler options to diagnose and resolve complex crashes or functional issues.',
           speaker: {
-            image: 'assets/images/speakers/GireeshPunathil.png',
+            image: 'assets/images/speakers/GireeshPunathil.jpg',
             name: 'Gireesh Punathil'
           }
         },
@@ -104,7 +104,7 @@ export const scheduleList = {
           title: 'Cleartrip’s reactive journey from 3 to 0.2s using Apollo GraphQL, Redis Caching and Monitoring',
           description: 'We have built a single GraphQL endpoint @Cleartrip to remove the dependency of the react client with the Rest API. This will avoid the unnecessary over fetching of verbose data and manipulation on the client, making the react client cleaner and faster (3 → 0.2s document load).I will also talk about how we improved page load time using redis caching at Graphql server and monitored the results using new relic.',
           speaker: {
-            image: 'assets/images/speakers/EeshTyagi.png',
+            image: 'assets/images/speakers/EeshTyagi.jpg',
             name: 'Eesh Tyagi'
           }
         },
@@ -160,7 +160,7 @@ export const scheduleList = {
           title: 'Build your own backend in the \'redux\' style with GraphQL mutations (dispatch), `pure` serverless functions (reducers), and GraphQL subscriptions (updated state)',
           description: 'What if it was possible to build backend features for our react apps in the same way that we use redux in our react apps? In this live-coding demo, I will show you how we’ll add backend business logic using the redux abstractions of dispatching actions, writing reducers as pure functions and subscribing to updated state. Our backend will be completely serverless and using open-source and managed services so that we’re not actually deploying and maintaining any servers. We will use GraphQL mutations from our React app to dispatch actions. These will trigger serverless functions which are pure and return the modified state, which will be persisted safely on a cloud managed database. Portions of your app that are subscribed to the state using GraphQL subscriptions (live-queries) will automatically update! You will witness the raw awesomeness of being able to use JavaScript and GraphQL in a pattern that you are comfortable with to build backend features from scratch.',
           speaker: {
-            image: 'assets/images/speakers/ShahidhKMuhammed.png',
+            image: 'assets/images/speakers/ShahidhKMuhammed.jpg',
             name: 'Shahidh K Muhammed'
           }
         },
@@ -172,7 +172,7 @@ export const scheduleList = {
           title: 'Beats on the web - A journey into performance',
           description: 'React is a brilliant JavaScript library for building simple and complex user interfaces. It is quite performant when used correctly but there are times when the library alone is not enough to achieve what we want. This talk focuses on using the power of React and the platform together to build a fast and performant music application. It will involve using the different threads, web features and React in sync. I will be talking about the journey of converting an idea into a product and different decisions I had to take both in regards to design and implementation. ',
           speaker: {
-            image: 'assets/images/speakers/RiteshKumar.png',
+            image: 'assets/images/speakers/RiteshKumar.jpg',
             name: 'Ritesh Kumar'
           }
         },
@@ -191,7 +191,7 @@ export const scheduleList = {
           title: 'React for Designers',
           description: 'The almighty React is not just for developers, it\'s for everyone! It leaves no one behind. With React\'s component-driven architecture, UX and web designers can make use of this quality and integrate React in their workflow to bridge the gap between design/prototyping tool and what actually goes on the web in production. This talk explores the topic on how React is not only well suited for designing static components but is well suited for rapid prototyping with interactions.',
           speaker: {
-            image: 'assets/images/speakers/AnanyaNeogi.png',
+            image: 'assets/images/speakers/AnanyaNeogi.jpg',
             name: 'Ananya Neogi'
           }
         },
@@ -203,7 +203,7 @@ export const scheduleList = {
           title: 'WebVR - the Disruption in Immersive Space',
           description: 'WebVR is a latest technology and developing it is not boring like lines and lines of code to get a small VR experience. Just a few steps to do the magic. If one is interested to learn the tricks of the magician and get the secrets behind the screen revealed then there you are, must attend my talk to get the cats off the bag. Also, having been contributed for Mozilla since 5 years I will be also dealing with how A-frame can help in this web driven technology of WebVR. Also get some free tips on how your React.js can get a VR effect in just a snap of finger.',
           speaker: {
-            image: 'assets/images/speakers/bhuvana.png',
+            image: 'assets/images/speakers/bhuvana.jpg',
             name: 'Bhuvana Meenakshi Koteeswaran'
           }
         },
@@ -215,7 +215,7 @@ export const scheduleList = {
           title: 'DRY when writing a GraphQL React App',
           description: '\'Let\'s face it, writing React apps with GraphQL is verbose. Your team took up a massive application write using React + GraphQL. It has a team of 200+ developers working on the same codebase. You need tools! You need abstraction! You need patterns! You don\'t want the same code to be written multiple times everywhere. How do you do that? Here comes middlewares on the frontend, links from Apollo, Observables and ASTs to ease your headache and make sure that you increase your team\'s productivity by making everyone write less code. Whether you are a single developer in a small startup or a big team working on a massive project, you do want to have these tricks up your sleeve!',
           speaker: {
-            image: 'assets/images/speakers/TanayPratap.png',
+            image: 'assets/images/speakers/TanayPratap.jpg',
             name: 'Tanay Pratap'
           }
         },
@@ -360,7 +360,7 @@ export const scheduleList = {
           title: 'Case study: High performance image upload for web',
           description: 'Operating on files (and images) and extracting crucial information out of them in the browser can be tough. Performing this while keeping the main thread free can be tougher. This talk will focus on the efforts made to streamline uploading product images by customers while they write reviews for the same.',
           speaker: {
-            image: 'assets/images/speakers/AbinashMohapatra.png',
+            image: 'assets/images/speakers/AbinashMohapatra.jpg',
             name: 'Abinash Mohapatra'
           }
         },
@@ -372,7 +372,7 @@ export const scheduleList = {
           title: 'Conditional Modules & Dynamic Bundling, A Netflix Original',
           description: 'Learn about how we, at Netflix, hacked Webpack for our needs, leveraged Abstract Syntax Tree (AST) to identify conditional dependencies in our dependency graph and glued them all together to build a highly scalable, server side JS and CSS bundler, that serves these unique user experiences to millions of Netflix customers across the globe.',
           speaker: {
-            image: 'assets/images/speakers/RajatKumar.png',
+            image: 'assets/images/speakers/RajatKumar.jpg',
             name: 'Rajat Kumar'
           }
         },

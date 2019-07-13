@@ -145,7 +145,7 @@ const data = [
   },
   {
     name: 'Gireesh Punathil',
-    imgPath: 'GireeshPunathil.png',
+    imgPath: 'GireeshPunathil.jpg',
     github: 'https://github.com/gireeshpunathil',
     twitter: 'https://twitter.com/gireeshpunam',
     description: 'Gireesh Punathil is a member of Node.js Technical Steering Committee and an Architect in IBM India Software Labs, predominantly in Node.js and Java. In 17 years of his career, he has been porting, developing and debugging web servers, virtual machines and compilers. His expertise is in problem isolation and determination of large and complex software modules. He has spoken at several Node.js and Java conferences.',
@@ -154,7 +154,7 @@ const data = [
   },
   {
     name: 'Eesh Tyagi',
-    imgPath: 'EeshTyagi.png',
+    imgPath: 'EeshTyagi.jpg',
     github: 'https://github.com/eeshdarthvader',
     twitter: 'https://twitter.com/EtEesh',
     description: 'JavaScript enthusiast. I believe in the web and enjoy building experiences that leverage the best it has to offer. An avid Chelsea Football Club fan and anime lover.',
@@ -163,7 +163,7 @@ const data = [
   },
   {
     name: 'Shahidh K Muhammed',
-    imgPath: 'ShahidhKMuhammed.png',
+    imgPath: 'ShahidhKMuhammed.jpg',
     github: 'https://github.com/shahidhk',
     twitter: 'https://twitter.com/shahidh_k',
     description: 'Shahidh is an Engineer at Hasura and is a maintainer for the open-source Hasura GraphQL Engine. A Design Engineer by training, his current focus is on various software design patterns and their applications in making better developer tools and workflows. He is also the co-author of a popular GraphQL CLI tool called Graphqurl.',
@@ -172,7 +172,7 @@ const data = [
   },
   {
     name: 'Ritesh Kumar',
-    imgPath: 'RiteshKumar.png',
+    imgPath: 'RiteshKumar.jpg',
     github: 'https://github.com/ritz078',
     twitter: 'https://twitter.com/ritz078',
     description: 'Ritesh loves to write code, play keyboard and paint. He is currently working on open source projects involving developer tooling, design systems, and music.',
@@ -181,7 +181,7 @@ const data = [
   },
   {
     name: 'Ananya Neogi',
-    imgPath: 'AnanyaNeogi.png',
+    imgPath: 'AnanyaNeogi.jpg',
     github: 'https://github.com/ananyaneogi',
     twitter: 'https://twitter.com/_ananyaneogi',
     description: 'Ananya is a frontend developer who loves to design with code. She is passionate about the web, design and everything at its intersection. Also loves dogs.',
@@ -190,7 +190,7 @@ const data = [
   },
   {
     name: 'Bhuvana Meenakshi Koteeswaran',
-    imgPath: 'bhuvana.png',
+    imgPath: 'bhuvana.jpg',
     github: 'https://github.com/BhuvanaMeenakshiK',
     twitter: 'https://twitter.com/bhuvanakotees1',
     description: 'Bhuvana is a tech speaker.In most of the conference she speaks about Virtual and Augmented Reality. VR and AR are emerging into the world with rapid developments everyday, this way I see to that my sessions are up-to date and interesting. She has infinite curiosity in computer programming. She is a VR and AR enthusiast. Have been conferred with the most prestigious award Dr. Kalam Young Achievers Award in the year 2017 for her projects in open source and society beneficial application.',
@@ -199,7 +199,7 @@ const data = [
   },
   {
     name: 'Tanay Pratap',
-    imgPath: 'TanayPratap.png',
+    imgPath: 'TanayPratap.jpg',
     github: 'https://github.com/tanaypratap',
     twitter: 'https://twitter.com/tanaypratap',
     description: 'Engineer at heart, works on Web, React, GraphQL and everything out there. Ready to learn something new, like always! Have ideas about education, yoga, philosophy and deal with these in spare time.',
@@ -208,7 +208,7 @@ const data = [
   },
   {
     name: 'Abinash Mohapatra',
-    imgPath: 'AbinashMohapatra.png',
+    imgPath: 'AbinashMohapatra.jpg',
     twitter: 'https://twitter.com/twistedfork88',
     description: 'I am Abinash, engineer in the Ads Platform team (previously core team member of Flipkart Lite PWA team) at Flipkart. Interested in web performance and striving to make web a better place.',
     jobrole: 'Flipkart Internet Pvt. Ltd., Front end Engineer',
@@ -216,7 +216,7 @@ const data = [
   },
   {
     name: 'Rajat Kumar',
-    imgPath: 'RajatKumar.png',
+    imgPath: 'RajatKumar.jpg',
     github: 'https://github.com/rajatkumar',
     twitter: 'http://twitter.com/rajatkumar',
     description: 'Rajat is a Senior Software Engineer at Netflix and is passionate about building products. He enjoys writing code in Javascript because he believes Javascript has its own complexities and imperfections that mimic the real world.Rajat has been involved in several engineering challenges at Netflix, including Conditional Runtime Bundling called Codex, Netflix’s NodeJS PaaS called NodeQuark. He also maintains and is a core contributor to Restify (http://restify.com).',
