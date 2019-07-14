@@ -388,11 +388,11 @@ export const scheduleList = {
           time: '4:55 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'TBA',
-          description: '',
+          title: 'Building offline first apps with GraphQL & Apollo',
+          description: 'Offline first apps have a unique set of challenges to keep them fully functional even in offline mode. On top of that, GraphQL based apps need new ways of solving these challenges. In this talk, I will share my experience with implementing offline first app with GraphQL & Apollo.',
           speaker: {
-            image: '',
-            name: ''
+            image: 'assets/images/speakers/kiranAbburi.jpg',
+            name: 'Kiran Abburi'
           }
         },
         {
