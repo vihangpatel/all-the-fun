@@ -9,6 +9,7 @@ module.exports = {
             'webpack/hot/dev-server',
             "./reactor/client.js"]
     },
+    devtool: 'source-map',
     output: {
         filename: '[name].dev.js',
         publicPath: 'http://localhost:9000/'
