@@ -3534,9 +3534,22 @@ ul.pagination {
 
 .footer {
 	overflow: hidden;
-	background: #2e2e2e;
-	background-size: cover;
-	color: white;
+	position: relative;
+	background-image: url('https://i.postimg.cc/05fyW0Bp/workshops-banner.png');
+	background-size: cover;	
+	background-repeat: no-repeat;
+	color: white;		color: white;
+	z-index: 1;
+}
+.footer:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
 }
 
 .footer-top {
@@ -3696,7 +3709,7 @@ ul.pagination {
 }
 
 .footer-bottom {
-	background-color: #282828;
+	background-color: #141317;
 	display: table;
 	width: 100%;
 	padding: 10px 0px 10px;
