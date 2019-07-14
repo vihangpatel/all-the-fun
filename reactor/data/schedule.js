@@ -71,7 +71,7 @@ export const scheduleList = {
           venue: 'Planet Hollywood, Goa',
           day: 'Friday',
           title: 'GraphQL State Management in a React World',
-          description: 'TBD',
+          description: 'Once we receive data from an API, how do we manage it on the GraphQL client side? How do hooks work with GraphQL? How can we leverage Apollo client to manage our state? Can we use Redux along with GraphQL ?  In this talk, I will be answering these questions and talking about state management solutions that work well with GraphQL. I will also be talking about the GraphQL journey at PayPal.',
           speaker: {
             image: 'assets/images/speakers/shruti.jpg',
             name: 'Shruti Kapoor'
