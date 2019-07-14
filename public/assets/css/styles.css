@@ -4824,3 +4824,21 @@ a[href="/tickets"] {
 		height: 420px;
 	}
 }
+
+.schedule-desc {
+	font-size: 14px;
+	text-align: justify;
+	font-weight: 300;
+}
+
+.all {
+	max-height: 400px;
+}
+
+.small {
+	max-height: 200px;	
+}
+
+.animate-in {
+	transition: all 1s;
+}

@@ -1,4 +1,4 @@
-import React, { memo, useState } from 'react'
+import React, { memo, useState, Fragment } from 'react'
 import { scheduleList } from '../data/schedule'
 
 const tabs = [
@@ -7,8 +7,41 @@ const tabs = [
   { id: 2, name: 'Conf Day 2', date: 'Sat, Sep 28', type: 'conference' }
 ]
 
+const ShowMoreLess = ({ id, text, flag, handler, thresholdLength = 120 }) => {
+
+
+  const length = text.length
+
+  const showButton = length > thresholdLength
+
+  return <Fragment>
+    {!showButton ? <p className="animate-in">{text}</p> :
+      flag ?
+        <div key={flag} className="animate-in all">
+          {text}
+          <i onClick={() => handler(id)}> show less </i>
+        </div> :
+        <div key={flag} className="animate-in small">
+          {text.substr(0, thresholdLength)}
+          <i onClick={() => handler(id)}> ... show more </i>
+        </div>
+    }
+  </Fragment>
+}
+
 function Schedule() {
   const [currentTab, changeTab] = useState(0)
+
+  // structure of showMores = {
+  //  "09:30-10:30": true
+  // }
+  const [hideText, setHideText] = useState({})
+
+  const toggleHideFlag = speaker => {
+    const newHideText = { ...hideText }
+    newHideText[speaker] = !newHideText[speaker]
+    setHideText(newHideText)
+  }
 
   function onTabChange(e, tab) {
     e.preventDefault()
@@ -81,8 +114,14 @@ function Schedule() {
                             </div>
                             <div className="col-sm-10">
                               <h4>{workshop.trainer.name}</h4>
-                              <p>
-                                {workshop.description}
+                              <p className="schedule-desc">
+                                <ShowMoreLess
+                                  id={workshop.trainer.name}
+                                  text={workshop.description}
+                                  handler={toggleHideFlag}
+                                  flag={hideText[workshop.trainer.name]}
+                                />
+
                                 {/* <br />
                               <i>[Short coffee-break at 11:00]</i> */}
                               </p>
@@ -134,8 +173,13 @@ function Schedule() {
                                 </div>
                                 <div className="col-sm-10">
                                   <h4>{item.speaker.name}</h4>
-                                  <p>
-                                    {item.description}
+                                  <p className="schedule-desc">
+                                    <ShowMoreLess
+                                      id={item.speaker.name}
+                                      text={item.description}
+                                      handler={toggleHideFlag}
+                                      flag={hideText[item.speaker.name]}
+                                    />
                                     <br />
                                   </p>
                                 </div>
@@ -196,8 +240,13 @@ function Schedule() {
                                 </div>
                                 <div className="col-sm-10">
                                   <h4>{item.speaker.name}</h4>
-                                  <p>
-                                    {item.description}
+                                  <p className="schedule-desc">
+                                    <ShowMoreLess
+                                      id={item.speaker.name}
+                                      text={item.description}
+                                      handler={toggleHideFlag}
+                                      flag={hideText[item.speaker.name]}
+                                    />
                                     <br />
                                   </p>
                                 </div>
