@@ -193,7 +193,7 @@ const data = [
     imgPath: 'bhuvana.jpg',
     github: 'https://github.com/BhuvanaMeenakshiK',
     twitter: 'https://twitter.com/bhuvanakotees1',
-    description: 'Bhuvana is a tech speaker.In most of the conference she speaks about Virtual and Augmented Reality. VR and AR are emerging into the world with rapid developments everyday, this way I see to that my sessions are up-to date and interesting. She has infinite curiosity in computer programming. She is a VR and AR enthusiast. Have been conferred with the most prestigious award Dr. Kalam Young Achievers Award in the year 2017 for her projects in open source and society beneficial application.',
+    description: 'Bhuvana is  a tech speaker and she always speak about what she is passsionate about. She is a VR and AR enthusiast. She has been conferred  with the most prestigious award  "Dr. Kalam Young Achievers Award" in the year 2017 for her projects on opensource and society beneficial application. She is a WebXR contributor for Mozilla Firefox and she also plays the roles of Mozilla Rep, WebVR and Mozilla Mixed Reality evangelist, Womoz Community Lead and  Featured Addons advisory board member. Currently works with the Centre for Internet and Society and researches on bridging gender gap',
     jobrole: 'Mozilla Reps and WebXR evangelist',
     tinySrc: ''
   },
