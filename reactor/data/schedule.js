@@ -412,11 +412,11 @@ export const scheduleList = {
           time: '05:55 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'TBA',
-          description: '',
+          title: 'React, Collaborate and Listen',
+          description: 'According to npm, 63% of JavaScript developers use React. This is for a good reason: of all the ways we’ve tried building applications on the web, React seems to have chosen the right tradeoffs to make developers and teams happy and productive. React is eating the web.According to its website, React is a JavaScript library for building user interfaces. It’s also an ecosystem of open source tools and development practices. But most importantly, React is a community of people with a firm grip on the steering wheel of web development and where it’s going.Do we know where we are going? When do we know whether we’ve gone too far? Siri, how can we build the best products for our users, while ensuring the continued health of the open web? Siri?Jani is part of the React industrial complex. At his job at Formidable he helps companies and teams build software with JavaScript and React. He advocates the use of React in his conference talks, open source projects, workshops and writing. In this talk full of industry insights, real-world anecdata and many unpopular opinions, he’ll offer his industry insider point of view on where we as a community of developers may have lost the plot, and how we can do better.This is a wake-up call, and the call is coming from inside the house.',
           speaker: {
-            image: '',
-            name: ''
+            image: 'assets/images/speakers/jani.jpg',
+            name: 'Jani Eväkallio'
           }
         },
         {
