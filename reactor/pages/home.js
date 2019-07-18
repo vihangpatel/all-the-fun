@@ -257,7 +257,7 @@ class Home extends Component {
 						<Schedule />
 						{/* End schedule area */}
 						{/* Start MC Area */}
-						<section className="speaker_area mc_area" id="sponsors">
+						<section className="speaker_area mc_area" id="mcs">
 							<div className="container">
 								<div className="row justify-content-center">
 									<div className="col-md-8">

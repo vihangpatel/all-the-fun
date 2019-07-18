@@ -3536,9 +3536,9 @@ ul.pagination {
 	overflow: hidden;
 	position: relative;
 	background-image: url('https://i.postimg.cc/05fyW0Bp/workshops-banner.png');
-	background-size: cover;	
+	background-size: cover;
 	background-repeat: no-repeat;
-	color: white;		color: white;
+	color: white;
 	z-index: 1;
 }
 .footer:before {
@@ -3551,7 +3551,6 @@ ul.pagination {
     background: rgba(0, 0, 0, 0.7);
     z-index: -1;
 }
-
 .footer-top {
 	padding: 93px 0 90px;
 }
