@@ -61,7 +61,7 @@ const workshopData = [
     },
     {
       title: 'Advanced GraphQL',
-      speaker: 'Kiran Abburis',
+      speaker: 'Kiran Abburi',
       imgPath: 'kiranAbburi.jpg',
       description: `GraphQL is a new way to build APIs for modern apps. Building
       APIs with GraphQL often needs a mental shift from RESTful
