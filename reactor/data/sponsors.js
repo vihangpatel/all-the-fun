@@ -37,11 +37,11 @@ export default {
 			imgUrl: "insider.svg",
 			link: "https://insider.in/",
 		},
-		// {
-		// 	category: "golden",
-		// 	imgUrl: "obvious.svg",
-		// 	link: "https://obvious.in/",
-		// },
+		{
+			category: "golden",
+			imgUrl: "publicis-sapient.png",
+			link: "https://www.publicissapient.com/",
+		},
 	],
 	silver: [
 		{

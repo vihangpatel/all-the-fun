@@ -3,7 +3,7 @@ import Header from "../header";
 
 import workshopData from '../data/workshop'
 
-const WorkshopItem = data => <div className="workshop">
+const WorkshopItem = data => <div className="workshop" >
   <div className="workshop-item workshop-item-lg">
     <div className="workshop-item-title">
       <div className="img img-speaker">
@@ -38,7 +38,7 @@ const WorkshopItem = data => <div className="workshop">
   <div className="workshop-item">
     <div className="workshop-item-title">What we cover?</div>
     <div className="workshop-item-content">
-      {data.coverage.map(coverage => <div>
+      {data.coverage.map(coverage => <div key={coverage.topic}>
         <h4>{coverage.topic}</h4>
         {coverage.points && <ul>
           {coverage.points.map(point => <li key={point}>- {point}</li>)}
@@ -73,7 +73,7 @@ export default () => (
       </div>
       <div className="container">
         <div className="workshops-content">
-          {workshopData.map(workshop => <WorkshopItem key={workshop.title} {...workshop} />)}
+          {workshopData.map(workshop => <WorkshopItem  {...workshop} key={workshop.title} />)}
         </div>
       </div>
     </section>
