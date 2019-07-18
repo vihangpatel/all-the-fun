@@ -19,11 +19,11 @@ const ShowMoreLess = ({ id, text, flag, handler, thresholdLength = 120 }) => {
       flag ?
         <div key={flag} className="animate-in all">
           {text}
-          <i onClick={() => handler(id)}> show less </i>
+          <i className = 'schedule_showmore' onClick={() => handler(id)}> show less </i>
         </div> :
         <div key={flag} className="animate-in small">
           {text.substr(0, thresholdLength)}
-          <i onClick={() => handler(id)}> ... show more </i>
+          <i className = 'schedule_showmore' onClick={() => handler(id)}> ... show more </i>
         </div>
     }
   </Fragment>
