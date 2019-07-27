@@ -42,6 +42,11 @@ export default {
 			imgUrl: "publicis-sapient.png",
 			link: "https://www.publicissapient.com/",
 		},
+		{
+			category: "golden",
+			imgUrl: "Salesforce.png",
+			link: "https://www.salesforce.com",
+		}
 	],
 	silver: [
 		{
