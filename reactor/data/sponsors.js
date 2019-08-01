@@ -15,6 +15,11 @@ export default {
 			imgUrl: "myntra.png",
 			link: "https://www.myntra.com/",
 		},
+		{
+			category: "platinum",
+			imgUrl: "anarock.svg",
+			link: "https://tech.anarock.com",
+		}
 	],
 	gold: [
 		{
