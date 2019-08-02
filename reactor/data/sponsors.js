@@ -50,7 +50,7 @@ export default {
 		{
 			category: "golden",
 			imgUrl: "Salesforce.png",
-			link: "https://www.salesforce.com",
+			link: "http://bit.ly/2Kjv4Id",
 		}
 	],
 	silver: [
