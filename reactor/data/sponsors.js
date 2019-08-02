@@ -49,7 +49,7 @@ export default {
 		},
 		{
 			category: "golden",
-			imgUrl: "Salesforce.png",
+			imgUrl: "sales_force.png",
 			link: "http://bit.ly/2Kjv4Id",
 		}
 	],
