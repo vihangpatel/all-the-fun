@@ -224,7 +224,7 @@ export const scheduleList = {
           time: '06:30 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Friday',
-          title: 'Panel Discussion'
+          title: 'TBA'
         }
       ],
       day2: [
@@ -400,11 +400,11 @@ export const scheduleList = {
           time: '05:25 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'TBA',
-          description: '',
+          title: 'Sleeping well at night with cypress.io',
+          description: 'Why are we afraid of updating our React app on Friday evening? Mostly because its hard to know if nothing is broken because manual testing takes time and automated testing was not reliable. (And we really want to go home). With cypress things are different. In this talk, we are going to cover how to start covering your React app with e2e tests and showcase coolest features that cypress.io has to offer. Automated tests dont have to be boring, difficult to write and even harder to debug. We deserve to have tests we can count on, even when shipping stuff as soon as ASAP.',
           speaker: {
-            image: '',
-            name: ''
+            image: 'assets/images/speakers/tomasz.png',
+            name: 'Tomasz Łakomy'
           }
         },
         {

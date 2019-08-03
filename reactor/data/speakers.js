@@ -222,6 +222,15 @@ const data = [
     description: 'Rajat is a Senior Software Engineer at Netflix and is passionate about building products. He enjoys writing code in Javascript because he believes Javascript has its own complexities and imperfections that mimic the real world.Rajat has been involved in several engineering challenges at Netflix, including Conditional Runtime Bundling called Codex, Netflix’s NodeJS PaaS called NodeQuark. He also maintains and is a core contributor to Restify (http://restify.com).',
     jobrole: 'Netflix Inc,Senior Software Engineer',
     tinySrc: ''
+  },
+    {
+    name: 'Tomasz Łakomy',
+    imgPath: 'tomasz.png',
+    github: 'https://github.com/tlakomy',
+    twitter: 'https://twitter.com/tlakomy',
+    description: 'Tomasz is a Senior Frontend Developer at OLX Group. Tech speaker, egghead.io instructor, jQuery evangelist. His interests include React, VR, e2e testing, app performance and making cheesiest jokes known to mankind.',
+    jobrole: 'Senior Frontend Engineer at OLXtech',
+    tinySrc: ''
   }
 ]
 
