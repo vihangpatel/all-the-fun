@@ -229,7 +229,7 @@ const data = [
     github: 'https://github.com/tlakomy',
     twitter: 'https://twitter.com/tlakomy',
     description: 'Tomasz is a Senior Frontend Developer at OLX Group. Tech speaker, egghead.io instructor, jQuery evangelist. His interests include React, VR, e2e testing, app performance and making cheesiest jokes known to mankind.',
-    jobrole: 'Senior Frontend Engineer at OLXtech',
+    jobrole: 'Senior Frontend Engineer at OLX Group',
     tinySrc: ''
   }
 ]
