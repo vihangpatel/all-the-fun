@@ -58,8 +58,8 @@ export const scheduleList = {
           time: '10:00 AM',
           venue: 'Planet Hollywood, Goa',
           day: 'Friday',
-          title: 'Aam Aadmi React',
-          description: 'In this talk, I hope to show how React takes really hard UI problems, and solves them in its own inimitable way. Featuring hooks, suspense, and some other surprises. ',
+          title: 'TBA',
+          description: '',
           speaker: {
             image: 'assets/images/speakers/sunil_pai.jpg',
             name: 'Sunil Pai'
