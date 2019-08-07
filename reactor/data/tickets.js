@@ -133,7 +133,7 @@ export default {
           checkbox: true
         },
         {
-          text: 'Stay will be at Kenilworth Beach Resort & Spa',
+          text: 'Stay will be at Kenilworth Beach Resort/Planet Hollywood Resort /Royal Orchid Resort',
           checkbox: true
         },
         {
@@ -192,7 +192,7 @@ export default {
           checkbox: true
         },
         {
-          text: 'Stay will be at Kenilworth Beach Resort & Spa',
+          text: 'Stay will be at Kenilworth Beach Resort/Planet Hollywood Resort /Royal Orchid Resort',
           checkbox: true
         },
         {
@@ -245,15 +245,11 @@ export default {
           checkbox: true
         },
         {
-          text: '5 Star Hotel Single Occupancy for 4 Nights (25th-29th September)',
+          text: 'Single Occupancy for 4 Nights (25th-29th September)',
           checkbox: true
         },
         {
-          text: 'Stay at Planet Hollywood Beach Resort from 25th - 26th September',
-          checkbox: true
-        },
-        {
-          text: 'Stay at Kenilworth Beach Resort & Spa from 26th - 29th September',
+          text: 'Stay will be at Kenilworth Beach Resort/Planet Hollywood Resort /Royal Orchid Resort',
           checkbox: true
         },
         {
@@ -305,11 +301,11 @@ export default {
           checkbox: true
         },
         {
-          text: 'Stay at Planet Hollywood Beach Resort from 25th - 26th September',
+          text: 'Stay from 25th - 26th September',
           checkbox: true
         },
         {
-          text: 'Stay at Kenilworth Beach Resort & Spa from 26th - 29th September',
+          text: 'Stay will be at Kenilworth Beach Resort/Planet Hollywood Resort /Royal Orchid Resort',
           checkbox: true
         },
         {
