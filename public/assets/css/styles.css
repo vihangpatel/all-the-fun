@@ -401,9 +401,10 @@ p {
 }
 .conferences .react-lady-img{
 	position: absolute;
-    bottom: -91px;
-    width: 163%;
-	left: -41%;
+	bottom: -90px;
+	left: 50%;
+	height: 100%;
+	transform: translate(-50%, 0);
 }
 .index_1 .conferences h2, .index_1 .conferences p {
 	color: #fff;
@@ -4663,6 +4664,9 @@ a[href="/tickets"] {
 	.event-detail:before {
 	  display: none;
 	}
+	.conferences .react-lady-img {
+		height: 57%;
+	}
   }
   @media (max-width: 767px) {
 	.event-time .dash .digit {
@@ -4705,7 +4709,9 @@ a[href="/tickets"] {
 	}
 }
 
-@media screen and (max-width: 767.98px) {}
+@media screen and (max-width: 767.98px) {
+	
+}
 
 @media screen and (max-width: 772px) {
 	.video__wrapper {
@@ -4755,6 +4761,7 @@ a[href="/tickets"] {
 		left: 0;
 		height: 100%;
 		padding-top: 22px;
+		transform: none;
 	}
 }
 @media screen and (max-width: 551px) {
