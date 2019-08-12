@@ -271,11 +271,11 @@ export const scheduleList = {
           time: '10:30 AM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'Follow your code: Node/V8 tracing',
-          description: 'A large percentage of Node application misbehavior can be effectively diagnosed and root cause identified through the in-built tracing capabilities of Node/V8. There are a number of under-documented, yet very powerful tracing options which we can leverage in development, testing and production phases to validate that the application architecture and design is indeed reflected in the code or not, without ever instrumenting it.In this presentation, I will talk about the "top 10" tracing options for Node/V8, ranging from the most simple Javascript method tracing to turning off specific JIT compiler options to diagnose and resolve complex crashes or functional issues.',
+          title: 'TBA',
+          description: '',
           speaker: {
-            image: 'assets/images/speakers/GireeshPunathil.jpg',
-            name: 'Gireesh Punathil'
+            image: '',
+            name: ''
           }
         },
         {
