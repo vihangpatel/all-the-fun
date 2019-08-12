@@ -144,15 +144,6 @@ const data = [
     tinySrc: ''
   },
   {
-    name: 'Gireesh Punathil',
-    imgPath: 'GireeshPunathil.jpg',
-    github: 'https://github.com/gireeshpunathil',
-    twitter: 'https://twitter.com/gireeshpunam',
-    description: 'Gireesh Punathil is a member of Node.js Technical Steering Committee and an Architect in IBM India Software Labs, predominantly in Node.js and Java. In 17 years of his career, he has been porting, developing and debugging web servers, virtual machines and compilers. His expertise is in problem isolation and determination of large and complex software modules. He has spoken at several Node.js and Java conferences.',
-    jobrole: 'IBM, Software Engineer',
-    tinySrc: ''
-  },
-  {
     name: 'Eesh Tyagi',
     imgPath: 'EeshTyagi.jpg',
     github: 'https://github.com/eeshdarthvader',
