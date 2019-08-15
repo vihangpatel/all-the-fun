@@ -302,7 +302,7 @@ export const scheduleList = {
           time: '11:55 AM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'Community Talks by industry experts',
+          title: 'Community Talks',
           description: '',
           speaker: {
             image: '',
