@@ -271,11 +271,11 @@ export const scheduleList = {
           time: '10:30 AM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'TBA',
-          description: '',
+          title: 'Architecting scalable serverless applications with GraphQL api using Hasura',
+          description: 'In this talk we will see what are the benefits of building event driven Realtime GraphQL backend and what problems it will solve. We will see how we can bootstrap our GraphQL backend fast with free and open source Hasura engine and connect it to serverless functions for custom business logic, providing our web or mobile apps with infinitely scalable backend with modern GraphQL api.',
           speaker: {
-            image: '',
-            name: ''
+            image: 'assets/images/speakers/vladir.jpg',
+            name: 'Vladimir Novick'
           }
         },
         {
@@ -290,11 +290,11 @@ export const scheduleList = {
           time: '11:25 AM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'Architecting scalable serverless applications with GraphQL api using Hasura',
-          description: 'In this talk we will see what are the benefits of building event driven Realtime GraphQL backend and what problems it will solve. We will see how we can bootstrap our GraphQL backend fast with free and open source Hasura engine and connect it to serverless functions for custom business logic, providing our web or mobile apps with infinitely scalable backend with modern GraphQL api.',
+          title: 'Refactoring React',
+          description: 'This is a talk about code quality for people already working with React. Learn how to identify code smells in your React app and how to improve it. Let’s pair program to refactor some okay-okay code to make it great code.',
           speaker: {
-            image: 'assets/images/speakers/vladir.jpg',
-            name: 'Vladimir Novick'
+            image: 'assets/images/speakers/siddharth.jpg',
+            name: 'Siddharth Kshetrapal'
           }
         },
         {
@@ -302,11 +302,11 @@ export const scheduleList = {
           time: '11:55 AM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'Refactoring React',
-          description: 'This is a talk about code quality for people already working with React. Learn how to identify code smells in your React app and how to improve it. Let’s pair program to refactor some okay-okay code to make it great code.',
+          title: 'Community Talks by industry experts',
+          description: '',
           speaker: {
-            image: 'assets/images/speakers/siddharth.jpg',
-            name: 'Siddharth Kshetrapal'
+            image: '',
+            name: ''
           }
         },
         {
