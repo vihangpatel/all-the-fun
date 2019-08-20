@@ -53,7 +53,14 @@ export default () => (
     <div className='tickets-container'>
       <div class='tickets-main-head'>
         REACT INDIA 2019 TICKETS EXPLAINED
+      
                 <span class='tickets-sub-head'>*All rates are exclusive of taxes, GST 18%</span>
+                <span class="tickets-sub-head">We are currently sold out, Join the waitlist</span>
+                <div className="content__button">
+								<a rel="noreferrer" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSft6ywkIJsmw4hsVLUpWEiu2076ZJ-VyMbetlzl-81KgZh6BA/viewform">
+										JOIN WAITLIST
+								</a>
+							</div>
       </div>
     </div>
     <div className='container'>

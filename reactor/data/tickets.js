@@ -75,7 +75,7 @@ export default {
         }
       ],
       buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking',
-      disabled: false
+      disabled: true
     },
     {
       type: 'WORKSHOP PASS',
@@ -115,7 +115,7 @@ export default {
         }
       ],
       buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking',
-      disabled: false
+      disabled: true
     },
     {
       type: 'CONFERENCE + ACCOMODATION PASS (SHARED)',
@@ -166,7 +166,7 @@ export default {
 			so you would have to share your room with 
 			some same gender tech buddy.`,
       buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking',
-      disabled: false
+      disabled: true
     },
     {
       type: 'CONFERENCE + ACCOMODATION PASS (SINGLE)',
@@ -223,7 +223,7 @@ export default {
 			conference access you will need to buy
 			conference pass.`,
       buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking',
-      disabled: false
+      disabled: true
     },
     {
       type: 'FULL ACCESS PASS',
@@ -275,7 +275,8 @@ export default {
           value: '475 EUR'
         }
       ],
-      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking'
+      buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking',
+      disabled: true
     },
     {
       type: 'DIVERSITY SUPPORTER (FULL ACCESS PASS)',
@@ -332,7 +333,7 @@ export default {
         }
       ],
       buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking',
-      disabled: false
+      disabled: true
     }
   ]
 }
