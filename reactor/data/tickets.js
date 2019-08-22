@@ -75,7 +75,7 @@ export default {
         }
       ],
       buyticketUrl: 'https://www.townscript.com/e/react-india-2019/booking',
-      disabled: true
+      disabled: false
     },
     {
       type: 'WORKSHOP PASS',
