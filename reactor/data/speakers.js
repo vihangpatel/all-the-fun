@@ -18,15 +18,6 @@ const data = [
     tinySrc: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABAQEBAREBIUFBIZGxgbGSUiHx8iJTgoKygrKDhVNT41NT41VUtbSkVKW0uHal5eaoecg3yDnL2pqb3u4u7///8BEBAQEBEQEhQUEhkbGBsZJSIfHyIlOCgrKCsoOFU1PjU1PjVVS1tKRUpbS4dqXl5qh5yDfIOcvampve7i7v/////AABEIAB4AHgMBIgACEQEDEQH/xABkAAEBAQAAAAAAAAAAAAAAAAAGBQEQAAIBBAAGAwEAAAAAAAAAAAECAwAEBRESEyEiMUEUQmFRAQEBAQAAAAAAAAAAAAAAAAAAAgMRAQEAAwEBAAAAAAAAAAAAAAEAAgMhMRH/2gAMAwEAAhEDEQA/AFU0qQxvI50qqSaMQ5PLXrPLbQAQirGYkRLCcP4dSlH8LLE0SR7YEeQX4RxA1nkoWusF6STHXvzYFk0N9Q2v6Ko0WwcgeW7ZTpGkYqtJgao6U5nxjWenYmK3+hHE9RLAy2DMrwB+Yva9Uc0NXsZLHTw+vw1MLMyRroAqD1HsD0aIJXh5baxzwycw9hbXCVOqaWU5ntopD5I60PlcdxAIZAoB/DSHDsfinr0D6FDybC//2Q=='
   },
   {
-    name: 'Ken Wheeler',
-    imgPath: 'ken_wheeler.jpg',
-    github: 'https://github.com/kenwheeler',
-    twitter: 'https://twitter.com/ken_wheeler',
-    description: 'Author of libraries like Slick Carousel, McFly, react-music, webpack-dashboard, Spectacle.',
-    jobrole: 'Google Developer Expert',
-    tinySrc: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABAQEBAREBIUFBIZGxgbGSUiHx8iJTgoKygrKDhVNT41NT41VUtbSkVKW0uHal5eaoecg3yDnL2pqb3u4u7/////wAALCAAeAB4BAREA/8QAPQAAAgIDAAAAAAAAAAAAAAAAAwYEBQACBxAAAgEEAQMEAwAAAAAAAAAAAQIDAAQFESESIjEGExVBJDJi/9oACAEBAAA/AH+q+e9fbCLwtGxuSNyzQsAJFFSqx+oIxUbOuKUnmuE2VEfSdk7bndQsRc3nyUTqI9y6396Wnqod9krPHxl55QvHC/ZpFfJwXaTzEe0jO39VT2Wcnx10ZYAr9vT3CnW09cWbp+TA6NXObmee5mMk8rO7EbJoazPbyEp+p8qfBrSaQTsWVFQAeBQjxX//2Q=='
-  },
-  {
     name: 'Nader Dabit',
     imgPath: 'nader_dabit.jpg',
     github: 'https://github.com/dabit3',
@@ -144,12 +135,21 @@ const data = [
     tinySrc: ''
   },
   {
+    name: 'Gireesh Punathil',
+    imgPath: 'GireeshPunathil.jpg',
+    github: 'https://github.com/gireeshpunathil',
+    twitter: 'https://twitter.com/gireeshpunam',
+    description: 'Gireesh Punathil is a member of Node.js Technical Steering Committee and an Architect in IBM India Software Labs, predominantly in Node.js and Java. In 17 years of his career, he has been porting, developing and debugging web servers, virtual machines and compilers. His expertise is in problem isolation and determination of large and complex software modules. He has spoken at several Node.js and Java conferences.',
+    jobrole: 'IBM, Software Engineer',
+    tinySrc: ''
+  },
+  {
     name: 'Eesh Tyagi',
     imgPath: 'EeshTyagi.jpg',
     github: 'https://github.com/eeshdarthvader',
     twitter: 'https://twitter.com/EtEesh',
     description: 'JavaScript enthusiast. I believe in the web and enjoy building experiences that leverage the best it has to offer. An avid Chelsea Football Club fan and anime lover.',
-    jobrole: 'Scalable Capital Gmbh, Software Engineer',
+    jobrole: 'Cleartrip, Lead UI developer',
     tinySrc: ''
   },
   {
@@ -220,7 +220,7 @@ const data = [
     github: 'https://github.com/tlakomy',
     twitter: 'https://twitter.com/tlakomy',
     description: 'Tomasz is a Senior Frontend Developer at OLX Group. Tech speaker, egghead.io instructor, jQuery evangelist. His interests include React, VR, e2e testing, app performance and making cheesiest jokes known to mankind.',
-    jobrole: 'Senior Frontend Engineer at OLX Group',
+    jobrole: 'Senior Frontend Engineer at OLX Groups',
     tinySrc: ''
   }
 ]

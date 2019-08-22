@@ -224,7 +224,7 @@ export const scheduleList = {
           time: '06:30 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Friday',
-          title: 'TBA'
+          title: 'Closing & Preping for Day 2'
         }
       ],
       day2: [
