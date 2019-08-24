@@ -157,7 +157,7 @@ export const scheduleList = {
           time: '03:30 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Friday',
-          title: 'Build your own backend in the \'redux\' style with GraphQL mutations (dispatch), `pure` serverless functions (reducers), and GraphQL subscriptions (updated state)',
+          title: 'Build your backend with GraphQL & Serverless in Redux style',
           description: 'What if it was possible to build backend features for our react apps in the same way that we use redux in our react apps? In this live-coding demo, I will show you how we’ll add backend business logic using the redux abstractions of dispatching actions, writing reducers as pure functions and subscribing to updated state. Our backend will be completely serverless and using open-source and managed services so that we’re not actually deploying and maintaining any servers. We will use GraphQL mutations from our React app to dispatch actions. These will trigger serverless functions which are pure and return the modified state, which will be persisted safely on a cloud managed database. Portions of your app that are subscribed to the state using GraphQL subscriptions (live-queries) will automatically update! You will witness the raw awesomeness of being able to use JavaScript and GraphQL in a pattern that you are comfortable with to build backend features from scratch.',
           speaker: {
             image: 'assets/images/speakers/ShahidhKMuhammed.jpg',
