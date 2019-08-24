@@ -39,7 +39,7 @@ export default {
 		},
 		{
 			category: "golden",
-			imgUrl: "insider.svg",
+			imgUrl: "PaytmInsider_Logo.svg",
 			link: "https://insider.in/",
 		},
 		{
