@@ -140,7 +140,7 @@ const data = [
     github: 'https://github.com/eeshdarthvader',
     twitter: 'https://twitter.com/EtEesh',
     description: 'JavaScript enthusiast. I believe in the web and enjoy building experiences that leverage the best it has to offer. An avid Chelsea Football Club fan and anime lover.',
-    jobrole: 'Cleartrip, Lead UI developer',
+    jobrole: 'Scalable Capital , Software Engineer',
     tinySrc: ''
   },
   {
