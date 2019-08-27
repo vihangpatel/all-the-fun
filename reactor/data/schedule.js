@@ -188,11 +188,11 @@ export const scheduleList = {
           time: '05:00 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Friday',
-          title: 'React for Designers',
-          description: 'The almighty React is not just for developers, it\'s for everyone! It leaves no one behind. With React\'s component-driven architecture, UX and web designers can make use of this quality and integrate React in their workflow to bridge the gap between design/prototyping tool and what actually goes on the web in production. This talk explores the topic on how React is not only well suited for designing static components but is well suited for rapid prototyping with interactions.',
+          title: 'Conditional Modules & Dynamic Bundling, A Netflix Original',
+          description: 'Learn about how we, at Netflix, hacked Webpack for our needs, leveraged Abstract Syntax Tree (AST) to identify conditional dependencies in our dependency graph and glued them all together to build a highly scalable, server side JS and CSS bundler, that serves these unique user experiences to millions of Netflix customers across the globe.',
           speaker: {
-            image: 'assets/images/speakers/AnanyaNeogi.jpg',
-            name: 'Ananya Neogi'
+            image: 'assets/images/speakers/RajatKumar.jpg',
+            name:  'Rajat Kumar'
           }
         },
         {
@@ -369,11 +369,11 @@ export const scheduleList = {
           time: '04:00 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'Conditional Modules & Dynamic Bundling, A Netflix Original',
-          description: 'Learn about how we, at Netflix, hacked Webpack for our needs, leveraged Abstract Syntax Tree (AST) to identify conditional dependencies in our dependency graph and glued them all together to build a highly scalable, server side JS and CSS bundler, that serves these unique user experiences to millions of Netflix customers across the globe.',
+          title: 'React for Designers',
+          description: 'The almighty React is not just for developers, it\'s for everyone! It leaves no one behind. With React\'s component-driven architecture, UX and web designers can make use of this quality and integrate React in their workflow to bridge the gap between design/prototyping tool and what actually goes on the web in production. This talk explores the topic on how React is not only well suited for designing static components but is well suited for rapid prototyping with interactions.',
           speaker: {
-            image: 'assets/images/speakers/RajatKumar.jpg',
-            name: 'Rajat Kumar'
+            image: 'assets/images/speakers/AnanyaNeogi.jpg',
+            name: 'Ananya Neog'
           }
         },
         {
