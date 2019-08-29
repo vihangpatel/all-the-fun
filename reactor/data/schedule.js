@@ -94,7 +94,8 @@ export const scheduleList = {
           time: '11:30 AM',
           venue: 'Planet Hollywood, Goa',
           day: 'Friday',
-          title: 'Coffee Break'
+          title: 'Break',
+          community: 'true'
         },
         {
           type: 'talk',
@@ -181,7 +182,7 @@ export const scheduleList = {
             time: '04:30 PM',
             venue: 'Planet Hollywood, Goa',
             day: 'Friday',
-            title: 'Coffee Break'
+            title: 'Break'
         },
         {
           type: 'talk',
@@ -283,7 +284,8 @@ export const scheduleList = {
           time: '11:00 AM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'Coffee Break'
+          title: 'Break',
+
         },
         {
           type: 'talk',
@@ -381,7 +383,7 @@ export const scheduleList = {
             time: '04:30 PM',
             venue: 'Planet Hollywood, Goa',
             day: 'Saturday',
-            title: 'Coffee Break'
+            title: 'Break'
           },
         {
           type: 'talk',
