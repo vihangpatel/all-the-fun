@@ -285,7 +285,7 @@ export const scheduleList = {
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
           title: 'Break',
-
+          community: 'true'
         },
         {
           type: 'talk',
@@ -304,11 +304,11 @@ export const scheduleList = {
           time: '11:55 AM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'Community Talks',
-          description: '',
+          title: 'High Performance E-commerce App in React',
+          description: 'This talk will be focused on building high-performance e-commerce application in React. Where we look at architecture, server-side rendering, and best practices and things to avoid in the process.',
           speaker: {
-            image: '',
-            name: ''
+            image: 'assets/images/speakers/rex.jpg',
+            name: 'Rex Isaac Raphael'
           }
         },
         {
@@ -316,11 +316,11 @@ export const scheduleList = {
           time: '12:25 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'High Performance E-commerce App in React',
-          description: 'This talk will be focused on building high-performance e-commerce application in React. Where we look at architecture, server-side rendering, and best practices and things to avoid in the process.',
+          title: 'The art of over-engineering',
+          description: 'As developers, we have the tendency to over-engineer everything we build. This can be seen as a bad thing. But is it really a bad thing? Let\'s walk over why we do this, what we can learn from it and the several types of over-engineering and what we can learn from it. You will leave this talk feeling better about your over-engineered projects I promise.',
           speaker: {
-            image: 'assets/images/speakers/rex.jpg',
-            name: 'Rex Isaac Raphael'
+            image: 'assets/images/speakers/sara_vieria.jpg',
+            name: 'Sara Vieira'
           }
         },
         {
@@ -335,18 +335,6 @@ export const scheduleList = {
           time: '02:30 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'The art of over-engineering',
-          description: 'As developers, we have the tendency to over-engineer everything we build. This can be seen as a bad thing. But is it really a bad thing? Let\'s walk over why we do this, what we can learn from it and the several types of over-engineering and what we can learn from it. You will leave this talk feeling better about your over-engineered projects I promise.',
-          speaker: {
-            image: 'assets/images/speakers/sara_vieria.jpg',
-            name: 'Sara Vieira'
-          }
-        },
-        {
-          type: 'talk',
-          time: '3:00 PM',
-          venue: 'Planet Hollywood, Goa',
-          day: 'Saturday',
           title: 'State of preact',
           description: 'Preact and its ecosystem has recently undergone an overhaul. It now supports all the latest features from React 16 from hooks to suspense.This talk will cover the how we got there and whats in the charts for us.I will also talk about how Preact guards and pushes your app performance with its Meta framework preact cli.',
           speaker: {
@@ -356,7 +344,7 @@ export const scheduleList = {
         },
         {
           type: 'talk',
-          time: '3:30 PM',
+          time: '3:00 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
           title: 'Case study: High performance image upload for web',
@@ -368,7 +356,7 @@ export const scheduleList = {
         },
         {
           type: 'talk',
-          time: '04:00 PM',
+          time: '3:30 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
           title: 'React for Designers',
@@ -376,6 +364,18 @@ export const scheduleList = {
           speaker: {
             image: 'assets/images/speakers/AnanyaNeogi.jpg',
             name: 'Ananya Neogi'
+          }
+        },
+        {
+          type: 'talk',
+          time: '04:00 PM',
+          venue: 'Planet Hollywood, Goa',
+          day: 'Saturday',
+          title: 'Building offline first apps with GraphQL & Apollo',
+          description: 'Offline first apps have a unique set of challenges to keep them fully functional even in offline mode. On top of that, GraphQL based apps need new ways of solving these challenges. In this talk, I will share my experience with implementing offline first app with GraphQL & Apollo.',
+          speaker: {
+            image: 'assets/images/speakers/kiranAbburi.jpg',
+            name: 'Kiran Abburi'
           }
         },
         {
@@ -390,18 +390,6 @@ export const scheduleList = {
           time: '4:55 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
-          title: 'Building offline first apps with GraphQL & Apollo',
-          description: 'Offline first apps have a unique set of challenges to keep them fully functional even in offline mode. On top of that, GraphQL based apps need new ways of solving these challenges. In this talk, I will share my experience with implementing offline first app with GraphQL & Apollo.',
-          speaker: {
-            image: 'assets/images/speakers/kiranAbburi.jpg',
-            name: 'Kiran Abburi'
-          }
-        },
-        {
-          type: 'talk',
-          time: '05:25 PM',
-          venue: 'Planet Hollywood, Goa',
-          day: 'Saturday',
           title: 'Sleeping well at night with cypress.io',
           description: 'Why are we afraid of updating our React app on Friday evening? Mostly because its hard to know if nothing is broken because manual testing takes time and automated testing was not reliable. (And we really want to go home). With cypress things are different. In this talk, we are going to cover how to start covering your React app with e2e tests and showcase coolest features that cypress.io has to offer. Automated tests dont have to be boring, difficult to write and even harder to debug. We deserve to have tests we can count on, even when shipping stuff as soon as ASAP.',
           speaker: {
@@ -411,7 +399,7 @@ export const scheduleList = {
         },
         {
           type: 'talk',
-          time: '05:55 PM',
+          time: '05:25 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
           title: 'React, Collaborate and Listen',
@@ -422,7 +410,7 @@ export const scheduleList = {
           }
         },
         {
-          type: 'basic',
+         type: 'basic',
           time: '06:25 PM',
           venue: 'Planet Hollywood, Goa',
           day: 'Saturday',
