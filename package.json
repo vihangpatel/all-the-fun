@@ -6,7 +6,7 @@
 	"scripts": {
 		"heroku-postbuild": "npm run build",
 		"start": "node public/build/server.js -p $PORT",
-		"babel-server" : "ENV=development babel-node ./reactor/server.js",
+		"babel-server": "ENV=development babel-node ./reactor/server.js",
 		"serve-dev": "npm run kill && npm run babel-server",
 		"clean": "rimraf ./public/build",
 		"build": "npm run clean && (npm run build-server &) && (npm run build-client)",
