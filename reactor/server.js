@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 const helmet = require("helmet")
 const path = require("path")
-const redirectSSL = require("redirect-ssl")
+const redirectSSL = require("heroku-ssl-redirect")
 const compression = require("compression")
 const critical = require("critical")
 
@@ -11,7 +11,7 @@ const oneYear = 31557600000
 app.use(helmet())
 
 // Add middleware
-app.use(redirectSSL)
+app.use(redirectSSL())
 
 app.use(compression())
 
