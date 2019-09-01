@@ -306,6 +306,39 @@ function Schedule() {
                           </div>
                         )
                       }
+                      else if (item.type === 'break') {
+                        return (
+                          <div
+                            className="row margin-b-30"
+                            style={{ opacity: '0.6' }}
+                            key={i}
+                          >
+                            <div className="col-sm-3 event-info">
+                              <span>{item.day}</span>
+                              <span>{item.time}</span>
+                              <span className="event-hall">{item.venue}</span>
+                            </div>
+                            <div className="col-sm-2 event-detail">
+                              <h3>{item.title}</h3>
+                              <p />
+                            </div>
+                            {item.community &&
+                              <div className="col-sm-3 event-info">
+                                <span>{item.day}</span>
+                                <span>{item.time}</span>
+                                <span className="event-hall">Community Lounge</span>
+                              </div>
+                            }
+                            {item.community &&
+                              <div className="col-sm-4 event-detail">
+                                <h3>Community Talks</h3>
+                                <p />
+                              </div>
+                            }
+
+                          </div>
+                        )
+                      }
                       return null
                     })}
                   </div>

@@ -232,14 +232,6 @@ export const scheduleList = {
       ],
       day2: [
         {
-          type: 'break',
-          time: '08:30 AM',
-          venue: 'Conference, Main Hall',
-          day: 'Saturday',
-          title: 'Breakfast',
-          community: 'true'
-        },
-        {
           type: 'basic',
           time: '09:00 AM',
           venue: 'Conference, Main Hall',
@@ -383,11 +375,12 @@ export const scheduleList = {
           }
         },
         {
-            type: 'basic',
+            type: 'break',
             time: '04:30 PM',
             venue: 'Conference, Main Hall',
             day: 'Saturday',
-            title: 'Break'
+            title: 'Break',
+            community: 'true'
           },
         {
           type: 'talk',
