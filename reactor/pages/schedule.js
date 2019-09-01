@@ -230,7 +230,7 @@ function Schedule() {
                               </div>
                             }
                             {item.community &&
-                              <div className="col-sm-3 event-detail">
+                              <div className="col-sm-4 event-detail">
                                 <h3>Community Talks</h3>
                                 <p />
                               </div>
