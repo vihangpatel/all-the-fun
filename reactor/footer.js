@@ -56,7 +56,7 @@ const Footer = () => (
                 <li>
                   <a>
                     <i className='flaticon-phone-receiver' />
-                                        +918655559725 (WhatsApp only),&nbsp; +491625272364
+                                        +918655559725 (On WhatsApp only),&nbsp; +491625272364
                                     </a>
                 </li>
               </ul>
