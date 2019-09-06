@@ -19,11 +19,11 @@ const ShowMoreLess = ({ id, text, flag, handler, thresholdLength = 120 }) => {
       flag ?
         <div key={flag} className="animate-in all">
           {text}
-          <i className = 'schedule_showmore' onClick={() => handler(id)}> show less </i>
+          <i className='schedule_showmore' onClick={() => handler(id)}> show less </i>
         </div> :
         <div key={flag} className="animate-in small">
           {text.substr(0, thresholdLength)}
-          <i className = 'schedule_showmore' onClick={() => handler(id)}> ... show more </i>
+          <i className='schedule_showmore' onClick={() => handler(id)}> ... show more </i>
         </div>
     }
   </Fragment>
@@ -206,6 +206,39 @@ function Schedule() {
                           </div>
                         )
                       }
+                      else if (item.type === 'break') {
+                        return (
+                          <div
+                            className="row margin-b-30"
+                            style={{ opacity: '0.6' }}
+                            key={i}
+                          >
+                            <div className="col-sm-3 event-info">
+                              <span>{item.day}</span>
+                              <span>{item.time}</span>
+                              <span className="event-hall">{item.venue}</span>
+                            </div>
+                            <div className="col-sm-2 event-detail">
+                              <h3>{item.title}</h3>
+                              <p />
+                            </div>
+                            {item.community &&
+                              <div className="col-sm-3 event-info">
+                                <span>{item.day}</span>
+                                <span>{item.time}</span>
+                                <span className="event-hall">Community Lounge</span>
+                              </div>
+                            }
+                            {item.community &&
+                              <div className="col-sm-4 event-detail">
+                                <h3>Community Talks</h3>
+                                <p />
+                              </div>
+                            }
+
+                          </div>
+                        )
+                      }
                       return null
                     })}
                   </div>
@@ -270,6 +303,39 @@ function Schedule() {
                               <h3>{item.title}</h3>
                               <p />
                             </div>
+                          </div>
+                        )
+                      }
+                      else if (item.type === 'break') {
+                        return (
+                          <div
+                            className="row margin-b-30"
+                            style={{ opacity: '0.6' }}
+                            key={i}
+                          >
+                            <div className="col-sm-3 event-info">
+                              <span>{item.day}</span>
+                              <span>{item.time}</span>
+                              <span className="event-hall">{item.venue}</span>
+                            </div>
+                            <div className="col-sm-2 event-detail">
+                              <h3>{item.title}</h3>
+                              <p />
+                            </div>
+                            {item.community &&
+                              <div className="col-sm-3 event-info">
+                                <span>{item.day}</span>
+                                <span>{item.time}</span>
+                                <span className="event-hall">Community Lounge</span>
+                              </div>
+                            }
+                            {item.community &&
+                              <div className="col-sm-4 event-detail">
+                                <h3>Community Talks</h3>
+                                <p />
+                              </div>
+                            }
+
                           </div>
                         )
                       }
