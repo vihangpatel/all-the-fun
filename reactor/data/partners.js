@@ -43,5 +43,9 @@ export default {
 			url: "https://frontcon.lv/",
 			imageURL: "assets/images/partners/frontendcon.png",
 		},
+		{
+			url: "https://zeit.co/",
+			imageURL: "assets/images/partners/zeit.svg",
+		}
 	],
 }
