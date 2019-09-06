@@ -512,6 +512,16 @@ class Home extends Component {
                                                     />
                               </a>
                         </div>
+						<div className='col-12 col-md-4 text-center'>
+                          <a className='ticketing-link' href='https://inkmonk.com/'>
+                                <img
+                                  className='ticketing-img img-fluid full-width-img'
+                                  src='assets/images/ticketpartner/inkmonk-logo.png'
+                                  alt=''
+                                  preview='true'
+                                                    />
+                              </a>
+                        </div>
                       </div>
                 </div>
               </div>
