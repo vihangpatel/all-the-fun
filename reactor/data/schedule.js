@@ -3,7 +3,7 @@ export const scheduleList = {
       {
         type: 'workshop',
         time: '09:30 AM - 05:30 PM',
-        venue: 'Planet Hollywood',
+        venue: 'Planet Hollywood, Ballroom',
         day: 'Thursday',
         title: 'Building your first Design System: from scratch to production',
         description: 'This is a hands-on workshop for developers in which you will learn how to define a common language for collaboration and iterate on products faster.Learn the best practices of component driven design and how to standardize your design patterns. Leverage React to build a component library that can be used in products and can evolve as teams use it. At the end of the day, you will have a small but complete Design system implementation that will cover the full product lifecycle.',
@@ -15,7 +15,7 @@ export const scheduleList = {
       {
         type: 'workshop',
         time: '09:30 AM - 05:30 PM',
-        venue: 'Conference, Main Hall, Planet Hollywood',
+        venue: 'Planet Hollywood, Ballroom',
         day: 'Thursday',
         title: 'Practical ReasonML for React devs',
         description: 'Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems. In this workshop we won\'t only see how and why we should write our code in ReasonML, but talk about practical applications of using ReasonML in new or existing React projects',
@@ -27,7 +27,7 @@ export const scheduleList = {
       {
         type: 'workshop',
         time: '09:30 AM - 05:30 PM',
-        venue: 'Conference, Main Hall, Planet Hollywood',
+        venue: 'Planet Hollywood, Ballroom',
         day: 'Thursday',
         title: 'Advanced GraphQL',
         description: 'GraphQL is a new way to build APIs for modern apps. Building APIs with GraphQL often needs a mental shift from RESTful APIs. In this workshop, we will cover all the concepts required for building GraphQL based apps. We will build a simple e-commerce web app with GraphQL (apollo-server) on the backend and React & Apollo Client on the frontend in this workshop.',
