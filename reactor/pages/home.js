@@ -328,6 +328,71 @@ class Home extends Component {
 							</div>
 						</section>
 						{/* End MC Area */}
+						{/* Start Artist Area */}
+						<section className="speaker_area mc_area" id="mcs">
+							<div className="container">
+								<div className="row justify-content-center">
+									<div className="col-md-8">
+											{/* Start Heading Title */}
+											<div className="heading-title text-center">
+												<span className="subtitle">Our</span>
+												<h2 className="f-weight-700 margin1 margin-0">Artists</h2>
+												<div className="bordershep" />
+											</div>
+									</div>
+								</div>
+								<div className="row justify-content-center">
+									<div className="col-sm-6 col-md-4">
+										<div className="speaker">
+											<div className="sk-img">
+												<div className="img img-speaker">
+													<img className="img-fluid " src="assets/images/speakers/ken_wheeler.jpg" alt="ken_wheeler.jpg" preview="true" />
+													<div className="overlay d-flex justify-content-center">
+														<div className="slink">
+															<div className="dumb">
+																<a rel="noreferrer" target="_blank" href="https://twitter.com/ken_wheeler" aria-label="">
+																	<i className="fa fa-twitter"></i>
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div className="sk-content">
+												<a><h4>Ken Wheeler</h4></a>
+												<p>Remote Artist, Not to be mistaken with Ken who is international speaker/developer</p>
+												<div className="sk-desc">
+													<p className="sk-desc-p">
+													Synthwave & Hip Hop Producer - Dad - Grilling Enthusiast - Half of 
+													@theundefinedio
+													 - Not associated with programming anymore
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div className="col-sm-6 col-md-4">
+										<div className="speaker">
+											<div className="sk-img">
+												<div className="img img-speaker add-border">
+												<a rel="noreferrer" target="_blank" href="https://medium.com/react-india/react-india-update-new-ticket-sale-and-after-party-da8991c3e9e">
+													<img className="img-fluid " src="assets/images/speakers/you.svg" alt="you.svg" preview="true"/>
+													</a>
+												</div>
+											</div>
+											<div className="sk-content">
+												<a><h4>You??</h4></a>
+												<a rel="noreferrer" target="_blank" href="https://medium.com/react-india/react-india-update-new-ticket-sale-and-after-party-da8991c3e9e" aria-label="">
+																	Call for artist!!
+																</a>
+											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						{/* End MC Area */}
 						{/* Start Sponsors Area */}
 						<section className="sponsor_area" id="sponsors">
 							<div className="container">
