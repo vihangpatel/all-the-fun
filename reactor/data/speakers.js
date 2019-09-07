@@ -68,7 +68,7 @@ const data = [
     github: 'https://github.com/juicycleff',
     twitter: 'https://twitter.com/rex_raph',
     description: 'Currently working with Snowball. He builds mission critical applications with enterprise scale in mind, getting extra performance gain is his focus. He currently writes Graphql powered projects and mentor people locally and internationally in Fullstack Development.',
-    jobrole: 'Fullstack Developer @snowball, Nigeria',
+    jobrole: 'Fullstack Developer @Crystallize, Nigeria',
     tinySrc: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABAQEBAREBIUFBIZGxgbGSUiHx8iJTgoKygrKDhVNT41NT41VUtbSkVKW0uHal5eaoecg3yDnL2pqb3u4u7///8BEBAQEBEQEhQUEhkbGBsZJSIfHyIlOCgrKCsoOFU1PjU1PjVVS1tKRUpbS4dqXl5qh5yDfIOcvampve7i7v/////AABEIAB4AHgMBIgACEQEDEQH/xABkAAEBAQEAAAAAAAAAAAAAAAAFBgQHEAACAgIBBAIDAAAAAAAAAAABAgADBBEFEhMxQSJxBiFRAQADAQAAAAAAAAAAAAAAAAABAgMAEQEBAQEBAQAAAAAAAAAAAAABABECIRL/2gAMAwEAAhEDEQA/AL+THJ80uPaURFOvJaPPk1hGIYfoGc9svFpsL+T7hEx9mOVTyseKzqc5CygK6+RGpE/jpC5b/wAKSxa6tfLCDSyY0ffbYxVQWCnfWQPUCuIpuur2GCsRuL99r9o4BTRHR6huRiV22Ftsv0ZMD4CqPR3tr4q5VZmLa+QES5bKNRqZCPkINVWKVCqTNPfJGmAP2IuGx6Fv/9k='
   },
   {
