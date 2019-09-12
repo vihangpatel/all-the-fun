@@ -45,7 +45,8 @@ export default {
 		},
 		{
 			url: "https://zeit.co/",
-			imageURL: "assets/images/partners/zeit.svg",
+			imageURL: "assets/images/partners/zeit-full.svg",
+			name:'zeit'
 		}
 	],
 }

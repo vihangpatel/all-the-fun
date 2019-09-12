@@ -214,10 +214,18 @@ class Home extends Component {
 													target="_blank"
 													key={partner.url}
 												>
+													{partner.name === 'zeit' ? 
+													<LazyImage
+														imgClassName={`partner-imgzeit ${partner.cssClass}`}
+														src={partner.imageURL}
+														width='250'
+													/>
+													:
 													<LazyImage
 														imgClassName={`partner-img ${partner.cssClass}`}
 														src={partner.imageURL}
-													/>
+														width='250'
+													/>}
 												</a>
 											))}
 										</div>
