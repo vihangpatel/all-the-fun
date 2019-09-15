@@ -233,6 +233,13 @@ export const scheduleList = {
       day2: [
         {
           type: 'basic',
+          time: '08:30 AM',
+          venue: 'Conference, Main Hall, Planet Hollywood',
+          day: 'Saturday',
+          title: 'Breakfast'
+        },
+        {
+          type: 'basic',
           time: '09:00 AM',
           venue: 'Conference, Main Hall, Planet Hollywood',
           day: 'Saturday',
