@@ -49,6 +49,11 @@ export default {
 		},
 		{
 			category: "golden",
+			imgUrl: "agora.png",
+			link: "https://agora.io/",
+		},
+		{
+			category: "golden",
 			imgUrl: "sales_force.png",
 			link: "http://bit.ly/2Kjv4Id",
 		}
@@ -95,12 +100,7 @@ export default {
 			category: "bronze",
 			imgUrl: "simform.png",
 			link: "https://www.simform.co.in/",
-		},
-		{
-			category: "bronze",
-			imgUrl: "agora.png",
-			link: "https://agora.io/",
-		},
+		}
 	],
 	diversity: [
 		{
