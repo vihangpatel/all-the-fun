@@ -213,7 +213,15 @@ const data = [
     description: 'Tomasz is a Senior Frontend Developer at OLX Group. Tech speaker, egghead.io instructor, jQuery evangelist. His interests include React, VR, e2e testing, app performance and making cheesiest jokes known to mankind.',
     jobrole: 'Senior Frontend Engineer at OLX Groups',
     tinySrc: ''
-  }
+  },
+  {
+    name: 'Augustine Correa',
+    imgPath: 'augustine.jpg',
+    github: 'https://github.com/indcoder',
+    twitter: 'https://twitter.com/TalkOrTweets',
+    description: 'Handles Hackerspace Mumbai community',
+    jobrole: 'Handling Community @Hackerspace Mumbai',
+  },
 ]
 
 export default data
