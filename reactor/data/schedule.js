@@ -274,9 +274,9 @@ export const scheduleList = {
           time: '10:30 AM',
           venue: 'Conference, Main Hall, Planet Hollywood',
           day: 'Saturday',
-          title: 'Architecting scalable serverless applications with GraphQL api using Hasura',
-          description: 'In this talk we will see what are the benefits of building event driven Realtime GraphQL backend and what problems it will solve. We will see how we can bootstrap our GraphQL backend fast with free and open source Hasura engine and connect it to serverless functions for custom business logic, providing our web or mobile apps with infinitely scalable backend with modern GraphQL api.',
-          speaker: {
+          title: 'Authentication best practices in React and GraphQL',
+          description: 'Authentication in React and React Native apps is sometimes considered a painful as well as vulnerable point of any app. If you bring in GraphQL and SSR it can be even harder to implement with security in mind.  In this talk we will talk about various techniques you can use to authenticate your apps and will focus on best practices as well as common mistakes people do when using various authentication methods',
+          speaker: {
             image: 'assets/images/speakers/vladir.jpg',
             name: 'Vladimir Novick'
           }
@@ -307,10 +307,10 @@ export const scheduleList = {
           venue: 'Conference, Main Hall, Planet Hollywood',
           day: 'Saturday',
           title: 'High Performance E-commerce App in React',
-          description: 'This talk will be focused on building high-performance e-commerce application in React. Where we look at architecture, server-side rendering, and best practices and things to avoid in the process.',
+          description: '',
           speaker: {
-            image: 'assets/images/speakers/rex.jpg',
-            name: 'Rex Isaac Raphael'
+            image: 'assets/images/speakers/evaProfile.jpg',
+            name: 'Eva Ieridou'
           }
         },
         {

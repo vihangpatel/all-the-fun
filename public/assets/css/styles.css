@@ -4716,7 +4716,8 @@ a[href="/tickets"] {
   #schedule .img-responsive{
 	display: block;
     max-width: 100%;
-    height: auto;
+	height: auto;
+	border-radius: 50%;
   }
   /* schedule styles */
   @media screen and (max-width: 882px) {
