@@ -64,7 +64,7 @@ class Home extends Component {
 									Goa, India
 								</p>
 							</div>
-							<Countdown date={new Date("2019-09-27 09:30 AM")} renderer={renderer}/>
+							<Countdown date={new Date("2019-09-26T04:00:00.000Z")} renderer={renderer}/>
 							<h3 className="content__desc">react India</h3>
 							<h2 className="content__title" />
 							<div className="content__button">
