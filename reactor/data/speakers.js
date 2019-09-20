@@ -63,12 +63,12 @@ const data = [
     tinySrc: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABAQEBAREBIUFBIZGxgbGSUiHx8iJTgoKygrKDhVNT41NT41VUtbSkVKW0uHal5eaoecg3yDnL2pqb3u4u7/////wAALCAAeAB4BAREA/8QAOwAAAgMBAAAAAAAAAAAAAAAABAYBAgUDEAACAgEEAQQDAAAAAAAAAAABAgMRAAQFIUESEyIxQiMywf/aAAgBAQAAPwAFJFjILKCPjBppdfTSQK0KLfv7OW2rXTSs6SUzVYbG7bLMrkn64qygeC1dXhcb+vAsUjnwQN7R/cydA6RvJRF44bQzGR7P0xTnl8VCDl+hloI9QunkdjdDnmvnrOBggkhLhli9woWSc1YN1j26/C5vqeszvEKi9sbtuzhZMcE0aGFXpA5s8EkZMm4OvoqsUQo3+mCNqxFFH+JWkcs5JHHJz//Z'
   },
   {
-    name: 'Rex Raphael',
-    imgPath: 'rex.jpg',
-    github: 'https://github.com/juicycleff',
-    twitter: 'https://twitter.com/rex_raph',
-    description: 'Currently working with Snowball. He builds mission critical applications with enterprise scale in mind, getting extra performance gain is his focus. He currently writes Graphql powered projects and mentor people locally and internationally in Fullstack Development.',
-    jobrole: 'Fullstack Developer @snowball, Nigeria',
+    name: 'Eva Ieridou',
+    imgPath: 'evaProfile.jpg',
+    github: '',
+    twitter: '',
+    description: '',
+    jobrole: 'Partner Manager at Crystallize',
     tinySrc: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABAQEBAREBIUFBIZGxgbGSUiHx8iJTgoKygrKDhVNT41NT41VUtbSkVKW0uHal5eaoecg3yDnL2pqb3u4u7///8BEBAQEBEQEhQUEhkbGBsZJSIfHyIlOCgrKCsoOFU1PjU1PjVVS1tKRUpbS4dqXl5qh5yDfIOcvampve7i7v/////AABEIAB4AHgMBIgACEQEDEQH/xABkAAEBAQEAAAAAAAAAAAAAAAAFBgQHEAACAgIBBAIDAAAAAAAAAAABAgADBBEFEhMxQSJxBiFRAQADAQAAAAAAAAAAAAAAAAABAgMAEQEBAQEBAQAAAAAAAAAAAAABABECIRL/2gAMAwEAAhEDEQA/AL+THJ80uPaURFOvJaPPk1hGIYfoGc9svFpsL+T7hEx9mOVTyseKzqc5CygK6+RGpE/jpC5b/wAKSxa6tfLCDSyY0ffbYxVQWCnfWQPUCuIpuur2GCsRuL99r9o4BTRHR6huRiV22Ftsv0ZMD4CqPR3tr4q5VZmLa+QES5bKNRqZCPkINVWKVCqTNPfJGmAP2IuGx6Fv/9k='
   },
   {
@@ -213,7 +213,15 @@ const data = [
     description: 'Tomasz is a Senior Frontend Developer at OLX Group. Tech speaker, egghead.io instructor, jQuery evangelist. His interests include React, VR, e2e testing, app performance and making cheesiest jokes known to mankind.',
     jobrole: 'Senior Frontend Engineer at OLX Groups',
     tinySrc: ''
-  }
+  },
+  {
+    name: 'Augustine Correa',
+    imgPath: 'augustine.jpg',
+    github: 'https://github.com/indcoder',
+    twitter: 'https://twitter.com/TalkOrTweets',
+    description: 'Handles Hackerspace Mumbai community',
+    jobrole: 'Handling Community @Hackerspace Mumbai',
+  },
 ]
 
 export default data

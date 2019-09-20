@@ -9,6 +9,7 @@ import LazyImage from "../lazy-load"
 import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
 import Header from "../header"
 import Schedule from "./schedule"
+import Countdown from 'react-countdown-now';
 
 
 class Home extends Component {
@@ -46,6 +47,7 @@ class Home extends Component {
 		return (
 			<Fragment>
 				<div className="video__wrapper">
+					
 					<div className="video__overlay" />
 					<div className="video__content">
 						<div className="logo__main">
@@ -62,13 +64,14 @@ class Home extends Component {
 									Goa, India
 								</p>
 							</div>
+							<Countdown date={new Date("2019-09-26T04:00:00.000Z")} renderer={renderer}/>
 							<h3 className="content__desc">react India</h3>
 							<h2 className="content__title" />
 							<div className="content__button">
 								<a rel="noreferrer" target="_blank" href="/tickets">
 										BUY TICKETS
 								</a>
-							</div>
+							</div>							
 						</div>
 					</div>
 					<div className="video__main">
@@ -93,6 +96,7 @@ class Home extends Component {
 							</video>
 						)}
 					</div>
+					<NavigateIcon/>
 				</div>
 				<Header />
 				{/* End Slider Area */}
@@ -214,10 +218,18 @@ class Home extends Component {
 													target="_blank"
 													key={partner.url}
 												>
+													{partner.name === 'zeit' ? 
+													<LazyImage
+														imgClassName={`partner-imgzeit ${partner.cssClass}`}
+														src={partner.imageURL}
+														width='250'
+													/>
+													:
 													<LazyImage
 														imgClassName={`partner-img ${partner.cssClass}`}
 														src={partner.imageURL}
-													/>
+														width='250'
+													/>}
 												</a>
 											))}
 										</div>
@@ -321,6 +333,71 @@ class Home extends Component {
 													  Based in Berlin. End-to-end testing enthusiast, openly in love with Cypress.io. Writer wannabe.
 													</p>
 												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						{/* End MC Area */}
+						{/* Start Artist Area */}
+						<section className="speaker_area mc_area" id="mcs">
+							<div className="container">
+								<div className="row justify-content-center">
+									<div className="col-md-8">
+											{/* Start Heading Title */}
+											<div className="heading-title text-center">
+												<span className="subtitle">Our</span>
+												<h2 className="f-weight-700 margin1 margin-0">Artists</h2>
+												<div className="bordershep" />
+											</div>
+									</div>
+								</div>
+								<div className="row justify-content-center">
+									<div className="col-sm-6 col-md-4">
+										<div className="speaker">
+											<div className="sk-img">
+												<div className="img img-speaker">
+													<img className="img-fluid " src="assets/images/speakers/ken_wheeler.jpg" alt="ken_wheeler.jpg" preview="true" />
+													<div className="overlay d-flex justify-content-center">
+														<div className="slink">
+															<div className="dumb">
+																<a rel="noreferrer" target="_blank" href="https://twitter.com/ken_wheeler" aria-label="">
+																	<i className="fa fa-twitter"></i>
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div className="sk-content">
+												<a><h4>Ken Wheeler</h4></a>
+												<p>Remote Artist, Not to be mistaken with Ken who is international speaker/developer</p>
+												<div className="sk-desc">
+													<p className="sk-desc-p">
+													Synthwave & Hip Hop Producer - Dad - Grilling Enthusiast - Half of 
+													@theundefinedio
+													 - Not associated with programming anymore
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div className="col-sm-6 col-md-4">
+										<div className="speaker">
+											<div className="sk-img">
+												<div className="img img-speaker add-border">
+												<a rel="noreferrer" target="_blank" href="https://medium.com/react-india/react-india-update-new-ticket-sale-and-after-party-da8991c3e9e">
+													<img className="img-fluid " src="assets/images/speakers/you.svg" alt="you.svg" preview="true"/>
+													</a>
+												</div>
+											</div>
+											<div className="sk-content">
+												<a><h4>You??</h4></a>
+												<a rel="noreferrer" target="_blank" href="https://medium.com/react-india/react-india-update-new-ticket-sale-and-after-party-da8991c3e9e" aria-label="">
+																	Call for artist!!
+																</a>
+											
 											</div>
 										</div>
 									</div>
@@ -527,8 +604,39 @@ class Home extends Component {
               </div>
             </div>
           </section>
-		 
-          {/* End Ticketing Partner Area */}
+		  {/* End Ticketing Partner Area */}
+		  {/* START WIFI SPONSOR*/}
+		  <section className="sponsor_area">
+		  <div className="container">
+			  <div className="row justify-content-center">
+				  <div className="col-md-8">
+					  <div className="heading-title text-center">
+						  <span className="subtitle">Our</span>
+						  <h2 className="f-weight-700 margin-0">WIFI SPONSOR</h2>
+						  <div className="bordershep" />
+					  </div>
+				  </div>
+			  </div>
+			  <div className="row mb-20">
+				  <div className="col-12 text-center">
+					  <div className="row justify-content-center">
+						  <div className="col-12 col-md-4 text-center">
+							  <a className="ticketing-link" href="https://www.archimydes.com/">
+								  <img
+									  className="ticketing-img img-fluid"
+									  src="assets/images/wifi/archimydes.svg"
+									  alt=""
+									  preview="true"
+								  />
+							  </a>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+	  {/* END WIFI SPONSOR */}
+
 						{/* Start Ticketing Partner Area */}
 						<section className="ticketing_area">
 							<div className="container">
@@ -697,5 +805,26 @@ const SpeakerCard = props => {
 		</div>
 	)
 }
+
+const NavigateIcon = () => <div className="navigate-icon">
+	<a target="_blank" href="https://goo.gl/maps/kwhGXwjWV12SRpNJ9">
+		<i class="fa fa-location-arrow" aria-hidden="true"></i>
+	</a>
+</div>
+
+const renderer = ({ days, hours, minutes, seconds, completed }) => {
+	if (completed) {
+	  // Render a completed state
+	  return null;
+	} else {
+	  // Render a countdown
+	  return <div className="count-down">
+		  		<div>{days}d</div>
+				<div>{hours}h</div>
+				<div>{minutes}m</div>
+				<div>{seconds}s</div>
+			</div>
+	}
+  };
 
 export default Home

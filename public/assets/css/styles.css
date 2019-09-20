@@ -1466,6 +1466,11 @@ p {
 	margin: 0 auto;
 }
 
+.speaker_area .sk-img .add-border  {
+	border: 1px solid #ecdfdf;
+}
+
+
 .speaker_area .sk-img .img img {
 	width: 100%;
 	height: 100%;
@@ -1571,6 +1576,16 @@ p {
 
 .testimonial-area .partner-img {
 	height: 115px;
+	/* background-color: #fff;
+	border-radius: 10px; */
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.testimonial-area .partner-imgzeit {
+	height: 115px;
+	width: 250px;
 	/* background-color: #fff;
 	border-radius: 10px; */
 	padding: 10px;
@@ -3818,6 +3833,37 @@ ul.pagination {
 
 .uppercase {
 	text-transform: uppercase;
+} 
+
+.count-down {
+	font-size: 20px;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.count-down > div {
+	min-width: 65px;
+	background: #1fa178;
+	color: white;
+	border-radius: 5px;
+	margin: 0 5px;
+}
+
+.navigate-icon {
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 16px;
+    color: white !important;
+    background: #1fa178;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+	box-shadow: 0px 0px 1px 1px;
+	z-index: 100;
 }
 
 .video__wrapper {
@@ -4408,6 +4454,7 @@ a[href="/tickets"] {
 	max-width: 175px;
     margin: 0 0 10px;
 }
+
 .workshop-item-lg .workshop-item-title {
     font-size: 23px;
     letter-spacing: .65px;
@@ -4700,7 +4747,8 @@ a[href="/tickets"] {
   #schedule .img-responsive{
 	display: block;
     max-width: 100%;
-    height: auto;
+	height: auto;
+	border-radius: 50%;
   }
   /* schedule styles */
   @media screen and (max-width: 882px) {
