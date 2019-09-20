@@ -107,12 +107,6 @@ const Footer = () => (
         </div>
       </div>
     </div>
-
-    <div className='totop'>
-      <a href='#top' aria-label='move to top'>
-        <i className='fa fa-arrow-up' />
-      </a>
-    </div>
   </footer>
 )
 
