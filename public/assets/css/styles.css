@@ -4881,3 +4881,50 @@ a[href="/tickets"] {
 .animate-in {
 	transition: all 1s;
 }
+
+.tab-content .was {
+	opacity: 0.2;
+}
+
+.tab-content .will {
+	opacity: 1;
+}
+
+@keyframes blink {
+	
+
+	50% {
+		opacity: 0.25;
+	}
+
+  }
+
+.tab-content .is .event-info{
+	animation: blink 1s step-start 0s infinite;
+}
+
+.tab-content .is .event-detail::before{
+	animation: blink 1s step-start 0s infinite;
+    width: 16px;
+    background: radial-gradient(#ec5d25, transparent);
+    height: 16px;
+    left: -8px;
+    top: -8px;
+}
+
+.tab-content .event-detail .online {
+	display: none;
+	height: 10px;
+	width: 10px;
+	background: #ec5d25;
+	margin-left: 5px;
+}
+
+.tab-content .is .event-detail .online {
+	display: block;
+	animation: blink 1s step-start 0s infinite;  
+}
+
+.tab-content .event-detail .name-wrapper {
+	display: flex;
+}

@@ -29,7 +29,7 @@ const Head = () => (
 		<meta name="theme-color" content="#ffffff" />
 
 		<title>React India - 2019</title>
-
+		<script type="text/javascript" dangerouslySetInnerHTML={{ __html: `window.__SERVER_TIME__ = ${Date.now()}`}} />
 		<script
 			type="text/javascript"
 			dangerouslySetInnerHTML={{

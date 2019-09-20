@@ -10,6 +10,24 @@ import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
 import Header from "../header"
 import Schedule from "./schedule"
 
+const BuyTickets = () => {
+	const lastDate = new Date("2019-09-19");
+	const today = Date.now()
+
+	if(today > lastDate.getTime()) {
+		return (
+			<a rel="noreferrer" href="#schedule" key={Date.now()}>
+				VIEW SCHEDULE
+			</a>
+		)
+	} else {
+		return (
+			<a rel="noreferrer" target="_blank" href="/tickets" key={Date.now()}>
+				BUY TICKETS
+			</a>
+		)
+	}
+}
 
 class Home extends Component {
 	constructor() {
@@ -65,9 +83,7 @@ class Home extends Component {
 							<h3 className="content__desc">react India</h3>
 							<h2 className="content__title" />
 							<div className="content__button">
-								<a rel="noreferrer" target="_blank" href="/tickets">
-										BUY TICKETS
-								</a>
+								<BuyTickets/>
 							</div>
 						</div>
 					</div>
@@ -133,13 +149,7 @@ class Home extends Component {
 											</div>
 											<div className="buttons">
 												<div className="content__button">
-													<a
-														rel="noreferrer"
-														target="_blank"
-														href="/tickets"
-													>
-														BUY TICKETS
-													</a>
+													<BuyTickets/>
 												</div>
 											</div>
 										</div>
