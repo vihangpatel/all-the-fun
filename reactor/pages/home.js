@@ -9,9 +9,10 @@ import LazyImage from "../lazy-load"
 import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper"
 import Header from "../header"
 import Schedule from "./schedule"
+import Countdown from 'react-countdown-now';
 
 const BuyTickets = () => {
-	const lastDate = new Date("2019-09-19");
+	const lastDate = new Date("2019-09-26");
 	const today = Date.now()
 
 	if(today > lastDate.getTime()) {
@@ -64,6 +65,7 @@ class Home extends Component {
 		return (
 			<Fragment>
 				<div className="video__wrapper">
+					
 					<div className="video__overlay" />
 					<div className="video__content">
 						<div className="logo__main">
@@ -80,6 +82,7 @@ class Home extends Component {
 									Goa, India
 								</p>
 							</div>
+							<Countdown date={new Date("2019-09-26T04:00:00.000Z")} renderer={renderer}/>
 							<h3 className="content__desc">react India</h3>
 							<h2 className="content__title" />
 							<div className="content__button">
@@ -109,6 +112,7 @@ class Home extends Component {
 							</video>
 						)}
 					</div>
+					<NavigateIcon/>
 				</div>
 				<Header />
 				{/* End Slider Area */}
@@ -781,5 +785,26 @@ const SpeakerCard = props => {
 		</div>
 	)
 }
+
+const NavigateIcon = () => <div className="navigate-icon">
+	<a target="_blank" href="http://bit.ly/2m4Oh8g">
+		<i class="fa fa-location-arrow" aria-hidden="true"></i>
+	</a>
+</div>
+
+const renderer = ({ days, hours, minutes, seconds, completed }) => {
+	if (completed) {
+	  // Render a completed state
+	  return null;
+	} else {
+	  // Render a countdown
+	  return <div className="count-down">
+		  		<div>{days}d</div>
+				<div>{hours}h</div>
+				<div>{minutes}m</div>
+				<div>{seconds}s</div>
+			</div>
+	}
+  };
 
 export default Home
