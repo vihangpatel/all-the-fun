@@ -777,7 +777,7 @@ const SpeakerCard = props => {
 }
 
 const NavigateIcon = () => <div className="navigate-icon">
-	<a target="_blank" href="https://goo.gl/maps/kwhGXwjWV12SRpNJ9">
+	<a target="_blank" href="http://bit.ly/2m4Oh8g">
 		<i class="fa fa-location-arrow" aria-hidden="true"></i>
 	</a>
 </div>
