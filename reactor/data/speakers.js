@@ -9,13 +9,12 @@ const data = [
     tinySrc: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABAQEBAREBIUFBIZGxgbGSUiHx8iJTgoKygrKDhVNT41NT41VUtbSkVKW0uHal5eaoecg3yDnL2pqb3u4u7///8BEBAQEBEQEhQUEhkbGBsZJSIfHyIlOCgrKCsoOFU1PjU1PjVVS1tKRUpbS4dqXl5qh5yDfIOcvampve7i7v/////AABEIAB4AHgMBIgACEQEDEQH/xABhAAEBAQEAAAAAAAAAAAAAAAAGBQQBEAACAgICAwADAAAAAAAAAAABAgADBBESIQUTUSIjQQEBAQEAAAAAAAAAAAAAAAAAAQIDEQADAQEBAAAAAAAAAAAAAAAAARECEiH/2gAMAwEAAhEDEQA/AFTCG83ztWPc1VdJsKHTHeooIgrJ/SltYxyXRiC/3kZk/C8qlvBz6M+ovWCCvTKZqIhjwnKrLuUrrnWCR8IMVjRgxkKBEIeeoyEcunsauwDYX+ERTk3elOhsmZ8hBbWUfvqac1BlhHxNyUM4tB5Pr8vgETq+x0ZLODVXyKzvM0gcZLwxbP/Z'
   },
   {
-    name: 'Sara Vieira',
-    imgPath: 'sara_vieria.jpg',
+    name: 'Anna Doubkova',
+    imgPath: 'anna_doubkova.jpg',
     github: 'https://github.com/saravieira',
     twitter: 'https://twitter.com/NikkitaFTW',
-    description: 'Developer Advocate at @YLDio. GraphQL and Open Source enthusiast. Conference Speaker and Airport expert. I am also into drums and horror movies.',
-    jobrole: 'CodeSandbox, Developer',
-    tinySrc: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABAQEBAREBIUFBIZGxgbGSUiHx8iJTgoKygrKDhVNT41NT41VUtbSkVKW0uHal5eaoecg3yDnL2pqb3u4u7///8BEBAQEBEQEhQUEhkbGBsZJSIfHyIlOCgrKCsoOFU1PjU1PjVVS1tKRUpbS4dqXl5qh5yDfIOcvampve7i7v/////AABEIAB4AHgMBIgACEQEDEQH/xABkAAEBAQAAAAAAAAAAAAAAAAAGBQEQAAIBBAAGAwEAAAAAAAAAAAECAwAEBRESEyEiMUEUQmFRAQEBAQAAAAAAAAAAAAAAAAAAAgMRAQEAAwEBAAAAAAAAAAAAAAEAAgMhMRH/2gAMAwEAAhEDEQA/AFU0qQxvI50qqSaMQ5PLXrPLbQAQirGYkRLCcP4dSlH8LLE0SR7YEeQX4RxA1nkoWusF6STHXvzYFk0N9Q2v6Ko0WwcgeW7ZTpGkYqtJgao6U5nxjWenYmK3+hHE9RLAy2DMrwB+Yva9Uc0NXsZLHTw+vw1MLMyRroAqD1HsD0aIJXh5baxzwycw9hbXCVOqaWU5ntopD5I60PlcdxAIZAoB/DSHDsfinr0D6FDybC//2Q=='
+    description: "Anna is a javascript developer who loves working with new technologies. Currently working at Hive, she does full-stack development to deliver a great end to end solution focused on user experience. Her main focus these days is React Native, performance, type systems, and code architecture. She's a frequent speaker, runs workshops, and likes contributing to the community",
+    jobrole: 'Senior Software Engineer at British Gas',
   },
   {
     name: 'Nader Dabit',
