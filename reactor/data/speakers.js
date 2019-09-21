@@ -11,10 +11,10 @@ const data = [
   {
     name: 'Anna Doubkova',
     imgPath: 'anna_doubkova.jpg',
-    github: 'https://github.com/saravieira',
-    twitter: 'https://twitter.com/NikkitaFTW',
+    github: 'https://github.com/lithin',
+    twitter: 'https://twitter.com/lithinn',
     description: "Anna is a javascript developer who loves working with new technologies. Currently working at Hive, she does full-stack development to deliver a great end to end solution focused on user experience. Her main focus these days is React Native, performance, type systems, and code architecture. She's a frequent speaker, runs workshops, and likes contributing to the community",
-    jobrole: 'Senior Software Engineer at British Gas',
+    jobrole: 'Software Engineer at Hive',
   },
   {
     name: 'Nader Dabit',

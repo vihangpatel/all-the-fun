@@ -318,11 +318,11 @@ export const scheduleList = {
           time: '12:25 PM',
           venue: 'Conference, Main Hall, Planet Hollywood',
           day: 'Saturday',
-          title: 'The art of over-engineering',
-          description: 'As developers, we have the tendency to over-engineer everything we build. This can be seen as a bad thing. But is it really a bad thing? Let\'s walk over why we do this, what we can learn from it and the several types of over-engineering and what we can learn from it. You will leave this talk feeling better about your over-engineered projects I promise.',
+          title: 'Going Native',
+          description: 'React Native allows you to re-use your web code to build native applications. What’s not to like? This approach is simple in theory but challenging in practice. In this talk, you’ll learn what is re-usable and what isn’t, the intricacies of shared code bases, and cross-team communication when building React and React Native apps at the same time. With real-life examples, code snippets, and memes, you will learn everything you need to know to get started on your native journey.',
           speaker: {
-            image: 'assets/images/speakers/sara_vieria.jpg',
-            name: 'Sara Vieira'
+            image: 'assets/images/speakers/anna_doubkova.jpg',
+            name: 'Anna Doubkova'
           }
         },
         {
