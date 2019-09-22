@@ -58,7 +58,7 @@ export const scheduleList = {
           time: '10:00 AM',
           venue: 'Conference, Main Hall, Planet Hollywood',
           day: 'Friday',
-          title: 'TBA',
+          title: 'Thousands of words',
           description: '',
           speaker: {
             image: 'assets/images/speakers/sunil_pai.jpg',
