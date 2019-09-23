@@ -3852,7 +3852,7 @@ ul.pagination {
 
 .icon {
 	position: absolute;
-    bottom: 40px;
+    bottom: 72px;
     font-size: 16px;
     color: white !important;
     background: #1fa178;
@@ -3871,6 +3871,11 @@ ul.pagination {
 
 .guide-icon {
 	left: 16px;
+}
+
+.icon img {
+	height: 40px;
+	width: 40px;
 }
 
 .video__wrapper {
