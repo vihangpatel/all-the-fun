@@ -1,5 +1,5 @@
 import React, { memo, useState, Fragment, useEffect } from "react";
-import { scheduleList as sch2 } from "../data/schedule";
+import { scheduleList } from "../data/schedule";
 import LazyImage from "../lazy-load";
 
 const tabs = [
@@ -23,25 +23,6 @@ const getTimeStatus = (startTime, endTime) => {
       return "";
   }
 };
-
-const scheduleList = { ...sch2 };
-scheduleList.conference.day1 = sch2.conference.day1.map((_, index) => {
-  _.startTime = now + 5000 * index;
-  _.endTime = now + 5000 * (index + 1);
-  return _;
-});
-
-scheduleList.workshops = sch2.workshops.map((_, index) => {
-  _.startTime = now + 5000 * index;
-  _.endTime = now + 5000 * (index + 1);
-  return _;
-});
-
-scheduleList.conference.day2 = sch2.conference.day2.map((_, index) => {
-  _.startTime = now + 5000 * index;
-  _.endTime = now + 5000 * (index + 1);
-  return _;
-});
 
 const ShowMoreLess = ({ id, text, flag, handler, thresholdLength = 120 }) => {
   const length = text.length;

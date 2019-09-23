@@ -12,13 +12,13 @@ import Schedule from "./schedule"
 import Countdown from 'react-countdown-now';
 
 const BuyTickets = () => {
-	const lastDate = new Date("2019-09-26");
+	const lastDate = new Date("2019-09-23");
 	const today = Date.now()
 
 	if(today > lastDate.getTime()) {
 		return (
-			<a rel="noreferrer" href="#schedule" key={Date.now()}>
-				VIEW SCHEDULE
+			<a rel="noreferrer" href="http://bit.ly/2kySUqI" target="_blank" key={Date.now()}>
+				REACT INDIA GUIDE
 			</a>
 		)
 	} else {
