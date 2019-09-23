@@ -3850,10 +3850,9 @@ ul.pagination {
 	margin: 0 5px;
 }
 
-.navigate-icon {
-    position: absolute;
-    bottom: 40px;
-    right: 16px;
+.icon {
+	position: absolute;
+    bottom: 72px;
     font-size: 16px;
     color: white !important;
     background: #1fa178;
@@ -3864,6 +3863,19 @@ ul.pagination {
     line-height: 40px;
 	box-shadow: 0px 0px 1px 1px;
 	z-index: 100;
+}
+
+.navigate-icon {
+    right: 16px;
+}
+
+.guide-icon {
+	left: 16px;
+}
+
+.icon img {
+	height: 40px;
+	width: 40px;
 }
 
 .video__wrapper {
