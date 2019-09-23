@@ -52,11 +52,13 @@ const Head = () => (
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400i" rel="stylesheet" />
 
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128577365-1" />
-
+		
 		<Analytics />
 		<ContactPoint />
 		<WebsiteSchema />
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128577365-1" />
+
 	</head>
 )
 
