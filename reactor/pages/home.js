@@ -97,6 +97,7 @@ class Home extends Component {
 						)}
 					</div>
 					<NavigateIcon/>
+					<GuideIcon/>
 				</div>
 				<Header />
 				{/* End Slider Area */}
@@ -776,11 +777,18 @@ const SpeakerCard = props => {
 	)
 }
 
-const NavigateIcon = () => <div className="navigate-icon">
+const NavigateIcon = () => <div className="icon navigate-icon">
 	<a target="_blank" href="http://bit.ly/2m4Oh8g">
 		<i class="fa fa-location-arrow" aria-hidden="true"></i>
 	</a>
 </div>
+
+const GuideIcon = () => <div className="icon guide-icon">
+	<a target="_blank" href="http://bit.ly/2kySUqI">
+		<img src="assets/images/user-guide.jpg" />
+	</a>
+</div>
+
 
 const renderer = ({ days, hours, minutes, seconds, completed }) => {
 	if (completed) {
