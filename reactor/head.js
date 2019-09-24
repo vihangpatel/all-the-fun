@@ -29,7 +29,7 @@ const Head = () => (
 		<meta name="theme-color" content="#ffffff" />
 
 		<title>React India - 2019</title>
-
+		<script type="text/javascript" dangerouslySetInnerHTML={{ __html: `window.__SERVER_TIME__ = ${Date.now()}`}} />
 		<script
 			type="text/javascript"
 			dangerouslySetInnerHTML={{
@@ -52,11 +52,13 @@ const Head = () => (
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400i" rel="stylesheet" />
 
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128577365-1" />
-
+		
 		<Analytics />
 		<ContactPoint />
 		<WebsiteSchema />
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128577365-1" />
+
 	</head>
 )
 

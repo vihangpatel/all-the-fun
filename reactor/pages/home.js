@@ -11,6 +11,24 @@ import Header from "../header"
 import Schedule from "./schedule"
 import Countdown from 'react-countdown-now';
 
+const BuyTickets = () => {
+	const lastDate = new Date("2019-09-23");
+	const today = Date.now()
+
+	if(today > lastDate.getTime()) {
+		return (
+			<a rel="noreferrer" href="http://bit.ly/2kySUqI" target="_blank" key={Date.now()}>
+				REACT INDIA GUIDE
+			</a>
+		)
+	} else {
+		return (
+			<a rel="noreferrer" target="_blank" href="/tickets" key={Date.now()}>
+				BUY TICKETS
+			</a>
+		)
+	}
+}
 
 class Home extends Component {
 	constructor() {
@@ -68,10 +86,8 @@ class Home extends Component {
 							<h3 className="content__desc">react India</h3>
 							<h2 className="content__title" />
 							<div className="content__button">
-								<a rel="noreferrer" target="_blank" href="/tickets">
-										BUY TICKETS
-								</a>
-							</div>							
+								<BuyTickets/>
+							</div>
 						</div>
 					</div>
 					<div className="video__main">
@@ -138,13 +154,7 @@ class Home extends Component {
 											</div>
 											<div className="buttons">
 												<div className="content__button">
-													<a
-														rel="noreferrer"
-														target="_blank"
-														href="/tickets"
-													>
-														BUY TICKETS
-													</a>
+													<BuyTickets/>
 												</div>
 											</div>
 										</div>
