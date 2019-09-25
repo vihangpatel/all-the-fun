@@ -2669,7 +2669,6 @@ section.latest-news-area.main_blog.m-blog-padding {
 
 .index_1.pricing .latest-news-area {
 	padding: 94px 0px 70px;
-	background-color: #e9e9e9;
 }
 
 
@@ -4099,6 +4098,10 @@ ul.pagination {
 
 .ticketing_area .ticketing-img.full-width-img {
 	width: 150px;
+}
+
+.cinemetography-img {
+	height: 80px;
 }
 
 
