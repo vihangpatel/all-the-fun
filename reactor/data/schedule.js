@@ -170,7 +170,7 @@ export const scheduleList = {
         time: "02.30",
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Friday",
-        title: "Making Development More Visual",
+        title: "What I learned from building CodeSandbox",
         description:
           "Building websites is a very visual process. The goal often is to make a website that is visually appealing and easy to use. However, we're always building websites with code. Changing margins is done by typing, changing font styles is done by typing, and every change often requires you to wait a while before you can see the result.During this talk I want to explore how we can make our development tooling more visually oriented. What can we do to lower the feedback loop and make it easier to create beautiful websites and apps?",
         speaker: {
