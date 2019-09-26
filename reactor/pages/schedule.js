@@ -58,9 +58,9 @@ const getCurrentTabIndex = () => {
   const today = new Date();
   return (
     {
-      "Thu Sep 26,2019": 0,
+      "Thu Sep 26 2019": 0,
       "Fri Sep 27 2019": 1,
-      "Sat Sep 28,2019": 2
+      "Sat Sep 28 2019": 2
     }[today.toDateString()] || 0
   );
 };
@@ -88,6 +88,8 @@ function Schedule() {
   useEffect(() => {
     setTime(Date.now());
     setInterval(() => setTime(Date.now()), 5000);
+    console.log('current tab Index ', getCurrentTabIndex())
+    changeTab(getCurrentTabIndex());
   }, []);
 
   return (
