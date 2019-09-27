@@ -413,8 +413,8 @@ export const scheduleList = {
         day: "Saturday",
         title: "Lunch",
         community: "true",
-        startTime: new Date("2019-09-27T07:35:00.000Z"),
-        endTime: new Date("2019-09-27T09:00:00.000Z")
+        startTime: new Date("2019-09-28T07:35:00.000Z"),
+        endTime: new Date("2019-09-28T09:00:00.000Z")
       },
       {
         type: "talk",
@@ -428,8 +428,8 @@ export const scheduleList = {
           image: "assets/images/speakers/prateek.jpg",
           name: "Prateek Bhatnagar"
         },
-        startTime: new Date("2019-09-27T09:00:00.000Z"),
-        endTime: new Date("2019-09-27T09:30:00.000Z")
+        startTime: new Date("2019-09-28T09:00:00.000Z"),
+        endTime: new Date("2019-09-28T09:30:00.000Z")
       },
       {
         type: "talk",
@@ -443,8 +443,8 @@ export const scheduleList = {
           image: "assets/images/speakers/AbinashMohapatra.jpg",
           name: "Abinash Mohapatra"
         },
-        startTime: new Date("2019-09-27T09:30:00.000Z"),
-        endTime: new Date("2019-09-27T10:00:00.000Z")
+        startTime: new Date("2019-09-28T09:30:00.000Z"),
+        endTime: new Date("2019-09-28T10:00:00.000Z")
       },
       {
         type: "talk",
@@ -458,8 +458,8 @@ export const scheduleList = {
           image: "assets/images/speakers/AnanyaNeogi.jpg",
           name: "Ananya Neogi"
         },
-        startTime: new Date("2019-09-27T10:00:00.000Z"),
-        endTime: new Date("2019-09-27T10:30:00.000Z")
+        startTime: new Date("2019-09-28T10:00:00.000Z"),
+        endTime: new Date("2019-09-28T10:30:00.000Z")
       },
       {
         type: "talk",
@@ -473,8 +473,8 @@ export const scheduleList = {
           image: "assets/images/speakers/kiranAbburi.jpg",
           name: "Kiran Abburi"
         },
-        startTime: new Date("2019-09-27T10:30:00.000Z"),
-        endTime: new Date("2019-09-27T11:00:00.000Z")
+        startTime: new Date("2019-09-28T10:30:00.000Z"),
+        endTime: new Date("2019-09-28T11:00:00.000Z")
       },
       {
         type: "break",
@@ -483,8 +483,8 @@ export const scheduleList = {
         day: "Saturday",
         title: "Break",
         community: "true",
-        startTime: new Date("2019-09-27T11:00:00.000Z"),
-        endTime: new Date("2019-09-27T11:25:00.000Z")
+        startTime: new Date("2019-09-28T11:00:00.000Z"),
+        endTime: new Date("2019-09-28T11:25:00.000Z")
       },
       {
         type: "talk",
@@ -498,8 +498,8 @@ export const scheduleList = {
           image: "assets/images/speakers/tomasz.png",
           name: "Tomasz Łakomy"
         },
-        startTime: new Date("2019-09-27T11:25:00.000Z"),
-        endTime: new Date("2019-09-27T11:55:00.000Z")
+        startTime: new Date("2019-09-28T11:25:00.000Z"),
+        endTime: new Date("2019-09-28T11:55:00.000Z")
       },
       {
         type: "talk",
@@ -513,8 +513,8 @@ export const scheduleList = {
           image: "assets/images/speakers/jani.jpg",
           name: "Jani Eväkallio"
         },
-        startTime: new Date("2019-09-27T11:55:00.000Z"),
-        endTime: new Date("2019-09-27T13:55:00.000Z")
+        startTime: new Date("2019-09-28T11:55:00.000Z"),
+        endTime: new Date("2019-09-28T13:55:00.000Z")
       },
       {
         type: "basic",
@@ -522,8 +522,8 @@ export const scheduleList = {
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Saturday",
         title: "Closing Key Note of React India 2019",
-        startTime: new Date("2019-09-27T13:55:00.000Z"),
-        endTime: new Date("2019-09-27T14:00:00.000Z")
+        startTime: new Date("2019-09-28T13:55:00.000Z"),
+        endTime: new Date("2019-09-28T14:00:00.000Z")
       },
       {
         type: "basic",
