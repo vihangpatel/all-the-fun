@@ -382,7 +382,7 @@ export const scheduleList = {
         time: "11:55 AM",
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Saturday",
-        title: "High Performance E-commerce App in React",
+        title: "Why performance is important?",
         description: "",
         speaker: {
           image: "assets/images/speakers/evaProfile.jpg",
