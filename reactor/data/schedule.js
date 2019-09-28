@@ -300,16 +300,16 @@ export const scheduleList = {
       },
       {
         type: "basic",
-        time: "09:00 AM",
+        time: "09:30 AM",
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Saturday",
         title: "MC's opening stage",
-        startTime: new Date("2019-09-28T03:30:00.000Z"),
-        endTime: new Date("2019-09-28T04:00:00.000Z"),
+        startTime: new Date("2019-09-28T04:00:00.000Z"),
+        endTime: new Date("2019-09-28T04:30:00.000Z"),
       },
       {
         type: "talk",
-        time: "09:30 AM",
+        time: "10:00 AM",
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Saturday",
         title: "You Belong Here",
@@ -319,12 +319,12 @@ export const scheduleList = {
           image: "assets/images/speakers/jason.jpg",
           name: "Jason Lengstorf"
         },
-        startTime: new Date("2019-09-28T04:00:00.000Z"),
-        endTime: new Date("2019-09-28T04:30:00.000Z"),
+        startTime: new Date("2019-09-28T04:30:00.000Z"),
+        endTime: new Date("2019-09-28T05:00:00.000Z"),
       },
       {
         type: "talk",
-        time: "10:00 AM",
+        time: "10:30 AM",
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Saturday",
         title: "A Journey to the Center of a Slow React App",
@@ -334,12 +334,12 @@ export const scheduleList = {
           image: "assets/images/speakers/pavithra.jpg",
           name: "Pavithra Kodmad"
         },
-        startTime: new Date("2019-09-28T04:30:00.000Z"),
-        endTime: new Date("2019-09-28T05:00:00.000Z"),
+        startTime: new Date("2019-09-28T05:00:00.000Z"),
+        endTime: new Date("2019-09-28T05:30:00.000Z"),
       },
       {
         type: "talk",
-        time: "10:30 AM",
+        time: "11:00 AM",
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Saturday",
         title: "Authentication best practices in React and GraphQL",
@@ -349,22 +349,22 @@ export const scheduleList = {
           image: "assets/images/speakers/vladir.jpg",
           name: "Vladimir Novick"
         },
-        startTime: new Date("2019-09-28T05:00:00.000Z"),
-        endTime: new Date("2019-09-28T05:30:00.000Z"),
+        startTime: new Date("2019-09-28T05:30:00.000Z"),
+        endTime: new Date("2019-09-28T06:00:00.000Z"),
       },
       {
         type: "break",
-        time: "11:00 AM",
+        time: "11:30 AM",
         venue: "PLANET HOLLYWOOD",
         day: "Saturday",
         title: "Break",
         community: "true",
-        startTime: new Date("2019-09-28T05:30:00.000Z"),
-        endTime: new Date("2019-09-28T05:55:00.000Z"),
+        startTime: new Date("2019-09-28T06:00:00.000Z"),
+        endTime: new Date("2019-09-28T06:25:00.000Z"),
       },
       {
         type: "talk",
-        time: "11:25 AM",
+        time: "11:55 AM",
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Saturday",
         title: "Refactoring React",
@@ -374,12 +374,12 @@ export const scheduleList = {
           image: "assets/images/speakers/siddharth.jpg",
           name: "Siddharth Kshetrapal"
         },
-        startTime: new Date("2019-09-28T05:55:00.000Z"),
-        endTime: new Date("2019-09-28T06:25:00.000Z"),
+        startTime: new Date("2019-09-28T06:25:00.000Z"),
+        endTime: new Date("2019-09-28T06:55:00.000Z"),
       },
       {
         type: "talk",
-        time: "11:55 AM",
+        time: "12:25 PM",
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Saturday",
         title: "Why performance is important?",
@@ -388,12 +388,12 @@ export const scheduleList = {
           image: "assets/images/speakers/evaProfile.jpg",
           name: "Eva Ieridou"
         },
-        startTime: new Date("2019-09-28T06:25:00.000Z"),
-        endTime: new Date("2019-09-28T06:55:00.000Z"),
+        startTime: new Date("2019-09-28T06:55:00.000Z"),
+        endTime: new Date("2019-09-28T07:25:00.000Z"),
       },
       {
         type: "talk",
-        time: "12:25 PM",
+        time: "12:55 PM",
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Saturday",
         title: "Going Native",
@@ -403,17 +403,17 @@ export const scheduleList = {
           image: "assets/images/speakers/anna_doubkova.jpg",
           name: "Anna Doubkova"
         },
-        startTime: new Date("2019-09-28T06:55:00.000Z"),
-        endTime: new Date("2019-09-28T07:35:00.000Z"),
+        startTime: new Date("2019-09-28T07:25:00.000Z"),
+        endTime: new Date("2019-09-28T08:05:00.000Z"),
       },
       {
         type: "break",
-        time: "01:05 PM",
+        time: "01:25 PM",
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Saturday",
         title: "Lunch",
         community: "true",
-        startTime: new Date("2019-09-28T07:35:00.000Z"),
+        startTime: new Date("2019-09-28T07:55:00.000Z"),
         endTime: new Date("2019-09-28T09:00:00.000Z")
       },
       {
@@ -514,7 +514,7 @@ export const scheduleList = {
           name: "Jani Eväkallio"
         },
         startTime: new Date("2019-09-28T11:55:00.000Z"),
-        endTime: new Date("2019-09-28T13:55:00.000Z")
+        endTime: new Date("2019-09-28T12:55:00.000Z")
       },
       {
         type: "basic",
@@ -522,8 +522,8 @@ export const scheduleList = {
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Saturday",
         title: "Closing Key Note of React India 2019",
-        startTime: new Date("2019-09-28T13:55:00.000Z"),
-        endTime: new Date("2019-09-28T14:00:00.000Z")
+        startTime: new Date("2019-09-28T12:55:00.000Z"),
+        endTime: new Date("2019-09-28T13:10:00.000Z")
       },
       {
         type: "basic",
