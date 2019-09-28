@@ -514,24 +514,24 @@ export const scheduleList = {
           name: "Jani Eväkallio"
         },
         startTime: new Date("2019-09-28T11:55:00.000Z"),
-        endTime: new Date("2019-09-28T12:55:00.000Z")
+        endTime: new Date("2019-09-28T12:45:00.000Z")
       },
       {
         type: "basic",
-        time: "06:25 PM",
+        time: "06:15 PM",
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Saturday",
         title: "Closing Key Note of React India 2019",
-        startTime: new Date("2019-09-28T12:55:00.000Z"),
-        endTime: new Date("2019-09-28T13:10:00.000Z")
+        startTime: new Date("2019-09-28T12:45:00.000Z"),
+        endTime: new Date("2019-09-28T13:05:00.000Z")
       },
       {
         type: "basic",
-        time: "8PM - 10.30PM",
+        time: "7:30PM - 10.30PM",
         venue: "Conference, Main Hall, Planet Hollywood",
         day: "Saturday",
         title: "After Party + Some exciting announcement soon",
-        startTime: new Date("2019-09-28T14:30:00.000Z"),
+        startTime: new Date("2019-09-28T14:00:00.000Z"),
         endTime: new Date("2019-09-28T17:00:00.000Z")
       }
     ]
