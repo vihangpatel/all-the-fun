@@ -39,7 +39,7 @@ const generateCriticalPage = pageURL => {
 const requestHandler = (req, res) => {
 	const pageURL = req.url
 
-	if (process.env.ENV === 'development') {
+	if (true || process.env.ENV === 'development') {
 		res.send(generateCriticalPage(pageURL))
 		return
 	}
