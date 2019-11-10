@@ -17,8 +17,8 @@ const BuyTickets = () => {
 
 	if(today > lastDate.getTime()) {
 		return (
-			<a rel="noreferrer" href="http://bit.ly/2kySUqI" target="_blank" key={Date.now()}>
-				REACT INDIA GUIDE
+			<a rel="noreferrer" href="http://www.geekabyte.tech/conferences/1/react-india-2019" target="_blank" key={Date.now()}>
+				VIEW TALKS
 			</a>
 		)
 	} else {
