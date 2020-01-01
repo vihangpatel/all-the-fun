@@ -14,7 +14,7 @@
 		"build-client": "webpack --config webpack.client.js --mode=production",
 		"dev": "nodemon --watch ./reactor --watch ./public/assets/css --exec npm run build-dev",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"kill": "lsof -i tcp:8090 | grep LISTEN | awk '{print $2}' | xargs kill -9",
+		"kill": "lsof -i tcp:7070 | grep LISTEN | awk '{print $2}' | xargs kill -9",
 		"build-dev": "webpack-dev-server --hot --config dev.client.js",
 		"start-dev": "ENV=development && nodemon --delay 3 --watch ./reactor --watch ./public/assets/css --exec npm run serve-dev"
 	},

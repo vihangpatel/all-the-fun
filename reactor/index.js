@@ -14,7 +14,7 @@ import Footer from "./footer"
 import getClientBundleEntryAssets from "./asset-reader"
 
 
-const HTML = ({ url }) => {
+const HTML = ({ url, devHost }) => {
 	const { path: sitePath, assetsByChunkName } = getClientBundleEntryAssets()
 
 	return (
@@ -23,8 +23,8 @@ const HTML = ({ url }) => {
 			{
 				process.env.ENV === 'development' ?
 					<Fragment>
-						<link rel="stylesheet" type="text/css" href="http://localhost:9000/assets/css/header.css" />
-						<link rel="stylesheet" type="text/css" href="http://localhost:9000/assets/css/styles.css" />
+						<link rel="stylesheet" type="text/css" href={`http://${devHost}:9000/assets/css/styles.css`} />
+						<link rel="stylesheet" type="text/css" href={`http://${devHost}:9000/assets/css/header.css`} />
 					</Fragment>
 					: <link rel="stylesheet" type="text/css" href={path.join(sitePath, assetsByChunkName.style[0])} />
 			}
@@ -41,7 +41,7 @@ const HTML = ({ url }) => {
 			</body>
 			{
 				process.env.ENV === 'development' ?
-					<script type="text/javascript" src="http://localhost:9000/client.dev.js" />
+					<script type="text/javascript" src={`http://${devHost}:9000/client.dev.js`} />
 					:
 					<Fragment>
 						<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.vendor)} />
@@ -52,4 +52,4 @@ const HTML = ({ url }) => {
 	)
 }
 
-export const renderAppToString = url => ReactDOMServer.renderToString(<HTML url={url} />)
+export const renderAppToString = (url, devHost) => ReactDOMServer.renderToString(<HTML url={url} devHost={devHost}/>)

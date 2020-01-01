@@ -1,15 +1,6 @@
 import React from "react";
 
-const navItems = [
-  { name: "About", id: "#about" },
-  { name: "Partners", id: "#partners" },
-  { name: "Speakers", id: "#speakers" },
-  { name: "Schedule", id: "#schedule" },
-  { name: "Workshops", id: "/workshop" },
-  { name: "Sponsors", id: "#sponsors" },
-  { name: "Organizers", id: "#organizers" },
-  { name: "Buy Tickets", id: "/tickets" }
-];
+import { Link } from "react-router-dom";
 
 class Header extends React.Component {
   sticky = 0;
@@ -20,6 +11,7 @@ class Header extends React.Component {
   };
 
   scrollPage = () => {
+
     const header = this.header.current;
     if (window.pageYOffset > this.sticky) {
       !this.isSticked && header && header.classList.add("header-sticky");
@@ -54,18 +46,12 @@ class Header extends React.Component {
 
   render() {
     const { checked } = this.state;
-
-    const lastDate = new Date("2019-09-23");
-    const today = Date.now();
-
-    if (today > lastDate) {
-      navItems.length = 7
-    }
+    const { navItems } = this.props;
 
     return (
       <header ref={this.header} className="header-main">
         <a href="/" className="logo">
-          <img src="assets/images/logo-transparent.png" />
+          <img src="/assets/images/logo-transparent.png" />
         </a>
         <input
           className="menu-btn"
@@ -79,13 +65,18 @@ class Header extends React.Component {
         </label>
         <ul className="menu">
           {navItems.map((item, i) => (
-            <li key={i}>
-              {item.name !== "Buy Tickets" && item.name !== "Workshops" ? (
-                <a href={item.id} onClick={e => this.scrollToPath(e, item.id)}>
-                  {item.name}
-                </a>
-              ) : (
+            <li key={i} className={item.highlight ? 'menu-highlight' : ''}>
+              {item.hardRefresh ? (
                 <a href={item.id}>{item.name}</a>
+              ) : (
+                <Link
+                  to={item.id}
+                  onClick={
+                    item.scrollToPath ? e => this.scrollToPath(e, item.id) : () => {}
+                  }
+                >
+                  {item.name}
+                </Link>
               )}
             </li>
           ))}
