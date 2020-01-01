@@ -1,6 +1,5 @@
 import React, { Fragment, Component } from "react";
 import Logo from "./logo";
-import communityPartners from "../data/communitypartners2020";
 import LazyImage from "../lazy-load";
 import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper";
 import Header from "../header";
