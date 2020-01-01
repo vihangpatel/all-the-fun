@@ -31,45 +31,17 @@ if (process.env.ENV === "development") {
 const cacheSSR = {}
 const cacheBuilding = {}
 
-const generateCriticalPage = pageURL => {
-	const stringOutput = `<!DOCTYPE html>${renderAppToString(pageURL)}`
+const generateCriticalPage = (pageURL, devHost) => {
+	console.log(devHost)
+	const stringOutput = `<!DOCTYPE html>${renderAppToString(pageURL, devHost)}`
 	return stringOutput
 }
 
-const requestHandler = (req, res) => {
-	const pageURL = req.url
+const requestHandler = (req, res) => res.send(generateCriticalPage(req.url, req.hostname))
 
-	if (true || process.env.ENV === 'development') {
-		res.send(generateCriticalPage(pageURL))
-		return
-	}
+app.get("*", requestHandler)
 
-	// if cache URL is there then return the cached version
-	if (cacheSSR[pageURL]) {
-		console.log("Served cached response for ", pageURL)
-		res.send(cacheSSR[pageURL])
-	} else {
-		if (cacheBuilding[pageURL]) {
-			console.log("Served auto refresh page for ", pageURL)
-			res.send(
-				`<html><head><meta http-equiv="refresh" content="10"></head><body>Wait for 10 seconds</body></html>`
-			)
-			return
-		}
-		console.log("Building cache for ", pageURL)
-		cacheBuilding[pageURL] = true
-		cacheSSR[pageURL] = generateCriticalPage(pageURL)
-		res.send(cacheSSR[pageURL])
-	}
-}
-
-app.get("/tickets", requestHandler)
-app.get("/workshop", requestHandler)
-app.get("/subscribe", requestHandler)
-app.get("/", requestHandler)
-app.get("*", (req, res) => res.redirect("/"))
-
-const server = app.listen(process.env.PORT || 8090, () => {
+const server = app.listen(process.env.PORT || 7070, () => {
 	const host = server.address().address
 	const port = server.address().port
 	console.log(`serving at ${host} & port : ${port}`)

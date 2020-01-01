@@ -521,7 +521,6 @@ p {
 	color: #ff2d55;
 }
 
-
 /* -2. Menu Bar Area Start */
 
 .header .navbar-nav .nav-link {
@@ -705,7 +704,7 @@ p {
 
 
 /* ===================================================
-6. Slider 
+6. Slider
 ======================================================*/
 
 .slider-area {
@@ -933,7 +932,7 @@ p {
 
 .about-area {
 	padding: 94px 0px 99px;
-	
+
 }
 
 .about-text .first-text {
@@ -2126,7 +2125,7 @@ section.latest-news-area.main_blog.m-blog-padding {
 
 
 /* ======================================
-21. event page  
+21. event page
 ==========================================*/
 
 .eventSingle {
@@ -3832,7 +3831,7 @@ ul.pagination {
 
 .uppercase {
 	text-transform: uppercase;
-} 
+}
 
 .count-down {
 	font-size: 20px;
@@ -4013,6 +4012,7 @@ ul.pagination {
 	position: absolute;
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
 }
 
 .toggle-text-length {
@@ -4511,7 +4511,7 @@ a[href="/tickets"] {
 .schedule_area {
 	padding: 34px 0px 65px;
   }
-  
+
   .schedule-navlink {
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -4520,69 +4520,69 @@ a[href="/tickets"] {
 	color: #ec5d25;
 	cursor: pointer;
   }
-  
+
   .schedule-navlink,
   .schedule-navlink:focus,
   .schedule-navlink:hover {
 	text-decoration: none;
   }
-  
+
   .schedule-navlink:focus,
   .schedule-navlink:hover {
 	outline: 0 !important;
   }
-  
+
   .lead {
 	font-weight: 300;
 	font-size: 21px;
 	line-height: 37px;
   }
-  
+
   .no-padding {
 	padding: 0 !important;
   }
-  
+
   .no-margin {
 	margin: 0 !important;
   }
-  
+
   .dark-section {
 	background: #333;
   }
-  
+
   .text-underline {
 	text-decoration: underline !important;
   }
-  
+
   .text-white {
 	color: #fff;
   }
-  
+
   .text-primary {
 	color: #ec5d25;
   }
-  
+
   .tabs-schedule {
 	margin: 0;
 	padding: 0;
   }
-  
+
   .font-400 {
 	font-weight: 400 !important;
   }
-  
+
   .font-700 {
 	font-weight: 700 !important;
   }
-  
+
   .margin-b-30 {
 	margin-bottom: 30px;
   }
-  
+
   .margin-t-30 {
 	margin-top: 30px;
   }
-  
+
   .margin-b-20 {
 	margin-bottom: 20px;
   }
@@ -4594,22 +4594,22 @@ a[href="/tickets"] {
 	margin-left: -5px;
 	list-style: none;
   }
-  
+
   .list-inline > li {
 	display: inline-block;
   }
-  
+
   .tabs-schedule {
 	border-bottom: 2px solid #f5f5f5;
 	margin-bottom: 40px;
 	margin-left: 0;
   }
-  
+
   .tabs-schedule > li {
 	padding: 0;
 	margin-right: 4px;
   }
-  
+
   .tabs-schedule > li > a {
 	font-size: 24px;
 	display: block;
@@ -4621,7 +4621,7 @@ a[href="/tickets"] {
 	position: relative;
 	line-height: 1.7;
   }
-  
+
   .tabs-schedule > li > a:after {
 	content: '';
 	width: 0;
@@ -4635,7 +4635,7 @@ a[href="/tickets"] {
 	-webkit-transition: width 0.4s;
 	transition: width 0.4s;
   }
-  
+
   .tabs-schedule > li > a span {
 	font-size: 12px;
 	display: block;
@@ -4643,21 +4643,21 @@ a[href="/tickets"] {
 	font-family: #ec5d25;
 	font-weight: 400;
   }
-  
+
   .tabs-schedule > li.active a {
 	color: #ec5d25;
 	cursor: default;
   }
-  
+
   .tabs-schedule > li.active a:after,
   .tabs-schedule > li a:hover:after {
 	width: 100%;
   }
-  
+
   .tabs-schedule > li a:hover {
 	color: #ec5d25;
   }
-  
+
   .event-info {
 	padding-right: 30px;
 	text-align: right;
@@ -4665,13 +4665,13 @@ a[href="/tickets"] {
 	text-transform: uppercase;
 	line-height: 1.6;
   }
-  
+
   .event-info span {
 	display: block;
 	font-size: 16px;
 	color: #555;
   }
-  
+
   .event-info .event-hall {
 	margin-top: 10px;
 	font-style: normal;
@@ -4680,7 +4680,7 @@ a[href="/tickets"] {
 	border-right: 3px solid #ec5d25;
 	background: #f5f5f5;
   }
-  
+
   .event-detail {
 	border-left: 1px solid #ddd;
 	padding-left: 30px;
@@ -4688,7 +4688,7 @@ a[href="/tickets"] {
 	letter-spacing:  .3px;
 	color: #474545;
   }
-  
+
   .event-detail:before {
 	content: '';
 	width: 12px;
@@ -4699,7 +4699,7 @@ a[href="/tickets"] {
 	left: -6px;
 	top: 0;
   }
-  
+
   .event-detail h3 {
 	font-family: Lato, sans-serif;
 	font-style: italic;
@@ -4712,7 +4712,7 @@ a[href="/tickets"] {
   .event-detail h3 a {
 	color: #777;
   }
-  
+
   @media (max-width: 991px) {
 	.image-col {
 	  position: static;
@@ -4755,7 +4755,7 @@ a[href="/tickets"] {
 	  font-size: 10px;
 	}
   }
-  
+
   a.talk-link {
 	color: #777;
   }
@@ -4773,7 +4773,7 @@ a[href="/tickets"] {
 }
 
 @media screen and (max-width: 767.98px) {
-	
+
 }
 
 @media screen and (max-width: 772px) {
@@ -4803,7 +4803,7 @@ a[href="/tickets"] {
 	.workshop-item-lg .workshop-item-title{
 		width: 100%;
 		text-align: center;
-		margin-bottom: 25px; 
+		margin-bottom: 25px;
 	}
 	/* Schedule Start */
 	.tabs-schedule > li > a{
@@ -4922,7 +4922,7 @@ a[href="/tickets"] {
 }
 
 .small {
-	max-height: 200px;	
+	max-height: 200px;
 }
 
 .animate-in {
@@ -4938,7 +4938,7 @@ a[href="/tickets"] {
 }
 
 @keyframes blink {
-	
+
 
 	50% {
 		opacity: 0.25;
@@ -4969,7 +4969,7 @@ a[href="/tickets"] {
 
 .tab-content .is .event-detail .online {
 	display: block;
-	animation: blink 1s step-start 0s infinite;  
+	animation: blink 1s step-start 0s infinite;
 }
 
 .tab-content .event-detail .name-wrapper {

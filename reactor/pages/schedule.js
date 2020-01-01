@@ -191,7 +191,7 @@ function Schedule() {
                       </div>
                       <div className="col-sm-9 event-detail">
                         <h3>lunch</h3>
-                        
+
                       </div>
                     </div> */}
                   </div>
@@ -230,7 +230,7 @@ function Schedule() {
                                     src={item.speaker.image}
                                     alt={item.speaker.name}
                                     className="img-responsive"
-                                  />                                 
+                                  />
                                 </div>
                                 <div className="col-sm-10">
                                   <div className="name-wrapper">

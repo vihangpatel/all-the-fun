@@ -71,9 +71,9 @@ const Footer = () => (
         <div className='row'>
           <div className='col-md-6'>
             <div className='copyright-text'>
-              <p className='color-white'>Copyright © 2019 All Rights Reserved, Powered by </p>
+              <p className='color-white'>Copyright © 2020 All Rights Reserved, Powered by </p>
               <a>
-                <span> React India 2019</span>
+                <span> React India 2020</span>
               </a>
             </div>
           </div>

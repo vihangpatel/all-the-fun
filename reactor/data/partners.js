@@ -2,50 +2,50 @@ export default {
 	partners: [
 		{
 			url: "http://reactalicante.es",
-			imageURL: "assets/images/partners/react-alicante-logo.png",
+			imageURL: "react-alicante-logo.png",
 		},
 		{
 			url: "https://react-finland.fi/",
-			imageURL: "assets/images/partners/react-finland-logo.svg",
+			imageURL: "react-finland-logo.svg",
 		},
 		{
 			url: "https://vnovick.com/",
 			cssClass: "pa-30",
-			imageURL: "assets/images/partners/novick.png",
+			imageURL: "novick.png",
 		},
 		{
 			url: "https://2018.reactjsday.it/",
-			imageURL: "assets/images/partners/reactjsday-logo.svg",
+			imageURL: "reactjsday-logo.svg",
 		},
 		{
 			url: "https://reactnorway.com/",
-			imageURL: "assets/images/partners/react_norway.svg",
+			imageURL: "react_norway.svg",
 		},
 		{
 			url: "https://reactnewyork.com/",
-			imageURL: "assets/images/partners/react_new_york.svg",
+			imageURL: "react_new_york.svg",
 		},
 		{
 			url: "https://www.womenwhocode.com/",
 			cssClass: "pa-30",
-			imageURL: "assets/images/partners/women.png",
+			imageURL: "women.png",
 		},
 		{
 			url: "https://react.amsterdam",
-			imageURL: "assets/images/partners/react-amsterdam.png",
+			imageURL: "react-amsterdam.png",
 		},
 		{
 			url: "https://testingjavascript.com/",
 			cssClass: "pa-30",
-			imageURL: "assets/images/partners/testing_javascript_logo.svg",
+			imageURL: "testing_javascript_logo.svg",
 		},
 		{
 			url: "https://frontcon.lv/",
-			imageURL: "assets/images/partners/frontendcon.png",
+			imageURL: "frontendcon.png",
 		},
 		{
 			url: "https://zeit.co/",
-			imageURL: "assets/images/partners/zeit-full.svg",
+			imageURL: "zeit-full.svg",
 			name:'zeit'
 		}
 	],
