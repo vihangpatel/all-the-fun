@@ -1,13 +1,13 @@
 import React, { Fragment, Component } from "react";
 import Logo from "./logo";
-
+import partners from "../data/partners2020";
 import LazyImage from "../lazy-load";
 import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper";
 import Header from "../header";
 
 const navItems = [
   { name: "About", id: "#about", scrollToPath: true },
-  { name: "Organizers", id: "#organizers" , scrollToPath: true },
+  { name: "Organizers", id: "#organizers", scrollToPath: true },
   { name: "React India 2019", id: "/conferences/2019" }
 ];
 
@@ -26,7 +26,7 @@ class Home extends Component {
   componentDidMount() {
     registerLazyImageScrollHandler();
     window.scrollTo(0, 0);
-    this.setState({ showBanner : true })
+    this.setState({ showBanner: true })
   }
 
   render() {
@@ -127,29 +127,122 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          <div>
-            <section className="latest-news-area" id="organizers">
-              {/* Start Container */}
-              <div className="container">
-                <div className="row justify-content-center">
-                  <div className="col-md-8">
-                    {/* Start Heading Title */}
-                    <div className="heading-title text-center">
-                      <h2 className="f-weight-700 margin-0">Organized by</h2>
-                      <div className="bordershep" />
+          <section className="conferences">
+            <div className="overlay" />
+            <div className="row">
+              <div className="col-sm-7">
+                <div className="container">
+                  <div className="row justify-content-center">
+                    <div className="col-md-8">
+                      {/* Start Heading Title */}
+                      <div className="heading-title text-center">
+                        <span className="subtitle">BE A PART OF</span>
+                        <h2>React India 2020</h2>
+                        <div className="bordershep" />
+                        <p>
+                          Our Attendees, Speakers & Sponsors will be able to
+                          meet together and share a few exciting and fruitful
+                          day, while enjoying the food and warm weather from
+                          the western coastline streching along Arabian Sea.
+                          </p>
+                      </div>
+                      {/* End Heading Title */}
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-12">
+                      <div className="text-center">
+                        <p className="date">
+                          {/* 26th - 28th SEPTEMBER | GOA, INDIA | 2019 EDITION */}
+                        </p>
+                        {/* <div className="timer" id="countdown"></div> */}
+                      </div>
+                    </div>
+                    <div className="hello content__button show-interest-btn">
                       <a
                         rel="noreferrer"
                         target="_blank"
-                        href="http://geekabyte.tech"
+                        href="http://bit.ly/subscribe-react-india"
                       >
-                        <LazyImage src="assets/images/geekabyte-web.png" />
-                      </a>
+                        SHOW YOUR INTEREST?
+                        </a>
                     </div>
                   </div>
                 </div>
               </div>
-            </section>
-          </div>
+              <div className="col-12 col-sm-5">
+                <img
+                  className="react-lady-img"
+                  src="/assets/video/GirlAnimation-no-BG.gif"
+                />
+              </div>
+            </div>
+          </section>
+          <section className="testimonial-area" id="partners">
+            <div className="overlay" />
+            {/* Start Container */}
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-md-12">
+                  {/* Start Heading Title */}
+                  <div className="heading-title text-center">
+                    <span className="subtitle">Our</span>
+                    <h2 className="f-weight-700 margin-0">Partners</h2>
+                    <div className="bordershep" />
+                  </div>
+                  {/* End Heading Title */}
+                  <div className="partners-wrapper text-center">
+                    {partners.partners.map(partner => (
+                      <a
+                        rel="noreferrer"
+                        href={partner.url}
+                        target="_blank"
+                        key={partner.url}
+                      >
+                        {partner.name === "zeit" ? (
+                          <LazyImage
+                            imgClassName={`partner-imgzeit ${partner.cssClass}`}
+                            src={`/assets/images/partners/${partner.imageURL}`}
+                            width="250"
+                          />
+                        ) : (
+                            <LazyImage
+                              imgClassName={`partner-img ${partner.cssClass}`}
+                              src={`/assets/images/partners/${partner.imageURL}`}
+                              width="250"
+                            />
+                          )}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* End Testimonial Carousel */}
+            </div>
+            {/* End Container */}
+          </section>
+          <section className="latest-news-area" id="organizers">
+            {/* Start Container */}
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-md-8">
+                  {/* Start Heading Title */}
+                  <div className="heading-title text-center">
+                    <h2 className="f-weight-700 margin-0">Organized by</h2>
+                    <div className="bordershep" />
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="http://geekabyte.tech"
+                    >
+                      <LazyImage src="assets/images/geekabyte-web.png" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </Fragment>
     );
