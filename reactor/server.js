@@ -32,7 +32,6 @@ const cacheSSR = {}
 const cacheBuilding = {}
 
 const generateCriticalPage = (pageURL, devHost) => {
-	console.log(devHost)
 	const stringOutput = `<!DOCTYPE html>${renderAppToString(pageURL, devHost)}`
 	return stringOutput
 }
