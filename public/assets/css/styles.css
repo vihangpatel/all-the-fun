@@ -1558,6 +1558,12 @@ p {
 	z-index: 1;
 }
 
+.testimonial-area-version-twenty {
+	/* background: url(../images/schedule/back-banner.jpg) no-repeat center;
+	background-size: cover; */
+	background-color: #fff;
+}
+
 
 /* .testimonial-area .overlay {
 	position: absolute;
@@ -3984,6 +3990,26 @@ ul.pagination {
 	font-size: 16px;
 	line-height: 50px;
 	border-radius: 50px;
+}
+
+.content__button_impressions {
+	text-align: center;
+	margin: auto;
+	margin-top: 35px;
+}
+
+.content__button_impressions a {
+	background-color: #1fa178 !important;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	color: #ffffff;
+	display: inline-block;
+	font-weight: 400;
+	margin: 0 10px;
+	padding: 0 4px;
+	width: 300px;
+	height: 50px;
+	font-size: 16px;
+	line-height: 50px;
 }
 
 .content__button a:hover {}

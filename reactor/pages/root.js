@@ -109,7 +109,7 @@ class Home extends Component {
                       React.
                     </p>
                     <div className="hidden-xs">
-                      The first of the three days will be focusing on workshops
+                      The first of the two days will be focused on workshops
                       and the following two days will be dedicated to talks on
                       topics revolving around React, React Native & GraphQL. The
                       conference will bring together front-end and full-stack
@@ -118,7 +118,7 @@ class Home extends Component {
                       related to it while meeting some of the leading talents
                       from around the globe in the developer community. In
                       addition to enjoying the event, this is also your chance
-                      to India! Regular and lightning talks will cover various
+                      to visit India! Regular and lightning talks will cover various
                       topics related to React.JS and FE, including React Native,
                       GraphQL, VR and AR, Redux, Preact and more and more!
                     </div>
@@ -143,10 +143,7 @@ class Home extends Component {
                         <h2>React India 2020</h2>
                         <div className="bordershep" />
                         <p>
-                          Our Attendees, Speakers & Sponsors will be able to
-                          meet together and share a few exciting and fruitful
-                          day, while enjoying the food and warm weather from the
-                          western coastline streching along Arabian Sea.
+                         Our 2nd annual React India 2020 conference is coming back to India in November 2020. Stay tuned for more details
                         </p>
                       </div>
                       {/* End Heading Title */}
@@ -161,13 +158,13 @@ class Home extends Component {
                         {/* <div className="timer" id="countdown"></div> */}
                       </div>
                     </div>
-                    <div className="hello content__button show-interest-btn">
+                    <div className="hello content__button_impressions show-interest-btn">
                       <a
                         rel="noreferrer"
                         target="_blank"
-                        href="http://bit.ly/subscribe-react-india"
+                        href="https://www.youtube.com/watch?v=FjlB6H879t8&list=PLGyAOw8YW7ret6gsmywSGsd4zyAAy2WJy"
                       >
-                        SHOW YOUR INTEREST?
+                       Impressions of React India 2019
                       </a>
                     </div>
                   </div>
