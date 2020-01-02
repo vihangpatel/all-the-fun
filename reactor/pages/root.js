@@ -110,7 +110,7 @@ class Home extends Component {
                     </p>
                     <div className="hidden-xs">
                       The first of the two days will be focused on workshops
-                      and the following two days will be dedicated to talks on
+                      and the following day will be dedicated to talks on
                       topics revolving around React, React Native & GraphQL. The
                       conference will bring together front-end and full-stack
                       developers from across the globe to India. In this
