@@ -4,14 +4,10 @@ import path from "path"
 
 import Head from "./head"
 
-import { Route, StaticRouter } from "react-router-dom"
+import { StaticRouter } from "react-router-dom"
 
-import Home from "./pages/home"
-import Subscribe from "./pages/subscribe"
-import Tickets from "./pages/tickets"
-import Workshop from "./pages/workshop"
-import Footer from "./footer"
 import getClientBundleEntryAssets from "./asset-reader"
+import AppRouter from "./router"
 
 
 const HTML = ({ url, devHost }) => {
@@ -30,13 +26,7 @@ const HTML = ({ url, devHost }) => {
 			}
 			<body className="body-class index_1 home1">
 				<StaticRouter location={url} context={{}}>
-					<div id="body-wrap">
-						<Route path="/" component={Home} exact />
-						<Route path="/tickets" component={Tickets} exact />
-						<Route path="/workshop" component={Workshop} exact />
-						<Route path="/subscribe" component={Subscribe} exact />
-						<Footer />
-					</div>
+					<AppRouter />
 				</StaticRouter>
 			</body>
 			{

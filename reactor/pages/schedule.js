@@ -1,5 +1,5 @@
 import React, { memo, useState, Fragment, useEffect } from "react";
-import { scheduleList } from "../data/schedule";
+import { scheduleList } from "../data/2019/schedule";
 import LazyImage from "../lazy-load";
 
 const tabs = [
