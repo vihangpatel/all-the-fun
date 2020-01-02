@@ -56,10 +56,10 @@ class Home extends Component {
 
               <h3 className="content__desc">react India</h3>
               <h2 className="content__title" />
-              <div className="content__button">
+              <div className="content__button_impressions">
                 <div>
                   <a href="mailto:react-india@geekabyte.tech">
-                    Email Us for Sponsorship
+                    EMAIL US FOR SPONSORSHIP
                   </a>
                 </div>
               </div>
@@ -143,7 +143,7 @@ class Home extends Component {
                         <h2>React India 2020</h2>
                         <div className="bordershep" />
                         <p>
-                         Our 2nd annual React India 2020 conference is coming back to India in November 2020. Stay tuned for more details
+                         React India is coming back in November 2020. Stay tuned for more details.
                         </p>
                       </div>
                       {/* End Heading Title */}
