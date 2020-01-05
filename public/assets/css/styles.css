@@ -5008,7 +5008,7 @@ a[href="/tickets"] {
 
 .thumbnail-container {
 	width: 100%;
-	height: 350px;
+	height: 550px;
 	position: relative;
 }
 
@@ -5021,10 +5021,10 @@ a[href="/tickets"] {
 .thumbnail-container .center {
     position: absolute;
     z-index: 100;
-    left: calc(50% - 25px);
-    top: calc(50% - 25px);
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
 	color: white;
-	font-size: 50px;
+	font-size: 80px;
 	cursor: pointer;
 }
 
@@ -5033,4 +5033,13 @@ a[href="/tickets"] {
 	position: absolute;
 	left: 0;
 	top: 0;
+}
+
+.impression-text {
+	color: white;
+	font-size: 25px;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	font-weight: 500;
 }

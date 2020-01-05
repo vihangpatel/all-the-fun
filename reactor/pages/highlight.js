@@ -17,8 +17,9 @@ export default () => {
           className="fa fa-play-circle center"
           onClick={() => setPlay(!play)}
         ></i>
+        <div className="impression-text">IMPRESSIONS OF REACT INDIA 2019</div>
       </div>
-      <Video show={play} videoLink={videoLink} height={350}/>
+      <Video show={play} videoLink={videoLink} height={550}/>
     </section>
   );
 };
