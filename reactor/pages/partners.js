@@ -4,7 +4,7 @@ import LazyImage from "../lazy-load";
 import partners from "../data/2020/partners";
 
 export default () => (
-  <section className="testimonial-area" id="partners">
+  <section className="testimonial-area testimonial-area-version-twenty" id="partners">
     <div className="overlay" />
     {/* Start Container */}
     <div className="container">
