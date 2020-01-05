@@ -5001,3 +5001,36 @@ a[href="/tickets"] {
 .tab-content .event-detail .name-wrapper {
 	display: flex;
 }
+
+.highlight-area {
+	position: relative;
+}
+
+.thumbnail-container {
+	width: 100%;
+	height: 350px;
+	position: relative;
+}
+
+.thumbnail-container img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.thumbnail-container .center {
+    position: absolute;
+    z-index: 100;
+    left: calc(50% - 25px);
+    top: calc(50% - 25px);
+	color: white;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.video-container {
+	z-index: 200;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
