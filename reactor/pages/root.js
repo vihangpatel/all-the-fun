@@ -5,6 +5,7 @@ import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper";
 import Header from "../header";
 import Partners from "./partners";
 import Organizers from "./organizers";
+import Highlight from "./highlight";
 
 const navItems = [
   { name: "About", id: "#about", scrollToPath: true },
@@ -158,15 +159,6 @@ class Home extends Component {
                         {/* <div className="timer" id="countdown"></div> */}
                       </div>
                     </div>
-                    <div className="hello content__button_impressions show-interest-btn">
-                      <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://www.youtube.com/watch?v=FjlB6H879t8&list=PLGyAOw8YW7ret6gsmywSGsd4zyAAy2WJy"
-                      >
-                       Impressions of React India 2019
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -178,6 +170,7 @@ class Home extends Component {
               </div>
             </div>
           </section>
+          <Highlight />
           <Partners />
           <Organizers />
         </div>
