@@ -77,7 +77,7 @@ class Home extends Component {
                   tinySrc="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////+v//////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCACCAMMDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEC/8QAHBABAQEBAQADAQAAAAAAAAAAAAERIUExUWFx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/ACgAAAAAAAIAAAAoIAAqAKIAoAAAAAKIIKIooi4AgAiKCgAAAAigIKAgKggoKgCoCACw9AGogiqIAogAAqAICiaoCdDQTabV9QFipBBaICiVV4oyNcARNBUXU00QUZUAVAAAA8p/QAoAACKGgpUAAAAANF4KMqYiAACiKBKVGgRWVAiLEoCkNAimoAgoIAA1GVlBU9XU/QOh0BZxKrKoARFI1GVlBavjNpAgnwtQAAFQUWk6gCLSoAEAF+0DQVKAAAAAAALiGioGgimgQAwPAAAAABFIC4g0gAlIAIoAAAAAACqgigIKAgoCCiCCgIACKAoAAAAACAAoAACooAAAAAAAACAgKACAAKAAAA//2Q=="
                   imgClassName="dummy-image"
                   alt="hero banner"
-                  src="/assets/images/ri2020.jpg?t=1"
+                  src="/assets/images/ri2020.jpg?t=2"
                   onLoad={this.onImageLoad}
                 />
               </div>
