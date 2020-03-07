@@ -38,6 +38,7 @@ const HTML = ({ url, devHost }) => {
 						<script type="text/javascript" src={path.join(sitePath, assetsByChunkName.client)} />
 					</Fragment>
 			}
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</html>
 	)
 }

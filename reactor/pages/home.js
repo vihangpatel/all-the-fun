@@ -9,6 +9,7 @@ import LazyImage from "../lazy-load";
 import { registerLazyImageScrollHandler } from "../lazy-load/scroll-helper";
 import Header from "../header";
 import Countdown from "react-countdown-now";
+import Endorsement from './tweets';
 
 const navItems = [
   { name: "About", id: "#about" },
@@ -724,7 +725,7 @@ class Home extends Component {
             </section>
             {/* End Ticketing Partner Area */}
             {/* Start Organizer Area */}
-
+            <Endorsement/>
             <section className="speaker_area mc_area" id="organizers">
               {/* Start Container */}
               <div className="container">
