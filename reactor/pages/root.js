@@ -98,15 +98,24 @@ class Home extends Component {
             </div>
             <div className="col-md-12">
               <p>
-                Out of concern for the health and safety of our developers,
-                local communities — and in line with recent orders by the Indian
-                government bodies — we sadly will not be holding React India in
-                any capacity this year (2020). Based on current observations,
-                the team has decided to reschedule React India to 2021. Right
-                now, the most important thing all of us can do is focus our
-                attention on helping people with the new challenges we all face.
-                Take care of yourselves. The new date for our event is{" "}
-                <i>November 2021</i>
+                Out of concern for the health and safety of every one in the
+                React India community, and in line with the recent orders from
+                the Indian government, React India will not be held in any
+                capacity this year.{" "}
+              </p>
+
+              <p>
+                {" "}
+                Based on current observations, our team has decided it's best to
+                reschedule React India to 2021. Right now, the most important
+                thing that all of us can do is to focus our attention on helping
+                everyone with the new challenges we all face.{" "}
+              </p>
+
+              <p>
+                {" "}
+                Take care of yourselves. The new date for our event is November
+                2021{" "}
               </p>
               <p>
                 <b>
