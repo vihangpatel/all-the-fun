@@ -114,7 +114,7 @@ class Home extends Component {
 
               <p>
                 Take care of yourselves. The new date for our event is{" "}
-                <b>November 2021 </b>
+                <b> 12 - 13th November 2021 </b>
               </p>
               <p>
                 <b>
