@@ -51,7 +51,7 @@ class Home extends Component {
                 </p>
                 <p className="caption__small--para uppercase event-location">
                   <i className="flaticon-location-pointer" />
-                  NOVEMBER 2021, INDIA
+                  12th - 13th NOVEMBER 2021, INDIA
                 </p>
               </div>
 
