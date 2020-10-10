@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"heroku-postbuild": "npm run build",
-		"start": "npm run kill && node public/build/server.js -p $PORT",
+		"start": "node public/build/server.js -p $PORT",
 		"babel-server": "ENV=development babel-node ./reactor/server.js",
 		"serve-dev": "npm run kill && npm run babel-server",
 		"clean": "rimraf ./public/build & rimraf public/index.html",
