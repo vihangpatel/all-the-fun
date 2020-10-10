@@ -17,7 +17,8 @@
 		"kill": "kill-port 7070",
 		"build-dev": "webpack-dev-server --hot --config dev.client.js",
 		"start-dev": "ENV=development && nodemon --delay 3 --watch ./reactor --watch ./public/assets/css --exec npm run serve-dev",
-		"build:netlify": "sh snapshot-generator.sh"
+		"build:netlify": "sh snapshot-generator.sh",
+		"build:empty": "echo 'Done'"
 	},
 	"repository": {
 		"type": "git",
