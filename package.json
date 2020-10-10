@@ -14,7 +14,7 @@
 		"build-client": "webpack --config webpack.client.js --mode=production",
 		"dev": "nodemon --watch ./reactor --watch ./public/assets/css --exec npm run build-dev",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"kill": "lsof -i tcp:7070 | grep LISTEN | awk '{print $2}' | xargs kill -9",
+		"kill": "kill-port 7070",
 		"build-dev": "webpack-dev-server --hot --config dev.client.js",
 		"start-dev": "ENV=development && nodemon --delay 3 --watch ./reactor --watch ./public/assets/css --exec npm run serve-dev",
 		"build:netlify": "sh snapshot-generator.sh"
@@ -59,6 +59,7 @@
 		"babel-loader": "^8.0.5",
 		"css-loader": "^2.1.0",
 		"ignore-loader": "^0.1.2",
+		"kill-port": "^1.6.1",
 		"mini-css-extract-plugin": "^0.5.0",
 		"nodemon": "^1.18.5",
 		"rimraf": "^2.6.2",
