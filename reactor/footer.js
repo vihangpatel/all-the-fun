@@ -56,7 +56,7 @@ const Footer = () => (
                 <li>
                   <a>
                     <i className='flaticon-phone-receiver' />
-                                        +918655559725 (WhatsApp only),&nbsp; +491625272364
+                                        +918655559725 (On WhatsApp only),&nbsp; +491625272364
                                     </a>
                 </li>
               </ul>
@@ -71,9 +71,9 @@ const Footer = () => (
         <div className='row'>
           <div className='col-md-6'>
             <div className='copyright-text'>
-              <p className='color-white'>Copyright © 2019 All Rights Reserved, Powered by </p>
+              <p className='color-white'>Copyright © 2020 All Rights Reserved, Powered by </p>
               <a>
-                <span> React India 2019</span>
+                <span> React India 2020</span>
               </a>
             </div>
           </div>
@@ -106,12 +106,6 @@ const Footer = () => (
           </div>
         </div>
       </div>
-    </div>
-
-    <div className='totop'>
-      <a href='#top' aria-label='move to top'>
-        <i className='fa fa-arrow-up' />
-      </a>
     </div>
   </footer>
 )
